@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pantry — Larder & Press</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="./board.html" class="brand"><span class="brand-mark">L</span> Larder &amp; Press</a>
+    <button class="project-switcher"><span class="label">PROJECT</span> All Cookbooks <img src="./assets/icons/chevron-down.svg" alt="" class="icon icon-sm"></button>
+    <div class="search">
+      <img src="./assets/icons/search.svg" alt="" class="icon">
+      <input type="text" placeholder="Search ingredients, suppliers, allergens…">
+      <span class="text-xs">⌘K</span>
+    </div>
+    <div class="spacer"></div>
+    <a href="#" class="btn btn-on-dark btn-sm"><img src="./assets/icons/bell.svg" alt="" class="icon"> 3</a>
+    <div class="avatar-stack">
+      <img src="./assets/avatars/notionists-seed-00.svg" alt="Mira Ostrowski" class="avatar avatar-sm">
+      <img src="./assets/avatars/notionists-seed-03.svg" alt="Theo Lange" class="avatar avatar-sm">
+      <img src="./assets/avatars/lorelei-seed-01.svg" alt="Sana Devereux" class="avatar avatar-sm">
+      <img src="./assets/avatars/notionists-seed-07.svg" alt="Jude Park" class="avatar avatar-sm">
+    </div>
+    <a href="#" class="btn btn-primary"><img src="./assets/icons/plus.svg" alt="" class="icon"> New Ingredient</a>
+  </div>
+</header>
+
+<section class="subheader">
+  <div class="subheader-inner">
+    <h1 class="subheader-title">Pantry — Master Ingredient Library</h1>
+    <span class="meta-pill"><img src="./assets/icons/folder-open.svg" alt="" class="icon icon-sm"> 412 ingredients</span>
+    <span class="meta-pill"><img src="./assets/icons/book-open.svg" alt="" class="icon icon-sm"> shared across 7 books</span>
+    <span class="meta-pill"><img src="./assets/icons/clock.svg" alt="" class="icon icon-sm"> updated 2h ago by Theo</span>
+    <div class="spacer"></div>
+    <div class="view-toggle">
+      <a href="#" class="active"><img src="./assets/icons/table-2.svg" alt="" class="icon icon-sm"> Table</a>
+      <a href="#"><img src="./assets/icons/layout-grid.svg" alt="" class="icon icon-sm"> Cards</a>
+      <a href="#"><img src="./assets/icons/list.svg" alt="" class="icon icon-sm"> Sourcing</a>
+    </div>
+    <a href="#" class="btn btn-ghost btn-sm"><img src="./assets/icons/download.svg" alt="" class="icon"> Export CSV</a>
+  </div>
+</section>
+
+<section class="filterbar">
+  <div class="filterbar-inner">
+    <span class="upper muted">Filter</span>
+    <span class="chip active"><span class="chip-dot"></span> All categories</span>
+    <span class="chip">In season now</span>
+    <span class="chip">Local sources</span>
+    <span class="chip">Allergen-flagged</span>
+    <span class="chip">Price changed (30d)</span>
+    <span class="chip">Unsourced</span>
+    <div class="spacer"></div>
+    <span class="toggle on"><span class="toggle-switch"></span> Imperial + metric</span>
+    <a href="#" class="btn btn-ghost btn-sm"><img src="./assets/icons/sliders-horizontal.svg" alt="" class="icon"> Columns</a>
+  </div>
+</section>
+
+<main class="container">
+  <div class="layout-split">
+
+    <aside class="panel" aria-label="Category tree">
+      <div class="panel-header">
+        <h3 class="panel-title">Categories</h3>
+        <button class="kanban-add" aria-label="Add category"><img src="./assets/icons/plus.svg" alt="" class="icon"></button>
+      </div>
+      <ul class="tree">
+        <li>
+          <div class="tree-item">
+            <span class="row"><img src="./assets/icons/chevron-down.svg" alt="" class="icon icon-sm"> <img src="./assets/icons/leaf.svg" alt="" class="icon icon-sm"> Produce</span>
+            <span class="count">96</span>
+          </div>
+          <ul class="children">
+            <li><div class="tree-item"><span>Stone fruit</span><span class="count">18</span></div></li>
+            <li><div class="tree-item"><span>Alliums</span><span class="count">11</span></div></li>
+            <li><div class="tree-item"><span>Brassicas</span><span class="count">14</span></div></li>
+            <li><div class="tree-item"><span>Citrus</span><span class="count">9</span></div></li>
+          </ul>
+        </li>
+        <li>
+          <div class="tree-item">
+            <span class="row"><img src="./assets/icons/chevron-right.svg" alt="" class="icon icon-sm"> <img src="./assets/icons/milk-off.svg" alt="" class="icon icon-sm"> Dairy</span>
+            <span class="count">38</span>
+          </div>
+        </li>
+        <li>
+          <div class="tree-item">
+            <span class="row"><img src="./assets/icons/chevron-right.svg" alt="" class="icon icon-sm"> <img src="./assets/icons/wheat-off.svg" alt="" class="icon icon-sm"> Grains &amp; Flours</span>
+            <span class="count">54</span>
+          </div>
+        </li>
+        <li>
+          <div class="tree-item active">
+            <span class="row"><img src="./assets/icons/chevron-down.svg" alt="" class="icon icon-sm"> <img src="./assets/icons/flame.svg" alt="" class="icon icon-sm"> Spices &amp; Aromatics</span>
+            <span class="count">72</span>
+          </div>
+          <ul class="children">
+            <li><div class="tree-item"><span>Whole spices</span><span class="count">29</span></div></li>
+            <li><div class="tree-item"><span>Ground &amp; blends</span><span class="count">24</span></div></li>
+            <li><div class="tree-item"><span>Dried chiles</span><span class="count">12</span></div></li>
+            <li><div class="tree-item"><span>Fresh herbs</span><span class="count">7</span></div></li>
+          </ul>
+        </li>
+        <li>
+          <div class="tree-item">
+            <span class="row"><img src="./assets/icons/chevron-right.svg" alt="" class="icon icon-sm"> <img src="./assets/icons/dot.svg" alt="" class="icon icon-sm"> Fats &amp; Oils</span>
+            <span class="count">29</span>
+          </div>
+        </li>
+        <li>
+          <div class="tree-item">
+            <span class="row"><img src="./assets/icons/chevron-right.svg" alt="" class="icon icon-sm"> <img src="./assets/icons/chef-hat.svg" alt="" class="icon icon-sm"> Proteins</span>
+            <span class="count">61</span>
+          </div>
+        </li>
+        <li>
+          <div class="tree-item">
+            <span class="row"><img src="./assets/icons/chevron-right.svg" alt="" class="icon icon-sm"> <img src="./assets/icons/folder.svg" alt="" class="icon icon-sm"> Pantry Staples</span>
+            <span class="count">47</span>
+          </div>
+        </li>
+        <li>
+          <div class="tree-item">
+            <span class="row"><img src="./assets/icons/chevron-right.svg" alt="" class="icon icon-sm"> <img src="./assets/icons/circle.svg" alt="" class="icon icon-sm"> Ferments &amp; Vinegars</span>
+            <span class="count">15</span>
+          </div>
+        </li>
+      </ul>
+      <div class="panel-body">
+        <span class="section-label">Tags</span>
+        <div class="row-wrap">
+          <span class="badge badge-course">house-grown</span>
+          <span class="badge badge-accent">wholesale</span>
+          <span class="badge badge-alt">imported</span>
+          <span class="badge badge-muted">single-origin</span>
+        </div>
+      </div>
+    </aside>
+
+    <section>
+      <div class="row-between" style="margin-bottom: var(--space-3);">
+        <div class="row">
+          <h3 class="serif" style="font-size: var(--text-xl);">Spices &amp; Aromatics</h3>
+          <span class="meta-pill">72 ingredients · 11 suppliers</span>
+        </div>
+        <div class="row">
+          <span class="muted text-xs upper">Sort:</span>
+          <a href="#" class="chip">A–Z</a>
+          <a href="#" class="chip active">Last edited</a>
+          <a href="#" class="chip">Cost</a>
+        </div>
+      </div>
+
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th style="width:22%;">Ingredient</th>
+            <th style="width:18%;">Preferred Supplier</th>
+            <th style="width:11%;">Unit Cost</th>
+            <th style="width:22%;">Seasonality (J F M A M J J A S O N D)</th>
+            <th style="width:13%;">Allergens</th>
+            <th style="width:14%;">Used in</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="row">
+                <img src="./assets/photos/Skva4bc_Bsg.jpg" alt="Aleppo pepper" style="width:36px;height:36px;object-fit:cover;border:1px solid var(--line);">
+                <div>
+                  <div style="font-weight:700;">Aleppo pepper, flake</div>
+                  <div class="muted text-xs">Capsicum annuum · Türkiye</div>
+                </div>
+              </div>
+            </td>
+            <td>Burlap &amp; Barrel<br><span class="muted text-xs">SKU 0431-AL</span></td>
+            <td><span style="font-weight:700;">$3.20</span><br><span class="muted text-xs">/ oz</span></td>
+            <td>
+              <span class="season-strip" aria-label="Year-round dried">
+                <span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell peak"></span><span class="season-cell peak"></span><span class="season-cell peak"></span><span class="season-cell avail"></span><span class="season-cell avail"></span>
+              </span>
+            </td>
+            <td><span class="badge badge-muted">none</span></td>
+            <td><a href="#">used in 24 recipes <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm"></a></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="row">
+                <img src="./assets/photos/E1ZwXiBD7LA.jpg" alt="Meyer lemons" style="width:36px;height:36px;object-fit:cover;border:1px solid var(--line);">
+                <div>
+                  <div style="font-weight:700;">Meyer lemon, whole</div>
+                  <div class="muted text-xs">Citrus × meyerii · CA</div>
+                </div>
+              </div>
+            </td>
+            <td>Lemonado Orchards<br><span class="muted text-xs">Ojai, CA</span></td>
+            <td><span style="font-weight:700;">$0.78</span><br><span class="muted text-xs">/ each</span></td>
+            <td>
+              <span class="season-strip">
+                <span class="season-cell peak"></span><span class="season-cell peak"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell"></span><span class="season-cell"></span><span class="season-cell"></span><span class="season-cell"></span><span class="season-cell"></span><span class="season-cell"></span><span class="season-cell avail"></span><span class="season-cell peak"></span>
+              </span>
+            </td>
+            <td><span class="badge badge-muted">none</span></td>
+            <td><a href="#">used in 41 recipes <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm"></a></td>
+          </tr>
+          <tr style="background:#fff8e6;">
+            <td>
+              <div class="row">
+                <img src="./assets/photos/FOgxRVxjGSs.jpg" alt="Sour cherries" style="width:36px;height:36px;object-fit:cover;border:1px solid var(--line);">
+                <div>
+                  <div style="font-weight:700;">Sour cherry, Montmorency <span class="badge badge-alt" style="margin-left:4px;">SELECTED</span></div>
+                  <div class="muted text-xs">Prunus cerasus · MI</div>
+                </div>
+              </div>
+            </td>
+            <td>King Orchards<br><span class="muted text-xs">Central Lake, MI</span></td>
+            <td><span style="font-weight:700;">$6.50</span><br><span class="muted text-xs">/ lb fresh</span></td>
+            <td>
+              <span class="season-strip">
+                <span class="season-cell"></span><span class="season-cell"></span><span class="season-cell"></span><span class="season-cell"></span><span class="season-cell"></span><span class="season-cell avail"></span><span class="season-cell peak"></span><span class="season-cell peak"></span><span class="season-cell avail"></span><span class="season-cell"></span><span class="season-cell"></span><span class="season-cell"></span>
+              </span>
+            </td>
+            <td><span class="badge badge-muted">none</span></td>
+            <td><a href="#">used in 12 recipes <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm"></a></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="row">
+                <img src="./assets/photos/c85HdnKXTzg.jpg" alt="Pomegranate" style="width:36px;height:36px;object-fit:cover;border:1px solid var(--line);">
+                <div>
+                  <div style="font-weight:700;">Pomegranate, whole</div>
+                  <div class="muted text-xs">Punica granatum · CA/IR</div>
+                </div>
+              </div>
+            </td>
+            <td>Frieda's Specialty<br><span class="muted text-xs">Los Alamitos, CA</span></td>
+            <td><span style="font-weight:700;">$2.40</span><br><span class="muted text-xs">/ each</span></td>
+            <td>
+              <span class="season-strip">
+                <span class="season-cell"></span><span class="season-cell"></span><span class="season-cell"></span><span class="season-cell"></span><span class="season-cell"></span><span class="season-cell"></span><span class="season-cell"></span><span class="season-cell"></span><span class="season-cell avail"></span><span class="season-cell peak"></span><span class="season-cell peak"></span><span class="season-cell avail"></span>
+              </span>
+            </td>
+            <td><span class="badge badge-muted">none</span></td>
+            <td><a href="#">used in 18 recipes <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm"></a></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="row">
+                <img src="./assets/photos/PIxRDt5Xvkw.jpg" alt="Limes" style="width:36px;height:36px;object-fit:cover;border:1px solid var(--line);">
+                <div>
+                  <div style="font-weight:700;">Persian lime</div>
+                  <div class="muted text-xs">Citrus × latifolia · MX</div>
+                </div>
+              </div>
+            </td>
+            <td>Veritable Vegetable<br><span class="muted text-xs">SF, CA · co-op</span></td>
+            <td><span style="font-weight:700;">$0.42</span><br><span class="muted text-xs">/ each</span></td>
+            <td>
+              <span class="season-strip">
+                <span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell peak"></span><span class="season-cell peak"></span><span class="season-cell peak"></span><span class="season-cell peak"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span>
+              </span>
+            </td>
+            <td><span class="badge badge-muted">none</span></td>
+            <td><a href="#">used in 37 recipes <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm"></a></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="row">
+                <img src="./assets/photos/laG2kmB4Hgc.jpg" alt="Black walnuts" style="width:36px;height:36px;object-fit:cover;border:1px solid var(--line);">
+                <div>
+                  <div style="font-weight:700;">Black walnut, halves</div>
+                  <div class="muted text-xs">Juglans nigra · MO</div>
+                </div>
+              </div>
+            </td>
+            <td>Hammons Products<br><span class="muted text-xs">Stockton, MO</span></td>
+            <td><span style="font-weight:700;">$22.00</span><br><span class="muted text-xs">/ lb</span></td>
+            <td>
+              <span class="season-strip">
+                <span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell"></span><span class="season-cell"></span><span class="season-cell"></span><span class="season-cell"></span><span class="season-cell"></span><span class="season-cell"></span><span class="season-cell"></span><span class="season-cell peak"></span><span class="season-cell peak"></span><span class="season-cell avail"></span>
+              </span>
+            </td>
+            <td><span class="badge badge-alt"><img src="./assets/icons/triangle-alert.svg" alt="" class="icon icon-sm"> tree-nut</span></td>
+            <td><a href="#">used in 9 recipes <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm"></a></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="row">
+                <img src="./assets/photos/9VoUqAsW2sA.jpg" alt="Buckwheat" style="width:36px;height:36px;object-fit:cover;border:1px solid var(--line);">
+                <div>
+                  <div style="font-weight:700;">Buckwheat groats, hulled</div>
+                  <div class="muted text-xs">Fagopyrum esculentum · NY</div>
+                </div>
+              </div>
+            </td>
+            <td>Maine Grains<br><span class="muted text-xs">Skowhegan, ME</span></td>
+            <td><span style="font-weight:700;">$4.10</span><br><span class="muted text-xs">/ lb</span></td>
+            <td>
+              <span class="season-strip">
+                <span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell peak"></span><span class="season-cell peak"></span><span class="season-cell avail"></span>
+              </span>
+            </td>
+            <td><span class="badge badge-ok">gluten-free</span></td>
+            <td><a href="#">used in 14 recipes <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm"></a></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="row">
+                <img src="./assets/photos/AiTE9NFQZ3I.jpg" alt="Rose petals" style="width:36px;height:36px;object-fit:cover;border:1px solid var(--line);">
+                <div>
+                  <div style="font-weight:700;">Rose petal, dried (Persian)</div>
+                  <div class="muted text-xs">Rosa damascena · IR</div>
+                </div>
+              </div>
+            </td>
+            <td>Sadaf Foods<br><span class="muted text-xs">Glendale, CA</span></td>
+            <td><span style="font-weight:700;">$5.80</span><br><span class="muted text-xs">/ oz</span></td>
+            <td>
+              <span class="season-strip">
+                <span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span>
+              </span>
+            </td>
+            <td><span class="badge badge-muted">none</span></td>
+            <td><a href="#">used in 6 recipes <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm"></a></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="row">
+                <img src="./assets/photos/RDEaV381Cxg.jpg" alt="Bonito flakes" style="width:36px;height:36px;object-fit:cover;border:1px solid var(--line);">
+                <div>
+                  <div style="font-weight:700;">Katsuobushi, shaved <span class="badge badge-accent" style="margin-left:4px;">NEW</span></div>
+                  <div class="muted text-xs">Bonito flake · Yaizu, JP</div>
+                </div>
+              </div>
+            </td>
+            <td>Umami Mart<br><span class="muted text-xs">Oakland, CA</span></td>
+            <td><span style="font-weight:700;">$11.50</span><br><span class="muted text-xs">/ 50g pack</span></td>
+            <td>
+              <span class="season-strip">
+                <span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell avail"></span>
+              </span>
+            </td>
+            <td><span class="badge badge-alt"><img src="./assets/icons/triangle-alert.svg" alt="" class="icon icon-sm"> fish</span></td>
+            <td><a href="#">used in 5 recipes <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm"></a></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="row">
+                <img src="./assets/photos/iRVq6avVGDE.jpg" alt="Green apples" style="width:36px;height:36px;object-fit:cover;border:1px solid var(--line);">
+                <div>
+                  <div style="font-weight:700;">Heirloom apple, Newtown Pippin</div>
+                  <div class="muted text-xs">Malus domestica · NY/VA</div>
+                </div>
+              </div>
+            </td>
+            <td>Red Jacket Orchards<br><span class="muted text-xs">Geneva, NY</span></td>
+            <td><span style="font-weight:700;">$3.20</span><br><span class="muted text-xs">/ lb</span></td>
+            <td>
+              <span class="season-strip">
+                <span class="season-cell avail"></span><span class="season-cell avail"></span><span class="season-cell"></span><span class="season-cell"></span><span class="season-cell"></span><span class="season-cell"></span><span class="season-cell"></span><span class="season-cell"></span><span class="season-cell avail"></span><span class="season-cell peak"></span><span class="season-cell peak"></span><span class="season-cell avail"></span>
+              </span>
+            </td>
+            <td><span class="badge badge-muted">none</span></td>
+            <td><a href="#">used in 22 recipes <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm"></a></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="row" style="padding: var(--space-4) 0;">
+        <span class="legend-item"><span class="swatch" style="background:var(--accent-alt);"></span> Peak season</span>
+        <span class="legend-item"><span class="swatch" style="background:var(--surface-olive);"></span> Available</span>
+        <span class="legend-item"><span class="swatch" style="background:var(--surface-2);"></span> Out of season</span>
+        <div class="spacer"></div>
+        <span class="muted text-xs">Showing 10 of 72 in Spices &amp; Aromatics</span>
+        <a href="#" class="btn btn-ghost btn-sm"><img src="./assets/icons/chevron-left.svg" alt="" class="icon icon-sm"> Prev</a>
+        <a href="#" class="btn btn-ghost btn-sm">Next <img src="./assets/icons/chevron-right.svg" alt="" class="icon icon-sm"></a>
+      </div>
+    </section>
+  </div>
+
+  <section class="drawer" aria-label="Sourcing notes for selected ingredient">
+    <div class="row-between" style="margin-bottom: var(--space-4);">
+      <div>
+        <span class="upper" style="color: var(--muted-soft);">Sourcing notes · selected</span>
+        <h3 style="margin-top: 4px; font-style: italic;">Sour cherry, Montmorency</h3>
+        <p class="muted" style="margin: 4px 0 0;">Last edited Mar 14 by Sana Devereux · synced to 12 recipes in <em>Stone-Fruit Summer</em> and <em>Preserves &amp; Pickles</em>.</p>
+      </div>
+      <div class="row">
+        <a href="#" class="btn btn-on-dark btn-sm"><img src="./assets/icons/pencil.svg" alt="" class="icon"> Edit fields</a>
+        <a href="#" class="btn btn-primary btn-sm"><img src="./assets/icons/check.svg" alt="" class="icon"> Save notes</a>
+        <button class="kanban-add" aria-label="Close drawer" style="color:#f4e6c1;"><img src="./assets/icons/x.svg" alt="" class="icon"></button>
+      </div>
+    </div>
+
+    <div class="drawer-grid">
+      <div class="stack">
+        <span class="upper" style="color: var(--muted-soft);"><img src="./assets/icons/map-pin.svg" alt="" class="icon icon-sm"> Supplier contacts</span>
+        <div style="background:#ffffff10; border:1px solid #ffffff20; padding: var(--space-3); border-radius: var(--radius-sm);">
+          <div style="font-weight:700; font-family: var(--serif); font-size: var(--text-md);">King Orchards <span class="badge badge-ok" style="margin-left:6px;">PREFERRED</span></div>
+          <div class="text-xs" style="color: var(--muted-soft); margin-top: 4px;">Rose &amp; John King · Central Lake, MI 49622</div>
+          <div class="text-xs" style="margin-top: var(--space-2);">rose@kingorchards.com · (231) 544-6479</div>
+          <div class="text-xs" style="margin-top: var(--space-2); color: var(--muted-soft);">Pickup window: Tue/Fri 7–11am · ships flash-frozen Oct–May</div>
+        </div>
+        <div style="background:#ffffff10; border:1px solid #ffffff20; padding: var(--space-3); border-radius: var(--radius-sm);">
+          <div style="font-weight:700; font-family: var(--serif); font-size: var(--text-md);">Friske Orchards <span class="badge badge-muted" style="margin-left:6px; color:#f4e6c1; border-color:#ffffff40;">backup</span></div>
+          <div class="text-xs" style="color: var(--muted-soft); margin-top: 4px;">Atwood, MI · larger volumes</div>
+          <div class="text-xs" style="margin-top: var(--space-2);">orders@friske.com · (231) 599-2604</div>
+        </div>
+        <a href="#" class="text-xs" style="color: var(--muted-soft);"><img src="./assets/icons/plus.svg" alt="" class="icon icon-sm"> Add supplier</a>
+      </div>
+
+      <div class="stack">
+        <span class="upper" style="color: var(--muted-soft);"><img src="./assets/icons/clipboard-list.svg" alt="" class="icon icon-sm"> Substitution rules</span>
+        <textarea placeholder="Notes on substitutes…">If fresh Montmorency unavailable (Sep–May), substitute frozen 1:1 by weight after thawing &amp; draining. Do NOT substitute sweet cherry — acidity drops and pectin set fails. In a pinch, dried sour cherries rehydrated in hot water (1 part dried : 2 parts water, 20 min) work for compotes only; reduce added sugar by 15%. For shoots, request Frieda's bunched on-stem cherries — visual continuity with cover.</textarea>
+        <span class="upper" style="color: var(--muted-soft); margin-top: var(--space-3);"><img src="./assets/icons/tag.svg" alt="" class="icon icon-sm"> Cross-refs</span>
+        <div class="row-wrap">
+          <span class="badge" style="background:#ffffff15; color:#f4e6c1; border-color:#ffffff30;">→ Sour cherry, frozen</span>
+          <span class="badge" style="background:#ffffff15; color:#f4e6c1; border-color:#ffffff30;">→ Dried tart cherry</span>
+          <span class="badge" style="background:#ffffff15; color:#f4e6c1; border-color:#ffffff30;">→ Morello (Euro var.)</span>
+        </div>
+      </div>
+
+      <div class="stack">
+        <span class="upper" style="color: var(--muted-soft);"><img src="./assets/icons/trending-up.svg" alt="" class="icon icon-sm"> Price changelog</span>
+        <ul class="changelog">
+          <li><span class="when">Mar 14</span><span><strong style="color:#f4e6c1;">$6.50 / lb</strong> — Sana D. · 2025 contract signed</span></li>
+          <li><span class="when">Feb 02</span><span>$6.20 / lb — Theo L. · pre-season quote</span></li>
+          <li><span class="when">Nov 18</span><span>$5.80 / lb — Mira O. · end-of-harvest pricing</span></li>
+          <li><span class="when">Aug 04</span><span><strong style="color: var(--accent-alt);">$4.95 / lb</strong> — peak week, fresh</span></li>
+          <li><span class="when">Jul 22</span><span>$5.40 / lb — Jude P. · opening week</span></li>
+          <li><span class="when">May 30</span><span>$7.10 / lb — frozen only, prior season</span></li>
+        </ul>
+        <div style="border-top: 1px solid #ffffff25; padding-top: var(--space-3); margin-top: var(--space-2);">
+          <span class="upper" style="color: var(--muted-soft);">Recipe impact</span>
+          <p class="text-xs muted" style="margin: var(--space-2) 0 0;">12 active recipes reference this ingredient. A $0.30/lb increase raises avg. cost-per-serving on <em>Cherry-Almond Galette</em> by $0.18.</p>
+          <a href="#" class="text-xs" style="color:#f4e6c1;">View dependent recipes <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner row-between">
+    <div>
+      <div class="brand" style="font-size: var(--text-md);"><span class="brand-mark">L</span> Larder &amp; Press</div>
+      <p class="text-xs muted" style="margin-top: var(--space-2); color: #f4e6c1aa;">Pipeline tool for indie cookbook publishers · v3.14 “sour cherry”</p>
+    </div>
+    <div class="row" style="gap: var(--space-5);">
+      <a href="./board.html" style="color:#f4e6c1cc; text-decoration:none;">Board</a>
+      <a href="./recipe.html" style="color:#f4e6c1cc; text-decoration:none;">Recipe</a>
+      <a href="./calendar.html" style="color:#f4e6c1cc; text-decoration:none;">Calendar</a>
+      <a href="./pantry.html" style="color:#f4e6c1cc; text-decoration:none; border-bottom: 1px solid var(--accent-alt);">Pantry</a>
+      <a href="./imprint.html" style="color:#f4e6c1cc; text-decoration:none;">Imprint</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

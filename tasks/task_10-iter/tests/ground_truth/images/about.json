@@ -1,0 +1,492 @@
+[
+  {
+    "src": "./assets/icons/utensils.svg",
+    "alt": "",
+    "x": 118,
+    "y": 26,
+    "w": 18,
+    "h": 18,
+    "phash": "da2382d8edb6c3c4",
+    "lab_mean": [
+      69.12,
+      0.0,
+      -1.46
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-00.svg",
+    "alt": "Portrait of Mireille Aldana",
+    "x": 164.265625,
+    "y": 1538.859375,
+    "w": 274.125,
+    "h": 274.125,
+    "phash": "b230cfcfcc993870",
+    "lab_mean": [
+      88.81,
+      0.0,
+      -1.29
+    ]
+  },
+  {
+    "src": "./assets/icons/phone.svg",
+    "alt": "",
+    "x": 129,
+    "y": 1922.734375,
+    "w": 14,
+    "h": 14,
+    "phash": "b999c07e8f94c863",
+    "lab_mean": [
+      75.14,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/mail.svg",
+    "alt": "",
+    "x": 129,
+    "y": 1957.78125,
+    "w": 14,
+    "h": 14,
+    "phash": "820ffff0f50c80d3",
+    "lab_mean": [
+      68.79,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-00.svg",
+    "alt": "Portrait of Theodore Beaumont",
+    "x": 582.921875,
+    "y": 1538.859375,
+    "w": 274.125,
+    "h": 274.125,
+    "phash": "b971c28ecf9918c9",
+    "lab_mean": [
+      79.67,
+      0.0,
+      -1.21
+    ]
+  },
+  {
+    "src": "./assets/icons/phone.svg",
+    "alt": "",
+    "x": 547.65625,
+    "y": 1922.75,
+    "w": 14,
+    "h": 14,
+    "phash": "b999c07e8f94c863",
+    "lab_mean": [
+      75.14,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/mail.svg",
+    "alt": "",
+    "x": 547.65625,
+    "y": 1957.796875,
+    "w": 14,
+    "h": 14,
+    "phash": "820ffff0f50c80d3",
+    "lab_mean": [
+      68.79,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-01.svg",
+    "alt": "Portrait of Yusra Halloran",
+    "x": 1001.59375,
+    "y": 1538.859375,
+    "w": 274.125,
+    "h": 274.125,
+    "phash": "a464cfce98993167",
+    "lab_mean": [
+      91.25,
+      0.0,
+      -1.32
+    ]
+  },
+  {
+    "src": "./assets/icons/phone.svg",
+    "alt": "",
+    "x": 966.328125,
+    "y": 1922.734375,
+    "w": 14,
+    "h": 14,
+    "phash": "b999c07e8f94c863",
+    "lab_mean": [
+      75.14,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/mail.svg",
+    "alt": "",
+    "x": 966.328125,
+    "y": 1957.78125,
+    "w": 14,
+    "h": 14,
+    "phash": "820ffff0f50c80d3",
+    "lab_mean": [
+      68.79,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-01.svg",
+    "alt": "Portrait of Inez Karpov",
+    "x": 164.265625,
+    "y": 2098.109375,
+    "w": 274.125,
+    "h": 274.125,
+    "phash": "bc31e0c2c78f9ccc",
+    "lab_mean": [
+      80.54,
+      0.0,
+      -1.2
+    ]
+  },
+  {
+    "src": "./assets/icons/phone.svg",
+    "alt": "",
+    "x": 129,
+    "y": 2481.984375,
+    "w": 14,
+    "h": 14,
+    "phash": "b999c07e8f94c863",
+    "lab_mean": [
+      75.14,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/mail.svg",
+    "alt": "",
+    "x": 129,
+    "y": 2517.03125,
+    "w": 14,
+    "h": 14,
+    "phash": "820ffff0f50c80d3",
+    "lab_mean": [
+      68.79,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-02.svg",
+    "alt": "Portrait of Davian Okeke",
+    "x": 582.921875,
+    "y": 2098.109375,
+    "w": 274.125,
+    "h": 274.125,
+    "phash": "b8c3cf2c98cd2633",
+    "lab_mean": [
+      77.73,
+      0.0,
+      -1.25
+    ]
+  },
+  {
+    "src": "./assets/icons/phone.svg",
+    "alt": "",
+    "x": 547.65625,
+    "y": 2482,
+    "w": 14,
+    "h": 14,
+    "phash": "b999c07e8f94c863",
+    "lab_mean": [
+      75.14,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/mail.svg",
+    "alt": "",
+    "x": 547.65625,
+    "y": 2517.046875,
+    "w": 14,
+    "h": 14,
+    "phash": "820ffff0f50c80d3",
+    "lab_mean": [
+      68.79,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-03.svg",
+    "alt": "Portrait of Saoirse Quintero",
+    "x": 1001.59375,
+    "y": 2098.109375,
+    "w": 274.125,
+    "h": 274.125,
+    "phash": "b299c7cc9c996332",
+    "lab_mean": [
+      84.85,
+      0.0,
+      -1.28
+    ]
+  },
+  {
+    "src": "./assets/icons/phone.svg",
+    "alt": "",
+    "x": 966.328125,
+    "y": 2481.984375,
+    "w": 14,
+    "h": 14,
+    "phash": "b999c07e8f94c863",
+    "lab_mean": [
+      75.14,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/mail.svg",
+    "alt": "",
+    "x": 966.328125,
+    "y": 2517.03125,
+    "w": 14,
+    "h": 14,
+    "phash": "820ffff0f50c80d3",
+    "lab_mean": [
+      68.79,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-02.svg",
+    "alt": "Portrait of Reza Wickham",
+    "x": 164.265625,
+    "y": 2657.359375,
+    "w": 274.125,
+    "h": 274.125,
+    "phash": "bc30c09e8fcb3cc5",
+    "lab_mean": [
+      74.55,
+      0.0,
+      -1.17
+    ]
+  },
+  {
+    "src": "./assets/icons/phone.svg",
+    "alt": "",
+    "x": 129,
+    "y": 3041.234375,
+    "w": 14,
+    "h": 14,
+    "phash": "b999c07e8e94cc63",
+    "lab_mean": [
+      75.62,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/mail.svg",
+    "alt": "",
+    "x": 129,
+    "y": 3076.28125,
+    "w": 14,
+    "h": 14,
+    "phash": "820ffff0f50c80d3",
+    "lab_mean": [
+      68.79,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-04.svg",
+    "alt": "Portrait of Bethanne Solis",
+    "x": 582.921875,
+    "y": 2657.359375,
+    "w": 274.125,
+    "h": 274.125,
+    "phash": "b230cbcece983c66",
+    "lab_mean": [
+      88.36,
+      0.0,
+      -1.28
+    ]
+  },
+  {
+    "src": "./assets/icons/phone.svg",
+    "alt": "",
+    "x": 547.65625,
+    "y": 3041.25,
+    "w": 14,
+    "h": 14,
+    "phash": "b999c07e8e94cc63",
+    "lab_mean": [
+      75.62,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/mail.svg",
+    "alt": "",
+    "x": 547.65625,
+    "y": 3076.296875,
+    "w": 14,
+    "h": 14,
+    "phash": "820ffff0f50c80d3",
+    "lab_mean": [
+      68.79,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-05.svg",
+    "alt": "Portrait of Lior Castellanos",
+    "x": 1001.59375,
+    "y": 2657.359375,
+    "w": 274.125,
+    "h": 274.125,
+    "phash": "a4e4cb9e99993166",
+    "lab_mean": [
+      89.51,
+      0.0,
+      -1.31
+    ]
+  },
+  {
+    "src": "./assets/icons/phone.svg",
+    "alt": "",
+    "x": 966.328125,
+    "y": 3041.234375,
+    "w": 14,
+    "h": 14,
+    "phash": "b999c07e8e94cc63",
+    "lab_mean": [
+      75.62,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/mail.svg",
+    "alt": "",
+    "x": 966.328125,
+    "y": 3076.28125,
+    "w": 14,
+    "h": 14,
+    "phash": "820ffff0f50c80d3",
+    "lab_mean": [
+      68.79,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/clipboard-list.svg",
+    "alt": "",
+    "x": 151,
+    "y": 3421.734375,
+    "w": 28,
+    "h": 28,
+    "phash": "ee3131c4e4d6c693",
+    "lab_mean": [
+      69.11,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 297.46875,
+    "y": 3747.28125,
+    "w": 14,
+    "h": 14,
+    "phash": "eccc921b59e1c43e",
+    "lab_mean": [
+      34.2,
+      37.4,
+      -87.09
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar-days.svg",
+    "alt": "",
+    "x": 569.65625,
+    "y": 3421.734375,
+    "w": 28,
+    "h": 28,
+    "phash": "ee2cf8c4ac9394c6",
+    "lab_mean": [
+      65.96,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 753.53125,
+    "y": 3747.28125,
+    "w": 14,
+    "h": 14,
+    "phash": "ecc9921e59e0c43f",
+    "lab_mean": [
+      34.19,
+      37.38,
+      -87.05
+    ]
+  },
+  {
+    "src": "./assets/icons/landmark.svg",
+    "alt": "",
+    "x": 988.328125,
+    "y": 3421.734375,
+    "w": 28,
+    "h": 28,
+    "phash": "ab8586f4f0d0c34f",
+    "lab_mean": [
+      69.41,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 1149.75,
+    "y": 3747.28125,
+    "w": 14,
+    "h": 14,
+    "phash": "eccc921b59e1c43e",
+    "lab_mean": [
+      34.2,
+      37.4,
+      -87.09
+    ]
+  },
+  {
+    "src": "./assets/icons/utensils.svg",
+    "alt": "",
+    "x": 118,
+    "y": 4163.734375,
+    "w": 18,
+    "h": 18,
+    "phash": "da2382caedb6c3c4",
+    "lab_mean": [
+      6.16,
+      0.0,
+      -4.04
+    ]
+  }
+]

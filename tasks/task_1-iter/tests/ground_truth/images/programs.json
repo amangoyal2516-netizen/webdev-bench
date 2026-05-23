@@ -1,0 +1,478 @@
+[
+  {
+    "src": "./assets/icons/hand-heart.svg",
+    "alt": "",
+    "x": 111,
+    "y": 22,
+    "w": 18,
+    "h": 18,
+    "phash": "eae2992fcc38839a",
+    "lab_mean": [
+      40.17,
+      15.84,
+      7.77
+    ]
+  },
+  {
+    "src": "./assets/icons/building-2.svg",
+    "alt": "",
+    "x": 282.484375,
+    "y": 24,
+    "w": 14,
+    "h": 14,
+    "phash": "fef8a0058577d24a",
+    "lab_mean": [
+      12.83,
+      11.69,
+      -11.35
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 583.9375,
+    "y": 24,
+    "w": 14,
+    "h": 14,
+    "phash": "bd1dc2e2201d9fe2",
+    "lab_mean": [
+      20.27,
+      17.63,
+      -16.77
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 639.9375,
+    "y": 24,
+    "w": 14,
+    "h": 14,
+    "phash": "ea3c3cd07cd6c183",
+    "lab_mean": [
+      13.98,
+      12.64,
+      -12.1
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 788.15625,
+    "y": 24,
+    "w": 14,
+    "h": 14,
+    "phash": "bd1dc2e2201d9fe2",
+    "lab_mean": [
+      20.27,
+      17.63,
+      -16.77
+    ]
+  },
+  {
+    "src": "./assets/icons/search.svg",
+    "alt": "",
+    "x": 1090.390625,
+    "y": 23,
+    "w": 16,
+    "h": 16,
+    "phash": "eb25f03483d28dcb",
+    "lab_mean": [
+      17.44,
+      15.36,
+      -14.63
+    ]
+  },
+  {
+    "src": "./assets/icons/circle-question-mark.svg",
+    "alt": "",
+    "x": 1138.390625,
+    "y": 23,
+    "w": 16,
+    "h": 16,
+    "phash": "e624b99be4649333",
+    "lab_mean": [
+      15.56,
+      13.89,
+      -13.26
+    ]
+  },
+  {
+    "src": "./assets/icons/bell.svg",
+    "alt": "",
+    "x": 1186.390625,
+    "y": 23,
+    "w": 16,
+    "h": 16,
+    "phash": "abacb03693e05bc3",
+    "lab_mean": [
+      17.29,
+      15.23,
+      -14.52
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-00.svg",
+    "alt": "Maren Otieno",
+    "x": 1229.390625,
+    "y": 17,
+    "w": 28,
+    "h": 28,
+    "phash": "993164c6679938cf",
+    "lab_mean": [
+      35.83,
+      12.65,
+      -12.46
+    ]
+  },
+  {
+    "src": "./assets/icons/layout-dashboard.svg",
+    "alt": "",
+    "x": 120,
+    "y": 72.75,
+    "w": 14,
+    "h": 14,
+    "phash": "abe9cc9c8d89c466",
+    "lab_mean": [
+      10.17,
+      10.28,
+      -9.74
+    ]
+  },
+  {
+    "src": "./assets/icons/gift.svg",
+    "alt": "",
+    "x": 240.421875,
+    "y": 72.75,
+    "w": 14,
+    "h": 14,
+    "phash": "ba3dbc968c2d8178",
+    "lab_mean": [
+      9.84,
+      9.73,
+      -9.27
+    ]
+  },
+  {
+    "src": "./assets/icons/leaf.svg",
+    "alt": "",
+    "x": 368.640625,
+    "y": 72.75,
+    "w": 14,
+    "h": 14,
+    "phash": "baeae12fd3849c30",
+    "lab_mean": [
+      12.36,
+      11.97,
+      -11.34
+    ]
+  },
+  {
+    "src": "./assets/icons/users.svg",
+    "alt": "",
+    "x": 489.0625,
+    "y": 72.75,
+    "w": 14,
+    "h": 14,
+    "phash": "af3bc510b1c58ec6",
+    "lab_mean": [
+      12.33,
+      12.0,
+      -11.41
+    ]
+  },
+  {
+    "src": "./assets/icons/landmark.svg",
+    "alt": "",
+    "x": 625.078125,
+    "y": 72.75,
+    "w": 14,
+    "h": 14,
+    "phash": "bbb192e1b093724b",
+    "lab_mean": [
+      10.72,
+      10.66,
+      -10.1
+    ]
+  },
+  {
+    "src": "./assets/icons/compass.svg",
+    "alt": "",
+    "x": 729.890625,
+    "y": 72.75,
+    "w": 14,
+    "h": 14,
+    "phash": "b265ecb830c792ce",
+    "lab_mean": [
+      11.28,
+      11.04,
+      -10.45
+    ]
+  },
+  {
+    "src": "./assets/icons/download.svg",
+    "alt": "",
+    "x": 1089.171875,
+    "y": 154.5,
+    "w": 14,
+    "h": 14,
+    "phash": "a2f5ca817d8a37e0",
+    "lab_mean": [
+      9.21,
+      10.38,
+      -9.74
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 1203.984375,
+    "y": 154.5,
+    "w": 14,
+    "h": 14,
+    "phash": "e399986c6cc69639",
+    "lab_mean": [
+      54.03,
+      24.76,
+      41.31
+    ]
+  },
+  {
+    "src": "./assets/icons/lightbulb.svg",
+    "alt": "",
+    "x": 142,
+    "y": 298.59375,
+    "w": 20,
+    "h": 20,
+    "phash": "bc1ce3b0b093c3cb",
+    "lab_mean": [
+      21.47,
+      14.33,
+      -1.72
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-01.svg",
+    "alt": "",
+    "x": 542.578125,
+    "y": 681.015625,
+    "w": 28,
+    "h": 28,
+    "phash": "9c336165c79c98cb",
+    "lab_mean": [
+      36.48,
+      11.88,
+      -11.7
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-02.svg",
+    "alt": "",
+    "x": 1193.984375,
+    "y": 681.015625,
+    "w": 28,
+    "h": 28,
+    "phash": "9c73609e839c3cc7",
+    "lab_mean": [
+      31.43,
+      11.56,
+      -11.38
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-03.svg",
+    "alt": "",
+    "x": 558.171875,
+    "y": 1017.015625,
+    "w": 28,
+    "h": 28,
+    "phash": "9b32cc65939a61cd",
+    "lab_mean": [
+      21.14,
+      11.35,
+      -11.18
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-04.svg",
+    "alt": "",
+    "x": 1186.171875,
+    "y": 1017.015625,
+    "w": 28,
+    "h": 28,
+    "phash": "9827459c93636dce",
+    "lab_mean": [
+      28.72,
+      11.28,
+      -11.11
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-05.svg",
+    "alt": "",
+    "x": 534.78125,
+    "y": 1353.015625,
+    "w": 28,
+    "h": 28,
+    "phash": "9833659c93693cce",
+    "lab_mean": [
+      27.89,
+      11.76,
+      -11.58
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-06.svg",
+    "alt": "",
+    "x": 1193.984375,
+    "y": 1353.015625,
+    "w": 28,
+    "h": 28,
+    "phash": "9a3165c6c3999ace",
+    "lab_mean": [
+      38.08,
+      12.71,
+      -12.53
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 1280,
+    "y": 1502.765625,
+    "w": 14,
+    "h": 14,
+    "phash": "ab2ed4c12b2ed4d1",
+    "lab_mean": [
+      20.43,
+      17.72,
+      -16.82
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-up-right.svg",
+    "alt": "",
+    "x": 1178.96875,
+    "y": 1796.265625,
+    "w": 12,
+    "h": 12,
+    "phash": "e9669699c3ce3831",
+    "lab_mean": [
+      15.71,
+      14.26,
+      -13.38
+    ]
+  },
+  {
+    "src": "./assets/icons/book-open.svg",
+    "alt": "",
+    "x": 1163.171875,
+    "y": 1899.609375,
+    "w": 14,
+    "h": 14,
+    "phash": "8245fd288c7f88f3",
+    "lab_mean": [
+      7.97,
+      8.99,
+      -8.46
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 1303,
+    "y": 1969.703125,
+    "w": 16,
+    "h": 16,
+    "phash": "a80882a228088aa2",
+    "lab_mean": [
+      16.35,
+      15.0,
+      -14.09
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 1303,
+    "y": 2085.796875,
+    "w": 16,
+    "h": 16,
+    "phash": "a80882a228088aa2",
+    "lab_mean": [
+      16.35,
+      15.0,
+      -14.09
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 1303,
+    "y": 2144.296875,
+    "w": 16,
+    "h": 16,
+    "phash": "a80882a228088aa2",
+    "lab_mean": [
+      16.35,
+      15.0,
+      -14.09
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 1303,
+    "y": 2202.796875,
+    "w": 16,
+    "h": 16,
+    "phash": "a80882a228088aa2",
+    "lab_mean": [
+      16.35,
+      15.0,
+      -14.09
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 1303,
+    "y": 2261.296875,
+    "w": 16,
+    "h": 16,
+    "phash": "a80882a228088aa2",
+    "lab_mean": [
+      16.35,
+      15.0,
+      -14.09
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 1303,
+    "y": 2319.796875,
+    "w": 16,
+    "h": 16,
+    "phash": "a80882a228088aa2",
+    "lab_mean": [
+      16.35,
+      15.0,
+      -14.09
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 1303,
+    "y": 2378.296875,
+    "w": 16,
+    "h": 16,
+    "phash": "a80882a228088aa2",
+    "lab_mean": [
+      16.35,
+      15.0,
+      -14.09
+    ]
+  }
+]

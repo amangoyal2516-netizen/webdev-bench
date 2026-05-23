@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Production Calendar — Saffron & Salt Press</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header class="topbar">
+<div class="topbar-inner">
+<a href="./board.html" class="brand"><span class="brand-mark">S</span> Saffron &amp; Salt</a>
+<button class="project-switcher"><span class="label">Title:</span> Hearth &amp; Husk, Vol. II <img src="./assets/icons/chevron-down.svg" alt="" class="icon"></button>
+<div class="search">
+<img src="./assets/icons/search.svg" alt="" class="icon">
+<input type="text" placeholder="Search recipes, contributors, shoots…">
+</div>
+<div class="spacer"></div>
+<nav class="view-toggle" aria-label="Workspace views">
+<a href="./board.html"><img src="./assets/icons/layout-grid.svg" alt="" class="icon-sm"> Board</a>
+<a href="./calendar.html" class="active"><img src="./assets/icons/calendar.svg" alt="" class="icon-sm"> Calendar</a>
+<a href="./pantry.html"><img src="./assets/icons/table-2.svg" alt="" class="icon-sm"> Pantry</a>
+<a href="./imprint.html"><img src="./assets/icons/book-open.svg" alt="" class="icon-sm"> Imprint</a>
+</nav>
+<div class="avatar-stack">
+<img class="avatar" src="./assets/avatars/notionists-seed-02.svg" alt="Mara Halloran">
+<img class="avatar" src="./assets/avatars/lorelei-seed-04.svg" alt="Iris Tolentino">
+<img class="avatar" src="./assets/avatars/notionists-seed-07.svg" alt="Bram Okafor">
+<img class="avatar" src="./assets/avatars/lorelei-seed-01.svg" alt="June Ferrara">
+</div>
+<a href="#" class="btn btn-primary"><img src="./assets/icons/plus.svg" alt="" class="icon"> New event</a>
+</header>
+
+<section class="subheader">
+<div class="subheader-inner">
+<button class="btn btn-ghost btn-sm"><img src="./assets/icons/chevron-left.svg" alt="" class="icon-sm"></button>
+<h1 class="subheader-title">October 2024</h1>
+<button class="btn btn-ghost btn-sm"><img src="./assets/icons/chevron-right.svg" alt="" class="icon-sm"></button>
+<span class="meta-pill"><img src="./assets/icons/calendar-days.svg" alt="" class="icon-sm"> Q4 production sprint · wk 40–43</span>
+<div class="spacer"></div>
+<div class="view-toggle" role="tablist">
+<a href="#" class="active">Month</a>
+<a href="#">Week</a>
+<a href="#">Day</a>
+<a href="#">Crew</a>
+</div>
+<a href="#" class="btn"><img src="./assets/icons/dot.svg" alt="" class="icon"> Today</a>
+</div>
+</section>
+
+<section class="filterbar">
+<div class="filterbar-inner">
+<div class="legend">
+<span class="legend-item"><span class="swatch test"></span> Test day</span>
+<span class="legend-item"><span class="swatch shoot"></span> Photo shoot</span>
+<span class="legend-item"><span class="swatch copyedit"></span> Copyedit due</span>
+<span class="legend-item"><span class="swatch print"></span> Print deadline</span>
+</div>
+<div class="spacer"></div>
+<span class="upper muted">Filter cookbook</span>
+<button class="project-switcher" style="background:var(--surface); color:var(--fg); border-color:var(--line);">
+<img src="./assets/icons/folder.svg" alt="" class="icon-sm">
+<span class="label">Title:</span> All cookbooks (4)
+<img src="./assets/icons/chevron-down.svg" alt="" class="icon"></button>
+<button class="chip active"><span class="chip-dot" style="background:var(--accent-alt)"></span> Hearth &amp; Husk II</button>
+<button class="chip"><span class="chip-dot" style="background:var(--surface-olive)"></span> Brine &amp; Bramble</button>
+<button class="chip"><span class="chip-dot" style="background:var(--accent)"></span> A Year of Loaves</button>
+<button class="chip"><span class="chip-dot" style="background:var(--muted)"></span> Pith — early dev</button>
+<button class="btn btn-ghost btn-sm"><img src="./assets/icons/sliders-horizontal.svg" alt="" class="icon-sm"> More filters</button>
+</div>
+</section>
+
+<main class="container">
+<div class="layout-split-cal">
+<section>
+<div class="calendar-grid">
+<div class="calendar-day-head">Mon</div>
+<div class="calendar-day-head">Tue</div>
+<div class="calendar-day-head">Wed</div>
+<div class="calendar-day-head">Thu</div>
+<div class="calendar-day-head">Fri</div>
+<div class="calendar-day-head">Sat</div>
+<div class="calendar-day-head">Sun</div>
+
+<div class="calendar-cell dim"><span class="date-num">30</span><a href="#" class="event-chip copyedit"><span class="time">10:00</span> Front-matter draft</a></div>
+<div class="calendar-cell"><span class="date-num">1</span><a href="#" class="event-chip test"><span class="time">09:00</span> Test — Saffron buns</a></div>
+<div class="calendar-cell"><span class="date-num">2</span><a href="#" class="event-chip shoot"><span class="time">08:30</span> Shoot — Soups, Studio A</a></div>
+<div class="calendar-cell"><span class="date-num">3</span><a href="#" class="event-chip test"><span class="time">11:00</span> Test — Brined squash</a><a href="#" class="event-chip copyedit"><span class="time">17:00</span> CE: Intro essay</a></div>
+<div class="calendar-cell"><span class="date-num">4</span><a href="#" class="event-chip print"><span class="time">EOD</span> Sample chap. to printer</a></div>
+<div class="calendar-cell weekend"><span class="date-num">5</span></div>
+<div class="calendar-cell weekend"><span class="date-num">6</span><a href="#" class="event-chip test"><span class="time">14:00</span> Home kitchen pass</a></div>
+
+<div class="calendar-cell"><span class="date-num">7</span><a href="#" class="event-chip test"><span class="time">09:00</span> Test — Apple galette</a><a href="#" class="event-chip test"><span class="time">13:30</span> Test — Onion confit</a></div>
+<div class="calendar-cell"><span class="date-num">8</span><a href="#" class="event-chip shoot"><span class="time">08:00</span> Shoot — Breads, Studio B</a></div>
+<div class="calendar-cell"><span class="date-num">9</span><a href="#" class="event-chip copyedit"><span class="time">12:00</span> CE: Ch. 2 — Roots</a><a href="#" class="event-chip test"><span class="time">15:00</span> Test — Walnut tart</a></div>
+<div class="calendar-cell"><span class="date-num">10</span><a href="#" class="event-chip shoot"><span class="time">09:30</span> Shoot — Desserts, Studio A</a></div>
+<div class="calendar-cell"><span class="date-num">11</span><a href="#" class="event-chip print"><span class="time">EOD</span> Galleys to designer</a><a href="#" class="event-chip copyedit"><span class="time">16:00</span> CE: Glossary</a></div>
+<div class="calendar-cell weekend"><span class="date-num">12</span></div>
+<div class="calendar-cell weekend"><span class="date-num">13</span></div>
+
+<div class="calendar-cell"><span class="date-num">14</span><a href="#" class="event-chip test"><span class="time">10:00</span> Test — Beet kvass</a></div>
+<div class="calendar-cell today"><span class="date-num">15</span><a href="#" class="event-chip shoot"><span class="time">08:00</span> Shoot — Pickles, Studio A</a><a href="#" class="event-chip test"><span class="time">14:00</span> Test — Cardamom loaf</a><a href="#" class="event-chip copyedit"><span class="time">18:00</span> CE: Ch. 4 due</a></div>
+<div class="calendar-cell"><span class="date-num">16</span><a href="#" class="event-chip test"><span class="time">09:30</span> Test — Quince paste</a></div>
+<div class="calendar-cell"><span class="date-num">17</span><a href="#" class="event-chip shoot"><span class="time">08:30</span> Shoot — Ferments, Studio B</a><a href="#" class="event-chip print"><span class="time">17:00</span> Cover proof</a></div>
+<div class="calendar-cell"><span class="date-num">18</span><a href="#" class="event-chip test"><span class="time">11:00</span> Test — Black pepper biscotti</a></div>
+<div class="calendar-cell weekend"><span class="date-num">19</span><a href="#" class="event-chip shoot"><span class="time">10:00</span> Field shoot — Orchard</a></div>
+<div class="calendar-cell weekend"><span class="date-num">20</span></div>
+
+<div class="calendar-cell"><span class="date-num">21</span><a href="#" class="event-chip copyedit"><span class="time">10:00</span> CE: Ch. 5 — Sweets</a><a href="#" class="event-chip test"><span class="time">13:00</span> Test — Buckwheat crepes</a></div>
+<div class="calendar-cell"><span class="date-num">22</span><a href="#" class="event-chip test"><span class="time">09:00</span> Test — Smoked tomato jam</a></div>
+<div class="calendar-cell"><span class="date-num">23</span><a href="#" class="event-chip shoot"><span class="time">08:00</span> Shoot — Sweets, Studio A</a><a href="#" class="event-chip shoot"><span class="time">14:00</span> Re-shoot: cover hero</a></div>
+<div class="calendar-cell"><span class="date-num">24</span><a href="#" class="event-chip copyedit"><span class="time">12:00</span> CE: Author bio</a></div>
+<div class="calendar-cell"><span class="date-num">25</span><a href="#" class="event-chip print"><span class="time">EOD</span> Interior PDF lock</a><a href="#" class="event-chip test"><span class="time">15:00</span> Test — Walnut bitters</a></div>
+<div class="calendar-cell weekend"><span class="date-num">26</span></div>
+<div class="calendar-cell weekend"><span class="date-num">27</span></div>
+
+<div class="calendar-cell"><span class="date-num">28</span><a href="#" class="event-chip test"><span class="time">10:00</span> Test — Rye crackers</a></div>
+<div class="calendar-cell"><span class="date-num">29</span><a href="#" class="event-chip shoot"><span class="time">09:00</span> Shoot — Pantry stills, B</a></div>
+<div class="calendar-cell"><span class="date-num">30</span><a href="#" class="event-chip copyedit"><span class="time">16:00</span> CE: Final read</a></div>
+<div class="calendar-cell"><span class="date-num">31</span><a href="#" class="event-chip print"><span class="time">EOD</span> Files to press, Hearth II</a></div>
+<div class="calendar-cell dim"><span class="date-num">1</span><a href="#" class="event-chip test"><span class="time">09:00</span> Kickoff: Brine &amp; Bramble</a></div>
+<div class="calendar-cell weekend dim"><span class="date-num">2</span></div>
+<div class="calendar-cell weekend dim"><span class="date-num">3</span></div>
+</div>
+
+<p class="muted text-xs" style="margin-top:var(--space-3);"><img src="./assets/icons/circle-alert.svg" alt="" class="icon-sm"> Showing 38 events across 4 active cookbooks. Drag a chip to reschedule, or click any day for full details in the side panel.</p>
+</section>
+
+<aside class="right-rail" style="display:flex; flex-direction:column; gap:var(--space-4);">
+<section class="panel">
+<header class="panel-header">
+<div>
+<small class="upper muted">Tuesday</small>
+<h2 class="panel-title">October 15</h2>
+</div>
+<button class="btn btn-ghost btn-sm"><img src="./assets/icons/printer.svg" alt="" class="icon-sm"> Print sheet</button>
+</header>
+<div class="panel-body stack">
+
+<article class="card card-tight" style="border-left:3px solid var(--accent-alt); background:#fff8e6;">
+<div class="row-between">
+<span class="badge badge-alt"><img src="./assets/icons/camera.svg" alt="" class="icon-sm"> Photo shoot</span>
+<small class="muted">08:00 – 12:30</small>
+</div>
+<h4 class="serif" style="margin:var(--space-2) 0 var(--space-1);">Pickles &amp; preserves — hero stills</h4>
+<p class="text-xs muted" style="margin:0 0 var(--space-2);"><img src="./assets/icons/map-pin.svg" alt="" class="icon-sm"> Studio A · north-light bay</p>
+<small class="upper muted">Recipes on set</small>
+<ul class="checklist" style="margin-top:var(--space-1);">
+<li><span class="checkbox checked"><img src="./assets/icons/check.svg" alt="" class="icon-sm"></span> Quick-brined cucumbers, dill crown</li>
+<li><span class="checkbox checked"><img src="./assets/icons/check.svg" alt="" class="icon-sm"></span> Pickled red onion, three ways</li>
+<li><span class="checkbox"></span> Smoked tomato jam (jars + spoon)</li>
+<li><span class="checkbox"></span> Quince paste, sliced on slate</li>
+</ul>
+<div class="row" style="margin-top:var(--space-2); justify-content:space-between;">
+<div class="row" style="gap:var(--space-1);">
+<img class="avatar avatar-sm" src="./assets/avatars/lorelei-seed-04.svg" alt="Iris Tolentino, photographer">
+<img class="avatar avatar-sm" src="./assets/avatars/notionists-seed-09.svg" alt="Devon Marsh, stylist">
+<img class="avatar avatar-sm" src="./assets/avatars/lorelei-seed-02.svg" alt="Nora Beaumont, prop">
+<small class="muted">Iris · Devon · Nora</small>
+</div>
+<a href="#" class="btn btn-sm"><img src="./assets/icons/user-plus.svg" alt="" class="icon-sm"> Add to my schedule</a>
+</div>
+</article>
+
+<article class="card card-tight" style="border-left:3px solid var(--surface-olive); background:#fff8e6;">
+<div class="row-between">
+<span class="badge badge-course"><img src="./assets/icons/utensils.svg" alt="" class="icon-sm"> Test day</span>
+<small class="muted">14:00 – 17:30</small>
+</div>
+<h4 class="serif" style="margin:var(--space-2) 0 var(--space-1);">Cardamom &amp; black-pepper loaf — round 3</h4>
+<p class="text-xs muted" style="margin:0 0 var(--space-2);"><img src="./assets/icons/map-pin.svg" alt="" class="icon-sm"> Home kitchen · Mara's place</p>
+<small class="upper muted">Recipes in play</small>
+<ul class="checklist" style="margin-top:var(--space-1);">
+<li><span class="checkbox"></span> Cardamom loaf, tweaked hydration</li>
+<li><span class="checkbox"></span> Companion: cultured butter, two salts</li>
+</ul>
+<div class="editor-note" style="margin-top:var(--space-2);"><strong>Note</strong> Try 78% hydration; previous bake collapsed at the shoulder.</div>
+<div class="row" style="margin-top:var(--space-2); justify-content:space-between;">
+<div class="row" style="gap:var(--space-1);">
+<img class="avatar avatar-sm" src="./assets/avatars/notionists-seed-02.svg" alt="Mara Halloran, recipe dev">
+<img class="avatar avatar-sm" src="./assets/avatars/notionists-seed-07.svg" alt="Bram Okafor, tester">
+<small class="muted">Mara · Bram</small>
+</div>
+<a href="#" class="btn btn-sm"><img src="./assets/icons/user-plus.svg" alt="" class="icon-sm"> Add to my schedule</a>
+</div>
+</article>
+
+<article class="card card-tight" style="border-left:3px solid var(--accent); background:#fff8e6;">
+<div class="row-between">
+<span class="badge badge-accent"><img src="./assets/icons/pen-line.svg" alt="" class="icon-sm"> Copyedit due</span>
+<small class="muted">by 18:00</small>
+</div>
+<h4 class="serif" style="margin:var(--space-2) 0 var(--space-1);">Chapter 4 — "The Lean Months"</h4>
+<p class="text-xs muted" style="margin:0 0 var(--space-2);"><img src="./assets/icons/file-text.svg" alt="" class="icon-sm"> 14 recipes · 9,400 words · second pass</p>
+<small class="upper muted">Attached recipes</small>
+<ul class="checklist" style="margin-top:var(--space-1);">
+<li><span class="checkbox checked"><img src="./assets/icons/check.svg" alt="" class="icon-sm"></span> Beet kvass &amp; rye toast</li>
+<li><span class="checkbox checked"><img src="./assets/icons/check.svg" alt="" class="icon-sm"></span> Brined winter squash</li>
+<li><span class="checkbox"></span> Onion confit, slow oven</li>
+<li><span class="checkbox"></span> Brown-butter pear conserve</li>
+</ul>
+<div class="row" style="margin-top:var(--space-2); justify-content:space-between;">
+<div class="row" style="gap:var(--space-1);">
+<img class="avatar avatar-sm" src="./assets/avatars/lorelei-seed-01.svg" alt="June Ferrara, copy editor">
+<small class="muted">June Ferrara, copy chief</small>
+</div>
+<a href="#" class="btn btn-sm"><img src="./assets/icons/user-plus.svg" alt="" class="icon-sm"> Add to my schedule</a>
+</div>
+</article>
+
+<div class="row-between" style="padding-top:var(--space-2); border-top:1px dashed var(--line); margin-top:var(--space-1);">
+<small class="upper muted">3 events on this day</small>
+<a href="#" class="muted text-xs">View previous day <img src="./assets/icons/arrow-right.svg" alt="" class="icon-sm"></a>
+</div>
+</div>
+</section>
+
+<section class="panel">
+<header class="panel-header">
+<h3 class="panel-title" style="font-size:var(--text-md);">This week at a glance</h3>
+<small class="upper muted">Wk 42</small>
+</header>
+<div class="panel-body">
+<ul class="checklist">
+<li><span class="chip-dot" style="background:var(--surface-olive)"></span> 6 test days <span class="spacer"></span><small class="muted">42 h kitchen</small></li>
+<li><span class="chip-dot" style="background:var(--accent-alt)"></span> 3 photo shoots <span class="spacer"></span><small class="muted">Studio A · B</small></li>
+<li><span class="chip-dot" style="background:var(--accent)"></span> 2 copyedits due <span class="spacer"></span><small class="muted">Ch. 4 · 5</small></li>
+<li><span class="chip-dot" style="background:var(--surface-dark)"></span> 1 print deadline <span class="spacer"></span><small class="muted">Cover proof</small></li>
+</ul>
+</div>
+</section>
+</aside>
+</div>
+</main>
+
+<footer class="footer">
+<div class="footer-inner row-between">
+<div>
+<strong class="serif" style="font-size:var(--text-md);">Saffron &amp; Salt Press</strong>
+<p class="text-xs muted" style="margin:var(--space-1) 0 0;">Production workspace · v4.2 · synced 14:02 EDT</p>
+</div>
+<div class="row" style="gap:var(--space-5);">
+<a href="./board.html">Board</a>
+<a href="./recipe.html">Recipe</a>
+<a href="./calendar.html">Calendar</a>
+<a href="./pantry.html">Pantry</a>
+<a href="./imprint.html">Imprint</a>
+</div>
+</div>
+</footer>
+</body>
+</html>

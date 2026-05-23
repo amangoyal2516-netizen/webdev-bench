@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Practice — Stillpoint</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="app">
+
+<header class="topbar">
+  <a href="./practice.html" class="wordmark"><span class="dot"></span>stillpoint<span class="slash">/</span>practice</a>
+  <div class="topbar-search">
+    <img src="./assets/icons/search.svg" alt="" class="ico" style="width:14px;height:14px;opacity:0.6;">
+    <input type="text" placeholder="Jump to a practice, type &gt; for commands…" value="">
+    <span class="kbd">⌘K</span>
+  </div>
+  <div class="topbar-right">
+    <span class="streak-flame"><img src="./assets/icons/flame.svg" alt="" style="width:14px;height:14px;">12 days</span>
+    <a href="./library.html" class="icon-btn" aria-label="Help"><img src="./assets/icons/circle-question-mark.svg" alt=""></a>
+    <a href="#" class="avatar" aria-label="Account"><img src="./assets/avatars/lorelei-seed-07.svg" alt="Maya Okafor"></a>
+  </div>
+</header>
+
+<div class="workspace">
+
+  <aside class="sidebar">
+    <button class="btn btn-primary"><img src="./assets/icons/plus.svg" alt="" class="ico">New practice</button>
+
+    <div class="sidebar-section">
+      <div class="sidebar-label"><span>Inbox</span></div>
+      <a class="nav-item active" href="#"><img src="./assets/icons/sun.svg" alt="" style="width:14px;height:14px;">Today<span class="count">7</span></a>
+      <a class="nav-item" href="#"><img src="./assets/icons/calendar-days.svg" alt="" style="width:14px;height:14px;">This week<span class="count">19</span></a>
+      <a class="nav-item" href="#"><img src="./assets/icons/bookmark.svg" alt="" style="width:14px;height:14px;">Someday<span class="count">4</span></a>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-label"><span>Categories</span><img src="./assets/icons/chevron-down.svg" alt="" style="width:12px;height:12px;opacity:0.6;"></div>
+      <a class="nav-item" href="#"><span class="cat-dot cat-breathing"></span>Breathing<span class="count">3</span></a>
+      <a class="nav-item" href="#"><span class="cat-dot cat-meditation"></span>Meditation<span class="count">5</span></a>
+      <a class="nav-item" href="#"><span class="cat-dot cat-movement"></span>Movement<span class="count">2</span></a>
+      <a class="nav-item" href="#"><span class="cat-dot cat-sleep"></span>Sleep<span class="count">4</span></a>
+      <a class="nav-item" href="#"><span class="cat-dot cat-gratitude"></span>Gratitude<span class="count">2</span></a>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-label"><span>Views</span></div>
+      <a class="nav-item" href="./calm-board.html"><img src="./assets/icons/layout-grid.svg" alt="" style="width:14px;height:14px;">Calm board</a>
+      <a class="nav-item" href="./insights.html"><img src="./assets/icons/chart-column.svg" alt="" style="width:14px;height:14px;">Insights</a>
+      <a class="nav-item" href="./library.html"><img src="./assets/icons/book-open.svg" alt="" style="width:14px;height:14px;">Library</a>
+    </div>
+  </aside>
+
+  <section class="middle-pane">
+    <div class="pane-header">
+      <div>
+        <div class="pane-title">Today · Thu, 14 Nov</div>
+        <div class="text-sm muted-2" style="margin-top:2px;">7 practice tickets · 3 completed · 24 min logged</div>
+      </div>
+      <div class="row-tight">
+        <button class="btn btn-sm btn-outline"><img src="./assets/icons/funnel.svg" alt="" class="ico">Filter</button>
+        <button class="btn btn-sm btn-outline"><img src="./assets/icons/sliders-horizontal.svg" alt="" class="ico">Sort</button>
+        <button class="btn btn-sm btn-ghost"><img src="./assets/icons/ellipsis.svg" alt="" class="ico"></button>
+      </div>
+    </div>
+
+    <div class="pane-body">
+
+      <div class="list-section">
+        <div class="list-section-header"><img src="./assets/icons/sunrise.svg" alt="" style="width:12px;height:12px;">Morning<span class="count">· 3</span></div>
+
+        <div class="ticket-row">
+          <span class="ticket-checkbox checked"><img src="./assets/icons/check.svg" alt="" style="width:11px;height:11px;filter:invert(1);"></span>
+          <span class="ticket-id">SP-184</span>
+          <span class="chip breathing"><span class="cat-dot cat-breathing"></span>breathing</span>
+          <span class="ticket-title" style="text-decoration:line-through;color:var(--muted);">Box breathing — 4·4·4·4 to start the day</span>
+          <span class="ticket-meta">
+            <span>5m</span>
+            <span class="mood-pill">🙂 calm</span>
+            <span>06:45</span>
+          </span>
+        </div>
+
+        <div class="ticket-row selected">
+          <span class="ticket-checkbox"></span>
+          <span class="ticket-id">SP-185</span>
+          <span class="chip meditation"><span class="cat-dot cat-meditation"></span>meditation</span>
+          <span class="ticket-title">Body scan — settle in before the standup</span>
+          <span class="ticket-meta">
+            <span>10m</span>
+            <span class="mood-pill">😐 neutral</span>
+            <span>08:30</span>
+          </span>
+        </div>
+
+        <div class="ticket-row">
+          <span class="ticket-checkbox checked"><img src="./assets/icons/check.svg" alt="" style="width:11px;height:11px;filter:invert(1);"></span>
+          <span class="ticket-id">SP-186</span>
+          <span class="chip gratitude"><span class="cat-dot cat-gratitude"></span>gratitude</span>
+          <span class="ticket-title" style="text-decoration:line-through;color:var(--muted);">Three small things — morning journal prompt</span>
+          <span class="ticket-meta">
+            <span>3m</span>
+            <span class="mood-pill">😊 warm</span>
+            <span>09:10</span>
+          </span>
+        </div>
+      </div>
+
+      <div class="list-section">
+        <div class="list-section-header"><img src="./assets/icons/sun.svg" alt="" style="width:12px;height:12px;">Afternoon<span class="count">· 2</span></div>
+
+        <div class="ticket-row">
+          <span class="ticket-checkbox checked"><img src="./assets/icons/check.svg" alt="" style="width:11px;height:11px;filter:invert(1);"></span>
+          <span class="ticket-id">SP-187</span>
+          <span class="chip movement"><span class="cat-dot cat-movement"></span>movement</span>
+          <span class="ticket-title" style="text-decoration:line-through;color:var(--muted);">Desk stretch — neck, shoulders, wrists</span>
+          <span class="ticket-meta">
+            <span>4m</span>
+            <span class="mood-pill">🙂 loose</span>
+            <span>13:00</span>
+          </span>
+        </div>
+
+        <div class="ticket-row">
+          <span class="ticket-checkbox"></span>
+          <span class="ticket-id">SP-188</span>
+          <span class="chip breathing"><span class="cat-dot cat-breathing"></span>breathing</span>
+          <span class="ticket-title">Physiological sigh — reset after deep work block</span>
+          <span class="ticket-meta">
+            <span>2m</span>
+            <span class="mood-pill">😮‍💨 tense</span>
+            <span>15:30</span>
+          </span>
+        </div>
+      </div>
+
+      <div class="list-section">
+        <div class="list-section-header"><img src="./assets/icons/sunset.svg" alt="" style="width:12px;height:12px;">Evening<span class="count">· 2</span></div>
+
+        <div class="ticket-row">
+          <span class="ticket-checkbox"></span>
+          <span class="ticket-id">SP-189</span>
+          <span class="chip meditation"><span class="cat-dot cat-meditation"></span>meditation</span>
+          <span class="ticket-title">Loving-kindness — short metta sit before dinner</span>
+          <span class="ticket-meta">
+            <span>12m</span>
+            <span class="mood-pill">🤍 open</span>
+            <span>18:45</span>
+          </span>
+        </div>
+
+        <div class="ticket-row">
+          <span class="ticket-checkbox"></span>
+          <span class="ticket-id">SP-190</span>
+          <span class="chip sleep"><span class="cat-dot cat-sleep"></span>sleep</span>
+          <span class="ticket-title">Wind-down — dim lights, no screens, slow breath</span>
+          <span class="ticket-meta">
+            <span>15m</span>
+            <span class="mood-pill">🌙 sleepy</span>
+            <span>22:15</span>
+          </span>
+        </div>
+      </div>
+
+      <div class="list-section">
+        <div class="list-section-header"><img src="./assets/icons/calendar.svg" alt="" style="width:12px;height:12px;">Upcoming · Fri, 15 Nov<span class="count">· 3</span></div>
+
+        <div class="ticket-row">
+          <span class="ticket-checkbox"></span>
+          <span class="ticket-id">SP-191</span>
+          <span class="chip breathing"><span class="cat-dot cat-breathing"></span>breathing</span>
+          <span class="ticket-title">4-7-8 breath — pre-meeting nervous system reset</span>
+          <span class="ticket-meta">
+            <span>4m</span>
+            <span class="mood-pill">— planned</span>
+            <span>09:00</span>
+          </span>
+        </div>
+
+        <div class="ticket-row">
+          <span class="ticket-checkbox"></span>
+          <span class="ticket-id">SP-192</span>
+          <span class="chip movement"><span class="cat-dot cat-movement"></span>movement</span>
+          <span class="ticket-title">Lunchtime walk — phone in pocket, notice five things</span>
+          <span class="ticket-meta">
+            <span>20m</span>
+            <span class="mood-pill">— planned</span>
+            <span>12:30</span>
+          </span>
+        </div>
+
+        <div class="ticket-row">
+          <span class="ticket-checkbox"></span>
+          <span class="ticket-id">SP-193</span>
+          <span class="chip sleep"><span class="cat-dot cat-sleep"></span>sleep</span>
+          <span class="ticket-title">Yoga nidra audio — guided rest before bed</span>
+          <span class="ticket-meta">
+            <span>22m</span>
+            <span class="mood-pill">— planned</span>
+            <span>22:30</span>
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <aside class="detail-pane">
+
+    <div class="detail-header">
+      <div class="row-between">
+        <span class="detail-id">SP-185 · meditation</span>
+        <div class="row-tight">
+          <button class="icon-btn" aria-label="Bookmark"><img src="./assets/icons/bookmark.svg" alt="" style="width:14px;height:14px;"></button>
+          <button class="icon-btn" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" style="width:14px;height:14px;"></button>
+        </div>
+      </div>
+      <h3 class="detail-title">Body scan — settle in before the standup</h3>
+      <div class="row-wrap">
+        <span class="chip meditation"><span class="cat-dot cat-meditation"></span>meditation</span>
+        <span class="chip beginner">beginner-friendly</span>
+        <span class="chip"><img src="./assets/icons/headphones.svg" alt="" style="width:11px;height:11px;">guided audio</span>
+      </div>
+    </div>
+
+    <div>
+      <div class="section-heading">Status</div>
+      <div class="status-selector">
+        <button class="status-option">Not started</button>
+        <button class="status-option active">In progress</button>
+        <button class="status-option">Done</button>
+      </div>
+    </div>
+
+    <div>
+      <div class="section-heading">Details</div>
+      <div class="meta-table">
+        <span class="meta-key">Category</span><span class="meta-val">Meditation · seated</span>
+        <span class="meta-key">Duration</span><span class="meta-val">10 minutes</span>
+        <span class="meta-key">Recurrence</span><span class="meta-val">Weekdays · 08:30</span>
+        <span class="meta-key">Difficulty</span><span class="meta-val">★★☆☆☆ Gentle</span>
+        <span class="meta-key">Streak</span><span class="meta-val mono">4 of 5 this week</span>
+        <span class="meta-key">Guide</span><span class="meta-val">Tara Mendoza</span>
+      </div>
+    </div>
+
+    <div>
+      <div class="section-heading">Guided steps</div>
+      <ol class="steps-list">
+        <li class="step-item"><span class="step-num">1</span><span class="step-body">Sit comfortably. Feet flat, hands resting. Let your eyes soften or close.</span></li>
+        <li class="step-item"><span class="step-num">2</span><span class="step-body">Take three slow breaths — inhale through the nose, exhale a little longer than the inhale.</span></li>
+        <li class="step-item"><span class="step-num">3</span><span class="step-body">Bring attention to the crown of your head. Notice any sensation — warmth, pressure, nothing at all is fine.</span></li>
+        <li class="step-item"><span class="step-num">4</span><span class="step-body">Slowly travel down: face, jaw, shoulders, chest, belly, hips, legs, feet. About 30 seconds at each stop.</span></li>
+        <li class="step-item"><span class="step-num">5</span><span class="step-body">Rest in the whole body for a final breath. Open your eyes when you're ready.</span></li>
+      </ol>
+    </div>
+
+    <div>
+      <div class="section-heading">Reflection</div>
+      <textarea class="textarea" placeholder="A line or two on how this practice felt — totally optional.">Shoulders softer than expected. Mind drifted at the chest stop but came back without a fight.</textarea>
+      <div style="margin-top:var(--space-3);">
+        <div class="section-heading">How does it feel like right now?</div>
+        <div class="mood-row">
+          <button class="mood-btn" title="Tense">😣</button>
+          <button class="mood-btn" title="Tired">😔</button>
+          <button class="mood-btn active" title="Neutral">😐</button>
+          <button class="mood-btn" title="Calm">🙂</button>
+          <button class="mood-btn" title="Bright">😊</button>
+          <button class="mood-btn" title="Open">🤍</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row-tight" style="margin-top:auto;">
+      <button class="btn btn-primary" style="flex:1;"><img src="./assets/icons/play.svg" alt="" class="ico">Start 10-min timer</button>
+      <button class="btn btn-outline" aria-label="Skip"><img src="./assets/icons/arrow-right.svg" alt="" class="ico"></button>
+    </div>
+
+  </aside>
+
+</div>
+
+<footer class="statusbar">
+  <span class="seg"><img src="./assets/icons/circle-check.svg" alt="" style="width:12px;height:12px;">Today <span class="accent-text">3 / 7</span> complete</span>
+  <span class="seg"><img src="./assets/icons/flame.svg" alt="" style="width:12px;height:12px;">Streak <span class="accent-text">12 days</span></span>
+  <span class="seg"><img src="./assets/icons/clock.svg" alt="" style="width:12px;height:12px;">24 min logged</span>
+  <span class="seg"><img src="./assets/icons/activity.svg" alt="" style="width:12px;height:12px;">avg mood today <span class="accent-text">🙂 calm</span></span>
+  <span class="spacer"></span>
+  <span class="seg muted">SP-188 up next · 15:30</span>
+  <button class="btn btn-sm btn-primary"><img src="./assets/icons/zap.svg" alt="" class="ico">Begin next practice</button>
+</footer>
+
+</div>
+</body>
+</html>

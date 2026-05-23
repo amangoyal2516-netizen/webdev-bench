@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node (for Part 3)
+node_modules/
+.next/
+dist/
+build/
+.parcel-cache/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.history/
+
+# Local Claude config (skills/ tracked separately; settings.local.json is per-machine)
+.claude/settings.local.json
+.claude/projects/
+
+# Recipe workspace state — intermediate output of the generation pipeline.
+# The canonical packaged copy lives under tasks/<task_id>-<variant>/ and is
+# what gets graded; everything here is regeneratable scratch.
+recipe/runs/
+
+# Asset pipeline: cloned upstream datasets (don't commit), keep curated pool
+infra/assets/_source/
+infra/assets/_picks.json
+
+# Harbor runtime tmp
+.harbor/
+harbor-cache/
+
+# Docker
+.docker/
+*.tar
+
+# Generated reports (final artifacts go in eval/reports/; raw tmp doesn't)
+eval/runs/**/tmp/
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Internal working docs (not for the public repo)
+plan.md
+steps.md
+decisions.md
+policy.md
+
+# Archive / scratch
+old_stuff/
+tasks_backup_*/
+
+# Eval job outputs — per-trial agent sessions + artifacts. Multi-GB per
+# canonical run; never appropriate to commit. The final HTML report
+# lives in eval/reports/ separately and is the shippable artifact.
+jobs/
+
+# Track B judge verdict cache — per-question JSON files keyed by content
+# hash. Tens of thousands of entries, ~100MB+. Re-derivable by re-running
+# Track B grading; never appropriate to commit.
+grading/judge/_cache/

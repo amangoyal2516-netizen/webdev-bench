@@ -1,0 +1,626 @@
+[
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 204,
+    "y": 87.34375,
+    "w": 14,
+    "h": 14,
+    "phash": "a80882a220088aa2",
+    "lab_mean": [
+      8.66,
+      -3.7,
+      0.93
+    ]
+  },
+  {
+    "src": "./assets/icons/layout-dashboard.svg",
+    "alt": "",
+    "x": 22,
+    "y": 198.34375,
+    "w": 16,
+    "h": 16,
+    "phash": "ee639916cc2393cc",
+    "lab_mean": [
+      3.5,
+      -1.79,
+      0.48
+    ]
+  },
+  {
+    "src": "./assets/icons/book-open.svg",
+    "alt": "",
+    "x": 22,
+    "y": 235.84375,
+    "w": 16,
+    "h": 16,
+    "phash": "a354b929dc2bc4d3",
+    "lab_mean": [
+      3.92,
+      -2.0,
+      0.57
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 22,
+    "y": 273.34375,
+    "w": 16,
+    "h": 16,
+    "phash": "a288888828208222",
+    "lab_mean": [
+      5.2,
+      -2.67,
+      0.86
+    ]
+  },
+  {
+    "src": "./assets/icons/leaf.svg",
+    "alt": "",
+    "x": 22,
+    "y": 310.84375,
+    "w": 16,
+    "h": 16,
+    "phash": "baeae10fd7849832",
+    "lab_mean": [
+      4.37,
+      -2.15,
+      0.68
+    ]
+  },
+  {
+    "src": "./assets/icons/truck.svg",
+    "alt": "",
+    "x": 22,
+    "y": 348.34375,
+    "w": 16,
+    "h": 16,
+    "phash": "a6a7b91cd26ac9c4",
+    "lab_mean": [
+      4.06,
+      -2.0,
+      0.64
+    ]
+  },
+  {
+    "src": "./assets/icons/file-text.svg",
+    "alt": "",
+    "x": 22,
+    "y": 385.84375,
+    "w": 16,
+    "h": 16,
+    "phash": "afa5a4b6b09af04a",
+    "lab_mean": [
+      6.01,
+      -2.6,
+      0.71
+    ]
+  },
+  {
+    "src": "./assets/icons/bell.svg",
+    "alt": "",
+    "x": 22,
+    "y": 458.34375,
+    "w": 16,
+    "h": 16,
+    "phash": "ebecb43292b10ec3",
+    "lab_mean": [
+      4.61,
+      -2.31,
+      0.75
+    ]
+  },
+  {
+    "src": "./assets/icons/settings.svg",
+    "alt": "",
+    "x": 22,
+    "y": 495.84375,
+    "w": 16,
+    "h": 16,
+    "phash": "ab8df48ae65a830d",
+    "lab_mean": [
+      3.97,
+      -1.95,
+      0.57
+    ]
+  },
+  {
+    "src": "./assets/icons/circle-question-mark.svg",
+    "alt": "",
+    "x": 22,
+    "y": 533.34375,
+    "w": 16,
+    "h": 16,
+    "phash": "e624b99be4649333",
+    "lab_mean": [
+      4.14,
+      -2.04,
+      0.61
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-07.svg",
+    "alt": "",
+    "x": 20,
+    "y": 804.25,
+    "w": 32,
+    "h": 32,
+    "phash": "cd3c33664cd339b0",
+    "lab_mean": [
+      29.32,
+      -3.3,
+      1.05
+    ]
+  },
+  {
+    "src": "./assets/icons/building-2.svg",
+    "alt": "",
+    "x": 25,
+    "y": 863.75,
+    "w": 14,
+    "h": 14,
+    "phash": "fef8a0058577d24a",
+    "lab_mean": [
+      5.35,
+      -2.44,
+      0.61
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 208,
+    "y": 863.75,
+    "w": 14,
+    "h": 14,
+    "phash": "a80882a220088aa2",
+    "lab_mean": [
+      8.66,
+      -3.7,
+      0.93
+    ]
+  },
+  {
+    "src": "./assets/icons/refresh-cw.svg",
+    "alt": "",
+    "x": 1049.140625,
+    "y": 24.5,
+    "w": 14,
+    "h": 14,
+    "phash": "8fe0b592a50fda0d",
+    "lab_mean": [
+      4.38,
+      -2.15,
+      0.68
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 1173.953125,
+    "y": 24.5,
+    "w": 14,
+    "h": 14,
+    "phash": "e6b1b9c4b09bc48e",
+    "lab_mean": [
+      6.75,
+      -2.9,
+      0.73
+    ]
+  },
+  {
+    "src": "./assets/icons/user-plus.svg",
+    "alt": "",
+    "x": 1344.984375,
+    "y": 24.5,
+    "w": 14,
+    "h": 14,
+    "phash": "bef285d9c906a6c1",
+    "lab_mean": [
+      7.06,
+      -3.03,
+      0.78
+    ]
+  },
+  {
+    "src": "./assets/icons/lock.svg",
+    "alt": "",
+    "x": 395.421875,
+    "y": 192.4375,
+    "w": 12,
+    "h": 12,
+    "phash": "bea1e083363ec9ca",
+    "lab_mean": [
+      6.91,
+      -2.9,
+      0.7
+    ]
+  },
+  {
+    "src": "./assets/icons/shield-check.svg",
+    "alt": "",
+    "x": 502.234375,
+    "y": 192.4375,
+    "w": 12,
+    "h": 12,
+    "phash": "aa0ea0b9b2c4cfb3",
+    "lab_mean": [
+      7.2,
+      -3.08,
+      0.74
+    ]
+  },
+  {
+    "src": "./assets/icons/circle-check.svg",
+    "alt": "",
+    "x": 298,
+    "y": 391.6875,
+    "w": 16,
+    "h": 16,
+    "phash": "eacca933b0ccc333",
+    "lab_mean": [
+      4.26,
+      -2.1,
+      0.63
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-right.svg",
+    "alt": "",
+    "x": 887.65625,
+    "y": 392.6875,
+    "w": 14,
+    "h": 14,
+    "phash": "b3269999c6663399",
+    "lab_mean": [
+      5.42,
+      -2.73,
+      0.89
+    ]
+  },
+  {
+    "src": "./assets/icons/circle-check.svg",
+    "alt": "",
+    "x": 298,
+    "y": 457.6875,
+    "w": 16,
+    "h": 16,
+    "phash": "eacca933b0ccc333",
+    "lab_mean": [
+      4.26,
+      -2.1,
+      0.63
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-right.svg",
+    "alt": "",
+    "x": 887.65625,
+    "y": 458.6875,
+    "w": 14,
+    "h": 14,
+    "phash": "b3269999c6663399",
+    "lab_mean": [
+      5.42,
+      -2.73,
+      0.89
+    ]
+  },
+  {
+    "src": "./assets/icons/circle-dot.svg",
+    "alt": "",
+    "x": 298,
+    "y": 523.6875,
+    "w": 16,
+    "h": 16,
+    "phash": "9bf02d0bf035c2b5",
+    "lab_mean": [
+      6.92,
+      -3.03,
+      0.79
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-right.svg",
+    "alt": "",
+    "x": 887.65625,
+    "y": 524.6875,
+    "w": 14,
+    "h": 14,
+    "phash": "b3269999c6663399",
+    "lab_mean": [
+      8.67,
+      -3.7,
+      0.93
+    ]
+  },
+  {
+    "src": "./assets/icons/circle-dot.svg",
+    "alt": "",
+    "x": 298,
+    "y": 589.6875,
+    "w": 16,
+    "h": 16,
+    "phash": "caf42d0bf1e0c2b5",
+    "lab_mean": [
+      4.36,
+      -2.16,
+      0.66
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-right.svg",
+    "alt": "",
+    "x": 887.65625,
+    "y": 590.6875,
+    "w": 14,
+    "h": 14,
+    "phash": "b3269999c6663399",
+    "lab_mean": [
+      5.42,
+      -2.73,
+      0.89
+    ]
+  },
+  {
+    "src": "./assets/icons/circle.svg",
+    "alt": "",
+    "x": 298,
+    "y": 655.6875,
+    "w": 16,
+    "h": 16,
+    "phash": "caf43d0bf4e0c2b4",
+    "lab_mean": [
+      4.49,
+      -2.24,
+      0.68
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-right.svg",
+    "alt": "",
+    "x": 887.65625,
+    "y": 656.6875,
+    "w": 14,
+    "h": 14,
+    "phash": "b3269999c6663399",
+    "lab_mean": [
+      5.42,
+      -2.73,
+      0.89
+    ]
+  },
+  {
+    "src": "./assets/icons/circle.svg",
+    "alt": "",
+    "x": 298,
+    "y": 721.6875,
+    "w": 16,
+    "h": 16,
+    "phash": "caf43d0bf4e0c2b4",
+    "lab_mean": [
+      4.49,
+      -2.24,
+      0.68
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-right.svg",
+    "alt": "",
+    "x": 887.65625,
+    "y": 722.6875,
+    "w": 14,
+    "h": 14,
+    "phash": "b3269999c6663399",
+    "lab_mean": [
+      5.42,
+      -2.73,
+      0.89
+    ]
+  },
+  {
+    "src": "./assets/icons/pencil.svg",
+    "alt": "",
+    "x": 1235.3125,
+    "y": 342.484375,
+    "w": 2.71875,
+    "h": 14,
+    "phash": "e5619a9e61618f9a",
+    "lab_mean": [
+      5.65,
+      -2.83,
+      0.93
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 1638.375,
+    "y": 1185.125,
+    "w": 7.640625,
+    "h": 10,
+    "phash": null,
+    "lab_mean": null,
+    "phash_error": "bbox outside screenshot"
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 1638.375,
+    "y": 1313.125,
+    "w": 7.640625,
+    "h": 10,
+    "phash": null,
+    "lab_mean": null,
+    "phash_error": "bbox outside screenshot"
+  },
+  {
+    "src": "./assets/icons/link.svg",
+    "alt": "",
+    "x": 981.65625,
+    "y": 1555.125,
+    "w": 11.359375,
+    "h": 12,
+    "phash": "e2c89d256d1bc0bd",
+    "lab_mean": [
+      7.48,
+      -3.2,
+      0.81
+    ]
+  },
+  {
+    "src": "./assets/icons/link.svg",
+    "alt": "",
+    "x": 981.65625,
+    "y": 1630.625,
+    "w": 12,
+    "h": 12,
+    "phash": "e6629ca56c19c1bd",
+    "lab_mean": [
+      7.39,
+      -3.22,
+      0.83
+    ]
+  },
+  {
+    "src": "./assets/icons/link.svg",
+    "alt": "",
+    "x": 981.65625,
+    "y": 1706.125,
+    "w": 12,
+    "h": 12,
+    "phash": "e6629ca56c19c1bd",
+    "lab_mean": [
+      7.39,
+      -3.22,
+      0.83
+    ]
+  },
+  {
+    "src": "./assets/icons/link.svg",
+    "alt": "",
+    "x": 981.65625,
+    "y": 1781.625,
+    "w": 12,
+    "h": 12,
+    "phash": "e6629ca56c19c1bd",
+    "lab_mean": [
+      7.39,
+      -3.22,
+      0.83
+    ]
+  },
+  {
+    "src": "./assets/icons/link.svg",
+    "alt": "",
+    "x": 981.65625,
+    "y": 1848.875,
+    "w": 12,
+    "h": 12,
+    "phash": "e6629ca56c19c1bd",
+    "lab_mean": [
+      7.39,
+      -3.22,
+      0.83
+    ]
+  },
+  {
+    "src": "./assets/icons/link.svg",
+    "alt": "",
+    "x": 981.65625,
+    "y": 1916.125,
+    "w": 12,
+    "h": 12,
+    "phash": "e6629ca56c19c1bd",
+    "lab_mean": [
+      7.39,
+      -3.22,
+      0.83
+    ]
+  },
+  {
+    "src": "./assets/icons/external-link.svg",
+    "alt": "",
+    "x": 981.65625,
+    "y": 1975.125,
+    "w": 12,
+    "h": 12,
+    "phash": "eb5af8c9a4a48539",
+    "lab_mean": [
+      7.08,
+      -2.97,
+      0.71
+    ]
+  },
+  {
+    "src": "./assets/icons/info.svg",
+    "alt": "",
+    "x": 272,
+    "y": 858.25,
+    "w": 14,
+    "h": 14,
+    "phash": "b3183977f0899267",
+    "lab_mean": [
+      4.3,
+      -2.08,
+      0.63
+    ]
+  },
+  {
+    "src": "./assets/icons/file-down.svg",
+    "alt": "",
+    "x": 863.53125,
+    "y": 858.25,
+    "w": 14,
+    "h": 14,
+    "phash": "efad3c36b09a604a",
+    "lab_mean": [
+      6.03,
+      -2.61,
+      0.65
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 1030.359375,
+    "y": 858.25,
+    "w": 14,
+    "h": 14,
+    "phash": "a80882a220088aa2",
+    "lab_mean": [
+      8.66,
+      -3.7,
+      0.93
+    ]
+  },
+  {
+    "src": "./assets/icons/send.svg",
+    "alt": "",
+    "x": 1086.359375,
+    "y": 858.25,
+    "w": 14,
+    "h": 14,
+    "phash": "ea5ac4e1928c8fb9",
+    "lab_mean": [
+      6.75,
+      -2.92,
+      0.73
+    ]
+  },
+  {
+    "src": "./assets/icons/lock.svg",
+    "alt": "",
+    "x": 1261.78125,
+    "y": 858.25,
+    "w": 14,
+    "h": 14,
+    "phash": "efe4b492323391c3",
+    "lab_mean": [
+      64.71,
+      -52.47,
+      36.45
+    ]
+  }
+]

@@ -1,0 +1,464 @@
+[
+  {
+    "src": "./assets/icons/axe.svg",
+    "alt": "",
+    "x": 116,
+    "y": 20,
+    "w": 24,
+    "h": 24,
+    "phash": "bbe0852ed693cb0c",
+    "lab_mean": [
+      49.08,
+      42.94,
+      54.27
+    ]
+  },
+  {
+    "src": "./assets/icons/search.svg",
+    "alt": "",
+    "x": 1199.984375,
+    "y": 20,
+    "w": 24,
+    "h": 24,
+    "phash": "eba5f03483528dcb",
+    "lab_mean": [
+      76.47,
+      0.0,
+      0.89
+    ]
+  },
+  {
+    "src": "./assets/icons/user.svg",
+    "alt": "",
+    "x": 1247.984375,
+    "y": 20,
+    "w": 24,
+    "h": 24,
+    "phash": "bc308b3ba3cb2ccc",
+    "lab_mean": [
+      78.39,
+      0.0,
+      0.88
+    ]
+  },
+  {
+    "src": "./assets/icons/shopping-cart.svg",
+    "alt": "",
+    "x": 1295.984375,
+    "y": 20,
+    "w": 24,
+    "h": 24,
+    "phash": "da1781e39ad96178",
+    "lab_mean": [
+      70.38,
+      1.9,
+      3.23
+    ]
+  },
+  {
+    "src": "./assets/photos/-usiHqEOjLM.jpg",
+    "alt": "Cherry-wood cutting board kit",
+    "x": 138,
+    "y": 359.3125,
+    "w": 94,
+    "h": 94,
+    "phash": "8f61709d0eb8dc63",
+    "lab_mean": [
+      24.09,
+      0.61,
+      4.51
+    ]
+  },
+  {
+    "src": "./assets/icons/minus.svg",
+    "alt": "",
+    "x": 733,
+    "y": 399.3125,
+    "w": 14,
+    "h": 14,
+    "phash": "a8a0820a28a0820a",
+    "lab_mean": [
+      89.69,
+      0.0,
+      1.01
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 809,
+    "y": 399.3125,
+    "w": 14,
+    "h": 14,
+    "phash": "b3b1991a6ce4c64e",
+    "lab_mean": [
+      85.38,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "src": "./assets/icons/trash-2.svg",
+    "alt": "",
+    "x": 859,
+    "y": 394.3125,
+    "w": 24,
+    "h": 24,
+    "phash": "af30a5e2a4cb964b",
+    "lab_mean": [
+      64.69,
+      0.0,
+      0.72
+    ]
+  },
+  {
+    "src": "./assets/photos/wMwbm8zdTyU.jpg",
+    "alt": "Desk organizer kit",
+    "x": 138,
+    "y": 490.1875,
+    "w": 94,
+    "h": 94,
+    "phash": "c7106e5079e69ac7",
+    "lab_mean": [
+      48.71,
+      -1.74,
+      5.58
+    ]
+  },
+  {
+    "src": "./assets/icons/minus.svg",
+    "alt": "",
+    "x": 733,
+    "y": 530.1875,
+    "w": 14,
+    "h": 14,
+    "phash": "a8a0820a28a0820a",
+    "lab_mean": [
+      89.69,
+      0.0,
+      1.01
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 809,
+    "y": 530.1875,
+    "w": 14,
+    "h": 14,
+    "phash": "b3b1991a6ce4c64e",
+    "lab_mean": [
+      85.38,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "src": "./assets/icons/trash-2.svg",
+    "alt": "",
+    "x": 859,
+    "y": 525.1875,
+    "w": 24,
+    "h": 24,
+    "phash": "af30a5e2a4cb964b",
+    "lab_mean": [
+      64.69,
+      0.0,
+      0.72
+    ]
+  },
+  {
+    "src": "./assets/photos/jxslQxviEJ0.jpg",
+    "alt": "Plant pedestal kit",
+    "x": 138,
+    "y": 631.90625,
+    "w": 94,
+    "h": 94,
+    "phash": "f3cc5033cc33cd8c",
+    "lab_mean": [
+      85.18,
+      -6.12,
+      0.71
+    ]
+  },
+  {
+    "src": "./assets/icons/minus.svg",
+    "alt": "",
+    "x": 733,
+    "y": 671.90625,
+    "w": 14,
+    "h": 14,
+    "phash": "a8a0820a28a0820a",
+    "lab_mean": [
+      89.69,
+      0.0,
+      1.01
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 809,
+    "y": 671.90625,
+    "w": 14,
+    "h": 14,
+    "phash": "b3b1991a6ce4c64e",
+    "lab_mean": [
+      85.38,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "src": "./assets/icons/trash-2.svg",
+    "alt": "",
+    "x": 859,
+    "y": 666.90625,
+    "w": 24,
+    "h": 24,
+    "phash": "af30a5e2a4cb964b",
+    "lab_mean": [
+      64.69,
+      0.0,
+      0.72
+    ]
+  },
+  {
+    "src": "./assets/photos/iGANt1N2ge8.jpg",
+    "alt": "Wall shelf kit",
+    "x": 138,
+    "y": 773.625,
+    "w": 94,
+    "h": 94,
+    "phash": "b3bb4c645d456e0a",
+    "lab_mean": [
+      40.27,
+      2.99,
+      10.28
+    ]
+  },
+  {
+    "src": "./assets/icons/minus.svg",
+    "alt": "",
+    "x": 733,
+    "y": 813.625,
+    "w": 14,
+    "h": 14,
+    "phash": "a8a0820a28a0820a",
+    "lab_mean": [
+      89.69,
+      0.0,
+      1.01
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 809,
+    "y": 813.625,
+    "w": 14,
+    "h": 14,
+    "phash": "b3b1991a6ce4c64e",
+    "lab_mean": [
+      85.38,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "src": "./assets/icons/trash-2.svg",
+    "alt": "",
+    "x": 859,
+    "y": 808.625,
+    "w": 24,
+    "h": 24,
+    "phash": "af30a5e2a4cb964b",
+    "lab_mean": [
+      64.69,
+      0.0,
+      0.72
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-left.svg",
+    "alt": "",
+    "x": 137,
+    "y": 906.40625,
+    "w": 14,
+    "h": 14,
+    "phash": "b99cc7ca0cb59172",
+    "lab_mean": [
+      83.52,
+      0.0,
+      0.98
+    ]
+  },
+  {
+    "src": "./assets/icons/truck.svg",
+    "alt": "",
+    "x": 663.28125,
+    "y": 1028.9375,
+    "w": 12,
+    "h": 12,
+    "phash": "aea7b958c06ac5c5",
+    "lab_mean": [
+      46.93,
+      42.09,
+      53.35
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 812.421875,
+    "y": 1028.9375,
+    "w": 12,
+    "h": 12,
+    "phash": "9f3dbd85e1c2c0c2",
+    "lab_mean": [
+      65.45,
+      0.0,
+      0.88
+    ]
+  },
+  {
+    "src": "./assets/icons/square-pen.svg",
+    "alt": "",
+    "x": 191.03125,
+    "y": 1271.796875,
+    "w": 12,
+    "h": 12,
+    "phash": "bbcbf812b0ab8364",
+    "lab_mean": [
+      69.0,
+      0.0,
+      0.9
+    ]
+  },
+  {
+    "src": "./assets/icons/square-pen.svg",
+    "alt": "",
+    "x": 383.03125,
+    "y": 1271.796875,
+    "w": 12,
+    "h": 12,
+    "phash": "bbcbf812b0ab8364",
+    "lab_mean": [
+      69.0,
+      0.0,
+      0.9
+    ]
+  },
+  {
+    "src": "./assets/icons/square-pen.svg",
+    "alt": "",
+    "x": 575.03125,
+    "y": 1271.796875,
+    "w": 12,
+    "h": 12,
+    "phash": "bbcbf812b0ab8364",
+    "lab_mean": [
+      69.0,
+      0.0,
+      0.9
+    ]
+  },
+  {
+    "src": "./assets/icons/square-pen.svg",
+    "alt": "",
+    "x": 767.03125,
+    "y": 1271.796875,
+    "w": 12,
+    "h": 12,
+    "phash": "bbcbf812b0ab8364",
+    "lab_mean": [
+      69.0,
+      0.0,
+      0.9
+    ]
+  },
+  {
+    "src": "./assets/icons/info.svg",
+    "alt": "",
+    "x": 137,
+    "y": 1358.140625,
+    "w": 16,
+    "h": 16,
+    "phash": "aa9c3d36f088c367",
+    "lab_mean": [
+      71.87,
+      0.0,
+      0.93
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-up-right.svg",
+    "alt": "",
+    "x": 877,
+    "y": 1359.140625,
+    "w": 14,
+    "h": 14,
+    "phash": "e9669699c7c63831",
+    "lab_mean": [
+      82.85,
+      0.0,
+      1.02
+    ]
+  },
+  {
+    "src": "./assets/icons/truck.svg",
+    "alt": "",
+    "x": 973,
+    "y": 405.984375,
+    "w": 14,
+    "h": 14,
+    "phash": "aea7b91cd268c1c5",
+    "lab_mean": [
+      67.11,
+      0.0,
+      0.85
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 1173.046875,
+    "y": 706,
+    "w": 16,
+    "h": 16,
+    "phash": "ec9c926319b6c4d9",
+    "lab_mean": [
+      55.76,
+      48.54,
+      61.63
+    ]
+  },
+  {
+    "src": "./assets/icons/lock.svg",
+    "alt": "",
+    "x": 1030.984375,
+    "y": 755.796875,
+    "w": 14,
+    "h": 14,
+    "phash": "eee4f492323391c3",
+    "lab_mean": [
+      68.54,
+      0.0,
+      0.86
+    ]
+  },
+  {
+    "src": "./assets/icons/gift.svg",
+    "alt": "",
+    "x": 986,
+    "y": 916.6875,
+    "w": 16,
+    "h": 16,
+    "phash": "ab68ecd29c1c952d",
+    "lab_mean": [
+      55.63,
+      -0.57,
+      1.45
+    ]
+  }
+]

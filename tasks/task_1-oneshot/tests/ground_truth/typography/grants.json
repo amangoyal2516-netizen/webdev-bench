@@ -1,0 +1,1514 @@
+[
+  {
+    "tag": "a",
+    "font_family": "Fraunces, Georgia, serif",
+    "font_size_px": 17,
+    "font_weight": "700",
+    "line_height": "25.5px",
+    "area": 4974.5,
+    "text_len": 14
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 4458.4921875,
+    "text_len": 10
+  },
+  {
+    "tag": "strong",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "19.5px",
+    "area": 2657.25,
+    "text_len": 20
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 8160.9375,
+    "text_len": 22
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "19.5px",
+    "area": 971.34375,
+    "text_len": 7
+  },
+  {
+    "tag": "a",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "19.5px",
+    "area": 5297.1953125,
+    "text_len": 8
+  },
+  {
+    "tag": "a",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "19.5px",
+    "area": 5651.953125,
+    "text_len": 9
+  },
+  {
+    "tag": "a",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "19.5px",
+    "area": 5297.1953125,
+    "text_len": 8
+  },
+  {
+    "tag": "a",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "19.5px",
+    "area": 6006.7109375,
+    "text_len": 10
+  },
+  {
+    "tag": "a",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "19.5px",
+    "area": 4586.96875,
+    "text_len": 6
+  },
+  {
+    "tag": "a",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "19.5px",
+    "area": 7562.953125,
+    "text_len": 15
+  },
+  {
+    "tag": "h1",
+    "font_family": "Fraunces, Georgia, serif",
+    "font_size_px": 34,
+    "font_weight": "700",
+    "line_height": "39.1px",
+    "area": 30493.125,
+    "text_len": 26
+  },
+  {
+    "tag": "p",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 17,
+    "font_weight": "400",
+    "line_height": "25.5px",
+    "area": 39780,
+    "text_len": 121
+  },
+  {
+    "tag": "button",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "13px",
+    "area": 6728.75,
+    "text_len": 15
+  },
+  {
+    "tag": "button",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "13px",
+    "area": 6345,
+    "text_len": 15
+  },
+  {
+    "tag": "h2",
+    "font_family": "Fraunces, Georgia, serif",
+    "font_size_px": 26,
+    "font_weight": "700",
+    "line_height": "31.2px",
+    "area": 13830.681640625,
+    "text_len": 20
+  },
+  {
+    "tag": "p",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 8647.640625,
+    "text_len": 63
+  },
+  {
+    "tag": "div",
+    "font_family": "Fraunces, Georgia, serif",
+    "font_size_px": 20,
+    "font_weight": "700",
+    "line_height": "30px",
+    "area": 3551.25,
+    "text_len": 8
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 1953.1875,
+    "text_len": 17
+  },
+  {
+    "tag": "div",
+    "font_family": "Fraunces, Georgia, serif",
+    "font_size_px": 20,
+    "font_weight": "700",
+    "line_height": "30px",
+    "area": 2355,
+    "text_len": 8
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 1295.25,
+    "text_len": 11
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 1364.6015625,
+    "text_len": 11
+  },
+  {
+    "tag": "div",
+    "font_family": "Fraunces, Georgia, serif",
+    "font_size_px": 26,
+    "font_weight": "700",
+    "line_height": "39px",
+    "area": 7909.078125,
+    "text_len": 1
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 3954.5390625,
+    "text_len": 17
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 3346.1484375,
+    "text_len": 19
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 3346.1484375,
+    "text_len": 25
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 3346.1484375,
+    "text_len": 8
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 994.125,
+    "text_len": 8
+  },
+  {
+    "tag": "div",
+    "font_family": "Fraunces, Georgia, serif",
+    "font_size_px": 26,
+    "font_weight": "700",
+    "line_height": "39px",
+    "area": 7909.078125,
+    "text_len": 1
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 3954.5390625,
+    "text_len": 18
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 3346.1484375,
+    "text_len": 19
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 3346.1484375,
+    "text_len": 18
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 3346.1484375,
+    "text_len": 19
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 1111.171875,
+    "text_len": 9
+  },
+  {
+    "tag": "div",
+    "font_family": "Fraunces, Georgia, serif",
+    "font_size_px": 26,
+    "font_weight": "700",
+    "line_height": "39px",
+    "area": 7909.078125,
+    "text_len": 1
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 3954.5390625,
+    "text_len": 16
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 3346.1484375,
+    "text_len": 22
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 3346.1484375,
+    "text_len": 18
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 3346.1484375,
+    "text_len": 20
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 877.3359375,
+    "text_len": 7
+  },
+  {
+    "tag": "div",
+    "font_family": "Fraunces, Georgia, serif",
+    "font_size_px": 26,
+    "font_weight": "700",
+    "line_height": "39px",
+    "area": 7909.078125,
+    "text_len": 1
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 3954.5390625,
+    "text_len": 14
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 3346.1484375,
+    "text_len": 24
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 3346.1484375,
+    "text_len": 20
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 1111.171875,
+    "text_len": 9
+  },
+  {
+    "tag": "div",
+    "font_family": "Fraunces, Georgia, serif",
+    "font_size_px": 26,
+    "font_weight": "700",
+    "line_height": "39px",
+    "area": 7909.6875,
+    "text_len": 1
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 3954.84375,
+    "text_len": 20
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 3346.40625,
+    "text_len": 22
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 3346.40625,
+    "text_len": 14
+  },
+  {
+    "tag": "div",
+    "font_family": "Fraunces, Georgia, serif",
+    "font_size_px": 20,
+    "font_weight": "700",
+    "line_height": "30px",
+    "area": 18675,
+    "text_len": 18
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 12138.75,
+    "text_len": 89
+  },
+  {
+    "tag": "button",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "normal",
+    "area": 1193.484375,
+    "text_len": 3
+  },
+  {
+    "tag": "button",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "normal",
+    "area": 2797.875,
+    "text_len": 12
+  },
+  {
+    "tag": "button",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "normal",
+    "area": 1895.90625,
+    "text_len": 7
+  },
+  {
+    "tag": "button",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "11px",
+    "area": 2568.28125,
+    "text_len": 6
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 15,
+    "font_weight": "600",
+    "line_height": "22.5px",
+    "area": 17404.8046875,
+    "text_len": 19
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 12763.5234375,
+    "text_len": 41
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 2111.8203125,
+    "text_len": 11
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 1638.3046875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 1628.1484375,
+    "text_len": 11
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 15,
+    "font_weight": "600",
+    "line_height": "22.5px",
+    "area": 18156.4453125,
+    "text_len": 22
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 13314.7265625,
+    "text_len": 36
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 1426.9921875,
+    "text_len": 6
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 1638.3046875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 1628.1484375,
+    "text_len": 11
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 15,
+    "font_weight": "600",
+    "line_height": "22.5px",
+    "area": 18098.0859375,
+    "text_len": 18
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 13271.9296875,
+    "text_len": 35
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 2111.8203125,
+    "text_len": 11
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 1486.265625,
+    "text_len": 11
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 1156.328125,
+    "text_len": 4
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 15,
+    "font_weight": "600",
+    "line_height": "22.5px",
+    "area": 17431.875,
+    "text_len": 19
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 12783.375,
+    "text_len": 44
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 2111.8203125,
+    "text_len": 11
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 1486.265625,
+    "text_len": 11
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 1763.3203125,
+    "text_len": 12
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 15,
+    "font_weight": "600",
+    "line_height": "22.5px",
+    "area": 18008.0859375,
+    "text_len": 24
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 13205.9296875,
+    "text_len": 35
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 1426.9921875,
+    "text_len": 6
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 1638.3046875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 1763.3203125,
+    "text_len": 12
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 15,
+    "font_weight": "600",
+    "line_height": "22.5px",
+    "area": 18008.0859375,
+    "text_len": 14
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 13205.9296875,
+    "text_len": 40
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 1426.9921875,
+    "text_len": 6
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 1638.3046875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 1763.3203125,
+    "text_len": 12
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 15,
+    "font_weight": "600",
+    "line_height": "22.5px",
+    "area": 17431.875,
+    "text_len": 20
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 12783.375,
+    "text_len": 43
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 2111.8203125,
+    "text_len": 11
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 1486.265625,
+    "text_len": 11
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 1763.3203125,
+    "text_len": 12
+  },
+  {
+    "tag": "h2",
+    "font_family": "Fraunces, Georgia, serif",
+    "font_size_px": 26,
+    "font_weight": "700",
+    "line_height": "31.2px",
+    "area": 22240.0986328125,
+    "text_len": 14
+  },
+  {
+    "tag": "p",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 13905.6328125,
+    "text_len": 100
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 2576.296875,
+    "text_len": 9
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 3493.4453125,
+    "text_len": 15
+  },
+  {
+    "tag": "th",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 13226.984375,
+    "text_len": 6
+  },
+  {
+    "tag": "th",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 5250.5625,
+    "text_len": 12
+  },
+  {
+    "tag": "th",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 7288.390625,
+    "text_len": 6
+  },
+  {
+    "tag": "th",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 8154.515625,
+    "text_len": 12
+  },
+  {
+    "tag": "th",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 7801.53125,
+    "text_len": 13
+  },
+  {
+    "tag": "th",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 6042.375,
+    "text_len": 15
+  },
+  {
+    "tag": "strong",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "19.5px",
+    "area": 3197.53125,
+    "text_len": 24
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 2931.0703125,
+    "text_len": 28
+  },
+  {
+    "tag": "strong",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "19.5px",
+    "area": 982.96875,
+    "text_len": 7
+  },
+  {
+    "tag": "td",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 11554.765625,
+    "text_len": 19
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 1951.984375,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 762.609375,
+    "text_len": 7
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 326.90625,
+    "text_len": 3
+  },
+  {
+    "tag": "td",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 9579.375,
+    "text_len": 12
+  },
+  {
+    "tag": "strong",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "19.5px",
+    "area": 2743.875,
+    "text_len": 20
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 2789.015625,
+    "text_len": 27
+  },
+  {
+    "tag": "strong",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "19.5px",
+    "area": 982.96875,
+    "text_len": 7
+  },
+  {
+    "tag": "td",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 11554.765625,
+    "text_len": 19
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 2845.9765625,
+    "text_len": 20
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 653.5546875,
+    "text_len": 6
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 326.90625,
+    "text_len": 3
+  },
+  {
+    "tag": "td",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 9579.375,
+    "text_len": 12
+  },
+  {
+    "tag": "strong",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "19.5px",
+    "area": 2916.5625,
+    "text_len": 22
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 3231.421875,
+    "text_len": 31
+  },
+  {
+    "tag": "strong",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "19.5px",
+    "area": 982.96875,
+    "text_len": 7
+  },
+  {
+    "tag": "td",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 11554.765625,
+    "text_len": 19
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 2845.9765625,
+    "text_len": 20
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 762.609375,
+    "text_len": 7
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 326.90625,
+    "text_len": 3
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 1763.3203125,
+    "text_len": 12
+  },
+  {
+    "tag": "strong",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "19.5px",
+    "area": 1879.59375,
+    "text_len": 14
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 2026.6640625,
+    "text_len": 20
+  },
+  {
+    "tag": "strong",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "19.5px",
+    "area": 982.96875,
+    "text_len": 7
+  },
+  {
+    "tag": "td",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 11554.765625,
+    "text_len": 19
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 2927.9765625,
+    "text_len": 22
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 762.609375,
+    "text_len": 7
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 326.90625,
+    "text_len": 3
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 1763.3203125,
+    "text_len": 12
+  },
+  {
+    "tag": "strong",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "19.5px",
+    "area": 2376.5625,
+    "text_len": 18
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 3333.7734375,
+    "text_len": 32
+  },
+  {
+    "tag": "strong",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "19.5px",
+    "area": 982.96875,
+    "text_len": 7
+  },
+  {
+    "tag": "td",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 11554.765625,
+    "text_len": 19
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 3022.1484375,
+    "text_len": 22
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 653.5546875,
+    "text_len": 6
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 326.90625,
+    "text_len": 3
+  },
+  {
+    "tag": "td",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 9579.375,
+    "text_len": 12
+  },
+  {
+    "tag": "strong",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "19.5px",
+    "area": 3251.53125,
+    "text_len": 25
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 2980.5703125,
+    "text_len": 28
+  },
+  {
+    "tag": "strong",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "19.5px",
+    "area": 982.96875,
+    "text_len": 7
+  },
+  {
+    "tag": "td",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 11554.765625,
+    "text_len": 19
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 2169.4765625,
+    "text_len": 15
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 762.609375,
+    "text_len": 7
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 326.90625,
+    "text_len": 3
+  },
+  {
+    "tag": "td",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 9579.375,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 3791.53125,
+    "text_len": 28
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 900,
+    "text_len": 1
+  },
+  {
+    "tag": "h3",
+    "font_family": "Fraunces, Georgia, serif",
+    "font_size_px": 20,
+    "font_weight": "700",
+    "line_height": "25px",
+    "area": 19642.96875,
+    "text_len": 23
+  },
+  {
+    "tag": "p",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 15321.515625,
+    "text_len": 113
+  },
+  {
+    "tag": "div",
+    "font_family": "Fraunces, Georgia, serif",
+    "font_size_px": 15,
+    "font_weight": "700",
+    "line_height": "22.5px",
+    "area": 1296,
+    "text_len": 1
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 15,
+    "font_weight": "600",
+    "line_height": "22.5px",
+    "area": 21630.9375,
+    "text_len": 21
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 37493.625,
+    "text_len": 168
+  },
+  {
+    "tag": "button",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "13px",
+    "area": 6105,
+    "text_len": 13
+  },
+  {
+    "tag": "div",
+    "font_family": "Fraunces, Georgia, serif",
+    "font_size_px": 15,
+    "font_weight": "700",
+    "line_height": "22.5px",
+    "area": 1296,
+    "text_len": 1
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 15,
+    "font_weight": "600",
+    "line_height": "22.5px",
+    "area": 21388.0078125,
+    "text_len": 26
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 37072.546875,
+    "text_len": 171
+  },
+  {
+    "tag": "button",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "13px",
+    "area": 6536.875,
+    "text_len": 15
+  },
+  {
+    "tag": "div",
+    "font_family": "Fraunces, Georgia, serif",
+    "font_size_px": 15,
+    "font_weight": "700",
+    "line_height": "22.5px",
+    "area": 1296,
+    "text_len": 1
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 15,
+    "font_weight": "600",
+    "line_height": "22.5px",
+    "area": 21104.296875,
+    "text_len": 25
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 36580.78125,
+    "text_len": 145
+  },
+  {
+    "tag": "button",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "13px",
+    "area": 7041.25,
+    "text_len": 16
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 6857.296875,
+    "text_len": 50
+  },
+  {
+    "tag": "a",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 2188.265625,
+    "text_len": 15
+  },
+  {
+    "tag": "a",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 1217.2265625,
+    "text_len": 8
+  },
+  {
+    "tag": "a",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 2188.265625,
+    "text_len": 15
+  }
+]

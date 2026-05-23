@@ -1,0 +1,1332 @@
+[
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 194,
+    "y": 82.34375,
+    "w": 24,
+    "h": 24,
+    "phash": "bc1cc3e32c1c9ee2",
+    "lab_mean": [
+      8.74,
+      -3.74,
+      0.93
+    ]
+  },
+  {
+    "src": "./assets/icons/layout-dashboard.svg",
+    "alt": "",
+    "x": 22,
+    "y": 198.34375,
+    "w": 16,
+    "h": 16,
+    "phash": "ee639916cc2393cc",
+    "lab_mean": [
+      3.5,
+      -1.79,
+      0.48
+    ]
+  },
+  {
+    "src": "./assets/icons/book-open.svg",
+    "alt": "",
+    "x": 22,
+    "y": 235.84375,
+    "w": 16,
+    "h": 16,
+    "phash": "a354b929dc2bc4d3",
+    "lab_mean": [
+      3.92,
+      -2.0,
+      0.57
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 22,
+    "y": 273.34375,
+    "w": 16,
+    "h": 16,
+    "phash": "a288888828208222",
+    "lab_mean": [
+      5.2,
+      -2.67,
+      0.86
+    ]
+  },
+  {
+    "src": "./assets/icons/leaf.svg",
+    "alt": "",
+    "x": 22,
+    "y": 310.84375,
+    "w": 16,
+    "h": 16,
+    "phash": "baeae10bd7859832",
+    "lab_mean": [
+      6.94,
+      -2.99,
+      0.76
+    ]
+  },
+  {
+    "src": "./assets/icons/truck.svg",
+    "alt": "",
+    "x": 22,
+    "y": 348.34375,
+    "w": 16,
+    "h": 16,
+    "phash": "a6a7b91cd26ac9c4",
+    "lab_mean": [
+      4.06,
+      -2.0,
+      0.64
+    ]
+  },
+  {
+    "src": "./assets/icons/file-text.svg",
+    "alt": "",
+    "x": 22,
+    "y": 385.84375,
+    "w": 16,
+    "h": 16,
+    "phash": "afada4b6b09a704a",
+    "lab_mean": [
+      3.8,
+      -1.85,
+      0.61
+    ]
+  },
+  {
+    "src": "./assets/icons/bell.svg",
+    "alt": "",
+    "x": 22,
+    "y": 458.34375,
+    "w": 16,
+    "h": 16,
+    "phash": "ebecb43292b10ec3",
+    "lab_mean": [
+      4.61,
+      -2.31,
+      0.75
+    ]
+  },
+  {
+    "src": "./assets/icons/settings.svg",
+    "alt": "",
+    "x": 22,
+    "y": 495.84375,
+    "w": 16,
+    "h": 16,
+    "phash": "ab8df48ae65a830d",
+    "lab_mean": [
+      3.97,
+      -1.95,
+      0.57
+    ]
+  },
+  {
+    "src": "./assets/icons/circle-question-mark.svg",
+    "alt": "",
+    "x": 22,
+    "y": 533.34375,
+    "w": 16,
+    "h": 16,
+    "phash": "e624b99be4649333",
+    "lab_mean": [
+      4.14,
+      -2.04,
+      0.61
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-07.svg",
+    "alt": "",
+    "x": 20,
+    "y": 804.25,
+    "w": 32,
+    "h": 32,
+    "phash": "cd3c33664cd339b0",
+    "lab_mean": [
+      29.32,
+      -3.3,
+      1.05
+    ]
+  },
+  {
+    "src": "./assets/icons/building-2.svg",
+    "alt": "",
+    "x": 25,
+    "y": 863.75,
+    "w": 14,
+    "h": 14,
+    "phash": "fef8a0058577d24a",
+    "lab_mean": [
+      5.35,
+      -2.44,
+      0.61
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 208,
+    "y": 863.75,
+    "w": 14,
+    "h": 14,
+    "phash": "a80882a220088aa2",
+    "lab_mean": [
+      8.66,
+      -3.7,
+      0.93
+    ]
+  },
+  {
+    "src": "./assets/icons/search.svg",
+    "alt": "",
+    "x": 845.15625,
+    "y": 24.5,
+    "w": 14,
+    "h": 14,
+    "phash": "eb94f089c22d8f78",
+    "lab_mean": [
+      7.46,
+      -3.16,
+      0.79
+    ]
+  },
+  {
+    "src": "./assets/icons/download.svg",
+    "alt": "",
+    "x": 1142.15625,
+    "y": 24.5,
+    "w": 14,
+    "h": 14,
+    "phash": "b3e4ce9178ce23b0",
+    "lab_mean": [
+      7.4,
+      -3.17,
+      0.79
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 1256.96875,
+    "y": 24.5,
+    "w": 14,
+    "h": 14,
+    "phash": "b399cc6c6c929339",
+    "lab_mean": [
+      80.68,
+      -64.34,
+      44.92
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-up-right.svg",
+    "alt": "",
+    "x": 535.234375,
+    "y": 188.75,
+    "w": 10,
+    "h": 10,
+    "phash": "e9649699c3ce3931",
+    "lab_mean": [
+      15.38,
+      -14.24,
+      7.86
+    ]
+  },
+  {
+    "src": "./assets/icons/check-check.svg",
+    "alt": "",
+    "x": 941.71875,
+    "y": 188.75,
+    "w": 10,
+    "h": 10,
+    "phash": "efcb983b13c42c0b",
+    "lab_mean": [
+      15.36,
+      -13.59,
+      8.0
+    ]
+  },
+  {
+    "src": "./assets/icons/sliders-horizontal.svg",
+    "alt": "",
+    "x": 1336.78125,
+    "y": 282.5,
+    "w": 12,
+    "h": 12,
+    "phash": "ee96c19091d1ce3b",
+    "lab_mean": [
+      7.06,
+      -2.92,
+      0.71
+    ]
+  },
+  {
+    "src": "./assets/photos/G0miZ5OYaXI.jpg",
+    "alt": "Pine forest preservation",
+    "x": 273,
+    "y": 328.5,
+    "w": 368.65625,
+    "h": 120,
+    "phash": "caa1f475fa7e4018",
+    "lab_mean": [
+      65.04,
+      0.95,
+      21.83
+    ]
+  },
+  {
+    "src": "./assets/icons/tree-deciduous.svg",
+    "alt": "",
+    "x": 293,
+    "y": 348.5,
+    "w": 16,
+    "h": 16,
+    "phash": "abf0b5cb8a0dcc2c",
+    "lab_mean": [
+      23.09,
+      -0.65,
+      3.63
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 289,
+    "y": 500.46875,
+    "w": 11,
+    "h": 11,
+    "phash": "ee6eb089e2648697",
+    "lab_mean": [
+      4.44,
+      -2.12,
+      0.66
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 385.421875,
+    "y": 500.46875,
+    "w": 11,
+    "h": 11,
+    "phash": "9e3cbcc3e143c1c3",
+    "lab_mean": [
+      3.83,
+      -1.88,
+      0.51
+    ]
+  },
+  {
+    "src": "./assets/icons/eye.svg",
+    "alt": "",
+    "x": 302,
+    "y": 600,
+    "w": 14,
+    "h": 14,
+    "phash": "ab18bca7d2588f2c",
+    "lab_mean": [
+      6.73,
+      -2.94,
+      0.72
+    ]
+  },
+  {
+    "src": "./assets/icons/recycle.svg",
+    "alt": "",
+    "x": 474.328125,
+    "y": 600,
+    "w": 14,
+    "h": 14,
+    "phash": "aeb1e2129c6dc8d9",
+    "lab_mean": [
+      68.36,
+      -55.24,
+      38.39
+    ]
+  },
+  {
+    "src": "./assets/photos/4miBe6zg5r0.jpg",
+    "alt": "Wind energy field",
+    "x": 659.65625,
+    "y": 328.5,
+    "w": 368.671875,
+    "h": 120,
+    "phash": "c1c185bcfefa5212",
+    "lab_mean": [
+      52.93,
+      4.43,
+      25.15
+    ]
+  },
+  {
+    "src": "./assets/icons/wind.svg",
+    "alt": "",
+    "x": 679.65625,
+    "y": 348.5,
+    "w": 16,
+    "h": 16,
+    "phash": "a6d3c42d585cba66",
+    "lab_mean": [
+      19.78,
+      2.75,
+      9.81
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 675.65625,
+    "y": 500.46875,
+    "w": 11,
+    "h": 11,
+    "phash": "ee6eb089e2648697",
+    "lab_mean": [
+      4.44,
+      -2.12,
+      0.66
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 751.875,
+    "y": 500.46875,
+    "w": 11,
+    "h": 11,
+    "phash": "9e3cbcc3e143c1c3",
+    "lab_mean": [
+      3.83,
+      -1.88,
+      0.51
+    ]
+  },
+  {
+    "src": "./assets/icons/eye.svg",
+    "alt": "",
+    "x": 688.65625,
+    "y": 600,
+    "w": 14,
+    "h": 14,
+    "phash": "ab18bca7d2588f2c",
+    "lab_mean": [
+      6.73,
+      -2.94,
+      0.72
+    ]
+  },
+  {
+    "src": "./assets/icons/recycle.svg",
+    "alt": "",
+    "x": 861,
+    "y": 600,
+    "w": 14,
+    "h": 14,
+    "phash": "aeb1e2129c6dc8d9",
+    "lab_mean": [
+      68.34,
+      -55.23,
+      38.38
+    ]
+  },
+  {
+    "src": "./assets/photos/4oovIxttThA.jpg",
+    "alt": "Coastal blue carbon project",
+    "x": 1046.328125,
+    "y": 328.5,
+    "w": 368.65625,
+    "h": 120,
+    "phash": "c61ce0f841fee01f",
+    "lab_mean": [
+      43.75,
+      -13.57,
+      -1.3
+    ]
+  },
+  {
+    "src": "./assets/icons/sprout.svg",
+    "alt": "",
+    "x": 1066.328125,
+    "y": 348.5,
+    "w": 16,
+    "h": 16,
+    "phash": "eec8c9933f843896",
+    "lab_mean": [
+      17.34,
+      0.46,
+      -1.55
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 1062.328125,
+    "y": 500.46875,
+    "w": 11,
+    "h": 11,
+    "phash": "ee6eb089e2648697",
+    "lab_mean": [
+      4.44,
+      -2.12,
+      0.66
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 1158.34375,
+    "y": 500.46875,
+    "w": 11,
+    "h": 11,
+    "phash": "9e3cbcc3e143c1c3",
+    "lab_mean": [
+      3.83,
+      -1.88,
+      0.51
+    ]
+  },
+  {
+    "src": "./assets/icons/eye.svg",
+    "alt": "",
+    "x": 1075.328125,
+    "y": 600,
+    "w": 14,
+    "h": 14,
+    "phash": "ab18bca7d2588f2c",
+    "lab_mean": [
+      6.73,
+      -2.94,
+      0.72
+    ]
+  },
+  {
+    "src": "./assets/icons/recycle.svg",
+    "alt": "",
+    "x": 1247.65625,
+    "y": 600,
+    "w": 14,
+    "h": 14,
+    "phash": "aeb1e2129c6dc8d9",
+    "lab_mean": [
+      68.36,
+      -55.24,
+      38.39
+    ]
+  },
+  {
+    "src": "./assets/photos/SBdmQcW8qag.jpg",
+    "alt": "Boreal reforestation",
+    "x": 273,
+    "y": 655,
+    "w": 368.65625,
+    "h": 120,
+    "phash": "c162569fe91e611e",
+    "lab_mean": [
+      13.17,
+      -9.93,
+      -0.01
+    ]
+  },
+  {
+    "src": "./assets/icons/tree-deciduous.svg",
+    "alt": "",
+    "x": 293,
+    "y": 675,
+    "w": 16,
+    "h": 16,
+    "phash": "fafcb112c63a8b0c",
+    "lab_mean": [
+      2.57,
+      -2.15,
+      0.05
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 289,
+    "y": 826.96875,
+    "w": 11,
+    "h": 11,
+    "phash": "ea6eb089e264c697",
+    "lab_mean": [
+      4.45,
+      -2.12,
+      0.64
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 365.21875,
+    "y": 826.96875,
+    "w": 11,
+    "h": 11,
+    "phash": "9e3cbcc3e143c1c3",
+    "lab_mean": [
+      3.84,
+      -1.87,
+      0.51
+    ]
+  },
+  {
+    "src": "./assets/icons/eye.svg",
+    "alt": "",
+    "x": 302,
+    "y": 926.5,
+    "w": 14,
+    "h": 14,
+    "phash": "ab98bcc3d22f0f30",
+    "lab_mean": [
+      6.73,
+      -2.94,
+      0.72
+    ]
+  },
+  {
+    "src": "./assets/icons/recycle.svg",
+    "alt": "",
+    "x": 474.328125,
+    "y": 926.5,
+    "w": 14,
+    "h": 14,
+    "phash": "aeb1e29a8c4fd039",
+    "lab_mean": [
+      68.53,
+      -55.37,
+      38.48
+    ]
+  },
+  {
+    "src": "./assets/photos/2vHgij_n6q8.jpg",
+    "alt": "Direct air capture facility",
+    "x": 659.65625,
+    "y": 655,
+    "w": 368.671875,
+    "h": 120,
+    "phash": "c909494e79cef01f",
+    "lab_mean": [
+      57.25,
+      -21.79,
+      -5.48
+    ]
+  },
+  {
+    "src": "./assets/icons/factory.svg",
+    "alt": "",
+    "x": 679.65625,
+    "y": 675,
+    "w": 16,
+    "h": 16,
+    "phash": "bb91bc9ee462e0c2",
+    "lab_mean": [
+      11.63,
+      -1.34,
+      3.65
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 675.65625,
+    "y": 826.96875,
+    "w": 11,
+    "h": 11,
+    "phash": "ea6eb089e264c697",
+    "lab_mean": [
+      4.45,
+      -2.12,
+      0.64
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 751.875,
+    "y": 826.96875,
+    "w": 11,
+    "h": 11,
+    "phash": "9e3cbcc3e143c1c3",
+    "lab_mean": [
+      3.84,
+      -1.87,
+      0.51
+    ]
+  },
+  {
+    "src": "./assets/icons/eye.svg",
+    "alt": "",
+    "x": 688.65625,
+    "y": 926.5,
+    "w": 14,
+    "h": 14,
+    "phash": "ab98bcc3d22f0f30",
+    "lab_mean": [
+      6.73,
+      -2.94,
+      0.72
+    ]
+  },
+  {
+    "src": "./assets/icons/recycle.svg",
+    "alt": "",
+    "x": 861,
+    "y": 926.5,
+    "w": 14,
+    "h": 14,
+    "phash": "aeb1e29a8c4fd039",
+    "lab_mean": [
+      68.51,
+      -55.35,
+      38.46
+    ]
+  },
+  {
+    "src": "./assets/photos/V63oM8OPJSo.jpg",
+    "alt": "Tropical agroforestry",
+    "x": 1046.328125,
+    "y": 655,
+    "w": 368.65625,
+    "h": 120,
+    "phash": "ae90c16e57b65907",
+    "lab_mean": [
+      67.05,
+      -2.5,
+      2.68
+    ]
+  },
+  {
+    "src": "./assets/icons/leaf.svg",
+    "alt": "",
+    "x": 1066.328125,
+    "y": 675,
+    "w": 16,
+    "h": 16,
+    "phash": "baeae10bd7849c32",
+    "lab_mean": [
+      18.64,
+      -2.64,
+      -3.23
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 1062.328125,
+    "y": 826.96875,
+    "w": 11,
+    "h": 11,
+    "phash": "ea6eb089e264c697",
+    "lab_mean": [
+      4.45,
+      -2.12,
+      0.64
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 1131.9375,
+    "y": 826.96875,
+    "w": 11,
+    "h": 11,
+    "phash": "9e3cbcc3e143c1c3",
+    "lab_mean": [
+      3.84,
+      -1.87,
+      0.51
+    ]
+  },
+  {
+    "src": "./assets/icons/eye.svg",
+    "alt": "",
+    "x": 1075.328125,
+    "y": 926.5,
+    "w": 14,
+    "h": 14,
+    "phash": "ab98bcc3d22f0f30",
+    "lab_mean": [
+      6.73,
+      -2.94,
+      0.72
+    ]
+  },
+  {
+    "src": "./assets/icons/recycle.svg",
+    "alt": "",
+    "x": 1247.65625,
+    "y": 926.5,
+    "w": 14,
+    "h": 14,
+    "phash": "aeb1e29a8c4fd039",
+    "lab_mean": [
+      68.53,
+      -55.37,
+      38.48
+    ]
+  },
+  {
+    "src": "./assets/photos/Au1eENDHD10.jpg",
+    "alt": "Biochar production",
+    "x": 273,
+    "y": 981.5,
+    "w": 368.65625,
+    "h": 120,
+    "phash": "fa0285797ef6c501",
+    "lab_mean": [
+      78.08,
+      2.62,
+      8.28
+    ]
+  },
+  {
+    "src": "./assets/icons/flame.svg",
+    "alt": "",
+    "x": 293,
+    "y": 1001.5,
+    "w": 16,
+    "h": 16,
+    "phash": "bbe3c49a99cd8438",
+    "lab_mean": [
+      25.28,
+      0.95,
+      1.67
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 289,
+    "y": 1153.46875,
+    "w": 11,
+    "h": 11,
+    "phash": "ea2eb489e364ce92",
+    "lab_mean": [
+      4.37,
+      -2.1,
+      0.64
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 358.609375,
+    "y": 1153.46875,
+    "w": 11,
+    "h": 11,
+    "phash": "9e3cbdc3e1c3c0c2",
+    "lab_mean": [
+      3.81,
+      -1.86,
+      0.5
+    ]
+  },
+  {
+    "src": "./assets/icons/eye.svg",
+    "alt": "",
+    "x": 302,
+    "y": 1253,
+    "w": 14,
+    "h": 14,
+    "phash": "aa18bda7d21c8f2c",
+    "lab_mean": [
+      6.72,
+      -2.94,
+      0.72
+    ]
+  },
+  {
+    "src": "./assets/icons/recycle.svg",
+    "alt": "",
+    "x": 474.328125,
+    "y": 1253,
+    "w": 14,
+    "h": 14,
+    "phash": "aeb1e2129c6dc8d9",
+    "lab_mean": [
+      68.34,
+      -55.23,
+      38.38
+    ]
+  },
+  {
+    "src": "./assets/photos/hjODrLxv55E.jpg",
+    "alt": "Improved cookstoves community",
+    "x": 659.65625,
+    "y": 981.5,
+    "w": 368.671875,
+    "h": 120,
+    "phash": "d08798e8f3d961c9",
+    "lab_mean": [
+      21.33,
+      3.67,
+      20.97
+    ]
+  },
+  {
+    "src": "./assets/icons/zap.svg",
+    "alt": "",
+    "x": 679.65625,
+    "y": 1001.5,
+    "w": 16,
+    "h": 16,
+    "phash": "a6b6a4c58eccb899",
+    "lab_mean": [
+      6.42,
+      -0.73,
+      3.42
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 675.65625,
+    "y": 1153.46875,
+    "w": 11,
+    "h": 11,
+    "phash": "ea2eb489e364ce92",
+    "lab_mean": [
+      4.37,
+      -2.1,
+      0.64
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 738.671875,
+    "y": 1153.46875,
+    "w": 11,
+    "h": 11,
+    "phash": "9e3cbdc3e1c3c0c2",
+    "lab_mean": [
+      3.81,
+      -1.86,
+      0.5
+    ]
+  },
+  {
+    "src": "./assets/icons/eye.svg",
+    "alt": "",
+    "x": 688.65625,
+    "y": 1253,
+    "w": 14,
+    "h": 14,
+    "phash": "aa18bda7d21c8f2c",
+    "lab_mean": [
+      6.72,
+      -2.94,
+      0.72
+    ]
+  },
+  {
+    "src": "./assets/icons/recycle.svg",
+    "alt": "",
+    "x": 861,
+    "y": 1253,
+    "w": 14,
+    "h": 14,
+    "phash": "aeb1e2129c6dc8d9",
+    "lab_mean": [
+      68.34,
+      -55.23,
+      38.38
+    ]
+  },
+  {
+    "src": "./assets/photos/sKJ7zSylUao.jpg",
+    "alt": "Urban canopy initiative",
+    "x": 1046.328125,
+    "y": 981.5,
+    "w": 368.65625,
+    "h": 120,
+    "phash": "87e338c0fbf650c1",
+    "lab_mean": [
+      69.36,
+      9.05,
+      -1.93
+    ]
+  },
+  {
+    "src": "./assets/icons/sprout.svg",
+    "alt": "",
+    "x": 1066.328125,
+    "y": 1001.5,
+    "w": 16,
+    "h": 16,
+    "phash": "eec8c893b32f9138",
+    "lab_mean": [
+      16.84,
+      3.21,
+      -1.39
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 1062.328125,
+    "y": 1153.46875,
+    "w": 11,
+    "h": 11,
+    "phash": "ea2eb489e364ce92",
+    "lab_mean": [
+      4.37,
+      -2.1,
+      0.64
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 1125.34375,
+    "y": 1153.46875,
+    "w": 11,
+    "h": 11,
+    "phash": "9e3cbdc3e1c3c0c2",
+    "lab_mean": [
+      3.81,
+      -1.86,
+      0.5
+    ]
+  },
+  {
+    "src": "./assets/icons/eye.svg",
+    "alt": "",
+    "x": 1075.328125,
+    "y": 1253,
+    "w": 14,
+    "h": 14,
+    "phash": "aa18bda7d21c8f2c",
+    "lab_mean": [
+      6.72,
+      -2.94,
+      0.72
+    ]
+  },
+  {
+    "src": "./assets/icons/recycle.svg",
+    "alt": "",
+    "x": 1247.65625,
+    "y": 1253,
+    "w": 14,
+    "h": 14,
+    "phash": "aeb1e2129c6dc8d9",
+    "lab_mean": [
+      68.34,
+      -55.23,
+      38.38
+    ]
+  },
+  {
+    "src": "./assets/icons/funnel.svg",
+    "alt": "",
+    "x": 1192.96875,
+    "y": 1342.046875,
+    "w": 14,
+    "h": 14,
+    "phash": "ae1b0631ecb9ce83",
+    "lab_mean": [
+      7.12,
+      -3.09,
+      0.76
+    ]
+  },
+  {
+    "src": "./assets/icons/file-down.svg",
+    "alt": "",
+    "x": 1292.1875,
+    "y": 1342.046875,
+    "w": 14,
+    "h": 14,
+    "phash": "efad3c32b0da604a",
+    "lab_mean": [
+      6.04,
+      -2.61,
+      0.64
+    ]
+  },
+  {
+    "src": "./assets/icons/external-link.svg",
+    "alt": "",
+    "x": 1257.703125,
+    "y": 1447.71875,
+    "w": 12,
+    "h": 12,
+    "phash": "eb5af8c9a4a48539",
+    "lab_mean": [
+      4.46,
+      -2.22,
+      0.76
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 1376.984375,
+    "y": 1446.59375,
+    "w": 16,
+    "h": 16,
+    "phash": "bb6984927b699496",
+    "lab_mean": [
+      5.49,
+      -2.77,
+      0.94
+    ]
+  },
+  {
+    "src": "./assets/icons/external-link.svg",
+    "alt": "",
+    "x": 1257.703125,
+    "y": 1508.71875,
+    "w": 12,
+    "h": 12,
+    "phash": "eb5af8c9a4a48539",
+    "lab_mean": [
+      4.46,
+      -2.22,
+      0.76
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 1376.984375,
+    "y": 1507.59375,
+    "w": 16,
+    "h": 16,
+    "phash": "bb6984927b699496",
+    "lab_mean": [
+      5.49,
+      -2.77,
+      0.94
+    ]
+  },
+  {
+    "src": "./assets/icons/external-link.svg",
+    "alt": "",
+    "x": 1257.703125,
+    "y": 1569.71875,
+    "w": 12,
+    "h": 12,
+    "phash": "eb5af8c9a4a48539",
+    "lab_mean": [
+      4.46,
+      -2.22,
+      0.76
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 1376.984375,
+    "y": 1568.59375,
+    "w": 16,
+    "h": 16,
+    "phash": "fb0094006b009400",
+    "lab_mean": [
+      5.48,
+      -2.77,
+      0.94
+    ]
+  },
+  {
+    "src": "./assets/icons/external-link.svg",
+    "alt": "",
+    "x": 1257.703125,
+    "y": 1630.71875,
+    "w": 12,
+    "h": 12,
+    "phash": "eb5af8c9a4a48539",
+    "lab_mean": [
+      4.46,
+      -2.22,
+      0.76
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 1376.984375,
+    "y": 1629.59375,
+    "w": 16,
+    "h": 16,
+    "phash": "fb0094006b009400",
+    "lab_mean": [
+      5.48,
+      -2.77,
+      0.94
+    ]
+  },
+  {
+    "src": "./assets/icons/external-link.svg",
+    "alt": "",
+    "x": 1257.703125,
+    "y": 1691.71875,
+    "w": 12,
+    "h": 12,
+    "phash": "eb5af8c9a4a48539",
+    "lab_mean": [
+      4.46,
+      -2.22,
+      0.76
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 1376.984375,
+    "y": 1690.59375,
+    "w": 16,
+    "h": 16,
+    "phash": "fb0094006b009400",
+    "lab_mean": [
+      5.48,
+      -2.77,
+      0.94
+    ]
+  },
+  {
+    "src": "./assets/icons/external-link.svg",
+    "alt": "",
+    "x": 1257.703125,
+    "y": 1752.71875,
+    "w": 12,
+    "h": 12,
+    "phash": "eb5af8c9a4a48539",
+    "lab_mean": [
+      4.46,
+      -2.22,
+      0.76
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 1376.984375,
+    "y": 1751.59375,
+    "w": 16,
+    "h": 16,
+    "phash": "fb0094006b009400",
+    "lab_mean": [
+      5.48,
+      -2.77,
+      0.94
+    ]
+  },
+  {
+    "src": "./assets/icons/external-link.svg",
+    "alt": "",
+    "x": 1257.703125,
+    "y": 1823.46875,
+    "w": 12,
+    "h": 12,
+    "phash": "eb5af8c9a4a48539",
+    "lab_mean": [
+      4.46,
+      -2.22,
+      0.76
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 1376.984375,
+    "y": 1822.34375,
+    "w": 16,
+    "h": 16,
+    "phash": "fb0094006b009400",
+    "lab_mean": [
+      5.48,
+      -2.77,
+      0.94
+    ]
+  },
+  {
+    "src": "./assets/icons/external-link.svg",
+    "alt": "",
+    "x": 1257.703125,
+    "y": 1894.21875,
+    "w": 12,
+    "h": 12,
+    "phash": "eb5af8c9a4a48539",
+    "lab_mean": [
+      4.46,
+      -2.22,
+      0.76
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 1376.984375,
+    "y": 1893.09375,
+    "w": 16,
+    "h": 16,
+    "phash": "fb0094006b009400",
+    "lab_mean": [
+      5.48,
+      -2.77,
+      0.94
+    ]
+  },
+  {
+    "src": "./assets/icons/external-link.svg",
+    "alt": "",
+    "x": 1257.703125,
+    "y": 1955.21875,
+    "w": 12,
+    "h": 12,
+    "phash": "eb5af8c9a4a48539",
+    "lab_mean": [
+      4.46,
+      -2.22,
+      0.76
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 1376.984375,
+    "y": 1954.09375,
+    "w": 16,
+    "h": 16,
+    "phash": "fb0094006b009400",
+    "lab_mean": [
+      5.48,
+      -2.77,
+      0.94
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-left.svg",
+    "alt": "",
+    "x": 1264,
+    "y": 2062.59375,
+    "w": 14,
+    "h": 14,
+    "phash": "e600cc009b006600",
+    "lab_mean": [
+      5.46,
+      -2.76,
+      0.91
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-right.svg",
+    "alt": "",
+    "x": 1372,
+    "y": 2062.59375,
+    "w": 14,
+    "h": 14,
+    "phash": "b3229999ce663399",
+    "lab_mean": [
+      5.43,
+      -2.73,
+      0.89
+    ]
+  }
+]

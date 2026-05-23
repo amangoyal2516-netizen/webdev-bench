@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Library — Calmtrack</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="app">
+<header class="topbar">
+<a class="wordmark" href="./practice.html"><span class="dot"></span>calmtrack<span class="slash">/</span>library</a>
+<div class="topbar-search">
+<img src="./assets/icons/search.svg" alt="" class="ico" width="14" height="14">
+<input type="text" placeholder="Search practices, instructors, tags…" value="">
+<span class="kbd">⌘K</span>
+</div>
+<div class="topbar-right">
+<span class="streak-flame"><img src="./assets/icons/flame.svg" alt="" width="14" height="14"> 14</span>
+<button class="icon-btn" aria-label="Help"><img src="./assets/icons/circle-question-mark.svg" alt="" width="16" height="16"></button>
+<button class="icon-btn" aria-label="Notifications"><img src="./assets/icons/bell.svg" alt="" width="16" height="16"></button>
+<a href="#" class="avatar"><img src="./assets/avatars/lorelei-seed-07.svg" alt="Your profile"></a>
+</div>
+</header>
+
+<main class="page-body">
+<div class="page-header">
+<div>
+<h1 class="page-title">Practice library</h1>
+<p class="page-subtitle">Browse guided sessions and add them to your tracker. Curated for beginners, expanded by request.</p>
+</div>
+<div class="row-tight">
+<a href="./practice.html" class="btn btn-outline"><img src="./assets/icons/list.svg" alt="" class="ico"> My practices</a>
+<button class="btn btn-primary"><img src="./assets/icons/plus.svg" alt="" class="ico"> Suggest a practice</button>
+</div>
+</div>
+
+<section class="filter-bar" aria-label="Filter practices">
+<div class="search-wrap">
+<img src="./assets/icons/search.svg" alt="" class="search-ico">
+<input class="input input-search" type="search" placeholder="Search the library…">
+</div>
+<button class="chip-toggle active">All</button>
+<button class="chip-toggle"><span class="cat-dot cat-breathing" style="display:inline-block;margin-right:6px;vertical-align:middle"></span>Breathing</button>
+<button class="chip-toggle"><span class="cat-dot cat-meditation" style="display:inline-block;margin-right:6px;vertical-align:middle"></span>Meditation</button>
+<button class="chip-toggle"><span class="cat-dot cat-movement" style="display:inline-block;margin-right:6px;vertical-align:middle"></span>Movement</button>
+<button class="chip-toggle"><span class="cat-dot cat-sleep" style="display:inline-block;margin-right:6px;vertical-align:middle"></span>Sleep</button>
+<button class="chip-toggle"><span class="cat-dot cat-gratitude" style="display:inline-block;margin-right:6px;vertical-align:middle"></span>Gratitude</button>
+<div class="select"><img src="./assets/icons/clock.svg" alt="" class="ico" width="14" height="14"> Any duration <img src="./assets/icons/chevron-down.svg" alt="" class="ico" width="14" height="14"></div>
+<label class="toggle on">
+<span class="toggle-switch"></span>
+Beginner-friendly only
+</label>
+<div class="spacer"></div>
+<div class="select"><img src="./assets/icons/sliders-horizontal.svg" alt="" class="ico" width="14" height="14"> Sort: Recommended <img src="./assets/icons/chevron-down.svg" alt="" class="ico" width="14" height="14"></div>
+</section>
+
+<section class="starter-banner" aria-label="Starter pack">
+<div class="sb-body">
+<div class="sb-eyebrow">Featured starter pack · curated</div>
+<div class="sb-title">Start here: 7 days for first-timers</div>
+<p class="sb-desc">A gentle week-long pack that mixes box breathing, body scans, and a short evening wind-down. No prior experience needed — sessions stay under 10 minutes.</p>
+<div class="sb-meta">
+<span class="row-tight"><img src="./assets/icons/calendar-days.svg" alt="" class="ico" width="14" height="14"> 7 days</span>
+<span class="row-tight"><img src="./assets/icons/clock.svg" alt="" class="ico" width="14" height="14"> ~6 min / day</span>
+<span class="row-tight"><img src="./assets/icons/headphones.svg" alt="" class="ico" width="14" height="14"> 7 guided sessions</span>
+<span class="chip beginner"><img src="./assets/icons/leaf.svg" alt="" width="12" height="12"> Beginner</span>
+</div>
+</div>
+<button class="btn btn-primary btn-lg"><img src="./assets/icons/circle-plus.svg" alt="" class="ico"> Add the whole pack</button>
+</section>
+
+<div class="row-between" style="margin-bottom:var(--space-4)">
+<div class="mono text-xs muted uppercase">All practices · 248 results</div>
+<div class="row-tight mono text-xs muted">
+<img src="./assets/icons/layout-grid.svg" alt="" width="14" height="14"> Showing 1–9
+</div>
+</div>
+
+<section class="library-grid" aria-label="Practice cards">
+
+<article class="practice-card">
+<div class="row-between">
+<span class="chip breathing"><span class="cat-dot cat-breathing"></span> Breathing</span>
+<span class="chip beginner"><img src="./assets/icons/leaf.svg" alt="" width="11" height="11"> Beginner</span>
+</div>
+<h3 class="pc-title">Box Breathing for Beginners</h3>
+<p class="pc-desc">A simple 4-4-4-4 pattern to settle a racing mind before meetings, sleep, or hard conversations.</p>
+<div class="row-tight mono text-xs muted"><img src="./assets/icons/clock.svg" alt="" width="12" height="12"> 5 min</div>
+<div class="pc-footer">
+<span class="pc-instructor"><span class="avatar avatar-sm"><img src="./assets/avatars/notionists-seed-04.svg" alt=""></span> Maya Okafor</span>
+<button class="btn btn-sm btn-outline"><img src="./assets/icons/plus.svg" alt="" class="ico"> Add</button>
+</div>
+</article>
+
+<article class="practice-card">
+<div class="row-between">
+<span class="chip meditation"><span class="cat-dot cat-meditation"></span> Meditation</span>
+<span class="chip beginner"><img src="./assets/icons/leaf.svg" alt="" width="11" height="11"> Beginner</span>
+</div>
+<h3 class="pc-title">First Body Scan</h3>
+<p class="pc-desc">Move attention slowly from your toes to your scalp, noticing tension without trying to fix it.</p>
+<div class="row-tight mono text-xs muted"><img src="./assets/icons/clock.svg" alt="" width="12" height="12"> 8 min</div>
+<div class="pc-footer">
+<span class="pc-instructor"><span class="avatar avatar-sm"><img src="./assets/avatars/lorelei-seed-03.svg" alt=""></span> Theo Lindgren</span>
+<button class="btn btn-sm btn-outline"><img src="./assets/icons/plus.svg" alt="" class="ico"> Add</button>
+</div>
+</article>
+
+<article class="practice-card">
+<div class="row-between">
+<span class="chip sleep"><span class="cat-dot cat-sleep"></span> Sleep</span>
+<span class="chip beginner"><img src="./assets/icons/leaf.svg" alt="" width="11" height="11"> Beginner</span>
+</div>
+<h3 class="pc-title">Evening Wind-Down</h3>
+<p class="pc-desc">A whispered, slow-paced session designed to be done in bed with the lights already off.</p>
+<div class="row-tight mono text-xs muted"><img src="./assets/icons/clock.svg" alt="" width="12" height="12"> 12 min</div>
+<div class="pc-footer">
+<span class="pc-instructor"><span class="avatar avatar-sm"><img src="./assets/avatars/avataaars-seed-02.svg" alt=""></span> Priya Ramaswamy</span>
+<button class="btn btn-sm btn-outline"><img src="./assets/icons/plus.svg" alt="" class="ico"> Add</button>
+</div>
+</article>
+
+<article class="practice-card">
+<div class="row-between">
+<span class="chip movement"><span class="cat-dot cat-movement"></span> Movement</span>
+<span class="chip">Intermediate</span>
+</div>
+<h3 class="pc-title">Desk Reset Stretch</h3>
+<p class="pc-desc">A standing sequence of shoulder rolls and gentle twists for anyone who has been hunched at a laptop.</p>
+<div class="row-tight mono text-xs muted"><img src="./assets/icons/clock.svg" alt="" width="12" height="12"> 6 min</div>
+<div class="pc-footer">
+<span class="pc-instructor"><span class="avatar avatar-sm"><img src="./assets/avatars/notionists-seed-09.svg" alt=""></span> Devon Hartwell</span>
+<button class="btn btn-sm btn-outline"><img src="./assets/icons/plus.svg" alt="" class="ico"> Add</button>
+</div>
+</article>
+
+<article class="practice-card">
+<div class="row-between">
+<span class="chip gratitude"><span class="cat-dot cat-gratitude"></span> Gratitude</span>
+<span class="chip beginner"><img src="./assets/icons/leaf.svg" alt="" width="11" height="11"> Beginner</span>
+</div>
+<h3 class="pc-title">Three Good Things</h3>
+<p class="pc-desc">A guided journaling prompt that asks you to name three small wins from the day and why they mattered.</p>
+<div class="row-tight mono text-xs muted"><img src="./assets/icons/clock.svg" alt="" width="12" height="12"> 4 min</div>
+<div class="pc-footer">
+<span class="pc-instructor"><span class="avatar avatar-sm"><img src="./assets/avatars/lorelei-seed-12.svg" alt=""></span> Hana Brennan</span>
+<button class="btn btn-sm btn-outline"><img src="./assets/icons/plus.svg" alt="" class="ico"> Add</button>
+</div>
+</article>
+
+<article class="practice-card">
+<div class="row-between">
+<span class="chip breathing"><span class="cat-dot cat-breathing"></span> Breathing</span>
+<span class="chip beginner"><img src="./assets/icons/leaf.svg" alt="" width="11" height="11"> Beginner</span>
+</div>
+<h3 class="pc-title">4-7-8 Calm Breath</h3>
+<p class="pc-desc">Inhale for four, hold for seven, exhale for eight. A reliable downshift when anxiety spikes mid-day.</p>
+<div class="row-tight mono text-xs muted"><img src="./assets/icons/clock.svg" alt="" width="12" height="12"> 3 min</div>
+<div class="pc-footer">
+<span class="pc-instructor"><span class="avatar avatar-sm"><img src="./assets/avatars/notionists-seed-15.svg" alt=""></span> Sam Whitfield</span>
+<button class="btn btn-sm btn-outline"><img src="./assets/icons/plus.svg" alt="" class="ico"> Add</button>
+</div>
+</article>
+
+<article class="practice-card">
+<div class="row-between">
+<span class="chip meditation"><span class="cat-dot cat-meditation"></span> Meditation</span>
+<span class="chip">Intermediate</span>
+</div>
+<h3 class="pc-title">Noting Thoughts</h3>
+<p class="pc-desc">Label thoughts as "planning", "remembering" or "worrying" — and let them drift on without following.</p>
+<div class="row-tight mono text-xs muted"><img src="./assets/icons/clock.svg" alt="" width="12" height="12"> 15 min</div>
+<div class="pc-footer">
+<span class="pc-instructor"><span class="avatar avatar-sm"><img src="./assets/avatars/avataaars-seed-11.svg" alt=""></span> Ana Calderón</span>
+<button class="btn btn-sm btn-outline"><img src="./assets/icons/plus.svg" alt="" class="ico"> Add</button>
+</div>
+</article>
+
+<article class="practice-card">
+<div class="row-between">
+<span class="chip sleep"><span class="cat-dot cat-sleep"></span> Sleep</span>
+<span class="chip beginner"><img src="./assets/icons/leaf.svg" alt="" width="11" height="11"> Beginner</span>
+</div>
+<h3 class="pc-title">Rainfall Sleep Story</h3>
+<p class="pc-desc">A short fictional walk through a quiet forest cabin during a soft, steady summer rain.</p>
+<div class="row-tight mono text-xs muted"><img src="./assets/icons/clock.svg" alt="" width="12" height="12"> 22 min</div>
+<div class="pc-footer">
+<span class="pc-instructor"><span class="avatar avatar-sm"><img src="./assets/avatars/lorelei-seed-07.svg" alt=""></span> Iris Halvorsen</span>
+<button class="btn btn-sm btn-outline"><img src="./assets/icons/plus.svg" alt="" class="ico"> Add</button>
+</div>
+</article>
+
+<article class="practice-card">
+<div class="row-between">
+<span class="chip movement"><span class="cat-dot cat-movement"></span> Movement</span>
+<span class="chip beginner"><img src="./assets/icons/leaf.svg" alt="" width="11" height="11"> Beginner</span>
+</div>
+<h3 class="pc-title">Morning Sun Salutation</h3>
+<p class="pc-desc">A slow, accessible flow to wake the body up — designed for stiff joints and zero floor-space.</p>
+<div class="row-tight mono text-xs muted"><img src="./assets/icons/clock.svg" alt="" width="12" height="12"> 9 min</div>
+<div class="pc-footer">
+<span class="pc-instructor"><span class="avatar avatar-sm"><img src="./assets/avatars/notionists-seed-04.svg" alt=""></span> Devon Hartwell</span>
+<button class="btn btn-sm btn-outline"><img src="./assets/icons/plus.svg" alt="" class="ico"> Add</button>
+</div>
+</article>
+
+</section>
+
+<nav class="pagination" aria-label="Pagination">
+<div class="mono muted text-sm">Showing <span class="accent">1–9</span> of <span class="tnum">248</span> practices</div>
+<div class="pages">
+<button class="page-num" aria-label="Previous"><img src="./assets/icons/chevron-left.svg" alt="" width="14" height="14"></button>
+<button class="page-num active">1</button>
+<button class="page-num">2</button>
+<button class="page-num">3</button>
+<button class="page-num">4</button>
+<button class="page-num">5</button>
+<button class="page-num">…</button>
+<button class="page-num">28</button>
+<button class="page-num" aria-label="Next"><img src="./assets/icons/chevron-right.svg" alt="" width="14" height="14"></button>
+</div>
+</nav>
+</main>
+
+<footer class="footer-hint">
+Can't find what you need? <a href="#">Suggest a practice</a> or browse the <a href="./insights.html">insights board</a> for what's working for others.
+</footer>
+</div>
+</body>
+</html>

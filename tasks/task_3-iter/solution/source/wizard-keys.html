@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Generate API keys — Clausewise Wizard</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container-wide topbar-inner">
+    <a href="./home.html" class="wordmark"><span class="wordmark-mark">C</span> Clausewise</a>
+    <nav class="stepper" aria-label="Onboarding progress">
+      <div class="step is-done"><span class="step-num"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm" style="filter:brightness(0) invert(1)"></span><span>Workspace</span></div>
+      <div class="step-sep"></div>
+      <div class="step is-done"><span class="step-num"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm" style="filter:brightness(0) invert(1)"></span><span>Environment</span></div>
+      <div class="step-sep"></div>
+      <div class="step is-done"><span class="step-num"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm" style="filter:brightness(0) invert(1)"></span><span>Connect SDK</span></div>
+      <div class="step-sep"></div>
+      <div class="step is-active"><span class="step-num">4</span><span>Keys &amp; sandbox</span></div>
+      <div class="step-sep"></div>
+      <div class="step"><span class="step-num">5</span><span>First call</span></div>
+    </nav>
+    <div class="topbar-actions">
+      <a href="./docs.html" class="btn btn-ghost btn-sm">Docs <img src="./assets/icons/external-link.svg" alt="" class="icon icon-sm"></a>
+      <div class="avatar"><img src="./assets/avatars/lorelei-seed-08.svg" alt="Profile"></div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section-tight">
+    <div class="container-wide">
+      <div class="stack stack-2" style="margin-bottom:var(--space-6);max-width:760px;">
+        <span class="eyebrow">Step 4 · Keys &amp; sandbox</span>
+        <h1>Generate credentials and send your first test call</h1>
+        <p class="lead">We just minted a fresh pair of API keys for the <strong>Sandbox</strong> environment in <code class="mono">acme-legal-prod</code>. Confirm the scopes below, then fire a sample request against our hosted NDA fixture to verify connectivity.</p>
+      </div>
+
+      <div class="grid-wizard">
+        <div class="stack stack-5">
+
+          <!-- Credentials panel -->
+          <div class="card card-pad-lg">
+            <div class="row-between" style="margin-bottom:var(--space-4);">
+              <div class="row">
+                <div class="feature-icon" style="width:36px;height:36px;margin:0;"><img src="./assets/icons/key-round.svg" alt="" class="icon"></div>
+                <div>
+                  <h4 style="font-size:var(--text-lg);">API credentials</h4>
+                  <p class="text-xs muted">Environment: <span class="mono">sandbox</span> · Created Mar 14, 2025 · 10:42 UTC</p>
+                </div>
+              </div>
+              <span class="badge badge-success"><span class="badge-dot"></span> Generated</span>
+            </div>
+
+            <div class="stack stack-3">
+              <div>
+                <label class="label" for="pub">Publishable key <span class="pill" style="font-weight:500;color:var(--muted);">safe for client</span></label>
+                <div class="key-row">
+                  <div class="key-field">pk_sandbox_5fA92tYrLp08VqzKb31MeXc7HsNd</div>
+                  <div class="key-actions">
+                    <button class="icon-btn" title="Reveal" aria-label="Reveal key"><img src="./assets/icons/eye.svg" alt="" class="icon icon-sm"></button>
+                    <button class="icon-btn" title="Copy" aria-label="Copy key"><img src="./assets/icons/copy.svg" alt="" class="icon icon-sm"></button>
+                    <a href="#" class="btn btn-ghost btn-sm"><img src="./assets/icons/rotate-cw.svg" alt="" class="icon icon-sm"> Rotate</a>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <label class="label" for="sec">Secret key <span class="pill" style="background:var(--warn-soft);color:var(--warn);border-color:transparent;font-weight:600;">server only</span></label>
+                <div class="key-row">
+                  <div class="key-field">sk_sandbox_•••••••••••••••••••••••••••••••••••</div>
+                  <div class="key-actions">
+                    <button class="icon-btn" title="Reveal" aria-label="Reveal key"><img src="./assets/icons/eye-off.svg" alt="" class="icon icon-sm"></button>
+                    <button class="icon-btn" title="Copy" aria-label="Copy key"><img src="./assets/icons/copy.svg" alt="" class="icon icon-sm"></button>
+                    <a href="#" class="btn btn-ghost btn-sm"><img src="./assets/icons/rotate-cw.svg" alt="" class="icon icon-sm"> Rotate</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="callout callout-warn" style="margin-top:var(--space-4);">
+              <div class="callout-icon"><img src="./assets/icons/triangle-alert.svg" alt="" class="icon icon-sm" style="filter:brightness(0) invert(1)"></div>
+              <div>
+                <h5>This is the only time we&rsquo;ll show the secret key</h5>
+                <p>Copy <span class="mono">sk_sandbox_…</span> into a password manager or your secret store now. We hash and discard the plaintext when you leave this page — rotating is the only recovery path.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Scope selector -->
+          <div class="card card-pad-lg">
+            <div class="row-between" style="margin-bottom:var(--space-4);">
+              <div>
+                <h4 style="font-size:var(--text-lg);">Permission scopes</h4>
+                <p class="text-xs muted">Limit what this key pair can do. You can edit scopes later from <a href="#">Settings → API keys</a>.</p>
+              </div>
+              <span class="badge badge-accent">4 of 5 selected</span>
+            </div>
+
+            <div class="scope-list">
+              <div class="check-row" style="border-color:var(--accent);background:var(--accent-soft);">
+                <span class="checkbox is-checked"></span>
+                <div style="flex:1;">
+                  <div class="row-between">
+                    <span class="scope-name">contracts:read</span>
+                    <span class="pill pill-accent">default</span>
+                  </div>
+                  <p class="scope-desc">List, fetch, and download contract objects and their parsed structure trees.</p>
+                </div>
+              </div>
+
+              <div class="check-row" style="border-color:var(--accent);background:var(--accent-soft);">
+                <span class="checkbox is-checked"></span>
+                <div style="flex:1;">
+                  <div class="row-between">
+                    <span class="scope-name">contracts:write</span>
+                    <span class="pill pill-accent">default</span>
+                  </div>
+                  <p class="scope-desc">Upload new contracts, replace versions, and update metadata such as counterparties and tags.</p>
+                </div>
+              </div>
+
+              <div class="check-row" style="border-color:var(--accent);background:var(--accent-soft);">
+                <span class="checkbox is-checked"></span>
+                <div style="flex:1;">
+                  <div class="row-between">
+                    <span class="scope-name">clauses:extract</span>
+                    <span class="pill pill-accent">default</span>
+                  </div>
+                  <p class="scope-desc">Run the clause extraction model and return typed clause objects (indemnity, term, IP, etc.).</p>
+                </div>
+              </div>
+
+              <div class="check-row" style="border-color:var(--accent);background:var(--accent-soft);">
+                <span class="checkbox is-checked"></span>
+                <div style="flex:1;">
+                  <div class="row-between">
+                    <span class="scope-name">redlines:suggest</span>
+                    <span class="badge badge-warn">writes diffs</span>
+                  </div>
+                  <p class="scope-desc">Generate suggested redline diffs against a saved playbook. Counts toward your monthly suggestion quota.</p>
+                </div>
+              </div>
+
+              <div class="check-row">
+                <span class="checkbox"></span>
+                <div style="flex:1;">
+                  <div class="row-between">
+                    <span class="scope-name">webhooks:manage</span>
+                    <span class="badge">admin</span>
+                  </div>
+                  <p class="scope-desc">Create, update, and delete webhook endpoints for <span class="mono">contract.parsed</span> and <span class="mono">redline.ready</span> events.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Live sandbox tester -->
+          <div class="sandbox">
+            <div class="sandbox-header">
+              <span class="http-pill http-post">POST</span>
+              <div class="endpoint-path">https://api.clausewise.dev/v1/contracts/analyze</div>
+              <span class="badge"><img src="./assets/icons/circle-dot.svg" alt="" class="icon icon-sm"> sandbox</span>
+            </div>
+
+            <div class="code-panel" style="border-radius:0;border-left:0;border-right:0;border-top:0;box-shadow:none;">
+              <div class="code-panel-header">
+                <div class="code-tabs">
+                  <button class="code-tab is-active">Body</button>
+                  <button class="code-tab">Headers</button>
+                  <button class="code-tab">Auth</button>
+                </div>
+                <div class="code-actions">
+                  <span class="code-copy"><img src="./assets/icons/file-text.svg" alt="" class="icon icon-sm" style="filter:invert(70%)"> nda-sample.json</span>
+                  <button class="code-copy"><img src="./assets/icons/copy.svg" alt="" class="icon icon-sm" style="filter:invert(70%)"> Copy</button>
+                </div>
+              </div>
+              <div class="json-editor"><pre>{
+  <span class="tok-key">"document"</span>: {
+    <span class="tok-key">"name"</span>: <span class="tok-str">"Mutual NDA — Northwind ↔ Acme.pdf"</span>,
+    <span class="tok-key">"format"</span>: <span class="tok-str">"pdf"</span>,
+    <span class="tok-key">"source"</span>: <span class="tok-str">"https://fixtures.clausewise.dev/nda-mutual-v3.pdf"</span>
+  },
+  <span class="tok-key">"counterparties"</span>: [
+    { <span class="tok-key">"name"</span>: <span class="tok-str">"Northwind Traders, Inc."</span>, <span class="tok-key">"role"</span>: <span class="tok-str">"disclosing"</span> },
+    { <span class="tok-key">"name"</span>: <span class="tok-str">"Acme Legal LLC"</span>,        <span class="tok-key">"role"</span>: <span class="tok-str">"receiving"</span>  }
+  ],
+  <span class="tok-key">"extract"</span>: [<span class="tok-str">"term"</span>, <span class="tok-str">"governing_law"</span>, <span class="tok-str">"confidentiality_scope"</span>],
+  <span class="tok-key">"playbook"</span>: <span class="tok-str">"acme.default.v4"</span>,
+  <span class="tok-key">"async"</span>: <span class="tok-kw">false</span>
+}</pre></div>
+            </div>
+
+            <div class="row-between" style="padding:var(--space-3) var(--space-4);background:var(--surface);border-bottom:1px solid var(--border);">
+              <p class="text-xs muted row" style="gap:8px;"><img src="./assets/icons/info.svg" alt="" class="icon icon-sm"> Signed with <span class="mono">sk_sandbox_…YnQ4</span></p>
+              <button class="btn btn-primary"><img src="./assets/icons/send.svg" alt="" class="icon icon-sm" style="filter:brightness(0) invert(1)"> Send test request</button>
+            </div>
+
+            <div class="response-meta">
+              <span class="row" style="gap:6px;"><img src="./assets/icons/circle-check.svg" alt="" class="icon icon-sm"> Status <strong>200 OK</strong></span>
+              <span>Latency <strong>418 ms</strong></span>
+              <span>Region <strong>us-east-1</strong></span>
+              <span>Request ID <strong class="mono" style="font-weight:400;">req_01HVQ7K2N9XB</strong></span>
+            </div>
+
+            <div class="code-panel" style="border-radius:0;border:0;box-shadow:none;">
+              <div class="code-panel-header">
+                <div class="code-tabs">
+                  <button class="code-tab is-active">Response</button>
+                  <button class="code-tab">Raw</button>
+                  <button class="code-tab">Logs</button>
+                </div>
+                <div class="code-actions">
+                  <button class="code-copy"><img src="./assets/icons/copy.svg" alt="" class="icon icon-sm" style="filter:invert(70%)"> Copy</button>
+                </div>
+              </div>
+              <div class="code-body">
+<pre><span class="tok-com">// Parsed by clausewise/extract-v4 · 6 clauses · 0 warnings</span>
+{
+  <span class="tok-key">"contract_id"</span>: <span class="tok-str">"ctr_2k9F3pQRZxv1"</span>,
+  <span class="tok-key">"status"</span>: <span class="tok-str">"analyzed"</span>,
+  <span class="tok-key">"pages"</span>: <span class="tok-num">7</span>,
+  <span class="tok-key">"language"</span>: <span class="tok-str">"en-US"</span>,
+  <span class="tok-key">"clauses"</span>: [
+    {
+      <span class="tok-key">"type"</span>: <span class="tok-str">"term"</span>,
+      <span class="tok-key">"span"</span>: [<span class="tok-num">412</span>, <span class="tok-num">587</span>],
+      <span class="tok-key">"value"</span>: <span class="tok-str">"3 years from the Effective Date"</span>,
+      <span class="tok-key">"confidence"</span>: <span class="tok-num">0.972</span>
+    },
+    {
+      <span class="tok-key">"type"</span>: <span class="tok-str">"governing_law"</span>,
+      <span class="tok-key">"value"</span>: <span class="tok-str">"State of Delaware, USA"</span>,
+      <span class="tok-key">"confidence"</span>: <span class="tok-num">0.991</span>
+    },
+    {
+      <span class="tok-key">"type"</span>: <span class="tok-str">"confidentiality_scope"</span>,
+      <span class="tok-key">"value"</span>: <span class="tok-str">"mutual, written-and-oral, marked-or-reasonably-understood"</span>,
+      <span class="tok-key">"confidence"</span>: <span class="tok-num">0.886</span>
+    }
+  ],
+  <span class="tok-key">"risk_summary"</span>: {
+    <span class="tok-key">"level"</span>: <span class="tok-str">"low"</span>,
+    <span class="tok-key">"flags"</span>: []
+  },
+  <span class="tok-key">"_links"</span>: {
+    <span class="tok-key">"self"</span>: <span class="tok-str">"/v1/contracts/ctr_2k9F3pQRZxv1"</span>,
+    <span class="tok-key">"redline"</span>: <span class="tok-str">"/v1/contracts/ctr_2k9F3pQRZxv1/redline"</span>
+  }
+}</pre>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Side rail -->
+        <aside class="stack stack-5">
+          <div class="card">
+            <div class="row" style="margin-bottom:var(--space-3);">
+              <div class="feature-icon alt" style="width:36px;height:36px;margin:0;"><img src="./assets/icons/shield-check.svg" alt="" class="icon"></div>
+              <h5>Key hygiene checklist</h5>
+            </div>
+            <ul class="bullet-list">
+              <li><span class="bullet-icon"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm"></span> Store <span class="mono">sk_*</span> in a server-side secret manager — never ship to the browser.</li>
+              <li><span class="bullet-icon"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm"></span> Pair each environment (sandbox, staging, live) with its own dedicated key.</li>
+              <li><span class="bullet-icon"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm"></span> Rotate every 90 days or immediately after a teammate offboards.</li>
+              <li><span class="bullet-icon"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm"></span> Restrict scopes to the minimum your service actually needs.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <div class="row-between" style="margin-bottom:var(--space-3);">
+              <h5>Sample fixtures</h5>
+              <a href="#" class="learn-link text-xs">Browse all <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm"></a>
+            </div>
+            <div class="stack stack-2">
+              <div class="row-between" style="padding:10px 12px;background:var(--surface);border-radius:8px;">
+                <span class="row" style="gap:8px;"><img src="./assets/icons/file-text.svg" alt="" class="icon icon-sm"> <span class="mono text-xs">nda-mutual-v3.pdf</span></span>
+                <span class="badge badge-accent">in use</span>
+              </div>
+              <div class="row-between" style="padding:10px 12px;background:var(--surface);border-radius:8px;">
+                <span class="row" style="gap:8px;"><img src="./assets/icons/file-text.svg" alt="" class="icon icon-sm"> <span class="mono text-xs">msa-saas-2024.docx</span></span>
+                <span class="text-xs muted">14 clauses</span>
+              </div>
+              <div class="row-between" style="padding:10px 12px;background:var(--surface);border-radius:8px;">
+                <span class="row" style="gap:8px;"><img src="./assets/icons/file-text.svg" alt="" class="icon icon-sm"> <span class="mono text-xs">dpa-gdpr-eu.pdf</span></span>
+                <span class="text-xs muted">22 clauses</span>
+              </div>
+              <div class="row-between" style="padding:10px 12px;background:var(--surface);border-radius:8px;">
+                <span class="row" style="gap:8px;"><img src="./assets/icons/file-text.svg" alt="" class="icon icon-sm"> <span class="mono text-xs">vendor-soow-light.pdf</span></span>
+                <span class="text-xs muted">6 clauses</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="callout callout-alt">
+            <div class="callout-icon"><img src="./assets/icons/sparkles.svg" alt="" class="icon icon-sm" style="filter:brightness(0) invert(1)"></div>
+            <div>
+              <h5>Sandbox is metered separately</h5>
+              <p>Up to 5,000 free analyze calls per month against the fixture corpus. No counterparty data leaves your tenant.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="row" style="margin-bottom:var(--space-3);">
+              <div class="avatar"><img src="./assets/avatars/notionists-seed-07.svg" alt=""></div>
+              <div>
+                <p style="font-weight:600;font-size:var(--text-sm);">Maya Okonkwo</p>
+                <p class="text-xs muted">Developer advocate</p>
+              </div>
+            </div>
+            <p class="text-sm soft">&ldquo;Stuck on the test call? Drop the request ID in our Slack — I can usually trace a 4xx in under a minute.&rdquo;</p>
+            <a href="#" class="learn-link text-sm" style="margin-top:var(--space-3);">Join developer Slack <img src="./assets/icons/arrow-up-right.svg" alt="" class="icon icon-sm"></a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="wizard-footer">
+  <div class="container-wide wizard-footer-inner">
+    <a href="./wizard.html" class="btn btn-secondary"><img src="./assets/icons/chevron-left.svg" alt="" class="icon icon-sm"> Back</a>
+    <span class="step-counter">Step <strong style="color:var(--fg);">4</strong> of 5 · Keys &amp; sandbox</span>
+    <a href="#" class="btn btn-primary btn-lg">Continue to first call <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm" style="filter:brightness(0) invert(1)"></a>
+  </div>
+</footer>
+
+</body>
+</html>

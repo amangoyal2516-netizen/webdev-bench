@@ -1,0 +1,422 @@
+[
+  {
+    "src": "./assets/icons/hand-heart.svg",
+    "alt": "",
+    "x": 111,
+    "y": 22,
+    "w": 18,
+    "h": 18,
+    "phash": "eae2992fcc38839a",
+    "lab_mean": [
+      40.17,
+      15.84,
+      7.77
+    ]
+  },
+  {
+    "src": "./assets/icons/building-2.svg",
+    "alt": "",
+    "x": 383.75,
+    "y": 24,
+    "w": 14,
+    "h": 14,
+    "phash": "fef8a0058577d24a",
+    "lab_mean": [
+      12.83,
+      11.69,
+      -11.35
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 575.78125,
+    "y": 24,
+    "w": 14,
+    "h": 14,
+    "phash": "bd1dc2e2201d9fe2",
+    "lab_mean": [
+      20.27,
+      17.63,
+      -16.77
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 631.78125,
+    "y": 24,
+    "w": 14,
+    "h": 14,
+    "phash": "ea3c3cd07cd6c183",
+    "lab_mean": [
+      13.98,
+      12.64,
+      -12.1
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 800.40625,
+    "y": 24,
+    "w": 14,
+    "h": 14,
+    "phash": "bd1dc2e2201d9fe2",
+    "lab_mean": [
+      20.27,
+      17.63,
+      -16.77
+    ]
+  },
+  {
+    "src": "./assets/icons/bell.svg",
+    "alt": "",
+    "x": 1164.78125,
+    "y": 23,
+    "w": 16,
+    "h": 16,
+    "phash": "abacb03693e05bc3",
+    "lab_mean": [
+      17.29,
+      15.23,
+      -14.52
+    ]
+  },
+  {
+    "src": "./assets/icons/circle-question-mark.svg",
+    "alt": "",
+    "x": 1212.78125,
+    "y": 23,
+    "w": 16,
+    "h": 16,
+    "phash": "e624b99be4649333",
+    "lab_mean": [
+      15.56,
+      13.89,
+      -13.26
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-02.svg",
+    "alt": "",
+    "x": 1255.78125,
+    "y": 17,
+    "w": 28,
+    "h": 28,
+    "phash": "9c73609e839c3cc7",
+    "lab_mean": [
+      32.36,
+      12.18,
+      -11.99
+    ]
+  },
+  {
+    "src": "./assets/icons/layout-dashboard.svg",
+    "alt": "",
+    "x": 120,
+    "y": 72.75,
+    "w": 14,
+    "h": 14,
+    "phash": "abe9cc9c8d89c466",
+    "lab_mean": [
+      10.17,
+      10.28,
+      -9.74
+    ]
+  },
+  {
+    "src": "./assets/icons/coins.svg",
+    "alt": "",
+    "x": 240.421875,
+    "y": 72.75,
+    "w": 14,
+    "h": 14,
+    "phash": "f361e20e4eb7882d",
+    "lab_mean": [
+      11.84,
+      11.58,
+      -11.02
+    ]
+  },
+  {
+    "src": "./assets/icons/leaf.svg",
+    "alt": "",
+    "x": 368.640625,
+    "y": 72.75,
+    "w": 14,
+    "h": 14,
+    "phash": "baeae12fd3849c30",
+    "lab_mean": [
+      12.36,
+      11.97,
+      -11.34
+    ]
+  },
+  {
+    "src": "./assets/icons/users.svg",
+    "alt": "",
+    "x": 489.0625,
+    "y": 72.75,
+    "w": 14,
+    "h": 14,
+    "phash": "af3bc510b1c58ec6",
+    "lab_mean": [
+      12.33,
+      12.0,
+      -11.41
+    ]
+  },
+  {
+    "src": "./assets/icons/landmark.svg",
+    "alt": "",
+    "x": 625.078125,
+    "y": 72.75,
+    "w": 14,
+    "h": 14,
+    "phash": "bbb192e1b093724b",
+    "lab_mean": [
+      10.72,
+      10.66,
+      -10.1
+    ]
+  },
+  {
+    "src": "./assets/icons/compass.svg",
+    "alt": "",
+    "x": 729.890625,
+    "y": 72.75,
+    "w": 14,
+    "h": 14,
+    "phash": "b265ecb830c792ce",
+    "lab_mean": [
+      11.28,
+      11.04,
+      -10.45
+    ]
+  },
+  {
+    "src": "./assets/icons/sparkles.svg",
+    "alt": "",
+    "x": 1094.765625,
+    "y": 194,
+    "w": 14,
+    "h": 14,
+    "phash": "bee2b6e00da5a5a4",
+    "lab_mean": [
+      41.07,
+      19.29,
+      32.08
+    ]
+  },
+  {
+    "src": "./assets/icons/x.svg",
+    "alt": "",
+    "x": 1304,
+    "y": 194,
+    "w": 14,
+    "h": 14,
+    "phash": "bd008f00e2007800",
+    "lab_mean": [
+      18.89,
+      16.57,
+      -15.78
+    ]
+  },
+  {
+    "src": "./assets/icons/trending-up.svg",
+    "alt": "",
+    "x": 105,
+    "y": 404.5,
+    "w": 14,
+    "h": 14,
+    "phash": "dbd8a42758c26739",
+    "lab_mean": [
+      14.93,
+      13.83,
+      -13.05
+    ]
+  },
+  {
+    "src": "./assets/icons/trending-up.svg",
+    "alt": "",
+    "x": 429,
+    "y": 404.5,
+    "w": 14,
+    "h": 14,
+    "phash": "dbd8a42758c26739",
+    "lab_mean": [
+      14.93,
+      13.83,
+      -13.05
+    ]
+  },
+  {
+    "src": "./assets/icons/trending-up.svg",
+    "alt": "",
+    "x": 753,
+    "y": 394.75,
+    "w": 14,
+    "h": 14,
+    "phash": "db5880a739d8466f",
+    "lab_mean": [
+      14.91,
+      13.82,
+      -13.01
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-down-right.svg",
+    "alt": "",
+    "x": 1077,
+    "y": 404.5,
+    "w": 14,
+    "h": 14,
+    "phash": "e99a96669339cc86",
+    "lab_mean": [
+      15.25,
+      14.11,
+      -13.29
+    ]
+  },
+  {
+    "src": "./assets/icons/chart-pie.svg",
+    "alt": "",
+    "x": 760.515625,
+    "y": 523,
+    "w": 12,
+    "h": 12,
+    "phash": "ee66bc8ce05693a1",
+    "lab_mean": [
+      16.33,
+      14.85,
+      -14.24
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 861.328125,
+    "y": 522,
+    "w": 14,
+    "h": 14,
+    "phash": "ab2ed4c12b2ed4d1",
+    "lab_mean": [
+      20.43,
+      17.72,
+      -16.82
+    ]
+  },
+  {
+    "src": "./assets/icons/lightbulb.svg",
+    "alt": "",
+    "x": 144,
+    "y": 867.5,
+    "w": 18,
+    "h": 18,
+    "phash": "bc19e3e1b013938f",
+    "lab_mean": [
+      21.55,
+      14.38,
+      -1.7
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-right.svg",
+    "alt": "",
+    "x": 1268.96875,
+    "y": 535.5,
+    "w": 12,
+    "h": 12,
+    "phash": "b3cc9993c6613393",
+    "lab_mean": [
+      16.7,
+      15.35,
+      -14.43
+    ]
+  },
+  {
+    "src": "./assets/icons/trophy.svg",
+    "alt": "",
+    "x": 968.328125,
+    "y": 590.5,
+    "w": 14,
+    "h": 14,
+    "phash": "ec9b34f1cd92078c",
+    "lab_mean": [
+      14.93,
+      13.3,
+      -12.72
+    ]
+  },
+  {
+    "src": "./assets/icons/users.svg",
+    "alt": "",
+    "x": 968.328125,
+    "y": 705,
+    "w": 14,
+    "h": 14,
+    "phash": "af3bc510b1c58ec6",
+    "lab_mean": [
+      16.01,
+      14.37,
+      -13.78
+    ]
+  },
+  {
+    "src": "./assets/icons/graduation-cap.svg",
+    "alt": "",
+    "x": 968.328125,
+    "y": 819.5,
+    "w": 14,
+    "h": 14,
+    "phash": "fe83a074de83c878",
+    "lab_mean": [
+      15.88,
+      14.23,
+      -13.58
+    ]
+  },
+  {
+    "src": "./assets/icons/gift.svg",
+    "alt": "",
+    "x": 968.328125,
+    "y": 914.5,
+    "w": 14,
+    "h": 14,
+    "phash": "bfbdb48268c2c2c3",
+    "lab_mean": [
+      12.86,
+      11.65,
+      -11.27
+    ]
+  },
+  {
+    "src": "./assets/icons/handshake.svg",
+    "alt": "",
+    "x": 968.328125,
+    "y": 1009.5,
+    "w": 14,
+    "h": 14,
+    "phash": "ea1ab56fc1b486d0",
+    "lab_mean": [
+      13.96,
+      12.49,
+      -12.04
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 968.328125,
+    "y": 1124,
+    "w": 14,
+    "h": 14,
+    "phash": "afb2e4a7ca0e982c",
+    "lab_mean": [
+      16.31,
+      14.45,
+      -13.83
+    ]
+  }
+]

@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Matters — Lex Ledger</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="app">
+<aside class="sidebar">
+<div class="sidebar-brand">
+<div class="brand-mark">L</div>
+<div>
+<div class="brand-name">Lex Ledger</div>
+<div class="brand-sub">Litigation OS</div>
+</div>
+</div>
+<div class="sidebar-user">
+<div class="initials">MR</div>
+<div class="who">Margaret Reyes<small>Partner · Bar #248913</small></div>
+</div>
+<nav class="nav">
+<div class="nav-section-label">Workspace</div>
+<a class="nav-item" href="./dashboard.html"><img class="icon" src="./assets/icons/layout-dashboard.svg" alt=""><span>Dashboard</span></a>
+<a class="nav-item is-active" href="./matters.html"><img class="icon" src="./assets/icons/briefcase.svg" alt=""><span>Matters</span></a>
+<a class="nav-item" href="./time.html"><img class="icon" src="./assets/icons/clock.svg" alt=""><span>Time</span></a>
+<a class="nav-item" href="./calendar.html"><img class="icon" src="./assets/icons/calendar.svg" alt=""><span>Calendar</span></a>
+<a class="nav-item" href="./client-detail.html"><img class="icon" src="./assets/icons/users.svg" alt=""><span>Clients</span></a>
+<div class="nav-section-label">Account</div>
+<a class="nav-item" href="#"><img class="icon" src="./assets/icons/bell.svg" alt=""><span>Notifications</span></a>
+<a class="nav-item" href="#"><img class="icon" src="./assets/icons/settings.svg" alt=""><span>Settings</span></a>
+</nav>
+<button class="sidebar-cta"><img class="icon" src="./assets/icons/play.svg" alt=""><span>Start timer</span></button>
+<div class="sidebar-footer">
+<div class="timer-chip">
+<div class="timer-dot"></div>
+<div class="meta">
+<div class="code">HARP-2024-0142 · Drafting</div>
+<div class="clock">01:24:36</div>
+</div>
+<img class="icon" src="./assets/icons/pause.svg" alt="">
+</div>
+</div>
+</aside>
+
+<div class="main">
+<div class="topbar">
+<div class="crumbs">
+<a href="./dashboard.html">Workspace</a>
+<span class="sep">/</span>
+<span class="here">Matters</span>
+</div>
+<div class="topbar-spacer"></div>
+<div class="search">
+<img class="icon" src="./assets/icons/search.svg" alt="">
+<input type="text" placeholder="Search matters, clients, citations…">
+</div>
+<button class="btn btn-ghost btn-icon" aria-label="Notifications"><img class="icon" src="./assets/icons/bell.svg" alt=""></button>
+</div>
+
+<div class="page">
+<div class="page-header">
+<div class="page-title">
+<div class="eyebrow">Caseload</div>
+<h1>Matters</h1>
+<div class="sub">Showing <span class="text-accent fw-500">147</span> matters · 112 active · 19 on hold · 16 closed</div>
+</div>
+<div class="page-actions">
+<div class="view-toggle">
+<a href="#" class="is-active"><img class="icon" src="./assets/icons/list.svg" alt=""> Table</a>
+<a href="#"><img class="icon" src="./assets/icons/columns-3.svg" alt=""> Board</a>
+</div>
+<button class="btn btn-ghost"><img class="icon" src="./assets/icons/download.svg" alt=""> Export</button>
+<button class="btn btn-primary"><img class="icon" src="./assets/icons/plus.svg" alt=""> New matter</button>
+</div>
+</div>
+
+<div class="filter-bar">
+<span class="chip is-active"><img class="icon" src="./assets/icons/circle-dot.svg" alt=""> All practice areas</span>
+<span class="chip">Commercial litigation</span>
+<span class="chip">Employment</span>
+<span class="chip">IP &amp; tech</span>
+<span class="chip">Securities</span>
+<span class="chip">Real estate</span>
+<span class="sep"></span>
+<span class="chip is-active">Active</span>
+<span class="chip">On hold</span>
+<span class="chip">Closed</span>
+<span class="sep"></span>
+<span class="chip">Lead attorney: All <img class="icon" src="./assets/icons/chevron-down.svg" alt=""></span>
+<span class="chip">Client: All <img class="icon" src="./assets/icons/chevron-down.svg" alt=""></span>
+<span class="chip">Jurisdiction: All <img class="icon" src="./assets/icons/chevron-down.svg" alt=""></span>
+<span class="chip">Opened: Jan 1 – Nov 12, 2024 <img class="icon" src="./assets/icons/calendar.svg" alt=""></span>
+<span class="sep"></span>
+<a href="#" class="chip" style="border-style:dashed;"><img class="icon" src="./assets/icons/funnel-x.svg" alt=""> Clear</a>
+<div style="flex:1"></div>
+<button class="btn btn-ghost btn-sm"><img class="icon" src="./assets/icons/sliders-horizontal.svg" alt=""> More filters</button>
+</div>
+
+<div>
+<div class="table-wrap">
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Caption</th>
+<th>Client</th>
+<th>Practice area</th>
+<th>Lead attorney</th>
+<th>Opened</th>
+<th>Last activity</th>
+<th class="num">Hrs MTD</th>
+<th class="num">Fees MTD</th>
+<th>Status</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="code">HARP-2024-0142</td>
+<td>
+<div class="caption-cell">
+<div class="title">Harper Industries v. Northbridge Mfg.</div>
+<div class="sub">Breach of supply contract · <span class="badge jur">S.D.N.Y.</span></div>
+</div>
+</td>
+<td>Harper Industries, Inc.</td>
+<td>Commercial litigation</td>
+<td>
+<div class="avatar-row">
+<div class="avatar"><img src="./assets/avatars/notionists-seed-00.svg" alt=""></div>
+<div class="name">M. Reyes</div>
+</div>
+</td>
+<td class="mono">Mar 14, 2024</td>
+<td class="text-muted">2h ago</td>
+<td class="num mono">38.4</td>
+<td class="num mono">$24,180</td>
+<td><span class="pill active">Active</span></td>
+<td><a href="#" class="empty-overflow"><img class="icon" src="./assets/icons/ellipsis-vertical.svg" alt=""></a></td>
+</tr>
+<tr>
+<td class="code">DELT-2024-0098</td>
+<td>
+<div class="caption-cell">
+<div class="title">In re Delta Pacific Securities Litig.</div>
+<div class="sub">Class action · §10(b) · <span class="badge jur">N.D. Cal.</span></div>
+</div>
+</td>
+<td>Delta Pacific Holdings</td>
+<td>Securities</td>
+<td>
+<div class="avatar-row">
+<div class="avatar"><img src="./assets/avatars/notionists-seed-01.svg" alt=""></div>
+<div class="name">J. Okafor</div>
+</div>
+</td>
+<td class="mono">Feb 02, 2024</td>
+<td class="text-muted">Yesterday</td>
+<td class="num mono">62.1</td>
+<td class="num mono">$41,930</td>
+<td><span class="pill active">Active</span></td>
+<td><a href="#" class="empty-overflow"><img class="icon" src="./assets/icons/ellipsis-vertical.svg" alt=""></a></td>
+</tr>
+<tr>
+<td class="code">VANE-2023-0411</td>
+<td>
+<div class="caption-cell">
+<div class="title">Vance v. Meridian Health Systems</div>
+<div class="sub">Wrongful termination · Title VII · <span class="badge jur">E.D. Pa.</span></div>
+</div>
+</td>
+<td>Aliyah Vance</td>
+<td>Employment</td>
+<td>
+<div class="avatar-row">
+<div class="avatar"><img src="./assets/avatars/lorelei-seed-00.svg" alt=""></div>
+<div class="name">P. Donnelly</div>
+</div>
+</td>
+<td class="mono">Sep 21, 2023</td>
+<td class="text-muted">4h ago</td>
+<td class="num mono">21.7</td>
+<td class="num mono">$13,665</td>
+<td><span class="pill active">Active</span></td>
+<td><a href="#" class="empty-overflow"><img class="icon" src="./assets/icons/ellipsis-vertical.svg" alt=""></a></td>
+</tr>
+<tr>
+<td class="code">KASS-2024-0067</td>
+<td>
+<div class="caption-cell">
+<div class="title">Kassidy &amp; Wren LLP v. Orion Robotics</div>
+<div class="sub">Trade secret misappropriation · <span class="badge jur">D. Mass.</span></div>
+</div>
+</td>
+<td>Kassidy &amp; Wren LLP</td>
+<td>IP &amp; tech</td>
+<td>
+<div class="avatar-row">
+<div class="avatar"><img src="./assets/avatars/notionists-seed-02.svg" alt=""></div>
+<div class="name">S. Caldera</div>
+</div>
+</td>
+<td class="mono">Jan 18, 2024</td>
+<td class="text-muted">Today</td>
+<td class="num mono">49.0</td>
+<td class="num mono">$32,830</td>
+<td><span class="pill active">Active</span></td>
+<td><a href="#" class="empty-overflow"><img class="icon" src="./assets/icons/ellipsis-vertical.svg" alt=""></a></td>
+</tr>
+<tr>
+<td class="code">MTRO-2023-0322</td>
+<td>
+<div class="caption-cell">
+<div class="title">Metropoulos Trust v. Coastline Realty</div>
+<div class="sub">Commercial lease dispute · <span class="badge jur">N.Y. Sup. Ct.</span></div>
+</div>
+</td>
+<td>Metropoulos Family Trust</td>
+<td>Real estate</td>
+<td>
+<div class="avatar-row">
+<div class="avatar"><img src="./assets/avatars/lorelei-seed-01.svg" alt=""></div>
+<div class="name">R. Halberstam</div>
+</div>
+</td>
+<td class="mono">Jul 09, 2023</td>
+<td class="text-muted">3d ago</td>
+<td class="num mono">8.2</td>
+<td class="num mono">$4,920</td>
+<td><span class="pill hold">On hold</span></td>
+<td><a href="#" class="empty-overflow"><img class="icon" src="./assets/icons/ellipsis-vertical.svg" alt=""></a></td>
+</tr>
+<tr>
+<td class="code">NORW-2024-0011</td>
+<td>
+<div class="caption-cell">
+<div class="title">Norwood Biosciences v. Velmar Labs</div>
+<div class="sub">Patent infringement · '482 patent · <span class="badge jur">E.D. Tex.</span></div>
+</div>
+</td>
+<td>Norwood Biosciences</td>
+<td>IP &amp; tech</td>
+<td>
+<div class="avatar-row">
+<div class="avatar"><img src="./assets/avatars/notionists-seed-03.svg" alt=""></div>
+<div class="name">M. Reyes</div>
+</div>
+</td>
+<td class="mono">Jan 04, 2024</td>
+<td class="text-muted">1h ago</td>
+<td class="num mono">71.6</td>
+<td class="num mono">$54,420</td>
+<td><span class="pill active">Active</span></td>
+<td><a href="#" class="empty-overflow"><img class="icon" src="./assets/icons/ellipsis-vertical.svg" alt=""></a></td>
+</tr>
+<tr>
+<td class="code">CHEN-2023-0188</td>
+<td>
+<div class="caption-cell">
+<div class="title">Chen v. Skylark Capital Partners</div>
+<div class="sub">Shareholder derivative · <span class="badge jur">Del. Ch.</span></div>
+</div>
+</td>
+<td>Wei-Lin Chen</td>
+<td>Securities</td>
+<td>
+<div class="avatar-row">
+<div class="avatar"><img src="./assets/avatars/notionists-seed-04.svg" alt=""></div>
+<div class="name">J. Okafor</div>
+</div>
+</td>
+<td class="mono">May 22, 2023</td>
+<td class="text-muted">6h ago</td>
+<td class="num mono">33.5</td>
+<td class="num mono">$22,512</td>
+<td><span class="pill active">Active</span></td>
+<td><a href="#" class="empty-overflow"><img class="icon" src="./assets/icons/ellipsis-vertical.svg" alt=""></a></td>
+</tr>
+<tr>
+<td class="code">FAIR-2023-0274</td>
+<td>
+<div class="caption-cell">
+<div class="title">Fairmont Logistics v. Pell &amp; Co.</div>
+<div class="sub">Contract indemnification · <span class="badge jur">S.D.N.Y.</span></div>
+</div>
+</td>
+<td>Fairmont Logistics LLC</td>
+<td>Commercial litigation</td>
+<td>
+<div class="avatar-row">
+<div class="avatar"><img src="./assets/avatars/lorelei-seed-02.svg" alt=""></div>
+<div class="name">P. Donnelly</div>
+</div>
+</td>
+<td class="mono">Jun 30, 2023</td>
+<td class="text-muted">2w ago</td>
+<td class="num mono">0.0</td>
+<td class="num mono">$0</td>
+<td><span class="pill closed">Closed</span></td>
+<td><a href="#" class="empty-overflow"><img class="icon" src="./assets/icons/ellipsis-vertical.svg" alt=""></a></td>
+</tr>
+<tr>
+<td class="code">OSAK-2024-0123</td>
+<td>
+<div class="caption-cell">
+<div class="title">Osaki v. Bowmore Construction Grp.</div>
+<div class="sub">OSHA retaliation · whistleblower · <span class="badge jur">D.N.J.</span></div>
+</div>
+</td>
+<td>Hiroshi Osaki</td>
+<td>Employment</td>
+<td>
+<div class="avatar-row">
+<div class="avatar"><img src="./assets/avatars/lorelei-seed-03.svg" alt=""></div>
+<div class="name">S. Caldera</div>
+</div>
+</td>
+<td class="mono">Feb 28, 2024</td>
+<td class="text-muted">Today</td>
+<td class="num mono">26.3</td>
+<td class="num mono">$15,250</td>
+<td><span class="pill active">Active</span></td>
+<td><a href="#" class="empty-overflow"><img class="icon" src="./assets/icons/ellipsis-vertical.svg" alt=""></a></td>
+</tr>
+<tr>
+<td class="code">PRES-2024-0205</td>
+<td>
+<div class="caption-cell">
+<div class="title">Presidio Mutual v. Aldercrest Holdings</div>
+<div class="sub">Insurance bad faith · <span class="badge jur">N.D. Cal.</span></div>
+</div>
+</td>
+<td>Presidio Mutual Insurance</td>
+<td>Commercial litigation</td>
+<td>
+<div class="avatar-row">
+<div class="avatar"><img src="./assets/avatars/notionists-seed-05.svg" alt=""></div>
+<div class="name">R. Halberstam</div>
+</div>
+</td>
+<td class="mono">Apr 11, 2024</td>
+<td class="text-muted">5h ago</td>
+<td class="num mono">44.9</td>
+<td class="num mono">$28,735</td>
+<td><span class="pill active">Active</span></td>
+<td><a href="#" class="empty-overflow"><img class="icon" src="./assets/icons/ellipsis-vertical.svg" alt=""></a></td>
+</tr>
+<tr>
+<td class="code">BREN-2023-0356</td>
+<td>
+<div class="caption-cell">
+<div class="title">Brennan-Holm Estate v. Tidewater Bank</div>
+<div class="sub">Fiduciary duty · accounting · <span class="badge jur">Mass. Sup.</span></div>
+</div>
+</td>
+<td>Estate of E. Brennan-Holm</td>
+<td>Commercial litigation</td>
+<td>
+<div class="avatar-row">
+<div class="avatar"><img src="./assets/avatars/notionists-seed-06.svg" alt=""></div>
+<div class="name">M. Reyes</div>
+</div>
+</td>
+<td class="mono">Aug 14, 2023</td>
+<td class="text-muted">1d ago</td>
+<td class="num mono">11.2</td>
+<td class="num mono">$7,840</td>
+<td><span class="pill hold">On hold</span></td>
+<td><a href="#" class="empty-overflow"><img class="icon" src="./assets/icons/ellipsis-vertical.svg" alt=""></a></td>
+</tr>
+<tr>
+<td class="code">QUIN-2024-0079</td>
+<td>
+<div class="caption-cell">
+<div class="title">Quintero v. Halberd Energy Services</div>
+<div class="sub">Wage &amp; hour · collective action · <span class="badge jur">W.D. Tex.</span></div>
+</div>
+</td>
+<td>Quintero Family LP</td>
+<td>Employment</td>
+<td>
+<div class="avatar-row">
+<div class="avatar"><img src="./assets/avatars/lorelei-seed-04.svg" alt=""></div>
+<div class="name">J. Okafor</div>
+</div>
+</td>
+<td class="mono">Jan 31, 2024</td>
+<td class="text-muted">9h ago</td>
+<td class="num mono">29.8</td>
+<td class="num mono">$18,326</td>
+<td><span class="pill active">Active</span></td>
+<td><a href="#" class="empty-overflow"><img class="icon" src="./assets/icons/ellipsis-vertical.svg" alt=""></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="pagination">
+<div class="row">
+<span>Rows per page</span>
+<select class="select" style="width:auto;padding:4px 24px 4px 8px;">
+<option>12</option>
+<option>25</option>
+<option>50</option>
+<option>100</option>
+</select>
+</div>
+<div>Showing <span class="text-accent fw-500">1–12</span> of <span class="text-accent fw-500">147</span> matters</div>
+<div class="pages">
+<button><img class="icon" src="./assets/icons/chevrons-left.svg" alt=""></button>
+<button><img class="icon" src="./assets/icons/chevron-left.svg" alt=""></button>
+<button class="is-active">1</button>
+<button>2</button>
+<button>3</button>
+<button>4</button>
+<button>…</button>
+<button>13</button>
+<button><img class="icon" src="./assets/icons/chevron-right.svg" alt=""></button>
+<button><img class="icon" src="./assets/icons/chevrons-right.svg" alt=""></button>
+</div>
+<a href="#"><img class="icon" src="./assets/icons/download.svg" alt=""> Export to CSV</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

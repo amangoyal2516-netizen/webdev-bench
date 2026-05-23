@@ -1,0 +1,268 @@
+[
+  {
+    "src": "./assets/icons/search.svg",
+    "alt": "",
+    "x": 1083.140625,
+    "y": 26.0625,
+    "w": 16,
+    "h": 16,
+    "phash": "eb25f03483d28dcb",
+    "lab_mean": [
+      21.99,
+      -0.83,
+      -5.73
+    ]
+  },
+  {
+    "src": "./assets/icons/search.svg",
+    "alt": "",
+    "x": 105,
+    "y": 390.515625,
+    "w": 16,
+    "h": 16,
+    "phash": "eb25f03483d28dcb",
+    "lab_mean": [
+      81.59,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 559.5625,
+    "y": 391.515625,
+    "w": 14,
+    "h": 14,
+    "phash": "8a3c3c943cd695d3",
+    "lab_mean": [
+      67.97,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 666.796875,
+    "y": 391.515625,
+    "w": 14,
+    "h": 14,
+    "phash": "bd1dc2e2341c9ee2",
+    "lab_mean": [
+      93.1,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 718.796875,
+    "y": 391.515625,
+    "w": 14,
+    "h": 14,
+    "phash": "bb0bb48cb2349b33",
+    "lab_mean": [
+      75.75,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 853.328125,
+    "y": 391.515625,
+    "w": 14,
+    "h": 14,
+    "phash": "bd1dc2e2341c9ee2",
+    "lab_mean": [
+      93.1,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/sliders-horizontal.svg",
+    "alt": "",
+    "x": 905.328125,
+    "y": 391.515625,
+    "w": 14,
+    "h": 14,
+    "phash": "ec26c799909bc533",
+    "lab_mean": [
+      79.28,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 1149.234375,
+    "y": 391.515625,
+    "w": 14,
+    "h": 14,
+    "phash": "bd1dc2e2341c9ee2",
+    "lab_mean": [
+      93.1,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-down.svg",
+    "alt": "",
+    "x": 1201.234375,
+    "y": 391.515625,
+    "w": 14,
+    "h": 14,
+    "phash": "b3da903dccd2644d",
+    "lab_mean": [
+      88.37,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 1321,
+    "y": 391.515625,
+    "w": 14,
+    "h": 14,
+    "phash": "bd1dc2e2341c9ee2",
+    "lab_mean": [
+      93.1,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/photos/iGANt1N2ge8.jpg",
+    "alt": "Antlered interior of the Mast House",
+    "x": 1045,
+    "y": 533.640625,
+    "w": 72,
+    "h": 72,
+    "phash": "b3bb48645d456e8a",
+    "lab_mean": [
+      40.33,
+      2.98,
+      10.29
+    ]
+  },
+  {
+    "src": "./assets/photos/DmgwxkcdFCM.jpg",
+    "alt": "White stucco fa\u00e7ade of the Schindler Annex",
+    "x": 1045,
+    "y": 630.640625,
+    "w": 72,
+    "h": 72,
+    "phash": "bac56f803f402ad7",
+    "lab_mean": [
+      74.97,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/photos/PdJjT-zYg_E.jpg",
+    "alt": "Wooded approach to Villa Skogsbacken",
+    "x": 1045,
+    "y": 727.640625,
+    "w": 72,
+    "h": 72,
+    "phash": "c95716cd15e59323",
+    "lab_mean": [
+      39.32,
+      -8.03,
+      11.46
+    ]
+  },
+  {
+    "src": "./assets/photos/G1ebTFoqLlM.jpg",
+    "alt": "Interior bench seating at 19 Rue de S\u00e9vign\u00e9",
+    "x": 1045,
+    "y": 824.640625,
+    "w": 72,
+    "h": 72,
+    "phash": "f5fcb626349cc0b0",
+    "lab_mean": [
+      39.8,
+      -2.28,
+      6.54
+    ]
+  },
+  {
+    "src": "./assets/photos/JRsZWmRd_Ws.jpg",
+    "alt": "Vaulted ceiling of The Bourse Warehouse",
+    "x": 1045,
+    "y": 921.640625,
+    "w": 72,
+    "h": 72,
+    "phash": "9d096bf626b39426",
+    "lab_mean": [
+      22.51,
+      2.15,
+      7.26
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-left.svg",
+    "alt": "",
+    "x": 101,
+    "y": 1585.875,
+    "w": 14,
+    "h": 14,
+    "phash": "e623cc8c9b3366cc",
+    "lab_mean": [
+      93.11,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-right.svg",
+    "alt": "",
+    "x": 443,
+    "y": 1585.875,
+    "w": 14,
+    "h": 14,
+    "phash": "b3269999c6663399",
+    "lab_mean": [
+      93.11,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 1191.734375,
+    "y": 1585.875,
+    "w": 14,
+    "h": 14,
+    "phash": "8a3c3c943cd695d3",
+    "lab_mean": [
+      67.97,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 1321,
+    "y": 1585.875,
+    "w": 14,
+    "h": 14,
+    "phash": "bd1dc2e2341c9ee2",
+    "lab_mean": [
+      93.1,
+      0.0,
+      0.0
+    ]
+  }
+]

@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Offsets — Carbonline</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="app">
+<aside class="sidebar">
+<div class="sidebar-head">
+<div class="workspace">
+<div class="workspace-mark">CL</div>
+<div>
+<div class="workspace-name">Carbonline</div>
+<div class="workspace-sub">acme-corp · prod</div>
+</div>
+</div>
+<button class="period-switcher">
+<div>
+<div class="label">Reporting period</div>
+<div class="val">FY24 · Q3</div>
+</div>
+<img src="./assets/icons/chevron-down.svg" class="ico" alt="">
+</button>
+</div>
+<nav class="sidebar-nav">
+<div class="nav-section-label">Workspace</div>
+<a href="./dashboard.html" class="nav-item"><img src="./assets/icons/layout-dashboard.svg" class="ico" alt=""><span>Dashboard</span></a>
+<a href="./ledger.html" class="nav-item"><img src="./assets/icons/book-open.svg" class="ico" alt=""><span>Ledger</span><span class="badge-mini">1.2k</span></a>
+<a href="./log-emission.html" class="nav-item"><img src="./assets/icons/plus.svg" class="ico" alt=""><span>Log emission</span></a>
+<a href="./offsets.html" class="nav-item active"><img src="./assets/icons/leaf.svg" class="ico" alt=""><span>Offsets</span><span class="badge-mini">14</span></a>
+<a href="./suppliers.html" class="nav-item"><img src="./assets/icons/truck.svg" class="ico" alt=""><span>Suppliers</span></a>
+<a href="./reports.html" class="nav-item"><img src="./assets/icons/file-text.svg" class="ico" alt=""><span>Reports</span></a>
+<div class="nav-section-label">Account</div>
+<a href="#" class="nav-item"><img src="./assets/icons/bell.svg" class="ico" alt=""><span>Alerts</span><span class="badge-mini">3</span></a>
+<a href="#" class="nav-item"><img src="./assets/icons/settings.svg" class="ico" alt=""><span>Settings</span></a>
+<a href="#" class="nav-item"><img src="./assets/icons/circle-question-mark.svg" class="ico" alt=""><span>Help</span></a>
+</nav>
+<div class="sidebar-foot">
+<div class="user-card">
+<div class="avatar"><img src="./assets/avatars/notionists-seed-07.svg" alt=""></div>
+<div class="user-info">
+<div class="user-name">Maren Halvorsen</div>
+<div class="user-role">Sustainability Lead</div>
+</div>
+</div>
+<button class="org-switcher">
+<img src="./assets/icons/building-2.svg" class="ico" alt="">
+<span class="org-name">Northwind Holdings</span>
+<img src="./assets/icons/chevron-down.svg" class="ico" alt="">
+</button>
+</div>
+</aside>
+
+<div class="main">
+<header class="topbar">
+<div class="topbar-title">
+<div class="breadcrumb"><a href="./dashboard.html">workspace</a><span class="sep">/</span><a href="#">decarbonization</a><span class="sep">/</span>offsets</div>
+<h1>Offset portfolio</h1>
+</div>
+<div class="topbar-spacer"></div>
+<div class="topbar-actions">
+<div class="input-group" style="width:280px">
+<img src="./assets/icons/search.svg" class="ico" alt="">
+<input class="input" placeholder="Search projects, serials…">
+</div>
+<button class="btn"><img src="./assets/icons/download.svg" class="ico" alt="">Export</button>
+<button class="btn btn-primary"><img src="./assets/icons/plus.svg" class="ico" alt="">Purchase credits</button>
+</div>
+</header>
+
+<main class="page">
+
+<section class="summary-strip">
+<div class="kpi">
+<div class="kpi-label">Credits owned</div>
+<div class="kpi-value">18,420<span class="kpi-unit">tCO₂e</span></div>
+<div class="kpi-foot">
+<span class="dim" style="font-size:var(--text-xs)">Across 9 active projects</span>
+<span class="delta down"><img src="./assets/icons/arrow-up-right.svg" class="ico" alt="">+2,300 QTD</span>
+</div>
+</div>
+<div class="kpi">
+<div class="kpi-label">Retired this period</div>
+<div class="kpi-value">9,860<span class="kpi-unit">tCO₂e</span></div>
+<div class="kpi-foot">
+<span class="dim" style="font-size:var(--text-xs)">12 retirement events · FY24 Q3</span>
+<span class="delta down"><img src="./assets/icons/check-check.svg" class="ico" alt="">on plan</span>
+</div>
+</div>
+<div class="coverage-card">
+<div class="kpi-label">Coverage ratio</div>
+<div style="display:flex;align-items:baseline;gap:var(--space-2)">
+<div class="kpi-value" style="font-size:var(--text-2xl)">42.6<span class="kpi-unit">%</span></div>
+<span class="dim mono" style="font-size:var(--text-xs)">retired / gross</span>
+</div>
+<div class="progress" style="margin-top:var(--space-2)">
+<div class="progress-bar" style="width:42.6%"></div>
+<div class="progress-marker" style="left:60%"></div>
+</div>
+<div style="display:flex;justify-content:space-between;font-size:var(--text-xs);color:var(--muted);font-family:var(--font-mono)">
+<span>9,860 / 23,140 tCO₂e</span>
+<span class="accent-alt">target 60%</span>
+</div>
+</div>
+</section>
+
+<section class="section">
+<div style="display:flex;align-items:center;justify-content:space-between;gap:var(--space-3);flex-wrap:wrap">
+<div>
+<h2>Project portfolio</h2>
+<div class="dim" style="font-size:var(--text-sm);margin-top:4px">9 active projects · last sync 12 min ago</div>
+</div>
+<div class="chip-group">
+<button class="chip active"><span class="dot"></span>All</button>
+<button class="chip"><span class="dot"></span>Nature-based</button>
+<button class="chip"><span class="dot"></span>Renewable</button>
+<button class="chip"><span class="dot"></span>Engineered</button>
+<button class="chip"><img src="./assets/icons/sliders-horizontal.svg" class="ico" alt="" style="width:12px;height:12px">Filters</button>
+</div>
+</div>
+
+<div class="project-grid">
+
+<article class="project-card">
+<div class="project-thumb">
+<img src="./assets/photos/G0miZ5OYaXI.jpg" alt="Pine forest preservation">
+<div class="project-type-icon"><img src="./assets/icons/tree-deciduous.svg" class="ico" alt=""></div>
+</div>
+<div class="project-body">
+<div style="display:flex;align-items:flex-start;justify-content:space-between;gap:var(--space-2)">
+<div class="project-title">Cascadia Forest Conservation</div>
+<span class="badge verified">Verra VCS</span>
+</div>
+<div class="project-meta">
+<span><img src="./assets/icons/map-pin.svg" class="ico" alt="" style="width:11px;height:11px;display:inline;vertical-align:middle"> Oregon, US</span>
+<span><img src="./assets/icons/calendar.svg" class="ico" alt="" style="width:11px;height:11px;display:inline;vertical-align:middle"> Vintage 2023</span>
+<span>REDD+</span>
+</div>
+<div class="project-stats">
+<div class="project-stat"><div class="label">Credits held</div><div class="val">3,200</div></div>
+<div class="project-stat"><div class="label">Price / tCO₂e</div><div class="val">$18.40</div></div>
+</div>
+<div style="display:flex;gap:var(--space-2);margin-top:var(--space-2)">
+<button class="btn btn-sm" style="flex:1"><img src="./assets/icons/eye.svg" class="ico" alt="">Details</button>
+<button class="btn btn-primary btn-sm" style="flex:1"><img src="./assets/icons/recycle.svg" class="ico" alt="">Retire</button>
+</div>
+</div>
+</article>
+
+<article class="project-card">
+<div class="project-thumb">
+<img src="./assets/photos/4miBe6zg5r0.jpg" alt="Wind energy field">
+<div class="project-type-icon"><img src="./assets/icons/wind.svg" class="ico" alt=""></div>
+</div>
+<div class="project-body">
+<div style="display:flex;align-items:flex-start;justify-content:space-between;gap:var(--space-2)">
+<div class="project-title">Anatolia Wind Farm Bundle</div>
+<span class="badge verified">Gold Std</span>
+</div>
+<div class="project-meta">
+<span><img src="./assets/icons/map-pin.svg" class="ico" alt="" style="width:11px;height:11px;display:inline;vertical-align:middle"> Türkiye</span>
+<span><img src="./assets/icons/calendar.svg" class="ico" alt="" style="width:11px;height:11px;display:inline;vertical-align:middle"> Vintage 2022</span>
+<span>Renewable</span>
+</div>
+<div class="project-stats">
+<div class="project-stat"><div class="label">Credits held</div><div class="val">2,750</div></div>
+<div class="project-stat"><div class="label">Price / tCO₂e</div><div class="val">$11.90</div></div>
+</div>
+<div style="display:flex;gap:var(--space-2);margin-top:var(--space-2)">
+<button class="btn btn-sm" style="flex:1"><img src="./assets/icons/eye.svg" class="ico" alt="">Details</button>
+<button class="btn btn-primary btn-sm" style="flex:1"><img src="./assets/icons/recycle.svg" class="ico" alt="">Retire</button>
+</div>
+</div>
+</article>
+
+<article class="project-card">
+<div class="project-thumb">
+<img src="./assets/photos/4oovIxttThA.jpg" alt="Coastal blue carbon project">
+<div class="project-type-icon"><img src="./assets/icons/sprout.svg" class="ico" alt=""></div>
+</div>
+<div class="project-body">
+<div style="display:flex;align-items:flex-start;justify-content:space-between;gap:var(--space-2)">
+<div class="project-title">Sundarbans Mangrove Restoration</div>
+<span class="badge verified">Verra VCS</span>
+</div>
+<div class="project-meta">
+<span><img src="./assets/icons/map-pin.svg" class="ico" alt="" style="width:11px;height:11px;display:inline;vertical-align:middle"> Bangladesh</span>
+<span><img src="./assets/icons/calendar.svg" class="ico" alt="" style="width:11px;height:11px;display:inline;vertical-align:middle"> Vintage 2024</span>
+<span>Blue carbon</span>
+</div>
+<div class="project-stats">
+<div class="project-stat"><div class="label">Credits held</div><div class="val">2,100</div></div>
+<div class="project-stat"><div class="label">Price / tCO₂e</div><div class="val">$32.10</div></div>
+</div>
+<div style="display:flex;gap:var(--space-2);margin-top:var(--space-2)">
+<button class="btn btn-sm" style="flex:1"><img src="./assets/icons/eye.svg" class="ico" alt="">Details</button>
+<button class="btn btn-primary btn-sm" style="flex:1"><img src="./assets/icons/recycle.svg" class="ico" alt="">Retire</button>
+</div>
+</div>
+</article>
+
+<article class="project-card">
+<div class="project-thumb">
+<img src="./assets/photos/SBdmQcW8qag.jpg" alt="Boreal reforestation">
+<div class="project-type-icon"><img src="./assets/icons/tree-deciduous.svg" class="ico" alt=""></div>
+</div>
+<div class="project-body">
+<div style="display:flex;align-items:flex-start;justify-content:space-between;gap:var(--space-2)">
+<div class="project-title">Boreal Reforestation — Lapland</div>
+<span class="badge verified">Plan Vivo</span>
+</div>
+<div class="project-meta">
+<span><img src="./assets/icons/map-pin.svg" class="ico" alt="" style="width:11px;height:11px;display:inline;vertical-align:middle"> Finland</span>
+<span><img src="./assets/icons/calendar.svg" class="ico" alt="" style="width:11px;height:11px;display:inline;vertical-align:middle"> Vintage 2023</span>
+<span>ARR</span>
+</div>
+<div class="project-stats">
+<div class="project-stat"><div class="label">Credits held</div><div class="val">1,840</div></div>
+<div class="project-stat"><div class="label">Price / tCO₂e</div><div class="val">$24.75</div></div>
+</div>
+<div style="display:flex;gap:var(--space-2);margin-top:var(--space-2)">
+<button class="btn btn-sm" style="flex:1"><img src="./assets/icons/eye.svg" class="ico" alt="">Details</button>
+<button class="btn btn-primary btn-sm" style="flex:1"><img src="./assets/icons/recycle.svg" class="ico" alt="">Retire</button>
+</div>
+</div>
+</article>
+
+<article class="project-card">
+<div class="project-thumb">
+<img src="./assets/photos/2vHgij_n6q8.jpg" alt="Direct air capture facility">
+<div class="project-type-icon"><img src="./assets/icons/factory.svg" class="ico" alt=""></div>
+</div>
+<div class="project-body">
+<div style="display:flex;align-items:flex-start;justify-content:space-between;gap:var(--space-2)">
+<div class="project-title">Helios DAC — Iceland Facility 02</div>
+<span class="badge verified">Puro.earth</span>
+</div>
+<div class="project-meta">
+<span><img src="./assets/icons/map-pin.svg" class="ico" alt="" style="width:11px;height:11px;display:inline;vertical-align:middle"> Iceland</span>
+<span><img src="./assets/icons/calendar.svg" class="ico" alt="" style="width:11px;height:11px;display:inline;vertical-align:middle"> Vintage 2024</span>
+<span>DAC + storage</span>
+</div>
+<div class="project-stats">
+<div class="project-stat"><div class="label">Credits held</div><div class="val">640</div></div>
+<div class="project-stat"><div class="label">Price / tCO₂e</div><div class="val">$412.00</div></div>
+</div>
+<div style="display:flex;gap:var(--space-2);margin-top:var(--space-2)">
+<button class="btn btn-sm" style="flex:1"><img src="./assets/icons/eye.svg" class="ico" alt="">Details</button>
+<button class="btn btn-primary btn-sm" style="flex:1"><img src="./assets/icons/recycle.svg" class="ico" alt="">Retire</button>
+</div>
+</div>
+</article>
+
+<article class="project-card">
+<div class="project-thumb">
+<img src="./assets/photos/V63oM8OPJSo.jpg" alt="Tropical agroforestry">
+<div class="project-type-icon"><img src="./assets/icons/leaf.svg" class="ico" alt=""></div>
+</div>
+<div class="project-body">
+<div style="display:flex;align-items:flex-start;justify-content:space-between;gap:var(--space-2)">
+<div class="project-title">Acre Smallholder Agroforestry</div>
+<span class="badge verified">Verra VCS</span>
+</div>
+<div class="project-meta">
+<span><img src="./assets/icons/map-pin.svg" class="ico" alt="" style="width:11px;height:11px;display:inline;vertical-align:middle"> Brazil</span>
+<span><img src="./assets/icons/calendar.svg" class="ico" alt="" style="width:11px;height:11px;display:inline;vertical-align:middle"> Vintage 2022</span>
+<span>ARR · CCB</span>
+</div>
+<div class="project-stats">
+<div class="project-stat"><div class="label">Credits held</div><div class="val">3,560</div></div>
+<div class="project-stat"><div class="label">Price / tCO₂e</div><div class="val">$22.60</div></div>
+</div>
+<div style="display:flex;gap:var(--space-2);margin-top:var(--space-2)">
+<button class="btn btn-sm" style="flex:1"><img src="./assets/icons/eye.svg" class="ico" alt="">Details</button>
+<button class="btn btn-primary btn-sm" style="flex:1"><img src="./assets/icons/recycle.svg" class="ico" alt="">Retire</button>
+</div>
+</div>
+</article>
+
+<article class="project-card">
+<div class="project-thumb">
+<img src="./assets/photos/Au1eENDHD10.jpg" alt="Biochar production">
+<div class="project-type-icon"><img src="./assets/icons/flame.svg" class="ico" alt=""></div>
+</div>
+<div class="project-body">
+<div style="display:flex;align-items:flex-start;justify-content:space-between;gap:var(--space-2)">
+<div class="project-title">Karbon Biochar Co-op</div>
+<span class="badge verified">Puro.earth</span>
+</div>
+<div class="project-meta">
+<span><img src="./assets/icons/map-pin.svg" class="ico" alt="" style="width:11px;height:11px;display:inline;vertical-align:middle"> Sweden</span>
+<span><img src="./assets/icons/calendar.svg" class="ico" alt="" style="width:11px;height:11px;display:inline;vertical-align:middle"> Vintage 2024</span>
+<span>Biochar</span>
+</div>
+<div class="project-stats">
+<div class="project-stat"><div class="label">Credits held</div><div class="val">980</div></div>
+<div class="project-stat"><div class="label">Price / tCO₂e</div><div class="val">$148.00</div></div>
+</div>
+<div style="display:flex;gap:var(--space-2);margin-top:var(--space-2)">
+<button class="btn btn-sm" style="flex:1"><img src="./assets/icons/eye.svg" class="ico" alt="">Details</button>
+<button class="btn btn-primary btn-sm" style="flex:1"><img src="./assets/icons/recycle.svg" class="ico" alt="">Retire</button>
+</div>
+</div>
+</article>
+
+<article class="project-card">
+<div class="project-thumb">
+<img src="./assets/photos/hjODrLxv55E.jpg" alt="Improved cookstoves community">
+<div class="project-type-icon"><img src="./assets/icons/zap.svg" class="ico" alt=""></div>
+</div>
+<div class="project-body">
+<div style="display:flex;align-items:flex-start;justify-content:space-between;gap:var(--space-2)">
+<div class="project-title">Rift Valley Clean Cookstoves</div>
+<span class="badge verified">Gold Std</span>
+</div>
+<div class="project-meta">
+<span><img src="./assets/icons/map-pin.svg" class="ico" alt="" style="width:11px;height:11px;display:inline;vertical-align:middle"> Kenya</span>
+<span><img src="./assets/icons/calendar.svg" class="ico" alt="" style="width:11px;height:11px;display:inline;vertical-align:middle"> Vintage 2023</span>
+<span>Energy efficiency</span>
+</div>
+<div class="project-stats">
+<div class="project-stat"><div class="label">Credits held</div><div class="val">1,920</div></div>
+<div class="project-stat"><div class="label">Price / tCO₂e</div><div class="val">$9.20</div></div>
+</div>
+<div style="display:flex;gap:var(--space-2);margin-top:var(--space-2)">
+<button class="btn btn-sm" style="flex:1"><img src="./assets/icons/eye.svg" class="ico" alt="">Details</button>
+<button class="btn btn-primary btn-sm" style="flex:1"><img src="./assets/icons/recycle.svg" class="ico" alt="">Retire</button>
+</div>
+</div>
+</article>
+
+<article class="project-card">
+<div class="project-thumb">
+<img src="./assets/photos/sKJ7zSylUao.jpg" alt="Urban canopy initiative">
+<div class="project-type-icon"><img src="./assets/icons/sprout.svg" class="ico" alt=""></div>
+</div>
+<div class="project-body">
+<div style="display:flex;align-items:flex-start;justify-content:space-between;gap:var(--space-2)">
+<div class="project-title">Honshu Urban Canopy Initiative</div>
+<span class="badge pending">ACR pending</span>
+</div>
+<div class="project-meta">
+<span><img src="./assets/icons/map-pin.svg" class="ico" alt="" style="width:11px;height:11px;display:inline;vertical-align:middle"> Japan</span>
+<span><img src="./assets/icons/calendar.svg" class="ico" alt="" style="width:11px;height:11px;display:inline;vertical-align:middle"> Vintage 2024</span>
+<span>Urban ARR</span>
+</div>
+<div class="project-stats">
+<div class="project-stat"><div class="label">Credits held</div><div class="val">1,430</div></div>
+<div class="project-stat"><div class="label">Price / tCO₂e</div><div class="val">$28.50</div></div>
+</div>
+<div style="display:flex;gap:var(--space-2);margin-top:var(--space-2)">
+<button class="btn btn-sm" style="flex:1"><img src="./assets/icons/eye.svg" class="ico" alt="">Details</button>
+<button class="btn btn-primary btn-sm" style="flex:1"><img src="./assets/icons/recycle.svg" class="ico" alt="">Retire</button>
+</div>
+</div>
+</article>
+
+</div>
+</section>
+
+<section class="section">
+<div class="card-flat">
+<div class="card-head">
+<div>
+<h3>Retirement history</h3>
+<div class="dim" style="font-size:var(--text-xs);margin-top:2px">12 retirement events · FY24 to date</div>
+</div>
+<div style="display:flex;gap:var(--space-2);align-items:center">
+<button class="btn btn-sm"><img src="./assets/icons/funnel.svg" class="ico" alt="">Filter</button>
+<button class="btn btn-sm"><img src="./assets/icons/file-down.svg" class="ico" alt="">Export CSV</button>
+</div>
+</div>
+<div class="table-wrap">
+<table class="tbl">
+<thead>
+<tr>
+<th>Date retired</th>
+<th>Project</th>
+<th>Vintage</th>
+<th class="num">Credits (tCO₂e)</th>
+<th>Reporting period</th>
+<th>Serial-number range</th>
+<th>Certificate</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="mono">2024-09-28</td>
+<td><div style="font-weight:500">Cascadia Forest Conservation</div><div class="muted mono" style="font-size:var(--text-xs)">VCS-3287</div></td>
+<td class="mono">2023</td>
+<td class="num">1,420</td>
+<td>FY24 Q3</td>
+<td class="mono" style="font-size:var(--text-xs)">VCS-3287-001-114501 → 115920</td>
+<td><a href="#" class="accent" style="display:inline-flex;align-items:center;gap:4px"><img src="./assets/icons/external-link.svg" class="ico" alt="" style="width:12px;height:12px">PDF</a></td>
+<td><button class="action-dots"><img src="./assets/icons/ellipsis.svg" class="ico" alt=""></button></td>
+</tr>
+<tr>
+<td class="mono">2024-09-14</td>
+<td><div style="font-weight:500">Anatolia Wind Farm Bundle</div><div class="muted mono" style="font-size:var(--text-xs)">GS-9114</div></td>
+<td class="mono">2022</td>
+<td class="num">1,800</td>
+<td>FY24 Q3</td>
+<td class="mono" style="font-size:var(--text-xs)">GS-9114-A0772 → A2571</td>
+<td><a href="#" class="accent" style="display:inline-flex;align-items:center;gap:4px"><img src="./assets/icons/external-link.svg" class="ico" alt="" style="width:12px;height:12px">PDF</a></td>
+<td><button class="action-dots"><img src="./assets/icons/ellipsis.svg" class="ico" alt=""></button></td>
+</tr>
+<tr>
+<td class="mono">2024-08-30</td>
+<td><div style="font-weight:500">Helios DAC — Iceland 02</div><div class="muted mono" style="font-size:var(--text-xs)">PURO-2240</div></td>
+<td class="mono">2024</td>
+<td class="num">220</td>
+<td>FY24 Q3</td>
+<td class="mono" style="font-size:var(--text-xs)">PURO-2240-DAC-00891 → 01110</td>
+<td><a href="#" class="accent" style="display:inline-flex;align-items:center;gap:4px"><img src="./assets/icons/external-link.svg" class="ico" alt="" style="width:12px;height:12px">PDF</a></td>
+<td><button class="action-dots"><img src="./assets/icons/ellipsis.svg" class="ico" alt=""></button></td>
+</tr>
+<tr>
+<td class="mono">2024-08-12</td>
+<td><div style="font-weight:500">Acre Smallholder Agroforestry</div><div class="muted mono" style="font-size:var(--text-xs)">VCS-1894</div></td>
+<td class="mono">2022</td>
+<td class="num">2,100</td>
+<td>FY24 Q3</td>
+<td class="mono" style="font-size:var(--text-xs)">VCS-1894-AS-204001 → 206100</td>
+<td><a href="#" class="accent" style="display:inline-flex;align-items:center;gap:4px"><img src="./assets/icons/external-link.svg" class="ico" alt="" style="width:12px;height:12px">PDF</a></td>
+<td><button class="action-dots"><img src="./assets/icons/ellipsis.svg" class="ico" alt=""></button></td>
+</tr>
+<tr>
+<td class="mono">2024-07-29</td>
+<td><div style="font-weight:500">Rift Valley Clean Cookstoves</div><div class="muted mono" style="font-size:var(--text-xs)">GS-7041</div></td>
+<td class="mono">2023</td>
+<td class="num">980</td>
+<td>FY24 Q3</td>
+<td class="mono" style="font-size:var(--text-xs)">GS-7041-RV-30115 → 31094</td>
+<td><a href="#" class="accent" style="display:inline-flex;align-items:center;gap:4px"><img src="./assets/icons/external-link.svg" class="ico" alt="" style="width:12px;height:12px">PDF</a></td>
+<td><button class="action-dots"><img src="./assets/icons/ellipsis.svg" class="ico" alt=""></button></td>
+</tr>
+<tr>
+<td class="mono">2024-07-04</td>
+<td><div style="font-weight:500">Boreal Reforestation — Lapland</div><div class="muted mono" style="font-size:var(--text-xs)">PV-4408</div></td>
+<td class="mono">2023</td>
+<td class="num">1,260</td>
+<td>FY24 Q2</td>
+<td class="mono" style="font-size:var(--text-xs)">PV-4408-LP-00781 → 02040</td>
+<td><a href="#" class="accent" style="display:inline-flex;align-items:center;gap:4px"><img src="./assets/icons/external-link.svg" class="ico" alt="" style="width:12px;height:12px">PDF</a></td>
+<td><button class="action-dots"><img src="./assets/icons/ellipsis.svg" class="ico" alt=""></button></td>
+</tr>
+<tr>
+<td class="mono">2024-06-21</td>
+<td><div style="font-weight:500">Sundarbans Mangrove Restoration</div><div class="muted mono" style="font-size:var(--text-xs)">VCS-5602</div></td>
+<td class="mono">2024</td>
+<td class="num">880</td>
+<td>FY24 Q2</td>
+<td class="mono" style="font-size:var(--text-xs)">VCS-5602-SM-11220 → 12099</td>
+<td><a href="#" class="accent" style="display:inline-flex;align-items:center;gap:4px"><img src="./assets/icons/external-link.svg" class="ico" alt="" style="width:12px;height:12px">PDF</a></td>
+<td><button class="action-dots"><img src="./assets/icons/ellipsis.svg" class="ico" alt=""></button></td>
+</tr>
+<tr>
+<td class="mono">2024-05-30</td>
+<td><div style="font-weight:500">Karbon Biochar Co-op</div><div class="muted mono" style="font-size:var(--text-xs)">PURO-1188</div></td>
+<td class="mono">2024</td>
+<td class="num">340</td>
+<td>FY24 Q2</td>
+<td class="mono" style="font-size:var(--text-xs)">PURO-1188-BC-00451 → 00790</td>
+<td><a href="#" class="accent" style="display:inline-flex;align-items:center;gap:4px"><img src="./assets/icons/external-link.svg" class="ico" alt="" style="width:12px;height:12px">PDF</a></td>
+<td><button class="action-dots"><img src="./assets/icons/ellipsis.svg" class="ico" alt=""></button></td>
+</tr>
+<tr>
+<td class="mono">2024-05-08</td>
+<td><div style="font-weight:500">Cascadia Forest Conservation</div><div class="muted mono" style="font-size:var(--text-xs)">VCS-3287</div></td>
+<td class="mono">2022</td>
+<td class="num">860</td>
+<td>FY24 Q2</td>
+<td class="mono" style="font-size:var(--text-xs)">VCS-3287-001-103641 → 104500</td>
+<td><a href="#" class="accent" style="display:inline-flex;align-items:center;gap:4px"><img src="./assets/icons/external-link.svg" class="ico" alt="" style="width:12px;height:12px">PDF</a></td>
+<td><button class="action-dots"><img src="./assets/icons/ellipsis.svg" class="ico" alt=""></button></td>
+</tr>
+<tr class="totals">
+<td colspan="3">Totals — FY24 to date</td>
+<td class="num">9,860</td>
+<td colspan="4" class="muted">9 retirement events · 6 projects</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="pagination">
+<div class="dim mono" style="font-size:var(--text-xs)">Showing 1–9 of 12</div>
+<div class="pager">
+<button class="pg-btn"><img src="./assets/icons/chevron-left.svg" class="ico" alt="" style="width:14px;height:14px"></button>
+<button class="pg-btn active">1</button>
+<button class="pg-btn">2</button>
+<button class="pg-btn"><img src="./assets/icons/chevron-right.svg" class="ico" alt="" style="width:14px;height:14px"></button>
+</div>
+</div>
+</div>
+</section>
+
+</main>
+</div>
+</div>
+</body>
+</html>

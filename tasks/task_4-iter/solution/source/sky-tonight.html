@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sky Tonight — Little Cosmos</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container topbar-inner">
+    <a href="./home.html" class="logo">
+      <span class="logo-mark"><img src="./assets/icons/rocket.svg" alt="" class="icon"></span>
+      Little Cosmos
+    </a>
+    <nav class="nav">
+      <a href="./home.html">Home</a>
+      <a href="./topic.html">Topic Galaxies</a>
+      <a href="./paper.html">Paper Reader</a>
+      <a href="./sky-tonight.html" class="active">Sky Tonight</a>
+      <a href="./for-grown-ups.html">For Grown-ups</a>
+    </nav>
+    <div class="level-selector" role="group" aria-label="Reading level">
+      <button>Ages 5–7</button>
+      <button class="active">Ages 8–10</button>
+      <button>Ages 11+</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container stack-lg">
+
+      <div class="stack">
+        <span class="hero-eyebrow"><img src="./assets/icons/moon-star.svg" alt="" class="icon"> Tonight's sky planner</span>
+        <h1>Look up tonight 🔭</h1>
+        <p class="hero-sub text-md">Pick where you are and we'll show you what's hanging in the sky above your roof — plus a kid-paper about every twinkle.</p>
+      </div>
+
+      <!-- LOCATION + TIME PICKER BAR -->
+      <div class="card-lg">
+        <div class="grid-4" style="align-items:end">
+
+          <div class="stack" style="gap:8px">
+            <label class="text-xs uppercase font-bold" for="city">Your city</label>
+            <div class="input-group">
+              <img src="./assets/icons/map-pin.svg" alt="" class="icon">
+              <input id="city" class="input" type="text" value="Boulder, Colorado">
+            </div>
+          </div>
+
+          <div class="stack" style="gap:8px">
+            <label class="text-xs uppercase font-bold" for="date">Date</label>
+            <div class="input-group">
+              <img src="./assets/icons/calendar.svg" alt="" class="icon">
+              <input id="date" class="input" type="text" value="Tonight · Thu, Nov 14">
+            </div>
+          </div>
+
+          <div class="stack" style="gap:8px">
+            <div class="row-between" style="gap:8px">
+              <label class="text-xs uppercase font-bold" for="time">Time of night</label>
+              <span class="chip chip-yellow">9:42 PM</span>
+            </div>
+            <input id="time" class="slider" type="range" min="0" max="100" value="38">
+            <div class="row-between text-xs text-muted" style="margin-top:-4px">
+              <span><img src="./assets/icons/sunset.svg" alt="" class="icon icon-sm" style="display:inline;vertical-align:middle"> 5:14 PM</span>
+              <span>Midnight</span>
+              <span><img src="./assets/icons/sunrise.svg" alt="" class="icon icon-sm" style="display:inline;vertical-align:middle"> 6:48 AM</span>
+            </div>
+          </div>
+
+          <div class="stack" style="gap:8px">
+            <div class="row-between" style="gap:8px">
+              <label class="text-xs uppercase font-bold">Light pollution</label>
+              <span class="chip chip-accent">Bortle 4</span>
+            </div>
+            <div class="row-tight" style="gap:3px">
+              <span class="dot dot-paper"></span>
+              <span class="dot dot-paper"></span>
+              <span class="dot dot-paper"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot" style="background:var(--muted)"></span>
+              <span class="dot" style="background:var(--muted);opacity:.6"></span>
+              <span class="dot" style="background:var(--muted);opacity:.5"></span>
+              <span class="dot" style="background:var(--muted);opacity:.4"></span>
+              <span class="dot dot-ink"></span>
+            </div>
+            <p class="text-xs text-muted" style="margin-top:-2px">1 = inky dark · 9 = bright city</p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- SKY DOME -->
+      <div class="card-lg" style="padding:0;overflow:hidden">
+        <div class="sky-dome">
+          <!-- stars (decorative) -->
+          <span class="sky-star" style="left:8%;top:18%;width:3px;height:3px"></span>
+          <span class="sky-star" style="left:14%;top:42%;width:2px;height:2px"></span>
+          <span class="sky-star" style="left:22%;top:24%;width:4px;height:4px"></span>
+          <span class="sky-star" style="left:31%;top:38%;width:2px;height:2px"></span>
+          <span class="sky-star" style="left:44%;top:14%;width:3px;height:3px"></span>
+          <span class="sky-star" style="left:58%;top:30%;width:2px;height:2px"></span>
+          <span class="sky-star" style="left:66%;top:48%;width:3px;height:3px"></span>
+          <span class="sky-star" style="left:73%;top:22%;width:2px;height:2px"></span>
+          <span class="sky-star" style="left:81%;top:36%;width:4px;height:4px"></span>
+          <span class="sky-star" style="left:88%;top:52%;width:2px;height:2px"></span>
+          <span class="sky-star" style="left:38%;top:52%;width:2px;height:2px"></span>
+          <span class="sky-star" style="left:52%;top:60%;width:3px;height:3px"></span>
+          <span class="sky-star" style="left:18%;top:60%;width:2px;height:2px"></span>
+          <span class="sky-star" style="left:76%;top:62%;width:3px;height:3px"></span>
+
+          <!-- moon -->
+          <span class="moon-icon" style="position:absolute;left:18%;top:22%"></span>
+          <span class="sky-label" style="left:14%;top:55%">🌖 Moon · Waning Gibbous</span>
+
+          <!-- planet dots -->
+          <span class="dot dot-yellow" style="position:absolute;left:44%;top:30%;width:18px;height:18px;border-width:2.5px"></span>
+          <span class="sky-label" style="left:42%;top:42%">Jupiter</span>
+
+          <span class="dot" style="position:absolute;left:62%;top:46%;width:13px;height:13px;background:#ff8a6f;border-width:2.5px"></span>
+          <span class="sky-label" style="left:60%;top:58%">Mars</span>
+
+          <span class="dot" style="position:absolute;left:80%;top:34%;width:12px;height:12px;background:var(--accent);border-width:2.5px"></span>
+          <span class="sky-label" style="left:77%;top:46%">Saturn</span>
+
+          <!-- constellation lines (decorative dots) -->
+          <span class="sky-star" style="left:30%;top:68%;width:5px;height:5px"></span>
+          <span class="sky-star" style="left:34%;top:74%;width:5px;height:5px"></span>
+          <span class="sky-star" style="left:38%;top:70%;width:5px;height:5px"></span>
+          <span class="sky-star" style="left:42%;top:78%;width:5px;height:5px"></span>
+          <span class="sky-label" style="left:30%;top:84%">Orion</span>
+
+          <span class="sky-star" style="left:54%;top:74%;width:5px;height:5px"></span>
+          <span class="sky-star" style="left:60%;top:70%;width:5px;height:5px"></span>
+          <span class="sky-star" style="left:66%;top:76%;width:5px;height:5px"></span>
+          <span class="sky-label" style="left:56%;top:84%">Cassiopeia</span>
+
+          <span class="sky-star" style="left:78%;top:70%;width:5px;height:5px"></span>
+          <span class="sky-star" style="left:84%;top:74%;width:5px;height:5px"></span>
+          <span class="sky-star" style="left:88%;top:68%;width:5px;height:5px"></span>
+          <span class="sky-label" style="left:78%;top:82%">Ursa Major</span>
+
+          <!-- compass labels -->
+          <span class="sky-label" style="left:2%;bottom:6px">East</span>
+          <span class="sky-label" style="left:50%;bottom:6px;transform:translateX(-50%)">South · horizon</span>
+          <span class="sky-label" style="right:2%;bottom:6px">West</span>
+        </div>
+
+        <div style="padding:var(--space-5)">
+          <div class="row-between" style="margin-bottom:var(--space-4)">
+            <h3>What's the legend?</h3>
+            <span class="chip chip-paper"><img src="./assets/icons/compass.svg" alt="" class="icon icon-sm"> Facing south</span>
+          </div>
+          <div class="grid-3">
+            <div class="row">
+              <span class="dot dot-yellow" style="width:18px;height:18px"></span>
+              <div>
+                <div class="font-bold">Jupiter</div>
+                <div class="text-xs text-muted">Brightness ★★★★★</div>
+              </div>
+            </div>
+            <div class="row">
+              <span class="dot" style="background:#ff8a6f;width:14px;height:14px"></span>
+              <div>
+                <div class="font-bold">Mars</div>
+                <div class="text-xs text-muted">Brightness ★★★★☆</div>
+              </div>
+            </div>
+            <div class="row">
+              <span class="dot" style="background:var(--accent);width:13px;height:13px"></span>
+              <div>
+                <div class="font-bold">Saturn</div>
+                <div class="text-xs text-muted">Brightness ★★★☆☆</div>
+              </div>
+            </div>
+            <div class="row">
+              <span class="moon-icon" style="width:22px;height:22px"></span>
+              <div>
+                <div class="font-bold">Moon</div>
+                <div class="text-xs text-muted">Waning gibbous · 78%</div>
+              </div>
+            </div>
+            <div class="row">
+              <span class="dot dot-paper" style="width:14px;height:14px"></span>
+              <div>
+                <div class="font-bold">Orion</div>
+                <div class="text-xs text-muted">Constellation · ★★★★★</div>
+              </div>
+            </div>
+            <div class="row">
+              <span class="dot dot-paper" style="width:14px;height:14px"></span>
+              <div>
+                <div class="font-bold">Cassiopeia</div>
+                <div class="text-xs text-muted">Constellation · ★★★★☆</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- WHAT YOU CAN SEE -->
+      <div class="stack">
+        <div class="row-between">
+          <h2>What you can see tonight</h2>
+          <span class="chip chip-yellow"><img src="./assets/icons/sparkles.svg" alt="" class="icon icon-sm"> 6 highlights</span>
+        </div>
+
+        <div class="stack">
+
+          <div class="list-row">
+            <div class="icon-box icon-box-accent"><img src="./assets/icons/orbit.svg" alt="" class="icon icon-lg" style="filter:invert(1)"></div>
+            <div style="flex:1;min-width:160px">
+              <div class="font-bold text-md">Jupiter</div>
+              <div class="text-sm text-muted">The biggest planet — look for four tiny moons in a line!</div>
+            </div>
+            <div class="stack" style="gap:4px;min-width:120px">
+              <span class="text-xs uppercase text-muted font-bold">Best at</span>
+              <span class="row-tight"><img src="./assets/icons/clock.svg" alt="" class="icon icon-sm"> 9:30 – 11:00 PM</span>
+            </div>
+            <span class="chip chip-accent"><img src="./assets/icons/eye.svg" alt="" class="icon icon-sm" style="filter:invert(1)"> Naked eye</span>
+            <a href="./paper.html" class="btn btn-secondary btn-sm">Read about it <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm"></a>
+          </div>
+
+          <div class="list-row">
+            <div class="icon-box"><img src="./assets/icons/moon.svg" alt="" class="icon icon-lg"></div>
+            <div style="flex:1;min-width:160px">
+              <div class="font-bold text-md">The Moon (78% full)</div>
+              <div class="text-sm text-muted">A waning gibbous — its craters look extra crispy near the edge.</div>
+            </div>
+            <div class="stack" style="gap:4px;min-width:120px">
+              <span class="text-xs uppercase text-muted font-bold">Best at</span>
+              <span class="row-tight"><img src="./assets/icons/clock.svg" alt="" class="icon icon-sm"> 10:15 PM onward</span>
+            </div>
+            <span class="chip chip-accent"><img src="./assets/icons/eye.svg" alt="" class="icon icon-sm" style="filter:invert(1)"> Naked eye</span>
+            <a href="./paper.html" class="btn btn-secondary btn-sm">Read about it <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm"></a>
+          </div>
+
+          <div class="list-row">
+            <div class="icon-box"><img src="./assets/icons/flame.svg" alt="" class="icon icon-lg"></div>
+            <div style="flex:1;min-width:160px">
+              <div class="font-bold text-md">Mars</div>
+              <div class="text-sm text-muted">The orange planet — rocks and dust storms make it glow rusty red.</div>
+            </div>
+            <div class="stack" style="gap:4px;min-width:120px">
+              <span class="text-xs uppercase text-muted font-bold">Best at</span>
+              <span class="row-tight"><img src="./assets/icons/clock.svg" alt="" class="icon icon-sm"> 10:45 – 1:30 AM</span>
+            </div>
+            <span class="chip chip-yellow"><img src="./assets/icons/binoculars.svg" alt="" class="icon icon-sm"> Binoculars</span>
+            <a href="./paper.html" class="btn btn-secondary btn-sm">Read about it <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm"></a>
+          </div>
+
+          <div class="list-row">
+            <div class="icon-box icon-box-surface"><img src="./assets/icons/atom.svg" alt="" class="icon icon-lg"></div>
+            <div style="flex:1;min-width:160px">
+              <div class="font-bold text-md">Saturn</div>
+              <div class="text-sm text-muted">Ringed and beautiful — its rings are made of zillions of icy snowballs.</div>
+            </div>
+            <div class="stack" style="gap:4px;min-width:120px">
+              <span class="text-xs uppercase text-muted font-bold">Best at</span>
+              <span class="row-tight"><img src="./assets/icons/clock.svg" alt="" class="icon icon-sm"> 8:30 – 10:00 PM</span>
+            </div>
+            <span class="chip"><img src="./assets/icons/telescope.svg" alt="" class="icon icon-sm"> Telescope</span>
+            <a href="./paper.html" class="btn btn-secondary btn-sm">Read about it <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm"></a>
+          </div>
+
+          <div class="list-row">
+            <div class="icon-box"><img src="./assets/icons/star.svg" alt="" class="icon icon-lg"></div>
+            <div style="flex:1;min-width:160px">
+              <div class="font-bold text-md">Orion the Hunter</div>
+              <div class="text-sm text-muted">Find the three-star belt — Betelgeuse and Rigel are the bright shoulders and foot.</div>
+            </div>
+            <div class="stack" style="gap:4px;min-width:120px">
+              <span class="text-xs uppercase text-muted font-bold">Best at</span>
+              <span class="row-tight"><img src="./assets/icons/clock.svg" alt="" class="icon icon-sm"> 11:00 PM – 4:00 AM</span>
+            </div>
+            <span class="chip chip-accent"><img src="./assets/icons/eye.svg" alt="" class="icon icon-sm" style="filter:invert(1)"> Naked eye</span>
+            <a href="./paper.html" class="btn btn-secondary btn-sm">Read about it <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm"></a>
+          </div>
+
+          <div class="list-row">
+            <div class="icon-box"><img src="./assets/icons/satellite.svg" alt="" class="icon icon-lg"></div>
+            <div style="flex:1;min-width:160px">
+              <div class="font-bold text-md">ISS flyover</div>
+              <div class="text-sm text-muted">A bright moving dot — astronauts waving at you from 250 miles up.</div>
+            </div>
+            <div class="stack" style="gap:4px;min-width:120px">
+              <span class="text-xs uppercase text-muted font-bold">Best at</span>
+              <span class="row-tight"><img src="./assets/icons/clock.svg" alt="" class="icon icon-sm"> 9:58 PM (4 min)</span>
+            </div>
+            <span class="chip chip-accent"><img src="./assets/icons/eye.svg" alt="" class="icon icon-sm" style="filter:invert(1)"> Naked eye</span>
+            <a href="./paper.html" class="btn btn-secondary btn-sm">Read about it <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm"></a>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- FAMILY ACTIVITY -->
+      <div class="card-lg" style="background:var(--surface)">
+        <div class="layout-reader">
+
+          <div class="stack-lg">
+            <div>
+              <span class="chip chip-accent"><img src="./assets/icons/party-popper.svg" alt="" class="icon icon-sm" style="filter:invert(1)"> Tonight's family activity</span>
+              <h2 style="margin-top:var(--space-3)">Build a backyard Jupiter-watching nest 🪐</h2>
+              <p class="text-md text-muted" style="margin-top:var(--space-3)">Cozy up on the lawn, point your binoculars at Jupiter, and try to spot the four little moons Galileo discovered 400 years ago. Takes about 30 minutes.</p>
+            </div>
+
+            <div>
+              <h4 style="margin-bottom:var(--space-3)">You'll need</h4>
+              <div class="row" style="gap:var(--space-2)">
+                <span class="chip chip-paper"><img src="./assets/icons/binoculars.svg" alt="" class="icon icon-sm"> Binoculars (any size)</span>
+                <span class="chip chip-paper">🧺 A picnic blanket</span>
+                <span class="chip chip-paper">🛋️ Pillows or cushions</span>
+                <span class="chip chip-paper"><img src="./assets/icons/lightbulb.svg" alt="" class="icon icon-sm"> Red flashlight</span>
+                <span class="chip chip-paper"><img src="./assets/icons/book-open.svg" alt="" class="icon icon-sm"> Notebook + pencil</span>
+                <span class="chip chip-paper">🍪 A snack</span>
+                <span class="chip chip-paper">🧣 Warm clothes</span>
+              </div>
+            </div>
+
+            <div>
+              <h4 style="margin-bottom:var(--space-4)">How to do it</h4>
+              <ol class="stack">
+                <li class="row" style="align-items:flex-start">
+                  <span class="step-num">1</span>
+                  <div style="flex:1">
+                    <div class="font-bold">Wait until the sky goes really dark</div>
+                    <div class="text-sm text-muted">About 30 minutes after sunset — around 9:30 PM tonight.</div>
+                  </div>
+                </li>
+                <li class="row" style="align-items:flex-start">
+                  <span class="step-num">2</span>
+                  <div style="flex:1">
+                    <div class="font-bold">Spread your blanket facing south</div>
+                    <div class="text-sm text-muted">Use the compass in the sky map above — Jupiter rises high in the southern sky.</div>
+                  </div>
+                </li>
+                <li class="row" style="align-items:flex-start">
+                  <span class="step-num">3</span>
+                  <div style="flex:1">
+                    <div class="font-bold">Find the brightest "star" that doesn't twinkle</div>
+                    <div class="text-sm text-muted">Planets shine with a steady light. That's Jupiter!</div>
+                  </div>
+                </li>
+                <li class="row" style="align-items:flex-start">
+                  <span class="step-num">4</span>
+                  <div style="flex:1">
+                    <div class="font-bold">Hold your binoculars steady</div>
+                    <div class="text-sm text-muted">Rest your elbows on a fence or your knees to stop the wobble.</div>
+                  </div>
+                </li>
+                <li class="row" style="align-items:flex-start">
+                  <span class="step-num">5</span>
+                  <div style="flex:1">
+                    <div class="font-bold">Count the moons</div>
+                    <div class="text-sm text-muted">You should see 2 to 4 little dots near Jupiter. Those are Io, Europa, Ganymede, and Callisto.</div>
+                  </div>
+                </li>
+                <li class="row" style="align-items:flex-start">
+                  <span class="step-num">6</span>
+                  <div style="flex:1">
+                    <div class="font-bold">Draw what you see</div>
+                    <div class="text-sm text-muted">Sketch Jupiter and the moons in your notebook. Come back tomorrow — the moons will have moved!</div>
+                  </div>
+                </li>
+              </ol>
+            </div>
+
+            <div class="row">
+              <a href="#" class="btn btn-primary"><img src="./assets/icons/printer.svg" alt="" class="icon" style="filter:invert(1)"> Print this activity</a>
+              <a href="#" class="btn btn-ghost"><img src="./assets/icons/share-2.svg" alt="" class="icon"> Share with a grown-up</a>
+              <a href="#" class="btn btn-ghost"><img src="./assets/icons/bookmark.svg" alt="" class="icon"> Save for later</a>
+            </div>
+          </div>
+
+          <aside class="stack">
+            <div class="thumb thumb-tall">
+              <img src="./assets/photos/eodA_8CTOFo.jpg" alt="Stars over a silhouetted treeline">
+            </div>
+            <div class="callout">
+              <div class="callout-label"><img src="./assets/icons/wand-sparkles.svg" alt="" class="icon icon-sm"> Big word helper</div>
+              <p class="text-sm"><span class="glossary-word">Gibbous</span> means more than half full but not quite all the way — like the Moon is wearing a slightly puffy cape tonight.</p>
+            </div>
+            <div class="card-flat">
+              <div class="row" style="margin-bottom:var(--space-3)">
+                <img src="./assets/icons/cloud-moon.svg" alt="" class="icon icon-lg">
+                <div>
+                  <div class="font-bold">Sky forecast</div>
+                  <div class="text-xs text-muted">For 9 PM – 1 AM tonight</div>
+                </div>
+              </div>
+              <div class="stack" style="gap:var(--space-2)">
+                <div class="row-between text-sm"><span>Cloud cover</span><span class="font-bold">12% (great!)</span></div>
+                <div class="progress"><div class="progress-fill" style="width:12%"></div></div>
+                <div class="row-between text-sm"><span>Moon brightness</span><span class="font-bold">78%</span></div>
+                <div class="progress"><div class="progress-fill" style="width:78%;background:var(--accent-alt)"></div></div>
+                <div class="row-between text-sm"><span>Temperature</span><span class="font-bold">42°F · chilly</span></div>
+              </div>
+            </div>
+            <div class="card-accent">
+              <h4 style="margin-bottom:var(--space-2)">After the activity</h4>
+              <p class="text-sm">Tell us how many moons you saw and what color Jupiter looked. We'll add your sighting to the Cosmos logbook! 🌟</p>
+              <a href="#" class="btn btn-sm" style="margin-top:var(--space-3)"><img src="./assets/icons/mail.svg" alt="" class="icon icon-sm"> Send your sighting</a>
+            </div>
+          </aside>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="grid-4">
+      <div>
+        <div class="logo" style="color:var(--paper);margin-bottom:var(--space-3)">
+          <span class="logo-mark"><img src="./assets/icons/rocket.svg" alt="" class="icon"></span>
+          Little Cosmos
+        </div>
+        <p class="text-sm" style="opacity:.85">Real space science, retold for kids and the grown-ups who love them.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="./home.html">Home</a>
+        <a href="./topic.html">Topic galaxies</a>
+        <a href="./paper.html">Paper reader</a>
+        <a href="./sky-tonight.html">Sky tonight</a>
+      </div>
+      <div>
+        <h4>For families</h4>
+        <a href="./for-grown-ups.html">For grown-ups</a>
+        <a href="#">Classroom kits</a>
+        <a href="#">Printable activities</a>
+        <a href="#">Safety &amp; privacy</a>
+      </div>
+      <div>
+        <h4>Get our moon mail</h4>
+        <p class="text-sm" style="opacity:.85;margin-bottom:var(--space-3)">One starry email a month — what's up in the sky and one new kid-paper.</p>
+        <input class="input" type="email" placeholder="your@email.com">
+        <a href="#" class="btn btn-secondary btn-sm" style="margin-top:var(--space-3)">Subscribe <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm"></a>
+      </div>
+    </div>
+    <div class="footer-credit row-between">
+      <span>© 2024 Little Cosmos · Built with telescopes &amp; cocoa</span>
+      <span>Made with help from real astronomers 🛰️</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

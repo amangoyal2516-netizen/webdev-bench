@@ -1,0 +1,646 @@
+[
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 1323,
+    "y": 24,
+    "w": 16,
+    "h": 16,
+    "phash": "ec98926b19b6c4d9",
+    "lab_mean": [
+      40.19,
+      20.77,
+      -74.24
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 203,
+    "y": 568.578125,
+    "w": 16,
+    "h": 16,
+    "phash": "aeb2f0ff8b0a882c",
+    "lab_mean": [
+      12.24,
+      -0.74,
+      -3.04
+    ]
+  },
+  {
+    "src": "./assets/icons/scale.svg",
+    "alt": "",
+    "x": 192,
+    "y": 614.515625,
+    "w": 24,
+    "h": 24,
+    "phash": "d06c0e3b3330f1db",
+    "lab_mean": [
+      35.36,
+      -0.04,
+      -2.77
+    ]
+  },
+  {
+    "src": "./assets/icons/quote.svg",
+    "alt": "",
+    "x": 192,
+    "y": 664.46875,
+    "w": 24,
+    "h": 24,
+    "phash": "d0ad73862a792e72",
+    "lab_mean": [
+      21.09,
+      -0.1,
+      -3.39
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-07.svg",
+    "alt": "",
+    "x": 192,
+    "y": 964.25,
+    "w": 56,
+    "h": 56,
+    "phash": "843c4fc7ca9b3938",
+    "lab_mean": [
+      65.01,
+      -0.03,
+      -2.66
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 431.4375,
+    "y": 1046.3125,
+    "w": 16,
+    "h": 16,
+    "phash": "ecb6926d1996c469",
+    "lab_mean": [
+      4.4,
+      -0.01,
+      -3.39
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 1263,
+    "y": 1245.859375,
+    "w": 16,
+    "h": 16,
+    "phash": "bd1cc2e22c1c9ee3",
+    "lab_mean": [
+      93.64,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/photos/2FCVdvwqmGg.jpg",
+    "alt": "Aerial view of a downtown financial district",
+    "x": 169,
+    "y": 1348.328125,
+    "w": 318,
+    "h": 178.875,
+    "phash": "a5cad5b24d21dbc4",
+    "lab_mean": [
+      61.13,
+      -2.22,
+      0.8
+    ]
+  },
+  {
+    "src": "./assets/icons/credit-card.svg",
+    "alt": "",
+    "x": 169,
+    "y": 1576.828125,
+    "w": 20,
+    "h": 20,
+    "phash": "8a7efdd5952f8080",
+    "lab_mean": [
+      70.77,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-up-right.svg",
+    "alt": "",
+    "x": 248.21875,
+    "y": 1705.078125,
+    "w": 16,
+    "h": 16,
+    "phash": "e9669699c3ce3831",
+    "lab_mean": [
+      88.29,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/photos/DHMcRjvBmdk.jpg",
+    "alt": "Aerial view of a coastal real estate development",
+    "x": 561,
+    "y": 1348.328125,
+    "w": 318,
+    "h": 178.875,
+    "phash": "abd4c902397ef185",
+    "lab_mean": [
+      53.99,
+      3.01,
+      -9.31
+    ]
+  },
+  {
+    "src": "./assets/icons/building-2.svg",
+    "alt": "",
+    "x": 561,
+    "y": 1576.828125,
+    "w": 20,
+    "h": 20,
+    "phash": "fef8a0058537d25a",
+    "lab_mean": [
+      61.98,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-up-right.svg",
+    "alt": "",
+    "x": 640.21875,
+    "y": 1705.078125,
+    "w": 16,
+    "h": 16,
+    "phash": "e9669699c3c63833",
+    "lab_mean": [
+      88.43,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/photos/eqbLoTqQKZs.jpg",
+    "alt": "HR manager reviewing employment paperwork on a phone",
+    "x": 953,
+    "y": 1348.328125,
+    "w": 318,
+    "h": 178.875,
+    "phash": "b34d446e3bb2cc4c",
+    "lab_mean": [
+      66.44,
+      -5.25,
+      -0.7
+    ]
+  },
+  {
+    "src": "./assets/icons/users.svg",
+    "alt": "",
+    "x": 953,
+    "y": 1576.828125,
+    "w": 20,
+    "h": 20,
+    "phash": "eb3bc510b1c51ec6",
+    "lab_mean": [
+      77.1,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-up-right.svg",
+    "alt": "",
+    "x": 1032.21875,
+    "y": 1725.21875,
+    "w": 16,
+    "h": 16,
+    "phash": "e9669699c3c63833",
+    "lab_mean": [
+      88.45,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/photos/_InLq4vc33M.jpg",
+    "alt": "Keyboard close-up suggesting paralegal workflows",
+    "x": 169,
+    "y": 1817.296875,
+    "w": 318,
+    "h": 178.875,
+    "phash": "af3dd23592d02fc0",
+    "lab_mean": [
+      61.4,
+      -1.04,
+      4.01
+    ]
+  },
+  {
+    "src": "./assets/icons/gavel.svg",
+    "alt": "",
+    "x": 169,
+    "y": 2045.796875,
+    "w": 20,
+    "h": 20,
+    "phash": "bbe2852cd693db08",
+    "lab_mean": [
+      76.32,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-up-right.svg",
+    "alt": "",
+    "x": 248.21875,
+    "y": 2153.90625,
+    "w": 16,
+    "h": 16,
+    "phash": "e9669699c3ce3831",
+    "lab_mean": [
+      88.29,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/photos/T6VTsM4_fGU.jpg",
+    "alt": "Modern office tower against a clear sky",
+    "x": 561,
+    "y": 1817.296875,
+    "w": 318,
+    "h": 178.875,
+    "phash": "e9f0a3633c0936f8",
+    "lab_mean": [
+      51.17,
+      -1.42,
+      0.37
+    ]
+  },
+  {
+    "src": "./assets/icons/landmark.svg",
+    "alt": "",
+    "x": 561,
+    "y": 2045.796875,
+    "w": 20,
+    "h": 20,
+    "phash": "afa487f4f0d0630b",
+    "lab_mean": [
+      68.15,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-up-right.svg",
+    "alt": "",
+    "x": 640.21875,
+    "y": 2174.046875,
+    "w": 16,
+    "h": 16,
+    "phash": "e9669699c3c63833",
+    "lab_mean": [
+      88.43,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/photos/6i1nP6VR-rU.jpg",
+    "alt": "Laptop on a desk with developer tooling open",
+    "x": 953,
+    "y": 1817.296875,
+    "w": 318,
+    "h": 178.875,
+    "phash": "a805282aa777f56b",
+    "lab_mean": [
+      53.59,
+      0.89,
+      1.0
+    ]
+  },
+  {
+    "src": "./assets/icons/file-search.svg",
+    "alt": "",
+    "x": 953,
+    "y": 2045.796875,
+    "w": 20,
+    "h": 20,
+    "phash": "efad3c32b0da604a",
+    "lab_mean": [
+      67.88,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-up-right.svg",
+    "alt": "",
+    "x": 1032.21875,
+    "y": 2174.046875,
+    "w": 16,
+    "h": 16,
+    "phash": "e9669699c3c63833",
+    "lab_mean": [
+      88.45,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/photos/F2eHfMwIOxA.jpg",
+    "alt": "Operations team reviewing paperwork together",
+    "x": 169,
+    "y": 2266.125,
+    "w": 318,
+    "h": 178.875,
+    "phash": "e1b2ce1dea0cb463",
+    "lab_mean": [
+      62.3,
+      3.65,
+      5.7
+    ]
+  },
+  {
+    "src": "./assets/icons/briefcase.svg",
+    "alt": "",
+    "x": 169,
+    "y": 2494.625,
+    "w": 20,
+    "h": 20,
+    "phash": "a871f7a09552917b",
+    "lab_mean": [
+      65.69,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-up-right.svg",
+    "alt": "",
+    "x": 248.21875,
+    "y": 2622.875,
+    "w": 16,
+    "h": 16,
+    "phash": "e9669699c3c63833",
+    "lab_mean": [
+      88.29,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/photos/Wa6LnHpFhIM.jpg",
+    "alt": "Mobile interface being used outdoors",
+    "x": 561,
+    "y": 2266.125,
+    "w": 318,
+    "h": 178.875,
+    "phash": "9366c9b6c9259669",
+    "lab_mean": [
+      6.48,
+      1.55,
+      2.91
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 561,
+    "y": 2494.625,
+    "w": 20,
+    "h": 20,
+    "phash": "ab2ab4cdd230cb33",
+    "lab_mean": [
+      74.45,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-up-right.svg",
+    "alt": "",
+    "x": 640.21875,
+    "y": 2622.875,
+    "w": 16,
+    "h": 16,
+    "phash": "e9669699c3c63833",
+    "lab_mean": [
+      88.45,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/photos/EIH4dHgb6Tg.jpg",
+    "alt": "Designer workspace with headphones and monitor",
+    "x": 953,
+    "y": 2266.125,
+    "w": 318,
+    "h": 178.875,
+    "phash": "83e25c4f325e8dca",
+    "lab_mean": [
+      57.57,
+      0.07,
+      -1.34
+    ]
+  },
+  {
+    "src": "./assets/icons/sparkles.svg",
+    "alt": "",
+    "x": 953,
+    "y": 2494.625,
+    "w": 20,
+    "h": 20,
+    "phash": "b6e2a2e24d35a5b4",
+    "lab_mean": [
+      70.52,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-up-right.svg",
+    "alt": "",
+    "x": 1032.21875,
+    "y": 2622.875,
+    "w": 16,
+    "h": 16,
+    "phash": "e9669699c3c63833",
+    "lab_mean": [
+      88.45,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/photos/wMwbm8zdTyU.jpg",
+    "alt": "Developer toys and keyboard on a working desk",
+    "x": 169,
+    "y": 2714.953125,
+    "w": 318,
+    "h": 178.875,
+    "phash": "dc196e2b60c799c6",
+    "lab_mean": [
+      51.77,
+      -0.99,
+      5.97
+    ]
+  },
+  {
+    "src": "./assets/icons/activity.svg",
+    "alt": "",
+    "x": 169,
+    "y": 2943.453125,
+    "w": 20,
+    "h": 20,
+    "phash": "b939b0c74e86e465",
+    "lab_mean": [
+      83.45,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-up-right.svg",
+    "alt": "",
+    "x": 248.21875,
+    "y": 3071.703125,
+    "w": 16,
+    "h": 16,
+    "phash": "e9669699c3ce3831",
+    "lab_mean": [
+      88.29,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/photos/b-QdWBnOztc.jpg",
+    "alt": "Engineer at a workstation with multiple monitors",
+    "x": 561,
+    "y": 2714.953125,
+    "w": 318,
+    "h": 178.875,
+    "phash": "9adb920d93651b66",
+    "lab_mean": [
+      37.64,
+      3.05,
+      13.47
+    ]
+  },
+  {
+    "src": "./assets/icons/git-branch.svg",
+    "alt": "",
+    "x": 561,
+    "y": 2943.453125,
+    "w": 20,
+    "h": 20,
+    "phash": "bc6ac39798396136",
+    "lab_mean": [
+      79.7,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-up-right.svg",
+    "alt": "",
+    "x": 640.21875,
+    "y": 3071.703125,
+    "w": 16,
+    "h": 16,
+    "phash": "e9669699c3c63833",
+    "lab_mean": [
+      88.45,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/photos/eORbhX0F4_4.jpg",
+    "alt": "Person using a laptop in a quiet workspace",
+    "x": 953,
+    "y": 2714.953125,
+    "w": 318,
+    "h": 178.875,
+    "phash": "d8f4483fc17e9903",
+    "lab_mean": [
+      39.79,
+      6.64,
+      4.23
+    ]
+  },
+  {
+    "src": "./assets/icons/shield-check.svg",
+    "alt": "",
+    "x": 953,
+    "y": 2943.453125,
+    "w": 20,
+    "h": 20,
+    "phash": "ae4ea0b9b2c4c793",
+    "lab_mean": [
+      77.2,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-up-right.svg",
+    "alt": "",
+    "x": 1032.21875,
+    "y": 3071.703125,
+    "w": 16,
+    "h": 16,
+    "phash": "e9669699c3c63833",
+    "lab_mean": [
+      88.45,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 899.328125,
+    "y": 3167.765625,
+    "w": 16,
+    "h": 16,
+    "phash": "ec9992671996c4d9",
+    "lab_mean": [
+      87.68,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/key.svg",
+    "alt": "",
+    "x": 666.1875,
+    "y": 3575.734375,
+    "w": 16,
+    "h": 16,
+    "phash": "aa48d887b63fc495",
+    "lab_mean": [
+      36.6,
+      18.93,
+      -68.1
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-up-right.svg",
+    "alt": "",
+    "x": 862.609375,
+    "y": 3575.734375,
+    "w": 16,
+    "h": 16,
+    "phash": "e9669699c3c63833",
+    "lab_mean": [
+      88.45,
+      0.0,
+      0.0
+    ]
+  }
+]

@@ -1,0 +1,562 @@
+[
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 466.9375,
+    "y": 25.25,
+    "w": 16,
+    "h": 16,
+    "phash": "a80882a228088aa2",
+    "lab_mean": [
+      18.16,
+      3.73,
+      9.34
+    ]
+  },
+  {
+    "src": "./assets/icons/search.svg",
+    "alt": "",
+    "x": 524.9375,
+    "y": 25.25,
+    "w": 16,
+    "h": 16,
+    "phash": "ab35f03483d28dcb",
+    "lab_mean": [
+      15.55,
+      3.14,
+      8.13
+    ]
+  },
+  {
+    "src": "./assets/icons/layout-grid.svg",
+    "alt": "",
+    "x": 834.375,
+    "y": 19,
+    "w": 12,
+    "h": 12,
+    "phash": "af03d02f8dd0d22f",
+    "lab_mean": [
+      7.9,
+      2.67,
+      6.48
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 896.78125,
+    "y": 19,
+    "w": 12,
+    "h": 12,
+    "phash": "bf3d3d81e1c3c0c2",
+    "lab_mean": [
+      18.72,
+      9.12,
+      16.38
+    ]
+  },
+  {
+    "src": "./assets/icons/table-2.svg",
+    "alt": "",
+    "x": 981.640625,
+    "y": 19,
+    "w": 12,
+    "h": 12,
+    "phash": "bb2cec91e46ec690",
+    "lab_mean": [
+      8.67,
+      2.69,
+      7.33
+    ]
+  },
+  {
+    "src": "./assets/icons/book-open.svg",
+    "alt": "",
+    "x": 1051.53125,
+    "y": 19,
+    "w": 12,
+    "h": 12,
+    "phash": "f20cf8788cfa84b3",
+    "lab_mean": [
+      8.57,
+      2.83,
+      6.97
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-02.svg",
+    "alt": "Mara Halloran",
+    "x": 1132.90625,
+    "y": 17.25,
+    "w": 32,
+    "h": 32,
+    "phash": "80c71f3c7dd96432",
+    "lab_mean": [
+      46.83,
+      1.82,
+      13.55
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-04.svg",
+    "alt": "Iris Tolentino",
+    "x": 1156.90625,
+    "y": 17.25,
+    "w": 32,
+    "h": 32,
+    "phash": "983347d849676cce",
+    "lab_mean": [
+      44.82,
+      1.67,
+      12.2
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-07.svg",
+    "alt": "Bram Okafor",
+    "x": 1180.90625,
+    "y": 17.25,
+    "w": 32,
+    "h": 32,
+    "phash": "c0740fcf5d9b3134",
+    "lab_mean": [
+      53.41,
+      1.71,
+      13.45
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-01.svg",
+    "alt": "June Ferrara",
+    "x": 1204.90625,
+    "y": 17.25,
+    "w": 32,
+    "h": 32,
+    "phash": "9c3143cf2ccc3cce",
+    "lab_mean": [
+      50.13,
+      1.79,
+      12.5
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 1269.90625,
+    "y": 26.25,
+    "w": 14,
+    "h": 14,
+    "phash": "b331cc1b6ce4874e",
+    "lab_mean": [
+      43.93,
+      44.08,
+      41.11
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-left.svg",
+    "alt": "",
+    "x": 69,
+    "y": 95.5,
+    "w": 12,
+    "h": 12,
+    "phash": "e766cc8c93936632",
+    "lab_mean": [
+      87.86,
+      0.92,
+      19.23
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-right.svg",
+    "alt": "",
+    "x": 284.84375,
+    "y": 95.5,
+    "w": 12,
+    "h": 12,
+    "phash": "b34c9993c6653393",
+    "lab_mean": [
+      87.92,
+      0.92,
+      19.25
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar-days.svg",
+    "alt": "",
+    "x": 334.84375,
+    "y": 95.5,
+    "w": 12,
+    "h": 12,
+    "phash": "bf3dbd84e1c2c0c2",
+    "lab_mean": [
+      58.13,
+      0.7,
+      18.06
+    ]
+  },
+  {
+    "src": "./assets/icons/dot.svg",
+    "alt": "",
+    "x": 1301.390625,
+    "y": 94.5,
+    "w": 14,
+    "h": 14,
+    "phash": "e699996666998c66",
+    "lab_mean": [
+      27.63,
+      12.73,
+      23.49
+    ]
+  },
+  {
+    "src": "./assets/icons/folder.svg",
+    "alt": "",
+    "x": 818.859375,
+    "y": 157.5,
+    "w": 12,
+    "h": 12,
+    "phash": "838dbf9d945ec062",
+    "lab_mean": [
+      72.66,
+      0.59,
+      16.19
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 1023.90625,
+    "y": 155.5,
+    "w": 16,
+    "h": 16,
+    "phash": "bd0dc2e2281d9fe2",
+    "lab_mean": [
+      85.92,
+      0.91,
+      18.78
+    ]
+  },
+  {
+    "src": "./assets/icons/sliders-horizontal.svg",
+    "alt": "",
+    "x": 403.75,
+    "y": 198.5,
+    "w": 12,
+    "h": 12,
+    "phash": "ee96c19091d1ec3b",
+    "lab_mean": [
+      55.75,
+      6.29,
+      51.62
+    ]
+  },
+  {
+    "src": "./assets/icons/circle-alert.svg",
+    "alt": "",
+    "x": 60,
+    "y": 997.859375,
+    "w": 12,
+    "h": 12,
+    "phash": "f722ad99f4278388",
+    "lab_mean": [
+      56.45,
+      6.47,
+      52.97
+    ]
+  },
+  {
+    "src": "./assets/icons/printer.svg",
+    "alt": "",
+    "x": 1253.71875,
+    "y": 278.5,
+    "w": 12,
+    "h": 12,
+    "phash": "b8e1e914e3cb90cb",
+    "lab_mean": [
+      63.95,
+      0.49,
+      14.33
+    ]
+  },
+  {
+    "src": "./assets/icons/camera.svg",
+    "alt": "",
+    "x": 1061,
+    "y": 353.75,
+    "w": 12,
+    "h": 12,
+    "phash": "a6a8b9a4e41b9b4e",
+    "lab_mean": [
+      35.81,
+      37.15,
+      34.35
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 1052,
+    "y": 406,
+    "w": 12,
+    "h": 12,
+    "phash": "be3eb089e260ce87",
+    "lab_mean": [
+      77.38,
+      0.02,
+      7.95
+    ]
+  },
+  {
+    "src": "./assets/icons/check.svg",
+    "alt": "",
+    "x": 1053,
+    "y": 478.5,
+    "w": 12,
+    "h": 12,
+    "phash": "aeca9036cdd93a86",
+    "lab_mean": [
+      26.67,
+      12.23,
+      22.56
+    ]
+  },
+  {
+    "src": "./assets/icons/check.svg",
+    "alt": "",
+    "x": 1053,
+    "y": 517.5,
+    "w": 12,
+    "h": 12,
+    "phash": "ee4ad03626cd791a",
+    "lab_mean": [
+      26.56,
+      12.26,
+      22.6
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-04.svg",
+    "alt": "Iris Tolentino, photographer",
+    "x": 1052,
+    "y": 640.25,
+    "w": 22,
+    "h": 22,
+    "phash": "b837c598c34b4dc5",
+    "lab_mean": [
+      68.13,
+      0.29,
+      11.63
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-09.svg",
+    "alt": "Devon Marsh, stylist",
+    "x": 1078,
+    "y": 640.25,
+    "w": 22,
+    "h": 22,
+    "phash": "e624cbce98993167",
+    "lab_mean": [
+      83.77,
+      0.41,
+      14.52
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-02.svg",
+    "alt": "Nora Beaumont, prop",
+    "x": 1104,
+    "y": 640.25,
+    "w": 22,
+    "h": 22,
+    "phash": "bc70e09e87c93cc3",
+    "lab_mean": [
+      71.29,
+      0.29,
+      11.89
+    ]
+  },
+  {
+    "src": "./assets/icons/user-plus.svg",
+    "alt": "",
+    "x": 1227.0625,
+    "y": 645.25,
+    "w": 12,
+    "h": 12,
+    "phash": "ba7a8525d949b686",
+    "lab_mean": [
+      22.26,
+      10.49,
+      19.18
+    ]
+  },
+  {
+    "src": "./assets/icons/utensils.svg",
+    "alt": "",
+    "x": 1061,
+    "y": 719.25,
+    "w": 12,
+    "h": 12,
+    "phash": "da2383d8adb4c7c4",
+    "lab_mean": [
+      39.61,
+      -10.24,
+      23.41
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 1052,
+    "y": 794.5,
+    "w": 12,
+    "h": 12,
+    "phash": "be96b0cb62cc8f09",
+    "lab_mean": [
+      77.66,
+      0.01,
+      7.99
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-02.svg",
+    "alt": "Mara Halloran, recipe dev",
+    "x": 1052,
+    "y": 999.5,
+    "w": 22,
+    "h": 22,
+    "phash": "b8c3c72c90cd6733",
+    "lab_mean": [
+      74.44,
+      0.4,
+      14.08
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-07.svg",
+    "alt": "Bram Okafor, tester",
+    "x": 1078,
+    "y": 999.5,
+    "w": 22,
+    "h": 22,
+    "phash": "ac3ce7c7c29b3130",
+    "lab_mean": [
+      82.15,
+      0.39,
+      13.94
+    ]
+  },
+  {
+    "src": "./assets/icons/user-plus.svg",
+    "alt": "",
+    "x": 1194.828125,
+    "y": 1004.5,
+    "w": 12,
+    "h": 12,
+    "phash": "baf28559c826b6c9",
+    "lab_mean": [
+      22.26,
+      10.49,
+      19.18
+    ]
+  },
+  {
+    "src": "./assets/icons/pen-line.svg",
+    "alt": "",
+    "x": 1061,
+    "y": 1070.25,
+    "w": 12,
+    "h": 12,
+    "phash": "eed04a95a82bb32e",
+    "lab_mean": [
+      22.86,
+      10.7,
+      19.56
+    ]
+  },
+  {
+    "src": "./assets/icons/file-text.svg",
+    "alt": "",
+    "x": 1052,
+    "y": 1122.5,
+    "w": 12,
+    "h": 12,
+    "phash": "aea4b4b0d8c9ce87",
+    "lab_mean": [
+      69.74,
+      0.02,
+      7.19
+    ]
+  },
+  {
+    "src": "./assets/icons/check.svg",
+    "alt": "",
+    "x": 1053,
+    "y": 1195,
+    "w": 12,
+    "h": 12,
+    "phash": "ee4ad03626cd791a",
+    "lab_mean": [
+      26.56,
+      12.26,
+      22.6
+    ]
+  },
+  {
+    "src": "./assets/icons/check.svg",
+    "alt": "",
+    "x": 1053,
+    "y": 1234,
+    "w": 12,
+    "h": 12,
+    "phash": "ee4ad03626cd791a",
+    "lab_mean": [
+      26.56,
+      12.26,
+      22.6
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-01.svg",
+    "alt": "June Ferrara, copy editor",
+    "x": 1052,
+    "y": 1348.5,
+    "w": 22,
+    "h": 22,
+    "phash": "bc31e087879c9ce6",
+    "lab_mean": [
+      77.42,
+      0.29,
+      12.11
+    ]
+  },
+  {
+    "src": "./assets/icons/user-plus.svg",
+    "alt": "",
+    "x": 1220.671875,
+    "y": 1353.5,
+    "w": 12,
+    "h": 12,
+    "phash": "ba7a8525d949b686",
+    "lab_mean": [
+      22.26,
+      10.49,
+      19.18
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 1249.578125,
+    "y": 1430.5,
+    "w": 12,
+    "h": 12,
+    "phash": "ec93926979c43732",
+    "lab_mean": [
+      83.12,
+      0.83,
+      18.28
+    ]
+  }
+]

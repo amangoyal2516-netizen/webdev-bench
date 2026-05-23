@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calm board · stillpoint</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="app">
+<header class="topbar">
+<a href="./calm-board.html" class="wordmark"><span class="dot"></span>stillpoint<span class="slash">/</span><span class="muted">calm-board</span></a>
+<div class="topbar-search">
+<img src="./assets/icons/search.svg" alt="" class="ico" style="width:14px;height:14px;opacity:.6">
+<input type="text" placeholder="Jump to a practice, tag, or day…">
+<span class="kbd">⌘K</span>
+</div>
+<div class="topbar-right">
+<span class="streak-flame"><img src="./assets/icons/flame.svg" alt="" style="width:13px;height:13px;filter:invert(38%) sepia(96%) saturate(3500%) hue-rotate(310deg)">12 days</span>
+<button class="icon-btn" aria-label="Notifications"><img src="./assets/icons/bell.svg" alt="" style="width:16px;height:16px;opacity:.7"></button>
+<button class="icon-btn" aria-label="Help"><img src="./assets/icons/circle-question-mark.svg" alt="" style="width:16px;height:16px;opacity:.7"></button>
+<span class="avatar"><img src="./assets/avatars/lorelei-seed-07.svg" alt="You"></span>
+</div>
+</header>
+
+<main class="page-body">
+<div class="page-header">
+<div>
+<div class="row-tight" style="margin-bottom:6px;">
+<span class="mono text-xs muted uppercase">Board</span>
+<span class="mono text-xs muted">·</span>
+<span class="mono text-xs muted">CB-2024-W11</span>
+</div>
+<h1 class="page-title">This week's calm board</h1>
+<p class="page-subtitle">Drag your practices through the day. Nothing here is graded.</p>
+</div>
+<div class="row-wrap">
+<span class="date-pill"><img src="./assets/icons/calendar-days.svg" alt="" style="width:14px;height:14px;opacity:.7"> Mon Mar 11 → Sun Mar 17</span>
+<div class="week-picker">
+<button class="icon-btn" aria-label="Previous week"><img src="./assets/icons/chevron-left.svg" alt="" style="width:14px;height:14px;opacity:.7"></button>
+<span class="label">Week 11</span>
+<button class="icon-btn" aria-label="Next week"><img src="./assets/icons/chevron-right.svg" alt="" style="width:14px;height:14px;opacity:.7"></button>
+</div>
+<button class="select"><img src="./assets/icons/sliders-horizontal.svg" alt="" style="width:14px;height:14px;opacity:.7"> Group by: Time of day <img src="./assets/icons/chevron-down.svg" alt="" style="width:12px;height:12px;opacity:.6"></button>
+<button class="btn btn-primary"><img src="./assets/icons/plus.svg" alt="" class="ico" style="filter:brightness(0) invert(1)"> New practice</button>
+</div>
+</div>
+
+<div class="grid" style="grid-template-columns:1fr 320px;gap:var(--space-5);align-items:start;">
+<section class="grid-kanban">
+
+<div class="kanban-col">
+<div class="kanban-col-header">
+<span class="cat-dot" style="background:#a1a1aa;"></span>
+<span class="kanban-col-title">Planned</span>
+<span class="kanban-col-count">4</span>
+<span class="spacer"></span>
+<button class="icon-btn" aria-label="Add to planned"><img src="./assets/icons/plus.svg" alt="" style="width:14px;height:14px;opacity:.7"></button>
+</div>
+<div class="kanban-col-body">
+
+<article class="kanban-card">
+<div class="row-tight" style="justify-content:space-between;">
+<span class="mono text-xs muted">CB-118</span>
+<img src="./assets/icons/sunrise.svg" alt="" style="width:13px;height:13px;opacity:.6">
+</div>
+<div class="kanban-card-title">Morning box breath, 4-4-4-4</div>
+<div class="kanban-card-meta">
+<span class="chip breathing">breathing</span>
+<span class="row-tight"><img src="./assets/icons/clock.svg" alt="" style="width:11px;height:11px;opacity:.6"> 5m</span>
+<span class="spacer"></span>
+<span class="mood-pill" title="Mood after: calm"><img src="./assets/icons/smile.svg" alt="" style="width:11px;height:11px;opacity:.7"></span>
+</div>
+</article>
+
+<article class="kanban-card">
+<div class="row-tight" style="justify-content:space-between;">
+<span class="mono text-xs muted">CB-121</span>
+<img src="./assets/icons/sun.svg" alt="" style="width:13px;height:13px;opacity:.6">
+</div>
+<div class="kanban-card-title">Body scan before email</div>
+<div class="kanban-card-meta">
+<span class="chip meditation">meditation</span>
+<span class="row-tight"><img src="./assets/icons/clock.svg" alt="" style="width:11px;height:11px;opacity:.6"> 8m</span>
+<span class="spacer"></span>
+<span class="mood-pill"><img src="./assets/icons/meh.svg" alt="" style="width:11px;height:11px;opacity:.7"></span>
+</div>
+</article>
+
+<article class="kanban-card">
+<div class="row-tight" style="justify-content:space-between;">
+<span class="mono text-xs muted">CB-124</span>
+<img src="./assets/icons/sun.svg" alt="" style="width:13px;height:13px;opacity:.6">
+</div>
+<div class="kanban-card-title">Walk to the corner without the phone</div>
+<div class="kanban-card-meta">
+<span class="chip movement">movement</span>
+<span class="row-tight"><img src="./assets/icons/clock.svg" alt="" style="width:11px;height:11px;opacity:.6"> 10m</span>
+<span class="spacer"></span>
+<span class="mood-pill"><img src="./assets/icons/smile.svg" alt="" style="width:11px;height:11px;opacity:.7"></span>
+</div>
+</article>
+
+<article class="kanban-card">
+<div class="row-tight" style="justify-content:space-between;">
+<span class="mono text-xs muted">CB-127</span>
+<img src="./assets/icons/moon.svg" alt="" style="width:13px;height:13px;opacity:.6">
+</div>
+<div class="kanban-card-title">Wind-down stretch sequence</div>
+<div class="kanban-card-meta">
+<span class="chip movement">movement</span>
+<span class="row-tight"><img src="./assets/icons/clock.svg" alt="" style="width:11px;height:11px;opacity:.6"> 6m</span>
+<span class="spacer"></span>
+<span class="mood-pill"><img src="./assets/icons/smile.svg" alt="" style="width:11px;height:11px;opacity:.7"></span>
+</div>
+</article>
+
+<button class="btn btn-ghost btn-sm" style="justify-content:flex-start;"><img src="./assets/icons/plus.svg" alt="" class="ico" style="opacity:.6"> Add a card</button>
+</div>
+</div>
+
+<div class="kanban-col">
+<div class="kanban-col-header">
+<span class="cat-dot" style="background:var(--accent);box-shadow:0 0 8px var(--accent-soft);"></span>
+<span class="kanban-col-title">Doing now</span>
+<span class="kanban-col-count">2</span>
+<span class="spacer"></span>
+<button class="icon-btn" aria-label="Add to doing"><img src="./assets/icons/plus.svg" alt="" style="width:14px;height:14px;opacity:.7"></button>
+</div>
+<div class="kanban-col-body">
+
+<article class="kanban-card" style="border-color:var(--accent-border);">
+<div class="row-tight" style="justify-content:space-between;">
+<span class="mono text-xs accent">CB-129 · live</span>
+<img src="./assets/icons/play.svg" alt="" style="width:13px;height:13px;opacity:.8;filter:invert(38%) sepia(96%) saturate(3500%) hue-rotate(310deg)">
+</div>
+<div class="kanban-card-title">Three deep breaths between meetings</div>
+<div class="kanban-card-meta">
+<span class="chip breathing">breathing</span>
+<span class="row-tight"><img src="./assets/icons/clock.svg" alt="" style="width:11px;height:11px;opacity:.6"> 2m</span>
+<span class="spacer"></span>
+<span class="mood-pill"><img src="./assets/icons/smile.svg" alt="" style="width:11px;height:11px;opacity:.7"></span>
+</div>
+</article>
+
+<article class="kanban-card">
+<div class="row-tight" style="justify-content:space-between;">
+<span class="mono text-xs muted">CB-130</span>
+<img src="./assets/icons/headphones.svg" alt="" style="width:13px;height:13px;opacity:.6">
+</div>
+<div class="kanban-card-title">Open-awareness sit, guided</div>
+<div class="kanban-card-meta">
+<span class="chip meditation">meditation</span>
+<span class="row-tight"><img src="./assets/icons/clock.svg" alt="" style="width:11px;height:11px;opacity:.6"> 12m</span>
+<span class="spacer"></span>
+<span class="mood-pill"><img src="./assets/icons/meh.svg" alt="" style="width:11px;height:11px;opacity:.7"></span>
+</div>
+</article>
+
+<button class="btn btn-ghost btn-sm" style="justify-content:flex-start;"><img src="./assets/icons/plus.svg" alt="" class="ico" style="opacity:.6"> Add a card</button>
+</div>
+</div>
+
+<div class="kanban-col">
+<div class="kanban-col-header">
+<span class="cat-dot" style="background:#fbbf24;"></span>
+<span class="kanban-col-title">Reflecting</span>
+<span class="kanban-col-count">3</span>
+<span class="spacer"></span>
+<button class="icon-btn" aria-label="Add to reflecting"><img src="./assets/icons/plus.svg" alt="" style="width:14px;height:14px;opacity:.7"></button>
+</div>
+<div class="kanban-col-body">
+
+<article class="kanban-card">
+<div class="row-tight" style="justify-content:space-between;">
+<span class="mono text-xs muted">CB-114</span>
+<img src="./assets/icons/sunset.svg" alt="" style="width:13px;height:13px;opacity:.6">
+</div>
+<div class="kanban-card-title">Note one thing that went okay today</div>
+<div class="kanban-card-meta">
+<span class="chip gratitude">gratitude</span>
+<span class="row-tight"><img src="./assets/icons/clock.svg" alt="" style="width:11px;height:11px;opacity:.6"> 3m</span>
+<span class="spacer"></span>
+<span class="mood-pill"><img src="./assets/icons/smile.svg" alt="" style="width:11px;height:11px;opacity:.7"></span>
+</div>
+</article>
+
+<article class="kanban-card">
+<div class="row-tight" style="justify-content:space-between;">
+<span class="mono text-xs muted">CB-116</span>
+<img src="./assets/icons/sunset.svg" alt="" style="width:13px;height:13px;opacity:.6">
+</div>
+<div class="kanban-card-title">Afternoon energy check-in</div>
+<div class="kanban-card-meta">
+<span class="chip meditation">meditation</span>
+<span class="row-tight"><img src="./assets/icons/clock.svg" alt="" style="width:11px;height:11px;opacity:.6"> 4m</span>
+<span class="spacer"></span>
+<span class="mood-pill"><img src="./assets/icons/meh.svg" alt="" style="width:11px;height:11px;opacity:.7"></span>
+</div>
+</article>
+
+<article class="kanban-card">
+<div class="row-tight" style="justify-content:space-between;">
+<span class="mono text-xs muted">CB-117</span>
+<img src="./assets/icons/sunset.svg" alt="" style="width:13px;height:13px;opacity:.6">
+</div>
+<div class="kanban-card-title">Journal: what felt heavy this afternoon?</div>
+<div class="kanban-card-meta">
+<span class="chip gratitude">gratitude</span>
+<span class="row-tight"><img src="./assets/icons/clock.svg" alt="" style="width:11px;height:11px;opacity:.6"> 7m</span>
+<span class="spacer"></span>
+<span class="mood-pill"><img src="./assets/icons/frown.svg" alt="" style="width:11px;height:11px;opacity:.7"></span>
+</div>
+</article>
+
+<button class="btn btn-ghost btn-sm" style="justify-content:flex-start;"><img src="./assets/icons/plus.svg" alt="" class="ico" style="opacity:.6"> Add a card</button>
+</div>
+</div>
+
+<div class="kanban-col">
+<div class="kanban-col-header">
+<span class="cat-dot" style="background:#34d399;"></span>
+<span class="kanban-col-title">Complete</span>
+<span class="kanban-col-count">5</span>
+<span class="spacer"></span>
+<button class="icon-btn" aria-label="Add to complete"><img src="./assets/icons/plus.svg" alt="" style="width:14px;height:14px;opacity:.7"></button>
+</div>
+<div class="kanban-col-body">
+
+<article class="kanban-card">
+<div class="row-tight" style="justify-content:space-between;">
+<span class="mono text-xs muted">CB-101</span>
+<img src="./assets/icons/check.svg" alt="" style="width:13px;height:13px;opacity:.7;filter:invert(86%) sepia(13%) saturate(692%) hue-rotate(101deg)">
+</div>
+<div class="kanban-card-title">Five-minute morning meditation</div>
+<div class="kanban-card-meta">
+<span class="chip meditation">meditation</span>
+<span class="row-tight"><img src="./assets/icons/clock.svg" alt="" style="width:11px;height:11px;opacity:.6"> 5m</span>
+<span class="spacer"></span>
+<span class="mood-pill"><img src="./assets/icons/smile.svg" alt="" style="width:11px;height:11px;opacity:.7"></span>
+</div>
+</article>
+
+<article class="kanban-card">
+<div class="row-tight" style="justify-content:space-between;">
+<span class="mono text-xs muted">CB-103</span>
+<img src="./assets/icons/check.svg" alt="" style="width:13px;height:13px;opacity:.7;filter:invert(86%) sepia(13%) saturate(692%) hue-rotate(101deg)">
+</div>
+<div class="kanban-card-title">4-7-8 breath before lunch</div>
+<div class="kanban-card-meta">
+<span class="chip breathing">breathing</span>
+<span class="row-tight"><img src="./assets/icons/clock.svg" alt="" style="width:11px;height:11px;opacity:.6"> 3m</span>
+<span class="spacer"></span>
+<span class="mood-pill"><img src="./assets/icons/smile.svg" alt="" style="width:11px;height:11px;opacity:.7"></span>
+</div>
+</article>
+
+<article class="kanban-card">
+<div class="row-tight" style="justify-content:space-between;">
+<span class="mono text-xs muted">CB-106</span>
+<img src="./assets/icons/check.svg" alt="" style="width:13px;height:13px;opacity:.7;filter:invert(86%) sepia(13%) saturate(692%) hue-rotate(101deg)">
+</div>
+<div class="kanban-card-title">Two-block walk after stand-up</div>
+<div class="kanban-card-meta">
+<span class="chip movement">movement</span>
+<span class="row-tight"><img src="./assets/icons/clock.svg" alt="" style="width:11px;height:11px;opacity:.6"> 12m</span>
+<span class="spacer"></span>
+<span class="mood-pill"><img src="./assets/icons/smile.svg" alt="" style="width:11px;height:11px;opacity:.7"></span>
+</div>
+</article>
+
+<article class="kanban-card">
+<div class="row-tight" style="justify-content:space-between;">
+<span class="mono text-xs muted">CB-109</span>
+<img src="./assets/icons/check.svg" alt="" style="width:13px;height:13px;opacity:.7;filter:invert(86%) sepia(13%) saturate(692%) hue-rotate(101deg)">
+</div>
+<div class="kanban-card-title">Lights-off, 10-minute wind down</div>
+<div class="kanban-card-meta">
+<span class="chip sleep">sleep</span>
+<span class="row-tight"><img src="./assets/icons/clock.svg" alt="" style="width:11px;height:11px;opacity:.6"> 10m</span>
+<span class="spacer"></span>
+<span class="mood-pill"><img src="./assets/icons/smile.svg" alt="" style="width:11px;height:11px;opacity:.7"></span>
+</div>
+</article>
+
+<article class="kanban-card">
+<div class="row-tight" style="justify-content:space-between;">
+<span class="mono text-xs muted">CB-112</span>
+<img src="./assets/icons/check.svg" alt="" style="width:13px;height:13px;opacity:.7;filter:invert(86%) sepia(13%) saturate(692%) hue-rotate(101deg)">
+</div>
+<div class="kanban-card-title">Name three things I appreciated today</div>
+<div class="kanban-card-meta">
+<span class="chip gratitude">gratitude</span>
+<span class="row-tight"><img src="./assets/icons/clock.svg" alt="" style="width:11px;height:11px;opacity:.6"> 2m</span>
+<span class="spacer"></span>
+<span class="mood-pill"><img src="./assets/icons/smile.svg" alt="" style="width:11px;height:11px;opacity:.7"></span>
+</div>
+</article>
+
+</div>
+</div>
+
+</section>
+
+<aside class="nudge-panel">
+<div class="row-between">
+<div class="row-tight">
+<img src="./assets/icons/sparkles.svg" alt="" style="width:14px;height:14px;opacity:.7;filter:invert(38%) sepia(96%) saturate(3500%) hue-rotate(310deg)">
+<h4>Gentle nudges</h4>
+</div>
+<button class="icon-btn" aria-label="Collapse panel"><img src="./assets/icons/chevron-right.svg" alt="" style="width:14px;height:14px;opacity:.6"></button>
+</div>
+<p class="text-xs muted">Tiny, beginner-friendly practices. Skip any that don't feel right today.</p>
+
+<div class="nudge-card">
+<div class="row-tight" style="justify-content:space-between;">
+<span class="chip breathing">breathing</span>
+<span class="mono text-xs muted">2 min</span>
+</div>
+<div class="title">Try a 2-minute breath</div>
+<div class="desc">Inhale for four, exhale for six. Just six rounds — that's it.</div>
+<div class="row-tight" style="justify-content:space-between;padding-top:6px;border-top:1px solid var(--border-soft);">
+<span class="row-tight muted text-xs"><img src="./assets/icons/wind.svg" alt="" style="width:12px;height:12px;opacity:.6"> No setup needed</span>
+<a href="#" class="link">Add to board →</a>
+</div>
+</div>
+
+<div class="nudge-card">
+<div class="row-tight" style="justify-content:space-between;">
+<span class="chip movement">movement</span>
+<span class="mono text-xs muted">3 min</span>
+</div>
+<div class="title">Stretch your shoulders</div>
+<div class="desc">Roll your shoulders back five times, then forward five times. Notice where it loosens.</div>
+<div class="row-tight" style="justify-content:space-between;padding-top:6px;border-top:1px solid var(--border-soft);">
+<span class="row-tight muted text-xs"><img src="./assets/icons/footprints.svg" alt="" style="width:12px;height:12px;opacity:.6"> At your desk</span>
+<a href="#" class="link">Add to board →</a>
+</div>
+</div>
+
+<div class="nudge-card">
+<div class="row-tight" style="justify-content:space-between;">
+<span class="chip gratitude">gratitude</span>
+<span class="mono text-xs muted">1 min</span>
+</div>
+<div class="title">Note one thing you noticed</div>
+<div class="desc">A sound, a texture, a feeling. Anything counts — you're just practicing seeing it.</div>
+<div class="row-tight" style="justify-content:space-between;padding-top:6px;border-top:1px solid var(--border-soft);">
+<span class="row-tight muted text-xs"><img src="./assets/icons/leaf.svg" alt="" style="width:12px;height:12px;opacity:.6"> Pen optional</span>
+<a href="#" class="link">Add to board →</a>
+</div>
+</div>
+
+<a href="./library.html" class="btn btn-outline btn-sm btn-block" style="margin-top:var(--space-1);"><img src="./assets/icons/book-open.svg" alt="" class="ico" style="opacity:.7"> Browse the full library</a>
+</aside>
+
+</div>
+</main>
+
+<div class="footer-hint">
+<img src="./assets/icons/heart.svg" alt="" style="width:13px;height:13px;opacity:.7;display:inline;vertical-align:-2px;margin-right:6px;filter:invert(38%) sepia(96%) saturate(3500%) hue-rotate(310deg)">Skipped days don't break your streak — pace is the practice. <a href="#">How streaks work →</a>
+</div>
+
+</div>
+</body>
+</html>

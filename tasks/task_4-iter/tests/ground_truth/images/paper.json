@@ -1,0 +1,674 @@
+[
+  {
+    "src": "./assets/icons/rocket.svg",
+    "alt": "",
+    "x": 123,
+    "y": 23,
+    "w": 20,
+    "h": 20,
+    "phash": "bed0c46dc91b9236",
+    "lab_mean": [
+      65.58,
+      0.72,
+      39.67
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-left.svg",
+    "alt": "",
+    "x": 123,
+    "y": 92,
+    "w": 20,
+    "h": 20,
+    "phash": "b9cdc7360c339133",
+    "lab_mean": [
+      79.09,
+      9.8,
+      18.81
+    ]
+  },
+  {
+    "src": "./assets/icons/volume-2.svg",
+    "alt": "",
+    "x": 961.5625,
+    "y": 94,
+    "w": 16,
+    "h": 16,
+    "phash": "b3a5bc56c5aa1e21",
+    "lab_mean": [
+      69.93,
+      0.78,
+      42.15
+    ]
+  },
+  {
+    "src": "./assets/icons/wand-sparkles.svg",
+    "alt": "",
+    "x": 1092.375,
+    "y": 94,
+    "w": 16,
+    "h": 16,
+    "phash": "bb6093d3b0894e9e",
+    "lab_mean": [
+      37.52,
+      -27.73,
+      12.92
+    ]
+  },
+  {
+    "src": "./assets/icons/book-open-text.svg",
+    "alt": "",
+    "x": 1230.390625,
+    "y": 94,
+    "w": 16,
+    "h": 16,
+    "phash": "a308ab2adc3dd4d5",
+    "lab_mean": [
+      57.58,
+      7.19,
+      14.09
+    ]
+  },
+  {
+    "src": "./assets/icons/sparkles.svg",
+    "alt": "",
+    "x": 128,
+    "y": 228.296875,
+    "w": 16,
+    "h": 16,
+    "phash": "a6e2a20fc91db5b4",
+    "lab_mean": [
+      37.12,
+      -27.59,
+      12.8
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-00.svg",
+    "alt": "Dr. Priya Anand",
+    "x": 114,
+    "y": 481.265625,
+    "w": 40,
+    "h": 40,
+    "phash": "b831e68ead9930c7",
+    "lab_mean": [
+      68.32,
+      5.62,
+      5.72
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-02.svg",
+    "alt": "Prof. Tom\u00e1s Reyes",
+    "x": 288.828125,
+    "y": 481.265625,
+    "w": 40,
+    "h": 40,
+    "phash": "b0c7ef3cb1896432",
+    "lab_mean": [
+      67.02,
+      6.16,
+      6.8
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-04.svg",
+    "alt": "Dr. Hana Okafor",
+    "x": 478.859375,
+    "y": 481.265625,
+    "w": 40,
+    "h": 40,
+    "phash": "b832ef98e16764c4",
+    "lab_mean": [
+      61.51,
+      5.32,
+      5.17
+    ]
+  },
+  {
+    "src": "./assets/avatars/avataaars-seed-01.svg",
+    "alt": "Liam Brennan",
+    "x": 652.078125,
+    "y": 481.265625,
+    "w": 40,
+    "h": 40,
+    "phash": "e8a3b35ab5c8e02d",
+    "lab_mean": [
+      65.66,
+      21.45,
+      26.06
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 1197.171875,
+    "y": 483.96875,
+    "w": 16,
+    "h": 16,
+    "phash": "8a3cbc94b597c1c3",
+    "lab_mean": [
+      67.99,
+      1.47,
+      4.15
+    ]
+  },
+  {
+    "src": "./assets/icons/lightbulb.svg",
+    "alt": "",
+    "x": 140,
+    "y": 573.40625,
+    "w": 16,
+    "h": 16,
+    "phash": "bc0de3b0b43283cf",
+    "lab_mean": [
+      76.57,
+      0.83,
+      46.13
+    ]
+  },
+  {
+    "src": "./assets/photos/SBdmQcW8qag.jpg",
+    "alt": "A glowing pine tree of cosmic dust with fireflies of starlight",
+    "x": 156,
+    "y": 1057.84375,
+    "w": 756,
+    "h": 471,
+    "phash": "c13e389d2ae0c6eb",
+    "lab_mean": [
+      11.27,
+      -9.21,
+      -0.4
+    ]
+  },
+  {
+    "src": "./assets/photos/b3PuuRU8IPc.jpg",
+    "alt": "A radio telescope dish pointing up at the Milky Way",
+    "x": 156,
+    "y": 1945.5,
+    "w": 756,
+    "h": 471,
+    "phash": "b31c4be324f20f4d",
+    "lab_mean": [
+      18.8,
+      7.56,
+      -0.94
+    ]
+  },
+  {
+    "src": "./assets/photos/Oze6U2m1oYU.jpg",
+    "alt": "Swirling rings of cosmic light around a bright center",
+    "x": 156,
+    "y": 2825.15625,
+    "w": 756,
+    "h": 471,
+    "phash": "9b983266cc593376",
+    "lab_mean": [
+      10.26,
+      -2.45,
+      2.04
+    ]
+  },
+  {
+    "src": "./assets/photos/iOiaqY7eZsY.jpg",
+    "alt": "A starry night sky over a snow-covered mountain",
+    "x": 156,
+    "y": 3715.90625,
+    "w": 756,
+    "h": 471,
+    "phash": "96e91a35cdb64d12",
+    "lab_mean": [
+      17.91,
+      -5.95,
+      -9.01
+    ]
+  },
+  {
+    "src": "./assets/icons/wand-sparkles.svg",
+    "alt": "",
+    "x": 1046,
+    "y": 759.984375,
+    "w": 20,
+    "h": 20,
+    "phash": "bb6093d3f1094e8e",
+    "lab_mean": [
+      64.62,
+      7.97,
+      15.48
+    ]
+  },
+  {
+    "src": "./assets/icons/volume-2.svg",
+    "alt": "",
+    "x": 1255.984375,
+    "y": 910.75,
+    "w": 16,
+    "h": 16,
+    "phash": "b3a5bc52c52b1ea1",
+    "lab_mean": [
+      69.86,
+      0.78,
+      42.1
+    ]
+  },
+  {
+    "src": "./assets/photos/qVotvbsuM_c.jpg",
+    "alt": "Tiny diagram of cosmic dust as star-like specks",
+    "x": 1048,
+    "y": 1023.109375,
+    "w": 284,
+    "h": 176,
+    "phash": "bf00fa05bb09af25",
+    "lab_mean": [
+      2.79,
+      0.43,
+      -3.33
+    ]
+  },
+  {
+    "src": "./assets/icons/eye.svg",
+    "alt": "",
+    "x": 1046,
+    "y": 1215.953125,
+    "w": 16,
+    "h": 16,
+    "phash": "aab0dd0f823a5ba5",
+    "lab_mean": [
+      73.53,
+      1.54,
+      4.61
+    ]
+  },
+  {
+    "src": "./assets/icons/volume-2.svg",
+    "alt": "",
+    "x": 1255.984375,
+    "y": 1312.09375,
+    "w": 16,
+    "h": 16,
+    "phash": "b3a5bc52c52b1ea1",
+    "lab_mean": [
+      69.86,
+      0.78,
+      42.1
+    ]
+  },
+  {
+    "src": "./assets/photos/aI1tDC8PaLM.jpg",
+    "alt": "A pinkish star-forming cloud in deep space",
+    "x": 1048,
+    "y": 1424.453125,
+    "w": 284,
+    "h": 176,
+    "phash": "9585cf0e9e72e489",
+    "lab_mean": [
+      29.87,
+      6.97,
+      -6.37
+    ]
+  },
+  {
+    "src": "./assets/icons/eye.svg",
+    "alt": "",
+    "x": 1046,
+    "y": 1617.296875,
+    "w": 16,
+    "h": 16,
+    "phash": "aab0dd0f823a5ba5",
+    "lab_mean": [
+      73.53,
+      1.54,
+      4.61
+    ]
+  },
+  {
+    "src": "./assets/icons/volume-2.svg",
+    "alt": "",
+    "x": 1255.984375,
+    "y": 1713.4375,
+    "w": 16,
+    "h": 16,
+    "phash": "b3a5bc52c52b1ea1",
+    "lab_mean": [
+      69.86,
+      0.78,
+      42.1
+    ]
+  },
+  {
+    "src": "./assets/photos/L8126OwlroY.jpg",
+    "alt": "Diagram showing invisible light waves over a dark sky",
+    "x": 1048,
+    "y": 1825.796875,
+    "w": 284,
+    "h": 176,
+    "phash": "932a6ae52dd27664",
+    "lab_mean": [
+      11.3,
+      2.43,
+      -13.02
+    ]
+  },
+  {
+    "src": "./assets/icons/eye.svg",
+    "alt": "",
+    "x": 1046,
+    "y": 2018.640625,
+    "w": 16,
+    "h": 16,
+    "phash": "aab0dd0f823a5ba5",
+    "lab_mean": [
+      73.53,
+      1.54,
+      4.61
+    ]
+  },
+  {
+    "src": "./assets/icons/volume-2.svg",
+    "alt": "",
+    "x": 1255.984375,
+    "y": 2114.78125,
+    "w": 16,
+    "h": 16,
+    "phash": "b3a5bc52c52b1ea1",
+    "lab_mean": [
+      69.86,
+      0.78,
+      42.1
+    ]
+  },
+  {
+    "src": "./assets/photos/UdvXJ95Yqt8.jpg",
+    "alt": "Star trails circling around a dark rock face",
+    "x": 1048,
+    "y": 2227.140625,
+    "w": 284,
+    "h": 176,
+    "phash": "9ce73a84739c6398",
+    "lab_mean": [
+      27.89,
+      -0.88,
+      -5.56
+    ]
+  },
+  {
+    "src": "./assets/icons/eye.svg",
+    "alt": "",
+    "x": 1046,
+    "y": 2419.984375,
+    "w": 16,
+    "h": 16,
+    "phash": "aab0dd0f823a5ba5",
+    "lab_mean": [
+      73.53,
+      1.54,
+      4.61
+    ]
+  },
+  {
+    "src": "./assets/icons/volume-2.svg",
+    "alt": "",
+    "x": 1255.984375,
+    "y": 2516.125,
+    "w": 16,
+    "h": 16,
+    "phash": "b3a5bc52c52b1ea1",
+    "lab_mean": [
+      69.86,
+      0.78,
+      42.1
+    ]
+  },
+  {
+    "src": "./assets/photos/UuVkBMbNSlM.jpg",
+    "alt": "A round growing shape against a dark background",
+    "x": 1048,
+    "y": 2628.484375,
+    "w": 284,
+    "h": 176,
+    "phash": "ce993864e3339e92",
+    "lab_mean": [
+      17.7,
+      0.57,
+      1.59
+    ]
+  },
+  {
+    "src": "./assets/icons/eye.svg",
+    "alt": "",
+    "x": 1046,
+    "y": 2821.328125,
+    "w": 16,
+    "h": 16,
+    "phash": "aab0dd0f823a5ba5",
+    "lab_mean": [
+      73.53,
+      1.54,
+      4.61
+    ]
+  },
+  {
+    "src": "./assets/icons/volume-2.svg",
+    "alt": "",
+    "x": 1255.984375,
+    "y": 2917.46875,
+    "w": 16,
+    "h": 16,
+    "phash": "b3a5bc52c52b1ea1",
+    "lab_mean": [
+      69.86,
+      0.78,
+      42.1
+    ]
+  },
+  {
+    "src": "./assets/photos/Y1ByvAGQ5iE.jpg",
+    "alt": "A round shape with soft clouds, like a planet seen from above",
+    "x": 1048,
+    "y": 3029.828125,
+    "w": 284,
+    "h": 176,
+    "phash": "829c473dc699f607",
+    "lab_mean": [
+      55.1,
+      -0.73,
+      2.53
+    ]
+  },
+  {
+    "src": "./assets/icons/eye.svg",
+    "alt": "",
+    "x": 1046,
+    "y": 3222.671875,
+    "w": 16,
+    "h": 16,
+    "phash": "aab0dd0f823a5ba5",
+    "lab_mean": [
+      73.53,
+      1.54,
+      4.61
+    ]
+  },
+  {
+    "src": "./assets/icons/party-popper.svg",
+    "alt": "",
+    "x": 512.140625,
+    "y": 4311.296875,
+    "w": 28,
+    "h": 28,
+    "phash": "bbe08332de94e459",
+    "lab_mean": [
+      47.54,
+      40.85,
+      28.09
+    ]
+  },
+  {
+    "src": "./assets/icons/party-popper.svg",
+    "alt": "",
+    "x": 899.859375,
+    "y": 4311.296875,
+    "w": 28,
+    "h": 28,
+    "phash": "bbe08332de94e459",
+    "lab_mean": [
+      47.54,
+      40.85,
+      28.09
+    ]
+  },
+  {
+    "src": "./assets/icons/circle-question-mark.svg",
+    "alt": "",
+    "x": 114,
+    "y": 4405.390625,
+    "w": 28,
+    "h": 28,
+    "phash": "e620b99be46c9333",
+    "lab_mean": [
+      70.8,
+      1.46,
+      4.41
+    ]
+  },
+  {
+    "src": "./assets/icons/heart.svg",
+    "alt": "",
+    "x": 106,
+    "y": 5332.484375,
+    "w": 16,
+    "h": 16,
+    "phash": "bb1bb1a986c4ccc6",
+    "lab_mean": [
+      72.75,
+      0.79,
+      43.93
+    ]
+  },
+  {
+    "src": "./assets/icons/graduation-cap.svg",
+    "alt": "",
+    "x": 116,
+    "y": 5486.65625,
+    "w": 28,
+    "h": 28,
+    "phash": "fe83a174de834878",
+    "lab_mean": [
+      40.07,
+      -29.17,
+      13.68
+    ]
+  },
+  {
+    "src": "./assets/icons/download.svg",
+    "alt": "",
+    "x": 1105.5625,
+    "y": 5490.640625,
+    "w": 20,
+    "h": 20,
+    "phash": "a2f4cf933c4cc332",
+    "lab_mean": [
+      42.84,
+      -31.18,
+      14.66
+    ]
+  },
+  {
+    "src": "./assets/icons/external-link.svg",
+    "alt": "",
+    "x": 1288,
+    "y": 5492.640625,
+    "w": 16,
+    "h": 16,
+    "phash": "eb5af8cba4a48439",
+    "lab_mean": [
+      38.54,
+      -29.02,
+      13.47
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 1328,
+    "y": 5669.140625,
+    "w": 16,
+    "h": 16,
+    "phash": "ec9c926319b6c4d9",
+    "lab_mean": [
+      56.83,
+      48.59,
+      33.44
+    ]
+  },
+  {
+    "src": "./assets/photos/phIFdC6lA4E.jpg",
+    "alt": "A starry sky above a snowy mountain",
+    "x": 108,
+    "y": 5746.4375,
+    "w": 354.65625,
+    "h": 220.15625,
+    "phash": "dfc80a35c54e3da1",
+    "lab_mean": [
+      30.42,
+      1.16,
+      -18.31
+    ]
+  },
+  {
+    "src": "./assets/photos/zhUzdTgtRP8.jpg",
+    "alt": "A dark mountain under a deep starry sky",
+    "x": 542.65625,
+    "y": 5746.4375,
+    "w": 354.671875,
+    "h": 220.15625,
+    "phash": "d89b3626a9c0ea3b",
+    "lab_mean": [
+      13.35,
+      -10.34,
+      -3.8
+    ]
+  },
+  {
+    "src": "./assets/photos/m6gcW9YPEFI.jpg",
+    "alt": "A small plane against a glowing sunset sky",
+    "x": 977.328125,
+    "y": 5746.4375,
+    "w": 354.65625,
+    "h": 220.15625,
+    "phash": "807fc143959f7583",
+    "lab_mean": [
+      77.02,
+      11.53,
+      9.54
+    ]
+  },
+  {
+    "src": "./assets/icons/rocket.svg",
+    "alt": "",
+    "x": 123,
+    "y": 6281.765625,
+    "w": 20,
+    "h": 20,
+    "phash": "bed0c46dc91b9236",
+    "lab_mean": [
+      65.5,
+      0.72,
+      39.62
+    ]
+  },
+  {
+    "src": "./assets/icons/mail.svg",
+    "alt": "",
+    "x": 1058,
+    "y": 6369.921875,
+    "w": 20,
+    "h": 20,
+    "phash": "820effb1b54c8393",
+    "lab_mean": [
+      67.59,
+      1.43,
+      4.15
+    ]
+  }
+]

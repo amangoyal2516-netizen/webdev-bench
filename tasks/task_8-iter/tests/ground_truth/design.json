@@ -1,0 +1,81 @@
+{
+  "description": "Online shop for beginner woodworking and craft kits, organized as a chronological skill journey from week one through finished projects",
+  "allowed_frameworks": [
+    "html-css"
+  ],
+  "palette": {
+    "background": "#9a9a96",
+    "surface": "#ededea",
+    "text": "#1f1f1d",
+    "accent": "#ff6a13",
+    "accent_alt": "#3d3d3a",
+    "muted": "#6b6b66"
+  },
+  "pages": [
+    {
+      "name": "home",
+      "description": "Storefront landing page introducing the beginner journey and surfacing starter kits along a learning timeline",
+      "components": [
+        "Top bar with shop name on the left, primary nav (Kits, Path, Workshop, Journal, Help), and a right cluster with search icon, account icon, and cart icon showing item count badge",
+        "Hero block with eyebrow label 'Made for first-timers', a headline, a one-sentence subhead, a primary 'Start week 1' button and a secondary 'Browse all kits' link, plus a tool-photo placeholder on the right",
+        "Horizontal scrolling timeline rail labeled 'Your first 12 weeks' with 12 numbered stops \u2014 each stop shows week number, a tiny project thumbnail, project name, and a difficulty dot (1 to 3)",
+        "Three-card 'Most-started kits' row \u2014 each card shows project image, kit name, weekend duration, tool count, price, and a 'Add to cart' button",
+        "Footer with four columns (Shop, Learn, Support, Shipping), a 'Get the weekly project email' signup, safety-notice line, and copyright row"
+      ]
+    },
+    {
+      "name": "path",
+      "description": "The full chronological learning path laid out as a vertical timeline of beginner milestones",
+      "components": [
+        "Same top bar",
+        "Page header with title 'The beginner path', a paragraph explaining the 12-week progression, and a chip row of filters: Skill (All, Cutting, Joining, Finishing), Time per week, and Budget",
+        "Vertical timeline with a center spine and alternating left/right milestone cards \u2014 each card has week number badge, project name, what-you'll-learn bullet list (3 items), tools introduced, estimated hours, kit price, and an 'Add kit' button",
+        "Inline 'Checkpoint' blocks between weeks 4, 8, and 12 \u2014 each shows a skills-recap list, a downloadable practice sheet link, and a 'You're ready for\u2026' next-step pointer",
+        "Bottom CTA panel offering a 'Buy the full path bundle' option with bundle price, savings amount, monthly-shipment toggle, and primary purchase button"
+      ]
+    },
+    {
+      "name": "kit",
+      "description": "Detail page for a single beginner kit with timeline-based step preview",
+      "components": [
+        "Same top bar",
+        "Two-column hero \u2014 left has a main project photo with a thumbnail strip below, right has kit name, week-number tag, price, duration estimate, skill meter, quantity stepper, and an 'Add to cart' button",
+        "What's in the box panel listed as a grid of parts (image, part name, quantity) plus a separate tools-included vs tools-needed two-column checklist",
+        "Build timeline strip showing the project as numbered steps along a horizontal bar \u2014 each step has a duration label, a one-line task, and a hover hint icon for the technique it teaches",
+        "Reviews section with average star rating, count, a 'first project ever?' filter toggle, and a list of review cards each showing reviewer name, weeks-into-path badge, rating, date, and review body"
+      ]
+    },
+    {
+      "name": "workshop",
+      "description": "Free workshop and technique library organized by when you encounter each skill",
+      "components": [
+        "Same top bar",
+        "Page header 'Workshop' with subtitle 'Techniques in the order you'll meet them' and a search input for techniques",
+        "Stepped timeline list grouped by week \u2014 each group has a week heading and below it a row of technique cards (icon, technique name, 2-minute read label, related-kit link)",
+        "Side rail (right) 'Tool glossary' with an alphabetical list of beginner tools \u2014 each row has tool icon, tool name, and a 'first used in week X' tag",
+        "Bottom safety panel with three icon-led blocks (Eye protection, Sharp edges, Dust) and a 'Print the safety checklist' link"
+      ]
+    },
+    {
+      "name": "cart",
+      "description": "Cart page showing selected kits with a delivery schedule timeline",
+      "components": [
+        "Same top bar",
+        "Page heading 'Your cart' with item-count subtext and a 'Subscribe and ship weekly' toggle that switches between one-time purchase and a paced shipment plan",
+        "Line-item list \u2014 each row shows project thumbnail, kit name, week-number tag, quantity stepper, line price, and a remove control",
+        "Delivery timeline card showing a horizontal bar of upcoming ship dates when the weekly toggle is on \u2014 each date marker shows kit name and an editable 'skip week' control",
+        "Order summary panel with subtotal, shipping, estimated tax, total, promo code input, accepted-payment icons, and a primary 'Checkout' button"
+      ]
+    },
+    {
+      "name": "checkout",
+      "description": "Single-page checkout for kit orders",
+      "components": [
+        "Slim top bar with just the shop name centered and a lock icon with 'Secure checkout' text on the right",
+        "Three-step progress indicator across the top: Contact, Shipping, Payment \u2014 with the current step highlighted",
+        "Two-column body \u2014 left stacks Contact, Shipping address, Shipping method radio cards (Standard, Rush, Pickup), and Payment form; right is a sticky order summary with totals and a 'Place order' button",
+        "Footer row with help link, refund-policy link, and a workshop-address line"
+      ]
+    }
+  ]
+}

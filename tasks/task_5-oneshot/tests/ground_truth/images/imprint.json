@@ -1,0 +1,184 @@
+[
+  {
+    "src": "./assets/photos/dtLvByNVgcE.jpg",
+    "alt": "Cover mockup of Slow Fires of the Levant cookbook, a dark pot simmering on a flame",
+    "x": 60,
+    "y": 327.390625,
+    "w": 380,
+    "h": 506.65625,
+    "phash": "95963a6b4a38b3d2",
+    "lab_mean": [
+      29.71,
+      6.23,
+      9.13
+    ]
+  },
+  {
+    "src": "./assets/icons/bookmark.svg",
+    "alt": "",
+    "x": 761,
+    "y": 763.9375,
+    "w": 14,
+    "h": 14,
+    "phash": "bfd33472c434c38c",
+    "lab_mean": [
+      38.14,
+      39.18,
+      36.1
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 961.828125,
+    "y": 773.9375,
+    "w": 12,
+    "h": 12,
+    "phash": "ec539254794ec4b5",
+    "lab_mean": [
+      64.42,
+      7.24,
+      59.32
+    ]
+  },
+  {
+    "src": "./assets/photos/c85HdnKXTzg.jpg",
+    "alt": "Cover mockup with crimson winter fruit on a snowy branch",
+    "x": 60,
+    "y": 1016.640625,
+    "w": 421.328125,
+    "h": 561.765625,
+    "phash": "efe9b090cae4b28a",
+    "lab_mean": [
+      35.78,
+      -0.75,
+      5.14
+    ]
+  },
+  {
+    "src": "./assets/photos/9R3EoFuL584.jpg",
+    "alt": "Cover mockup with a blue ceramic mug",
+    "x": 509.328125,
+    "y": 1016.640625,
+    "w": 421.328125,
+    "h": 561.765625,
+    "phash": "df0f3e474ac28c64",
+    "lab_mean": [
+      58.67,
+      2.93,
+      5.72
+    ]
+  },
+  {
+    "src": "./assets/photos/EWDvHNNfUmQ.jpg",
+    "alt": "Cover mockup with green leafy vegetables on a wooden surface",
+    "x": 958.65625,
+    "y": 1016.640625,
+    "w": 421.34375,
+    "h": 561.78125,
+    "phash": "bd15555155d515b1",
+    "lab_mean": [
+      80.39,
+      0.59,
+      5.22
+    ]
+  },
+  {
+    "src": "./assets/photos/JjWpEsLwe-0.jpg",
+    "alt": "Cover mockup with a rich brown dessert on a plate",
+    "x": 60,
+    "y": 1752.421875,
+    "w": 421.328125,
+    "h": 561.765625,
+    "phash": "94bc6312f3b364e1",
+    "lab_mean": [
+      71.91,
+      4.88,
+      8.83
+    ]
+  },
+  {
+    "src": "./assets/photos/mIzTRbaqDGM.jpg",
+    "alt": "Cover mockup with a pineapple and coconut on a chopping board",
+    "x": 509.328125,
+    "y": 1752.421875,
+    "w": 421.328125,
+    "h": 561.765625,
+    "phash": "a8d8c7239bf44c0f",
+    "lab_mean": [
+      69.22,
+      5.97,
+      10.54
+    ]
+  },
+  {
+    "src": "./assets/photos/32KY5byUI-Q.jpg",
+    "alt": "Cover mockup with a rustic loaf of brown and white bread",
+    "x": 958.65625,
+    "y": 1752.421875,
+    "w": 421.34375,
+    "h": 561.78125,
+    "phash": "aa4d943c4b616fe2",
+    "lab_mean": [
+      43.92,
+      7.01,
+      18.4
+    ]
+  },
+  {
+    "src": "./assets/photos/VJX5imdELxo.jpg",
+    "alt": "Cover mockup with two glowing tea light candles",
+    "x": 60,
+    "y": 2488.203125,
+    "w": 421.328125,
+    "h": 561.765625,
+    "phash": "8d653a61678eb934",
+    "lab_mean": [
+      34.47,
+      -3.55,
+      -4.09
+    ]
+  },
+  {
+    "src": "./assets/photos/M0NcxA2ktLM.jpg",
+    "alt": "Cover mockup with pink edible flowers in a clear bowl",
+    "x": 509.328125,
+    "y": 2488.203125,
+    "w": 421.328125,
+    "h": 561.765625,
+    "phash": "e389d9945436ed43",
+    "lab_mean": [
+      66.25,
+      9.87,
+      -13.2
+    ]
+  },
+  {
+    "src": "./assets/photos/xnyXLEyE8L0.jpg",
+    "alt": "Cover mockup with hands stirring a pot over a fire",
+    "x": 958.65625,
+    "y": 2488.203125,
+    "w": 421.34375,
+    "h": 561.78125,
+    "phash": "93346c5b9cac9371",
+    "lab_mean": [
+      27.17,
+      4.86,
+      10.12
+    ]
+  },
+  {
+    "src": "./assets/icons/external-link.svg",
+    "alt": "",
+    "x": 524,
+    "y": 3477.484375,
+    "w": 12,
+    "h": 12,
+    "phash": "eb5af8c9a4a48539",
+    "lab_mean": [
+      21.46,
+      10.09,
+      18.45
+    ]
+  }
+]

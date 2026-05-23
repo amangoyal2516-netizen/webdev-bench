@@ -1,0 +1,69 @@
+{
+  "description": "Beginner-friendly mindfulness habit tracker styled like an issue tracker \u2014 users log 'practice tickets' (meditation sessions, sleep, breathing exercises) and triage how they're feeling across the week",
+  "allowed_frameworks": [
+    "html-css"
+  ],
+  "palette": {
+    "background": "#0f0f11",
+    "surface": "#1a1a1d",
+    "text": "#ededf0",
+    "accent": "#ff1f8f",
+    "muted": "#71717a"
+  },
+  "pages": [
+    {
+      "name": "practice",
+      "description": "Three-pane main view \u2014 sidebar of practice categories, a list of today's and upcoming practice tickets, and a detail pane for the selected ticket",
+      "components": [
+        "Top bar with app wordmark on the left, a global command-style search input in the middle, and a right cluster containing a streak-flame icon with day count, a help icon, and a user avatar",
+        "Left sidebar with a 'New practice' primary button at the top, then collapsible groups (Today, This week, Someday), then a labeled list of categories (Breathing, Meditation, Movement, Sleep, Gratitude) each with a small count badge",
+        "Middle list pane showing practice ticket rows \u2014 each row has a checkbox, a category tag chip, a one-line title, a duration estimate, a 'feels like' mood pill, and a scheduled time, with section dividers for Morning / Afternoon / Evening",
+        "Right detail pane for the selected ticket \u2014 title header, status selector (Not started / In progress / Done), a metadata table (category, duration, recurrence, difficulty), guided-steps numbered list, and a reflection textarea with mood selector",
+        "Bottom status bar spanning the full width showing today's progress fraction, current streak, and a 'Begin next practice' shortcut button"
+      ]
+    },
+    {
+      "name": "calm-board",
+      "description": "Kanban-style board grouping practices by where the user is in their day, designed to feel low-pressure for beginners",
+      "components": [
+        "Same top bar",
+        "Board header with the title 'This week's calm board', a date-range pill, a 'Group by' dropdown (Time of day / Category / Energy level), and a 'New practice' button",
+        "Four-column kanban grid \u2014 Planned, Doing now, Reflecting, Complete \u2014 each column has a header with a count and an add-card button, and contains stacked practice cards showing title, category chip, duration, and a tiny mood-after icon",
+        "Right-side collapsible panel titled 'Gentle nudges' listing three suggestion cards for beginners (Try a 2-minute breath, Stretch your shoulders, Note one thing you noticed) each with an 'Add to board' link",
+        "Footer hint strip with a single sentence reminder that skipped days don't break the streak, plus a link to 'How streaks work'"
+      ]
+    },
+    {
+      "name": "insights",
+      "description": "Weekly insights dashboard showing how practice and mood correlate over time",
+      "components": [
+        "Same top bar",
+        "Page heading 'Your week' with a week-picker (previous / next arrows around a date range) and a 'Compare to last week' toggle",
+        "Row of four summary tiles: total minutes practiced (with delta vs last week), sessions completed, average mood score, longest streak \u2014 each tile shows a tiny inline trend line",
+        "Two-column analytics block \u2014 left is a 7-day mood-and-minutes chart with mood as dots and minutes as bars sharing one axis, right is a category breakdown as a horizontal bar list (Breathing, Meditation, Movement, Sleep, Gratitude) with minute totals",
+        "Reflection log table below the chart \u2014 columns for Date, Practice, Duration, Mood before, Mood after, and a Notes excerpt"
+      ]
+    },
+    {
+      "name": "library",
+      "description": "Browseable library of guided practices that beginners can add to their tracker",
+      "components": [
+        "Same top bar",
+        "Filter bar with a search input, category chips (Breathing, Meditation, Movement, Sleep, Gratitude), a duration dropdown (Under 5 min / 5\u201315 min / 15+ min), and a 'Beginner-friendly only' toggle that is on by default",
+        "Grid of practice cards (three per row) \u2014 each card has a category chip, title, one-sentence description, duration, a beginner-badge if applicable, an instructor name, and an 'Add to my practices' button",
+        "Featured starter pack banner near the top of the grid titled 'Start here: 7 days for first-timers' with a short description, day count, and an 'Add the whole pack' button",
+        "Pagination row at the bottom with page numbers and a results-count caption"
+      ]
+    },
+    {
+      "name": "onboarding",
+      "description": "First-run setup that helps a complete beginner configure their practice tracker",
+      "components": [
+        "Centered logo bar at the top with a stepper showing 4 steps (About you / Goals / Schedule / First practice) and the current step highlighted",
+        "Step card with the heading 'What brings you here?' and a vertical list of selectable goal options (Sleep better, Feel less anxious, Build a daily habit, Be more present, Just curious) each with an icon, label, and short helper line",
+        "Schedule sub-section showing a 7-day row of weekday toggles and a preferred-time-of-day chooser (Morning / Midday / Evening / No preference)",
+        "Action row at the bottom with a 'Back' text link on the left and a 'Continue' primary button on the right, plus a small 'Skip setup' link centered below"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+[
+  {
+    "src": "./assets/icons/rocket.svg",
+    "alt": "",
+    "x": 123,
+    "y": 23,
+    "w": 20,
+    "h": 20,
+    "phash": "bed0c46dc91b9236",
+    "lab_mean": [
+      65.58,
+      0.72,
+      39.67
+    ]
+  },
+  {
+    "src": "./assets/icons/sparkles.svg",
+    "alt": "",
+    "x": 599.96875,
+    "y": 127.84375,
+    "w": 16,
+    "h": 16,
+    "phash": "a6e2a20fc91db5b4",
+    "lab_mean": [
+      64.53,
+      0.68,
+      39.25
+    ]
+  },
+  {
+    "src": "./assets/icons/globe.svg",
+    "alt": "",
+    "x": 431,
+    "y": 602.1875,
+    "w": 42,
+    "h": 42,
+    "phash": "a864f747b12990e7",
+    "lab_mean": [
+      55.15,
+      0.59,
+      33.22
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 699,
+    "y": 602.1875,
+    "w": 42,
+    "h": 42,
+    "phash": "afa2b4b7cb0a8c2c",
+    "lab_mean": [
+      74.78,
+      1.53,
+      4.63
+    ]
+  },
+  {
+    "src": "./assets/icons/orbit.svg",
+    "alt": "",
+    "x": 967,
+    "y": 602.1875,
+    "w": 42,
+    "h": 42,
+    "phash": "aed8ac90b40fc2ed",
+    "lab_mean": [
+      61.82,
+      7.66,
+      14.72
+    ]
+  },
+  {
+    "src": "./assets/icons/atom.svg",
+    "alt": "",
+    "x": 431,
+    "y": 766.1875,
+    "w": 42,
+    "h": 42,
+    "phash": "abc891f8cd26d466",
+    "lab_mean": [
+      32.97,
+      -24.07,
+      11.3
+    ]
+  },
+  {
+    "src": "./assets/icons/rocket.svg",
+    "alt": "",
+    "x": 699,
+    "y": 766.1875,
+    "w": 42,
+    "h": 42,
+    "phash": "bed0c46dc91b9236",
+    "lab_mean": [
+      65.11,
+      0.7,
+      39.09
+    ]
+  },
+  {
+    "src": "./assets/icons/satellite.svg",
+    "alt": "",
+    "x": 967,
+    "y": 766.1875,
+    "w": 42,
+    "h": 42,
+    "phash": "f9239456d3990e66",
+    "lab_mean": [
+      74.64,
+      1.54,
+      4.63
+    ]
+  },
+  {
+    "src": "./assets/photos/b3PuuRU8IPc.jpg",
+    "alt": "Telescope dome under the Milky Way at night",
+    "x": 148,
+    "y": 1004.03125,
+    "w": 772,
+    "h": 481,
+    "phash": "b31c4be324f20f4d",
+    "lab_mean": [
+      18.79,
+      7.57,
+      -0.96
+    ]
+  },
+  {
+    "src": "./assets/icons/sparkles.svg",
+    "alt": "",
+    "x": 968,
+    "y": 1010.328125,
+    "w": 16,
+    "h": 16,
+    "phash": "a6e2a20fc91db5b4",
+    "lab_mean": [
+      37.12,
+      -27.59,
+      12.8
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 968,
+    "y": 1461.234375,
+    "w": 16,
+    "h": 16,
+    "phash": "ee32b9cce4929364",
+    "lab_mean": [
+      66.7,
+      8.29,
+      16.04
+    ]
+  },
+  {
+    "src": "./assets/icons/backpack.svg",
+    "alt": "",
+    "x": 1087.609375,
+    "y": 1461.234375,
+    "w": 16,
+    "h": 16,
+    "phash": "bee4a4c2834b9e4b",
+    "lab_mean": [
+      57.67,
+      0.66,
+      35.11
+    ]
+  },
+  {
+    "src": "./assets/icons/book-open.svg",
+    "alt": "",
+    "x": 968,
+    "y": 1501.828125,
+    "w": 16,
+    "h": 16,
+    "phash": "a340b928dcabd4d7",
+    "lab_mean": [
+      61.74,
+      7.7,
+      14.98
+    ]
+  },
+  {
+    "src": "./assets/icons/headphones.svg",
+    "alt": "",
+    "x": 1168.828125,
+    "y": 1501.828125,
+    "w": 16,
+    "h": 16,
+    "phash": "8fb7f0708383834f",
+    "lab_mean": [
+      66.83,
+      8.28,
+      16.08
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 1124.625,
+    "y": 1576.0625,
+    "w": 20,
+    "h": 20,
+    "phash": "ecdd92665933c426",
+    "lab_mean": [
+      46.79,
+      -34.08,
+      16.03
+    ]
+  },
+  {
+    "src": "./assets/icons/bookmark.svg",
+    "alt": "",
+    "x": 978,
+    "y": 1650.40625,
+    "w": 20,
+    "h": 20,
+    "phash": "afe16432c534d3cc",
+    "lab_mean": [
+      77.17,
+      1.62,
+      4.74
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-up-right.svg",
+    "alt": "",
+    "x": 1296,
+    "y": 1796.609375,
+    "w": 16,
+    "h": 16,
+    "phash": "e9669699c7c63831",
+    "lab_mean": [
+      57.46,
+      48.82,
+      33.68
+    ]
+  },
+  {
+    "src": "./assets/icons/telescope.svg",
+    "alt": "",
+    "x": 138,
+    "y": 1878.703125,
+    "w": 16,
+    "h": 16,
+    "phash": "ea4ac8a71e19b734",
+    "lab_mean": [
+      64.96,
+      8.09,
+      15.59
+    ]
+  },
+  {
+    "src": "./assets/icons/binoculars.svg",
+    "alt": "",
+    "x": 222.453125,
+    "y": 2275.140625,
+    "w": 20,
+    "h": 20,
+    "phash": "aaad9d00c3f3e748",
+    "lab_mean": [
+      55.5,
+      0.59,
+      33.78
+    ]
+  },
+  {
+    "src": "./assets/icons/book-open-text.svg",
+    "alt": "",
+    "x": 551.328125,
+    "y": 1878.40625,
+    "w": 16,
+    "h": 16,
+    "phash": "a308ab2adc39d4f5",
+    "lab_mean": [
+      63.04,
+      1.35,
+      3.95
+    ]
+  },
+  {
+    "src": "./assets/icons/volume-2.svg",
+    "alt": "",
+    "x": 856.65625,
+    "y": 1882.40625,
+    "w": 16,
+    "h": 16,
+    "phash": "b3a5b856c5aa1ea1",
+    "lab_mean": [
+      75.13,
+      1.53,
+      4.66
+    ]
+  },
+  {
+    "src": "./assets/photos/SBdmQcW8qag.jpg",
+    "alt": "Glowing nebula cloud with bright sparkles",
+    "x": 553.328125,
+    "y": 2141.671875,
+    "w": 333.328125,
+    "h": 206.828125,
+    "phash": "c93e389d2ae0c6ea",
+    "lab_mean": [
+      11.06,
+      -9.2,
+      -0.39
+    ]
+  },
+  {
+    "src": "./assets/icons/lightbulb.svg",
+    "alt": "",
+    "x": 964.65625,
+    "y": 1878.703125,
+    "w": 16,
+    "h": 16,
+    "phash": "bc0de3b0b43283cf",
+    "lab_mean": [
+      76.57,
+      0.83,
+      46.13
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-03.svg",
+    "alt": "",
+    "x": 966.65625,
+    "y": 2076.78125,
+    "w": 60,
+    "h": 60,
+    "phash": "bc32c269cbca69c5",
+    "lab_mean": [
+      53.86,
+      4.97,
+      14.11
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 1117.078125,
+    "y": 2310.203125,
+    "w": 16,
+    "h": 16,
+    "phash": "ec9992671996c4d9",
+    "lab_mean": [
+      79.37,
+      0.86,
+      47.66
+    ]
+  },
+  {
+    "src": "./assets/icons/mail.svg",
+    "alt": "",
+    "x": 752,
+    "y": 2838.90625,
+    "w": 20,
+    "h": 20,
+    "phash": "820afff1b54c8393",
+    "lab_mean": [
+      67.58,
+      1.43,
+      4.15
+    ]
+  },
+  {
+    "src": "./assets/icons/rocket.svg",
+    "alt": "",
+    "x": 1284,
+    "y": 2838.90625,
+    "w": 20,
+    "h": 20,
+    "phash": "bed0c46dc91b9236",
+    "lab_mean": [
+      65.58,
+      0.72,
+      39.67
+    ]
+  }
+]

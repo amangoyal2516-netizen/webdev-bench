@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Log emission — Carbonledger</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="app">
+<aside class="sidebar">
+<div class="sidebar-head">
+<div class="workspace">
+<div class="workspace-mark">CL</div>
+<div>
+<div class="workspace-name">Carbonledger</div>
+<div class="workspace-sub">northwind-grp</div>
+</div>
+</div>
+<button class="period-switcher">
+<div>
+<div class="label">Reporting period</div>
+<div class="val">FY2024 · Q3</div>
+</div>
+<img src="./assets/icons/chevron-down.svg" alt="" class="ico">
+</button>
+</div>
+<nav class="sidebar-nav">
+<div class="nav-section-label">Workspace</div>
+<a href="./dashboard.html" class="nav-item"><img src="./assets/icons/layout-dashboard.svg" alt="" class="ico"><span>Dashboard</span></a>
+<a href="./ledger.html" class="nav-item"><img src="./assets/icons/book-open.svg" alt="" class="ico"><span>Ledger</span><span class="badge-mini">2,481</span></a>
+<a href="./log-emission.html" class="nav-item active"><img src="./assets/icons/plus.svg" alt="" class="ico"><span>Log emission</span></a>
+<a href="./offsets.html" class="nav-item"><img src="./assets/icons/leaf.svg" alt="" class="ico"><span>Offsets</span><span class="badge-mini">17</span></a>
+<a href="./suppliers.html" class="nav-item"><img src="./assets/icons/truck.svg" alt="" class="ico"><span>Suppliers</span></a>
+<a href="./reports.html" class="nav-item"><img src="./assets/icons/file-text.svg" alt="" class="ico"><span>Reports</span></a>
+<div class="nav-section-label">Account</div>
+<a href="#" class="nav-item"><img src="./assets/icons/bell.svg" alt="" class="ico"><span>Notifications</span><span class="badge-mini">4</span></a>
+<a href="#" class="nav-item"><img src="./assets/icons/settings.svg" alt="" class="ico"><span>Settings</span></a>
+<a href="#" class="nav-item"><img src="./assets/icons/circle-question-mark.svg" alt="" class="ico"><span>Help</span></a>
+</nav>
+<div class="sidebar-foot">
+<div class="user-card">
+<div class="avatar"><img src="./assets/avatars/notionists-seed-03.svg" alt="Maren Holst"></div>
+<div class="user-info">
+<div class="user-name">Maren Holst</div>
+<div class="user-role">Sustainability lead</div>
+</div>
+</div>
+<button class="org-switcher">
+<img src="./assets/icons/building-2.svg" alt="" class="ico">
+<span class="org-name">Northwind Group</span>
+<img src="./assets/icons/chevron-down.svg" alt="" class="ico">
+</button>
+</div>
+</aside>
+
+<div class="main">
+<header class="topbar">
+<div class="topbar-title">
+<h1>Log emission</h1>
+<div class="topbar-sub">entry-id · pending — autosaved 14:32 UTC</div>
+</div>
+<div class="topbar-spacer"></div>
+<div class="topbar-actions">
+<button class="btn btn-ghost btn-icon" aria-label="Notifications"><img src="./assets/icons/bell.svg" alt="" class="ico"></button>
+<button class="btn"><img src="./assets/icons/circle-question-mark.svg" alt="" class="ico">Factor reference</button>
+</div>
+</header>
+
+<div class="page">
+<div class="page-head">
+<div>
+<div class="breadcrumb">
+<a href="./ledger.html">Ledger</a><span class="sep">/</span><span>New entry</span>
+</div>
+<h1>Log emission</h1>
+<p class="dim" style="margin-top:6px;font-size:var(--text-md)">Enter activity data — we'll match an emission factor and compute tCO₂e in real time.</p>
+</div>
+<div style="display:flex;gap:var(--space-3);flex-wrap:wrap">
+<button class="btn"><img src="./assets/icons/clipboard-list.svg" alt="" class="ico">Save draft</button>
+</div>
+</div>
+
+<div class="layout-split">
+<div class="section" style="display:flex;flex-direction:column;gap:var(--space-5)">
+
+<div class="card">
+<div class="section-title" style="margin-bottom:var(--space-4)">01 · Source</div>
+<div class="form-grid">
+<div class="field">
+<label class="field-label">Activity date</label>
+<div class="input-group">
+<img src="./assets/icons/calendar.svg" alt="" class="ico">
+<input class="input" type="text" value="2024-09-14">
+</div>
+<div class="field-hint">Date the emitting activity took place.</div>
+</div>
+<div class="field">
+<label class="field-label">Posted by</label>
+<div class="input-group">
+<img src="./assets/icons/user.svg" alt="" class="ico">
+<input class="input" type="text" value="Maren Holst">
+</div>
+<div class="field-hint">Defaults to current user.</div>
+</div>
+<div class="field full">
+<label class="field-label">Description</label>
+<input class="input" type="text" value="Diesel consumption — Skanderborg fleet (week 37)">
+<div class="field-hint">Plain-language summary that appears in the ledger.</div>
+</div>
+<div class="field">
+<label class="field-label">Facility</label>
+<div class="input-group">
+<img src="./assets/icons/factory.svg" alt="" class="ico">
+<select class="select">
+<option>Skanderborg DC — DK</option>
+<option>Aarhus HQ — DK</option>
+<option>Malmö Hub — SE</option>
+<option>Hamburg Plant — DE</option>
+<option>Rotterdam Terminal — NL</option>
+</select>
+</div>
+</div>
+<div class="field">
+<label class="field-label">Supplier</label>
+<div class="input-group">
+<img src="./assets/icons/search.svg" alt="" class="ico">
+<input class="input" type="text" value="Circle K Energi DK A/S" placeholder="Type to search suppliers…">
+</div>
+<div class="field-hint">Matched · supplier-id 4 entries this year</div>
+</div>
+<div class="field full">
+<label class="field-label">Cost centre</label>
+<div class="chip-group">
+<span class="chip active"><span class="dot"></span>OPS-NORDIC</span>
+<span class="chip"><span class="dot"></span>OPS-DACH</span>
+<span class="chip"><span class="dot"></span>OPS-BENELUX</span>
+<span class="chip"><span class="dot"></span>CORP-HQ</span>
+</div>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="section-title" style="margin-bottom:var(--space-4)">02 · Classification</div>
+
+<div class="field" style="margin-bottom:var(--space-5)">
+<label class="field-label">Scope</label>
+<div class="three-col">
+<div class="scope-card">
+<div class="scope-title"><span class="radio-mark"></span><span class="badge scope-1">S1</span></div>
+<div class="scope-desc"><strong style="color:var(--fg)">Direct</strong><br>Owned combustion, fleet, fugitive gases</div>
+</div>
+<div class="scope-card selected">
+<div class="scope-title"><span class="radio-mark"></span><span class="badge scope-1">S1</span> <span class="dim" style="font-family:var(--font-mono);font-size:var(--text-xs)">selected</span></div>
+<div class="scope-desc"><strong style="color:var(--fg)">Mobile combustion</strong><br>Company-owned vehicles &amp; equipment</div>
+</div>
+<div class="scope-card">
+<div class="scope-title"><span class="radio-mark"></span><span class="badge scope-3">S3</span></div>
+<div class="scope-desc"><strong style="color:var(--fg)">Value chain</strong><br>Upstream / downstream indirect activity</div>
+</div>
+</div>
+</div>
+
+<div class="form-grid">
+<div class="field">
+<label class="field-label">GHG Protocol category</label>
+<div class="input-group">
+<img src="./assets/icons/tag.svg" alt="" class="ico">
+<select class="select">
+<option>1.2 — Mobile combustion · Road transport</option>
+<option>1.1 — Stationary combustion</option>
+<option>1.3 — Fugitive emissions (refrigerants)</option>
+<option>1.4 — Process emissions</option>
+</select>
+</div>
+</div>
+<div class="field">
+<label class="field-label">Sub-category</label>
+<div class="input-group">
+<img src="./assets/icons/hash.svg" alt="" class="ico">
+<select class="select">
+<option>Diesel — HGV / commercial</option>
+<option>Diesel — light commercial</option>
+<option>Petrol — passenger</option>
+<option>HVO100 — biofuel</option>
+</select>
+</div>
+</div>
+<div class="field full">
+<label class="field-label">GHG gases included</label>
+<div class="chip-group">
+<span class="chip active"><img src="./assets/icons/check.svg" alt="" class="ico" style="width:10px;height:10px">CO₂</span>
+<span class="chip active"><img src="./assets/icons/check.svg" alt="" class="ico" style="width:10px;height:10px">CH₄</span>
+<span class="chip active"><img src="./assets/icons/check.svg" alt="" class="ico" style="width:10px;height:10px">N₂O</span>
+<span class="chip"><span class="dot"></span>HFCs</span>
+<span class="chip"><span class="dot"></span>PFCs</span>
+<span class="chip"><span class="dot"></span>SF₆</span>
+<span class="chip"><span class="dot"></span>NF₃</span>
+</div>
+<div class="field-hint">CO₂e converted using AR6 GWP-100 values.</div>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="section-title" style="margin-bottom:var(--space-4)">03 · Activity data</div>
+<div class="form-grid">
+<div class="field">
+<label class="field-label">Quantity</label>
+<input class="input num" type="text" value="14,820.00">
+<div class="field-hint">Numeric value of the activity measure.</div>
+</div>
+<div class="field">
+<label class="field-label">Unit</label>
+<select class="select">
+<option>litres (L)</option>
+<option>kilowatt-hours (kWh)</option>
+<option>tonne-kilometres (tkm)</option>
+<option>kilograms (kg)</option>
+<option>cubic metres (m³)</option>
+</select>
+</div>
+<div class="field">
+<label class="field-label">Data quality</label>
+<select class="select">
+<option>Primary — metered</option>
+<option>Primary — invoiced</option>
+<option>Secondary — averaged</option>
+<option>Estimated — extrapolated</option>
+</select>
+</div>
+<div class="field">
+<label class="field-label">Verification</label>
+<div style="display:flex;align-items:center;gap:var(--space-3);padding:6px 0">
+<label class="toggle on"><span class="toggle-switch"></span><span class="mono" style="font-size:var(--text-sm)">Require auditor sign-off</span></label>
+</div>
+</div>
+<div class="field full">
+<label class="field-label">Supporting document</label>
+<div class="upload-zone">
+<img src="./assets/icons/upload.svg" alt="" class="ico">
+<div style="color:var(--fg);font-weight:600">Drop invoice or fuel receipt here</div>
+<div class="field-hint">PDF, PNG, JPG, CSV up to 25 MB — required for primary-source data</div>
+<button class="btn btn-sm" style="margin-top:var(--space-2)">Browse files</button>
+</div>
+<div style="display:flex;align-items:center;gap:var(--space-3);padding:var(--space-3);background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius-md);margin-top:var(--space-2)">
+<img src="./assets/icons/file-text.svg" alt="" class="ico" style="width:16px;height:16px;color:var(--accent)">
+<div style="flex:1;min-width:0">
+<div style="font-size:var(--text-sm);font-weight:600">invoice-circle-k-wk37.pdf</div>
+<div class="mono" style="font-size:var(--text-xs);color:var(--muted)">412 KB · uploaded 14:31 UTC</div>
+</div>
+<span class="badge verified"><img src="./assets/icons/badge-check.svg" alt="" class="ico" style="width:10px;height:10px">parsed</span>
+<button class="action-dots"><img src="./assets/icons/ellipsis-vertical.svg" alt="" class="ico" style="width:14px;height:14px"></button>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<aside class="preview-panel">
+<div>
+<div class="uppercase" style="margin-bottom:var(--space-2)">Live preview</div>
+<h3>Matched emission factor</h3>
+</div>
+
+<div class="factor-card">
+<div style="display:flex;align-items:flex-start;justify-content:space-between;gap:var(--space-3)">
+<div>
+<div class="uppercase" style="margin-bottom:4px">Factor</div>
+<div class="factor-val">2.687</div>
+<div class="mono" style="font-size:var(--text-xs);color:var(--muted);margin-top:2px">kg CO₂e / litre</div>
+</div>
+<span class="badge verified"><img src="./assets/icons/shield-check.svg" alt="" class="ico" style="width:10px;height:10px">verified</span>
+</div>
+<dl class="factor-meta">
+<dt>Source</dt><dd>DEFRA 2024</dd>
+<dt>Dataset</dt><dd>UK GHG conv. factors</dd>
+<dt>Vintage</dt><dd>2024</dd>
+<dt>Region</dt><dd>EU-27 · NW</dd>
+<dt>Pathway</dt><dd>WTW · diesel</dd>
+<dt>Last sync</dt><dd>2024-09-02</dd>
+</dl>
+<div style="display:flex;gap:var(--space-2);padding-top:var(--space-2);border-top:1px solid var(--border)">
+<button class="btn btn-sm btn-ghost"><img src="./assets/icons/external-link.svg" alt="" class="ico">View source</button>
+<button class="btn btn-sm btn-ghost"><img src="./assets/icons/refresh-cw.svg" alt="" class="ico">Re-match</button>
+</div>
+</div>
+
+<div>
+<div class="uppercase" style="text-align:center">Computed impact</div>
+<div class="readout">
+<div class="readout-value">39.821</div>
+<div class="readout-unit">tCO₂e · 14,820 L × 2.687 kg/L</div>
+</div>
+<div style="display:flex;justify-content:space-between;font-size:var(--text-xs);color:var(--muted);font-family:var(--font-mono);margin-bottom:6px">
+<span>uncertainty ±6.4%</span>
+<span>37.27 — 42.37 tCO₂e</span>
+</div>
+<div class="uncertainty-bar"></div>
+<div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);font-family:var(--font-mono);margin-top:4px">
+<span>P5</span><span>median</span><span>P95</span>
+</div>
+</div>
+
+<div>
+<div class="uppercase" style="margin-bottom:var(--space-2)">Budget impact</div>
+<div style="display:flex;justify-content:space-between;font-size:var(--text-xs);color:var(--fg-dim);margin-bottom:6px">
+<span>Scope 1 · Q3 budget</span>
+<span class="mono">312.4 / 420.0 tCO₂e</span>
+</div>
+<div class="progress" style="height:10px">
+<div class="progress-bar" style="width:74%"></div>
+<div class="progress-marker" style="left:84%"></div>
+</div>
+<div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);font-family:var(--font-mono);margin-top:6px">
+<span>after entry · 83.7% used</span>
+<span class="accent-alt">+9.5% MoM</span>
+</div>
+</div>
+
+<div>
+<div class="uppercase" style="margin-bottom:var(--space-2)">Lineage</div>
+<ul class="lineage-list">
+<li><img src="./assets/icons/circle-check.svg" alt="" class="ico">activity quantity entered (14,820 L)</li>
+<li><img src="./assets/icons/circle-check.svg" alt="" class="ico">factor matched · DEFRA-2024-fuel-005</li>
+<li><img src="./assets/icons/circle-check.svg" alt="" class="ico">GWP applied · AR6 100-yr</li>
+<li><img src="./assets/icons/circle-dot.svg" alt="" class="ico">pending auditor review</li>
+</ul>
+</div>
+
+<div class="field">
+<label class="field-label">Assumptions &amp; notes</label>
+<textarea class="input" rows="4" style="font-family:var(--font-sans);resize:vertical">Includes mixed-grade B7 diesel from regional supplier. Biogenic share excluded per GHGP. Refuelling log reconciled against telematics — 0.3% variance attributed to tank calibration drift.</textarea>
+<div class="field-hint">Captured alongside the entry for audit trail. Visible in reports.</div>
+</div>
+</aside>
+</div>
+
+</div>
+
+<div class="sticky-bar">
+<button class="btn btn-ghost"><img src="./assets/icons/x.svg" alt="" class="ico">Cancel</button>
+<div style="flex:1"></div>
+<div class="mono dim" style="font-size:var(--text-xs);padding-right:var(--space-3)">all required fields complete · ready to post</div>
+<button class="btn"><img src="./assets/icons/copy.svg" alt="" class="ico">Save and add another</button>
+<button class="btn btn-primary"><img src="./assets/icons/check.svg" alt="" class="ico">Save entry</button>
+</div>
+
+</div>
+</div>
+</body>
+</html>

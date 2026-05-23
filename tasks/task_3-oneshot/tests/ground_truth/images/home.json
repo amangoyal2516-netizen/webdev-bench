@@ -1,0 +1,268 @@
+[
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 1262.984375,
+    "y": 24,
+    "w": 16,
+    "h": 16,
+    "phash": "ec98926b19b6c4d9",
+    "lab_mean": [
+      40.19,
+      20.77,
+      -74.24
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 342.625,
+    "y": 543.5,
+    "w": 16,
+    "h": 16,
+    "phash": "ec98926b19b6c4d9",
+    "lab_mean": [
+      40.19,
+      20.77,
+      -74.24
+    ]
+  },
+  {
+    "src": "./assets/icons/book-open.svg",
+    "alt": "",
+    "x": 436.625,
+    "y": 543.5,
+    "w": 16,
+    "h": 16,
+    "phash": "a304ad28dc3bd4d7",
+    "lab_mean": [
+      69.46,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/circle-check.svg",
+    "alt": "",
+    "x": 144,
+    "y": 586.5625,
+    "w": 16,
+    "h": 16,
+    "phash": "aaccad33b0ccc333",
+    "lab_mean": [
+      75.59,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/shield-check.svg",
+    "alt": "",
+    "x": 282.015625,
+    "y": 586.5625,
+    "w": 16,
+    "h": 16,
+    "phash": "ae46a1b3b2ccc713",
+    "lab_mean": [
+      77.09,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/zap.svg",
+    "alt": "",
+    "x": 502.046875,
+    "y": 586.5625,
+    "w": 16,
+    "h": 16,
+    "phash": "b3ccf0c58bc6a899",
+    "lab_mean": [
+      77.85,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/copy.svg",
+    "alt": "",
+    "x": 1217.1875,
+    "y": 154,
+    "w": 16,
+    "h": 16,
+    "phash": "efd81063c987949d",
+    "lab_mean": [
+      24.65,
+      -0.68,
+      -4.15
+    ]
+  },
+  {
+    "src": "./assets/icons/landmark.svg",
+    "alt": "",
+    "x": 173.5,
+    "y": 765.765625,
+    "w": 20,
+    "h": 20,
+    "phash": "afe183f5f090660b",
+    "lab_mean": [
+      76.75,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/scale.svg",
+    "alt": "",
+    "x": 353.421875,
+    "y": 765.765625,
+    "w": 20,
+    "h": 20,
+    "phash": "ab83f4d0d8cf0f24",
+    "lab_mean": [
+      77.53,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/building-2.svg",
+    "alt": "",
+    "x": 560.78125,
+    "y": 765.765625,
+    "w": 20,
+    "h": 20,
+    "phash": "fef8a0058557d25a",
+    "lab_mean": [
+      72.3,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/briefcase.svg",
+    "alt": "",
+    "x": 764.3125,
+    "y": 765.765625,
+    "w": 20,
+    "h": 20,
+    "phash": "a875f7a18112d07f",
+    "lab_mean": [
+      74.86,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/gavel.svg",
+    "alt": "",
+    "x": 948.9375,
+    "y": 765.765625,
+    "w": 20,
+    "h": 20,
+    "phash": "bbe2852cd693db08",
+    "lab_mean": [
+      82.77,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/globe.svg",
+    "alt": "",
+    "x": 1142.140625,
+    "y": 765.765625,
+    "w": 20,
+    "h": 20,
+    "phash": "a89bb706f4cec0a9",
+    "lab_mean": [
+      71.25,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/scan-text.svg",
+    "alt": "",
+    "x": 156,
+    "y": 1143.125,
+    "w": 24,
+    "h": 24,
+    "phash": "ba64cf93ed64b024",
+    "lab_mean": [
+      83.75,
+      3.6,
+      -25.35
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 223.21875,
+    "y": 1391.078125,
+    "w": 16,
+    "h": 16,
+    "phash": "ec9992671996c4d9",
+    "lab_mean": [
+      87.68,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/chart-line.svg",
+    "alt": "",
+    "x": 548,
+    "y": 1143.125,
+    "w": 24,
+    "h": 24,
+    "phash": "af81da84707bc26e",
+    "lab_mean": [
+      90.22,
+      -17.12,
+      2.85
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 615.21875,
+    "y": 1367.828125,
+    "w": 16,
+    "h": 16,
+    "phash": "ec9992671996c4d9",
+    "lab_mean": [
+      87.68,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/wand.svg",
+    "alt": "",
+    "x": 940,
+    "y": 1143.125,
+    "w": 24,
+    "h": 24,
+    "phash": "eb608face19ef003",
+    "lab_mean": [
+      81.18,
+      -0.04,
+      -3.44
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 1007.21875,
+    "y": 1391.078125,
+    "w": 16,
+    "h": 16,
+    "phash": "eccc92b2596bc496",
+    "lab_mean": [
+      87.9,
+      0.0,
+      0.0
+    ]
+  }
+]

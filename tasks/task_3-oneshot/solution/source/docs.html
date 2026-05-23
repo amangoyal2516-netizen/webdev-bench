@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Review a contract — Clausewise API Docs</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container-wide topbar-inner">
+    <div class="row" style="gap:var(--space-5);">
+      <a href="./home.html" class="wordmark"><span class="wordmark-mark">CW</span> Clausewise</a>
+      <span class="badge" style="font-family:var(--font-mono);">docs</span>
+    </div>
+    <div class="row" style="flex:1;justify-content:center;max-width:520px;">
+      <div class="search-input" style="width:100%;">
+        <img src="./assets/icons/search.svg" alt="" class="icon icon-sm">
+        <input type="text" placeholder="Search the docs…">
+        <span class="kbd">⌘K</span>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <select class="input" style="height:38px;width:140px;font-family:var(--font-mono);font-size:var(--text-xs);">
+        <option>v1 — stable</option>
+        <option>v2 — beta</option>
+        <option>v0 — legacy</option>
+      </select>
+      <a href="#" class="btn btn-ghost btn-sm">Dashboard <img src="./assets/icons/arrow-up-right.svg" alt="" class="icon icon-sm"></a>
+    </div>
+  </div>
+</header>
+
+<main class="container-wide" style="padding-top:var(--space-5);padding-bottom:var(--space-7);">
+  <div class="grid-docs">
+
+    <!-- LEFT SIDEBAR -->
+    <aside class="docs-sidebar">
+      <ul class="docs-nav">
+        <li>
+          <div class="docs-nav-section">Getting started</div>
+          <ul class="docs-nav-list">
+            <li><a href="#">Introduction</a></li>
+            <li><a href="#">Quickstart</a></li>
+            <li><a href="#">SDKs &amp; libraries</a></li>
+            <li><a href="#">Rate limits</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="docs-nav-section">Authentication</div>
+          <ul class="docs-nav-list">
+            <li><a href="#">API keys</a></li>
+            <li><a href="#">OAuth 2.0</a></li>
+            <li><a href="#">Scopes</a></li>
+            <li><a href="#">Signing requests</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="docs-nav-section">Contracts</div>
+          <ul class="docs-nav-list">
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Upload a contract</a></li>
+            <li><a href="#" class="is-active"><img src="./assets/icons/circle-dot.svg" alt="" class="icon icon-sm">Review a contract</a></li>
+            <li><a href="#">Retrieve a contract</a></li>
+            <li><a href="#">List contracts</a></li>
+            <li><a href="#">Delete a contract</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="docs-nav-section">Clauses</div>
+          <ul class="docs-nav-list">
+            <li><a href="#">Clause object</a></li>
+            <li><a href="#">Extract clauses</a></li>
+            <li><a href="#">Classify clauses</a></li>
+            <li><a href="#">Compare to playbook</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="docs-nav-section">Redlines</div>
+          <ul class="docs-nav-list">
+            <li><a href="#">Generate redlines</a></li>
+            <li><a href="#">Apply suggestions</a></li>
+            <li><a href="#">Export to DOCX</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="docs-nav-section">Webhooks</div>
+          <ul class="docs-nav-list">
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Verifying signatures</a></li>
+            <li><a href="#">Retries &amp; replay</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="docs-nav-section">Errors</div>
+          <ul class="docs-nav-list">
+            <li><a href="#">Error codes</a></li>
+            <li><a href="#">Handling failures</a></li>
+            <li><a href="#">Changelog</a></li>
+          </ul>
+        </li>
+      </ul>
+    </aside>
+
+    <!-- CENTER READING COLUMN -->
+    <article class="docs-content">
+      <nav class="breadcrumb">
+        <a href="#">Docs</a>
+        <span class="breadcrumb-sep">›</span>
+        <a href="#">API Reference</a>
+        <span class="breadcrumb-sep">›</span>
+        <a href="#">Contracts</a>
+        <span class="breadcrumb-sep">›</span>
+        <span class="soft">Review a contract</span>
+      </nav>
+
+      <h1 id="review-contract">Review a contract</h1>
+      <p class="lead" style="margin-bottom:var(--space-5);">Submit a previously uploaded contract for AI-powered clause analysis. The endpoint returns a structured review job that you can poll, stream, or receive via webhook when complete.</p>
+
+      <div class="endpoint-block">
+        <span class="http-pill http-post">POST</span>
+        <span class="path">/v1/contracts/<span style="color:var(--accent);">{contract_id}</span>/review</span>
+        <button class="icon-btn" title="Copy"><img src="./assets/icons/copy.svg" alt="" class="icon icon-sm"></button>
+      </div>
+
+      <p>Starts an asynchronous review against a playbook of your choice. Most reviews complete within 8–14 seconds depending on document length and the number of clause categories requested. Each review consumes one credit per 5,000 tokens of input text.</p>
+
+      <div class="callout" style="margin:var(--space-5) 0;">
+        <span class="callout-icon"><img src="./assets/icons/info.svg" alt="" class="icon icon-sm" style="filter:invert(1) brightness(2);"></span>
+        <div>
+          <h5>Idempotent by default</h5>
+          <p>Pass an <span class="mono">Idempotency-Key</span> header to safely retry network failures. Duplicate keys within 24 hours return the original review object.</p>
+        </div>
+      </div>
+
+      <h2 id="parameters">Parameters</h2>
+      <p>All parameters are sent as JSON in the request body. Path parameters are resolved from the URL.</p>
+
+      <table class="params-table">
+        <thead>
+          <tr><th>Name</th><th>Type</th><th>Required</th><th>Description</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>contract_id</td>
+            <td><span class="type-pill">string</span></td>
+            <td><span class="req-pill">required</span></td>
+            <td>The identifier of the uploaded contract, e.g. <span class="mono">ctr_8Tq2v…</span>. Returned by <a href="#">POST /contracts</a>.</td>
+          </tr>
+          <tr>
+            <td>playbook_id</td>
+            <td><span class="type-pill">string</span></td>
+            <td><span class="req-pill">required</span></td>
+            <td>The playbook used to score and redline the contract. Use the default <span class="mono">pb_default_msa</span> or a custom playbook from your workspace.</td>
+          </tr>
+          <tr>
+            <td>jurisdiction</td>
+            <td><span class="type-pill">enum</span></td>
+            <td><span class="muted">optional</span></td>
+            <td>One of <span class="mono">us</span>, <span class="mono">uk</span>, <span class="mono">eu</span>, <span class="mono">ca</span>, <span class="mono">au</span>. Defaults to the playbook&rsquo;s governing law.</td>
+          </tr>
+          <tr>
+            <td>clause_types</td>
+            <td><span class="type-pill">string[]</span></td>
+            <td><span class="muted">optional</span></td>
+            <td>Limit analysis to specific clause categories — e.g. <span class="mono">["indemnity","liability","termination"]</span>. Omit to review all 47 supported types.</td>
+          </tr>
+          <tr>
+            <td>generate_redlines</td>
+            <td><span class="type-pill">boolean</span></td>
+            <td><span class="muted">optional</span></td>
+            <td>When <span class="mono">true</span>, the response includes suggested edits with track-changes-compatible deltas. Default <span class="mono">false</span>.</td>
+          </tr>
+          <tr>
+            <td>webhook_url</td>
+            <td><span class="type-pill">string</span></td>
+            <td><span class="muted">optional</span></td>
+            <td>HTTPS endpoint to notify when the review reaches a terminal status. Falls back to your workspace default if unset.</td>
+          </tr>
+          <tr>
+            <td>metadata</td>
+            <td><span class="type-pill">object</span></td>
+            <td><span class="muted">optional</span></td>
+            <td>Up to 20 key/value pairs (≤500 chars each) for your own bookkeeping. Returned untouched on every webhook event.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="response">Response</h2>
+      <p>Returns a <span class="mono">Review</span> object with a <span class="mono">status</span> of <span class="mono">queued</span> or <span class="mono">processing</span>. Poll <a href="#">GET /reviews/{id}</a> or listen for the <span class="mono">review.completed</span> webhook to receive the final result.</p>
+
+      <table class="params-table">
+        <thead>
+          <tr><th>Field</th><th>Type</th><th>Required</th><th>Description</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>id</td>
+            <td><span class="type-pill">string</span></td>
+            <td><span class="req-pill">always</span></td>
+            <td>Unique review identifier, prefixed <span class="mono">rev_</span>.</td>
+          </tr>
+          <tr>
+            <td>object</td>
+            <td><span class="type-pill">string</span></td>
+            <td><span class="req-pill">always</span></td>
+            <td>The literal string <span class="mono">"review"</span>.</td>
+          </tr>
+          <tr>
+            <td>status</td>
+            <td><span class="type-pill">enum</span></td>
+            <td><span class="req-pill">always</span></td>
+            <td>One of <span class="mono">queued</span>, <span class="mono">processing</span>, <span class="mono">completed</span>, <span class="mono">failed</span>.</td>
+          </tr>
+          <tr>
+            <td>risk_score</td>
+            <td><span class="type-pill">number</span></td>
+            <td><span class="muted">conditional</span></td>
+            <td>Composite 0–100 score (only present when <span class="mono">status = completed</span>). Lower is safer.</td>
+          </tr>
+          <tr>
+            <td>findings</td>
+            <td><span class="type-pill">Finding[]</span></td>
+            <td><span class="muted">conditional</span></td>
+            <td>Ordered list of detected issues. Each finding contains a clause reference, severity, and rationale.</td>
+          </tr>
+          <tr>
+            <td>redlines</td>
+            <td><span class="type-pill">Redline[]</span></td>
+            <td><span class="muted">conditional</span></td>
+            <td>Present when <span class="mono">generate_redlines = true</span>. See the <a href="#">Redline object</a>.</td>
+          </tr>
+          <tr>
+            <td>created_at</td>
+            <td><span class="type-pill">int</span></td>
+            <td><span class="req-pill">always</span></td>
+            <td>Unix timestamp (seconds) when the review was enqueued.</td>
+          </tr>
+          <tr>
+            <td>completed_at</td>
+            <td><span class="type-pill">int | null</span></td>
+            <td><span class="muted">conditional</span></td>
+            <td>Unix timestamp when terminal status was reached. <span class="mono">null</span> until then.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="callout callout-warn" style="margin-top:var(--space-5);">
+        <span class="callout-icon"><img src="./assets/icons/triangle-alert.svg" alt="" class="icon icon-sm" style="filter:invert(1) brightness(2);"></span>
+        <div>
+          <h5>Heads up: large documents</h5>
+          <p>Contracts over 60 pages are split into chunks and processed in parallel. The webhook fires only once, after every chunk completes. Use <span class="mono">expand=chunks</span> to inspect per-chunk timings.</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- RIGHT RAIL: TOC + STICKY CODE PANEL -->
+    <aside class="stack-5">
+      <nav class="toc">
+        <h6>On this page</h6>
+        <ul>
+          <li><a href="#review-contract">Review a contract</a></li>
+          <li><a href="#parameters" class="is-active">Parameters</a></li>
+          <li><a href="#response">Response</a></li>
+          <li><a href="#examples">Request &amp; response</a></li>
+          <li><a href="#errors">Errors</a></li>
+          <li><a href="#related">Related endpoints</a></li>
+        </ul>
+        <div class="helpful-widget">
+          <div class="text-sm" style="font-weight:600;">Was this page helpful?</div>
+          <div class="row">
+            <button class="thumb-btn" aria-label="Helpful"><img src="./assets/icons/thumbs-up.svg" alt="" class="icon icon-sm"></button>
+            <button class="thumb-btn" aria-label="Not helpful"><img src="./assets/icons/thumbs-down.svg" alt="" class="icon icon-sm"></button>
+            <span class="muted text-xs" style="margin-left:auto;">94% found this useful</span>
+          </div>
+        </div>
+      </nav>
+
+      <div id="examples" class="code-panel" style="position:sticky;top:80px;">
+        <div class="code-panel-header">
+          <div class="code-tabs">
+            <button class="code-tab is-active">curl</button>
+            <button class="code-tab">Node</button>
+            <button class="code-tab">Python</button>
+          </div>
+          <div class="code-actions">
+            <button class="code-copy"><img src="./assets/icons/copy.svg" alt="" class="icon icon-sm" style="filter:invert(1);">Copy</button>
+          </div>
+        </div>
+        <div class="code-body">
+<pre><span class="tok-com"># Request — review with redlines</span>
+curl <span class="tok-kw">-X</span> POST https://api.clausewise.dev/v1<span class="tok-str">\</span>
+  /contracts/<span class="tok-num">ctr_8Tq2vM4nLp</span>/review <span class="tok-str">\</span>
+  <span class="tok-kw">-H</span> <span class="tok-str">"Authorization: Bearer $CW_API_KEY"</span> <span class="tok-str">\</span>
+  <span class="tok-kw">-H</span> <span class="tok-str">"Idempotency-Key: ord_7821"</span> <span class="tok-str">\</span>
+  <span class="tok-kw">-H</span> <span class="tok-str">"Content-Type: application/json"</span> <span class="tok-str">\</span>
+  <span class="tok-kw">-d</span> <span class="tok-str">'{
+    "playbook_id": "pb_default_msa",
+    "jurisdiction": "us",
+    "clause_types": ["indemnity","liability","termination"],
+    "generate_redlines": true,
+    "webhook_url": "https://hooks.acme.co/clausewise",
+    "metadata": { "order_id": "ord_7821" }
+  }'</span></pre>
+        </div>
+        <div class="response-meta">
+          <span><strong>200 OK</strong></span>
+          <span>·</span>
+          <span>application/json</span>
+          <span>·</span>
+          <span>312 ms</span>
+        </div>
+        <div class="code-body" style="background:#0d1117;border-top:1px solid #21262d;">
+<pre><span class="tok-com">// Response</span>
+{
+  <span class="tok-key">"id"</span>: <span class="tok-str">"rev_9Yh2Kp4QmZ"</span>,
+  <span class="tok-key">"object"</span>: <span class="tok-str">"review"</span>,
+  <span class="tok-key">"status"</span>: <span class="tok-str">"processing"</span>,
+  <span class="tok-key">"contract_id"</span>: <span class="tok-str">"ctr_8Tq2vM4nLp"</span>,
+  <span class="tok-key">"playbook_id"</span>: <span class="tok-str">"pb_default_msa"</span>,
+  <span class="tok-key">"jurisdiction"</span>: <span class="tok-str">"us"</span>,
+  <span class="tok-key">"clause_types"</span>: [
+    <span class="tok-str">"indemnity"</span>,
+    <span class="tok-str">"liability"</span>,
+    <span class="tok-str">"termination"</span>
+  ],
+  <span class="tok-key">"risk_score"</span>: <span class="tok-num">null</span>,
+  <span class="tok-key">"findings"</span>: [],
+  <span class="tok-key">"created_at"</span>: <span class="tok-num">1716394812</span>,
+  <span class="tok-key">"completed_at"</span>: <span class="tok-num">null</span>,
+  <span class="tok-key">"metadata"</span>: {
+    <span class="tok-key">"order_id"</span>: <span class="tok-str">"ord_7821"</span>
+  }
+}</pre>
+        </div>
+        <div style="padding:12px var(--space-4);background:#161b22;border-top:1px solid #21262d;display:flex;align-items:center;justify-content:space-between;">
+          <span style="color:var(--code-muted);font-size:12px;">Try it with your test key</span>
+          <a href="#" style="color:#79c0ff;font-size:12px;font-weight:600;display:inline-flex;align-items:center;gap:6px;">
+            <img src="./assets/icons/play.svg" alt="" class="icon icon-sm" style="filter:invert(70%) sepia(40%) saturate(800%) hue-rotate(190deg);">
+            Run in playground
+          </a>
+        </div>
+      </div>
+    </aside>
+
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container-wide">
+    <div class="footer-grid">
+      <div>
+        <div class="wordmark" style="margin-bottom:var(--space-3);"><span class="wordmark-mark">CW</span> Clausewise</div>
+        <p class="text-sm muted" style="max-width:320px;">AI-powered contract review for product teams. Ship clause analysis, redlines, and playbooks in a single API call.</p>
+        <div class="status-pill" style="margin-top:var(--space-4);"><span class="badge-dot"></span>All systems normal</div>
+      </div>
+      <div class="footer-col">
+        <h5>Product</h5>
+        <ul>
+          <li><a href="./home.html">Overview</a></li>
+          <li><a href="./pricing.html">Pricing</a></li>
+          <li><a href="./customers.html">Customers</a></li>
+          <li><a href="./wizard.html">Integration wizard</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Developers</h5>
+        <ul>
+          <li><a href="./docs.html">Documentation</a></li>
+          <li><a href="#">API reference</a></li>
+          <li><a href="#">Changelog</a></li>
+          <li><a href="#">SDKs</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Resources</h5>
+        <ul>
+          <li><a href="#">Playbook library</a></li>
+          <li><a href="#">Status page</a></li>
+          <li><a href="#">Security</a></li>
+          <li><a href="#">Trust center</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Clausewise Labs, Inc. · 548 Market St, San Francisco, CA</span>
+      <span class="row" style="gap:var(--space-4);">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">DPA</a>
+        <a href="#">Cookies</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

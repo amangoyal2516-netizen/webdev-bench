@@ -1,0 +1,394 @@
+[
+  {
+    "src": "./assets/icons/search.svg",
+    "alt": "",
+    "x": 1083.125,
+    "y": 26.0625,
+    "w": 16,
+    "h": 16,
+    "phash": "eb25f03483d28dcb",
+    "lab_mean": [
+      21.99,
+      -0.83,
+      -5.73
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 330.9375,
+    "y": 94.203125,
+    "w": 16,
+    "h": 16,
+    "phash": "ab3bf0ccb2248b33",
+    "lab_mean": [
+      75.97,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 494.828125,
+    "y": 94.203125,
+    "w": 16,
+    "h": 16,
+    "phash": "bd0dc2e23c1c8fe2",
+    "lab_mean": [
+      93.66,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/photos/6Wad1bIYQ94.jpg",
+    "alt": "Ochre townhouse fa\u00e7ade in West Village",
+    "x": 33,
+    "y": 256.328125,
+    "w": 190,
+    "h": 142.5,
+    "phash": "f0f0f0f8860f0f0f",
+    "lab_mean": [
+      42.72,
+      18.52,
+      36.89
+    ]
+  },
+  {
+    "src": "./assets/photos/SwIh3kr1__U.jpg",
+    "alt": "Limestone fa\u00e7ade in golden hour",
+    "x": 33,
+    "y": 504.46875,
+    "w": 190,
+    "h": 142.5,
+    "phash": "c071e0cc338f3f0f",
+    "lab_mean": [
+      21.42,
+      8.25,
+      16.56
+    ]
+  },
+  {
+    "src": "./assets/photos/DmgwxkcdFCM.jpg",
+    "alt": "Whitewashed modern building",
+    "x": 33,
+    "y": 752.609375,
+    "w": 190,
+    "h": 142.5,
+    "phash": "bdc56e8b740137c8",
+    "lab_mean": [
+      76.21,
+      -0.07,
+      -0.02
+    ]
+  },
+  {
+    "src": "./assets/photos/qBX6EMdy0a4.jpg",
+    "alt": "Red brick midtown landmark",
+    "x": 33,
+    "y": 1000.75,
+    "w": 190,
+    "h": 142.5,
+    "phash": "f07060f00f9f1f0f",
+    "lab_mean": [
+      23.64,
+      -0.04,
+      2.48
+    ]
+  },
+  {
+    "src": "./assets/photos/JBO8vdcy4Mo.jpg",
+    "alt": "Pre-war stone tower",
+    "x": 241,
+    "y": 256.328125,
+    "w": 190,
+    "h": 142.5,
+    "phash": "e1e10fdef8800f1e",
+    "lab_mean": [
+      33.0,
+      -0.18,
+      2.34
+    ]
+  },
+  {
+    "src": "./assets/photos/Ereoqdv5s48.jpg",
+    "alt": "Top-down view of high-rise",
+    "x": 241,
+    "y": 504.46875,
+    "w": 190,
+    "h": 142.5,
+    "phash": "d4d8608fb7a2a90f",
+    "lab_mean": [
+      68.04,
+      2.91,
+      5.94
+    ]
+  },
+  {
+    "src": "./assets/photos/G1ebTFoqLlM.jpg",
+    "alt": "Interior table and window seat",
+    "x": 241,
+    "y": 752.609375,
+    "w": 190,
+    "h": 142.5,
+    "phash": "e2e0f7667e18c630",
+    "lab_mean": [
+      39.78,
+      -1.95,
+      5.74
+    ]
+  },
+  {
+    "src": "./assets/photos/W5z41aTV_Mg.jpg",
+    "alt": "White pointed high-rise",
+    "x": 241,
+    "y": 1017.640625,
+    "w": 190,
+    "h": 142.5,
+    "phash": "e0e17be897101f36",
+    "lab_mean": [
+      45.55,
+      -1.65,
+      -2.53
+    ]
+  },
+  {
+    "src": "./assets/photos/nWkMhTo8Wa4.jpg",
+    "alt": "Warm orange interior wall",
+    "x": 449,
+    "y": 256.328125,
+    "w": 190,
+    "h": 142.5,
+    "phash": "d0684b7133871f3e",
+    "lab_mean": [
+      48.86,
+      17.96,
+      36.67
+    ]
+  },
+  {
+    "src": "./assets/photos/iGANt1N2ge8.jpg",
+    "alt": "Antlers and antique interior",
+    "x": 449,
+    "y": 504.46875,
+    "w": 190,
+    "h": 142.5,
+    "phash": "d1b16a6a7a4e2c0f",
+    "lab_mean": [
+      40.41,
+      2.93,
+      9.56
+    ]
+  },
+  {
+    "src": "./assets/photos/s5DDiJZ8TMk.jpg",
+    "alt": "Dark room with chair",
+    "x": 449,
+    "y": 752.609375,
+    "w": 190,
+    "h": 142.5,
+    "phash": "fbf1f16f02181c0e",
+    "lab_mean": [
+      23.3,
+      -5.43,
+      -5.77
+    ]
+  },
+  {
+    "src": "./assets/photos/JRsZWmRd_Ws.jpg",
+    "alt": "Cathedral-like interior",
+    "x": 449,
+    "y": 1000.75,
+    "w": 190,
+    "h": 142.5,
+    "phash": "d0e961c0371f1e1f",
+    "lab_mean": [
+      24.14,
+      3.05,
+      7.9
+    ]
+  },
+  {
+    "src": "./assets/photos/PdJjT-zYg_E.jpg",
+    "alt": "Swing chair on tree",
+    "x": 657,
+    "y": 256.328125,
+    "w": 190,
+    "h": 142.5,
+    "phash": "cd6262e012ce1f3f",
+    "lab_mean": [
+      41.62,
+      -7.88,
+      10.8
+    ]
+  },
+  {
+    "src": "./assets/photos/Sol5LM1sowA.jpg",
+    "alt": "Patio overlooking the sea",
+    "x": 657,
+    "y": 504.46875,
+    "w": 190,
+    "h": 142.5,
+    "phash": "f261637897199f06",
+    "lab_mean": [
+      67.6,
+      -6.21,
+      -15.61
+    ]
+  },
+  {
+    "src": "./assets/photos/ERUl9LC49dc.jpg",
+    "alt": "Chair and tree in water",
+    "x": 657,
+    "y": 752.609375,
+    "w": 190,
+    "h": 142.5,
+    "phash": "e9b669e99649161c",
+    "lab_mean": [
+      81.28,
+      -3.04,
+      -2.85
+    ]
+  },
+  {
+    "src": "./assets/photos/CK_NbNhyTHo.jpg",
+    "alt": "Water near bridge",
+    "x": 657,
+    "y": 1000.75,
+    "w": 190,
+    "h": 142.5,
+    "phash": "b1e0e1d1661e1f1e",
+    "lab_mean": [
+      31.51,
+      -10.97,
+      -18.95
+    ]
+  },
+  {
+    "src": "./assets/photos/HYA9Ak06qR8.jpg",
+    "alt": "City at night",
+    "x": 865,
+    "y": 256.328125,
+    "w": 190,
+    "h": 142.5,
+    "phash": "c0e1e060761f1f9f",
+    "lab_mean": [
+      21.81,
+      14.63,
+      -25.81
+    ]
+  },
+  {
+    "src": "./assets/photos/FxU8KV7psMY.jpg",
+    "alt": "Golden gate landmark",
+    "x": 865,
+    "y": 504.46875,
+    "w": 190,
+    "h": 142.5,
+    "phash": "dfb06658639cd10e",
+    "lab_mean": [
+      67.05,
+      2.4,
+      -4.42
+    ]
+  },
+  {
+    "src": "./assets/photos/I5o79zxl-U0.jpg",
+    "alt": "New York skyline",
+    "x": 865,
+    "y": 769.5,
+    "w": 190,
+    "h": 142.5,
+    "phash": "f1c363656ea3219c",
+    "lab_mean": [
+      52.82,
+      -4.32,
+      -21.16
+    ]
+  },
+  {
+    "src": "./assets/photos/T72-kQyQxtA.jpg",
+    "alt": "High-rise buildings aerial",
+    "x": 865,
+    "y": 1034.53125,
+    "w": 190,
+    "h": 142.5,
+    "phash": "ab81fc206b07ebb4",
+    "lab_mean": [
+      52.25,
+      -4.86,
+      -3.24
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 1180.21875,
+    "y": 321.515625,
+    "w": 14,
+    "h": 14,
+    "phash": "eccc921e59e1c437",
+    "lab_mean": [
+      89.16,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 1193.8125,
+    "y": 406.40625,
+    "w": 14,
+    "h": 14,
+    "phash": "eccc921e59e1c437",
+    "lab_mean": [
+      89.16,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 1187.015625,
+    "y": 491.296875,
+    "w": 14,
+    "h": 14,
+    "phash": "eccc921e59e1c437",
+    "lab_mean": [
+      89.16,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 1193.8125,
+    "y": 576.1875,
+    "w": 14,
+    "h": 14,
+    "phash": "eccc921e59e1c437",
+    "lab_mean": [
+      89.16,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 1180.21875,
+    "y": 661.078125,
+    "w": 14,
+    "h": 14,
+    "phash": "eccc921e59e1c437",
+    "lab_mean": [
+      89.16,
+      0.0,
+      0.0
+    ]
+  }
+]

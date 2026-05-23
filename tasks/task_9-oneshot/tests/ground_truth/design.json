@@ -1,0 +1,71 @@
+{
+  "description": "An editorial magazine for architecture and real-estate enthusiasts that tracks notable properties through a kanban-style deal pipeline \u2014 from 'Just Listed' to 'Sold' \u2014 with long-form reporting on each one",
+  "allowed_frameworks": [
+    "html-css"
+  ],
+  "palette": {
+    "background": "#2a323d",
+    "surface": "#eef1f4",
+    "text": "#1a1f26",
+    "accent": "#0f6b6b",
+    "accent_alt": "#c97b4a",
+    "muted": "#7a8595"
+  },
+  "pages": [
+    {
+      "name": "board",
+      "description": "Kanban-style watchlist that tracks notable listed properties across pipeline stages",
+      "components": [
+        "Top masthead with the publication name on the left, a horizontal section nav (The Board, Dossiers, Neighborhoods, Archive, About), and a right cluster with a search input and a 'Sign in' link",
+        "Sub-header strip showing the current issue label, a market filter dropdown (city), a price-band chip row, a property-type chip row, and a 'Reset filters' text button",
+        "Five-column kanban board with columns Just Listed, Open House, Under Offer, In Escrow, Closed \u2014 each column has a title, a count badge, and a stack of property cards (thumbnail, address, price, bed/bath/sqft, days-on-market chip)",
+        "Right-rail panel titled 'This week on the board' listing five recently-moved properties with a tiny arrow indicating which column they moved from and to, plus a timestamp",
+        "Footer with a four-column site map (Sections, Markets, Newsletter, Masthead), a weekly-digest email sign-up form, and a copyright line"
+      ]
+    },
+    {
+      "name": "dossier",
+      "description": "Long-form editorial dossier on a single property pulled from the board",
+      "components": [
+        "Same top masthead",
+        "Property header with a kicker showing current pipeline stage, the address as headline, a line of architectural pedigree (architect, year, style), reporter byline with date, and a 'Follow' bookmark button",
+        "Stats strip across the top showing list price, price-per-square-foot, lot size, bedrooms, bathrooms, year built, and HOA \u2014 each as a label-and-value pair",
+        "Two-column body \u2014 left is the reading column with subheads, paragraphs, pull quotes, and inline photos with captions; right is a sticky sidebar with a price-history list (date, event, price, delta) and three comparable-property mini-cards",
+        "Footer block with a horizontal timeline marking the property's pipeline history (listed, price cut, open house, offer, escrow, closed) and a 'Related dossiers in this neighborhood' strip of three cards"
+      ]
+    },
+    {
+      "name": "neighborhoods",
+      "description": "Index of neighborhoods the magazine covers, with at-a-glance market data",
+      "components": [
+        "Same top masthead",
+        "Section header with the title 'Neighborhoods', a one-sentence description of the section's editorial scope, and a city-tab row (San Francisco, Brooklyn, Lisbon, Mexico City, Kyoto)",
+        "Featured neighborhood banner \u2014 wide photograph on the left, on the right a neighborhood name, an essay excerpt, a 'Read the field report' link, and a four-cell mini-stat grid (median price, inventory, days-on-market, year-over-year change)",
+        "Grid of neighborhood cards (three per row) \u2014 each card has a thumbnail, neighborhood name, parent city, a two-line editorial blurb, a small sparkline labeled 'median price, 12 months', and an active-listings count",
+        "Footer (same as the board page)"
+      ]
+    },
+    {
+      "name": "archive",
+      "description": "Searchable archive of past dossiers, sortable as an editorial index",
+      "components": [
+        "Same top masthead",
+        "Archive header with title 'The Archive', a one-line description, and a control row containing a search input, a year dropdown, a market dropdown, an outcome filter (Sold, Withdrawn, Still Listed), and a sort dropdown",
+        "Index table with columns Date, Address, Market, Architect, Final Outcome, Final Price, Reporter \u2014 rows alternate surface tint and each row's address is a link to the dossier",
+        "Side panel titled 'Editor's picks from the archive' showing five hand-selected past dossiers as stacked mini-cards (thumbnail, address, one-line note from the editor)",
+        "Pagination bar with page numbers and a 'Jump to year' control"
+      ]
+    },
+    {
+      "name": "about",
+      "description": "About page explaining the publication's premise and introducing the editorial team",
+      "components": [
+        "Same top masthead",
+        "Manifesto block with the heading 'Why we track buildings like stories' and three paragraphs of editorial statement",
+        "Methodology section laid out as a numbered three-step list (How we choose properties, How we report, How we update the board) \u2014 each step has a heading and a paragraph",
+        "Masthead grid (three per row) of editors and contributors \u2014 each entry has a portrait, name, role, and a one-line bio with a city tag",
+        "Contact block with tips email, press email, and a postal address, followed by the standard footer"
+      ]
+    }
+  ]
+}

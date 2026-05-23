@@ -1,0 +1,352 @@
+[
+  {
+    "src": "./assets/icons/axe.svg",
+    "alt": "",
+    "x": 619.515625,
+    "y": 20,
+    "w": 24,
+    "h": 24,
+    "phash": "bbe0852ed693cb0c",
+    "lab_mean": [
+      49.08,
+      42.94,
+      54.27
+    ]
+  },
+  {
+    "src": "./assets/icons/lock.svg",
+    "alt": "",
+    "x": 1182.375,
+    "y": 25.890625,
+    "w": 16,
+    "h": 16,
+    "phash": "eee4b4923393918b",
+    "lab_mean": [
+      68.77,
+      0.0,
+      0.9
+    ]
+  },
+  {
+    "src": "./assets/icons/check.svg",
+    "alt": "",
+    "x": 439.453125,
+    "y": 117.796875,
+    "w": 14,
+    "h": 14,
+    "phash": "eecad03426cd791a",
+    "lab_mean": [
+      23.18,
+      0.0,
+      1.82
+    ]
+  },
+  {
+    "src": "./assets/icons/check.svg",
+    "alt": "",
+    "x": 667.3125,
+    "y": 117.796875,
+    "w": 14,
+    "h": 14,
+    "phash": "eecad03426cd791a",
+    "lab_mean": [
+      23.18,
+      0.0,
+      1.82
+    ]
+  },
+  {
+    "src": "./assets/icons/square-pen.svg",
+    "alt": "",
+    "x": 835.390625,
+    "y": 258.484375,
+    "w": 14,
+    "h": 14,
+    "phash": "eb4fdc12b18b8266",
+    "lab_mean": [
+      64.81,
+      0.0,
+      0.86
+    ]
+  },
+  {
+    "src": "./assets/icons/check.svg",
+    "alt": "",
+    "x": 140,
+    "y": 402.625,
+    "w": 12,
+    "h": 12,
+    "phash": "ee4ad03626cd791a",
+    "lab_mean": [
+      60.23,
+      51.92,
+      66.01
+    ]
+  },
+  {
+    "src": "./assets/icons/square-pen.svg",
+    "alt": "",
+    "x": 835.390625,
+    "y": 521.15625,
+    "w": 14,
+    "h": 14,
+    "phash": "eb4fdc12b18b8266",
+    "lab_mean": [
+      64.81,
+      0.0,
+      0.86
+    ]
+  },
+  {
+    "src": "./assets/icons/truck.svg",
+    "alt": "",
+    "x": 781.984375,
+    "y": 1248.828125,
+    "w": 18,
+    "h": 18,
+    "phash": "aea7b91cd06ac1c5",
+    "lab_mean": [
+      66.79,
+      0.0,
+      0.83
+    ]
+  },
+  {
+    "src": "./assets/icons/flame.svg",
+    "alt": "",
+    "x": 768.78125,
+    "y": 1345.3125,
+    "w": 18,
+    "h": 18,
+    "phash": "bbe3c49a93cd8438",
+    "lab_mean": [
+      75.81,
+      0.0,
+      0.9
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 795.1875,
+    "y": 1441.796875,
+    "w": 18,
+    "h": 18,
+    "phash": "af6bb48ca3308ba3",
+    "lab_mean": [
+      70.0,
+      0.0,
+      0.85
+    ]
+  },
+  {
+    "src": "./assets/icons/credit-card.svg",
+    "alt": "",
+    "x": 301.375,
+    "y": 1662.828125,
+    "w": 18,
+    "h": 18,
+    "phash": "877aad95d02fd085",
+    "lab_mean": [
+      67.42,
+      0.0,
+      0.81
+    ]
+  },
+  {
+    "src": "./assets/icons/wrench.svg",
+    "alt": "",
+    "x": 707.171875,
+    "y": 1662.828125,
+    "w": 18,
+    "h": 18,
+    "phash": "eb6185accc99d70c",
+    "lab_mean": [
+      70.27,
+      0.0,
+      0.84
+    ]
+  },
+  {
+    "src": "./assets/icons/lock.svg",
+    "alt": "",
+    "x": 137,
+    "y": 1997.859375,
+    "w": 14,
+    "h": 14,
+    "phash": "eee4f492323391c3",
+    "lab_mean": [
+      68.54,
+      0.0,
+      0.86
+    ]
+  },
+  {
+    "src": "./assets/icons/package.svg",
+    "alt": "",
+    "x": 1224.421875,
+    "y": 245.09375,
+    "w": 12,
+    "h": 12,
+    "phash": "ba18b193c66cc6c7",
+    "lab_mean": [
+      66.58,
+      0.0,
+      0.92
+    ]
+  },
+  {
+    "src": "./assets/photos/laG2kmB4Hgc.jpg",
+    "alt": "Week 1 Marking & Measuring kit",
+    "x": 974,
+    "y": 289.828125,
+    "w": 62,
+    "h": 62,
+    "phash": "c1f54da361f0a653",
+    "lab_mean": [
+      56.87,
+      -0.44,
+      0.33
+    ]
+  },
+  {
+    "src": "./assets/photos/-usiHqEOjLM.jpg",
+    "alt": "Week 4 Cutting Board kit",
+    "x": 974,
+    "y": 366.703125,
+    "w": 62,
+    "h": 62,
+    "phash": "8f61709d0eb0dd63",
+    "lab_mean": [
+      24.12,
+      0.61,
+      4.52
+    ]
+  },
+  {
+    "src": "./assets/photos/PgfSWgL3wjI.jpg",
+    "alt": "Week 6 Candle Sconce kit",
+    "x": 974,
+    "y": 443.140625,
+    "w": 62,
+    "h": 62,
+    "phash": "c53e6cb3326923c6",
+    "lab_mean": [
+      39.03,
+      5.23,
+      14.74
+    ]
+  },
+  {
+    "src": "./assets/icons/tag.svg",
+    "alt": "",
+    "x": 981,
+    "y": 625.890625,
+    "w": 10,
+    "h": 10,
+    "phash": "b818a5dfd6391835",
+    "lab_mean": [
+      52.41,
+      46.44,
+      58.91
+    ]
+  },
+  {
+    "src": "./assets/icons/lock.svg",
+    "alt": "",
+    "x": 1075.109375,
+    "y": 900.6875,
+    "w": 16,
+    "h": 16,
+    "phash": "eeeca592323a918b",
+    "lab_mean": [
+      47.56,
+      41.79,
+      52.97
+    ]
+  },
+  {
+    "src": "./assets/icons/truck.svg",
+    "alt": "",
+    "x": 1022.875,
+    "y": 950.484375,
+    "w": 14,
+    "h": 14,
+    "phash": "aea7b91cd268c1c5",
+    "lab_mean": [
+      67.11,
+      0.0,
+      0.85
+    ]
+  },
+  {
+    "src": "./assets/icons/circle-check.svg",
+    "alt": "",
+    "x": 973,
+    "y": 994.078125,
+    "w": 14,
+    "h": 14,
+    "phash": "aa4cecb330ccc733",
+    "lab_mean": [
+      70.89,
+      0.0,
+      0.89
+    ]
+  },
+  {
+    "src": "./assets/icons/graduation-cap.svg",
+    "alt": "",
+    "x": 973,
+    "y": 1022.375,
+    "w": 14,
+    "h": 14,
+    "phash": "fe83a074de83c878",
+    "lab_mean": [
+      70.73,
+      0.0,
+      0.91
+    ]
+  },
+  {
+    "src": "./assets/icons/circle-question-mark.svg",
+    "alt": "",
+    "x": 112,
+    "y": 2140.78125,
+    "w": 14,
+    "h": 14,
+    "phash": "e624b99be4649333",
+    "lab_mean": [
+      69.0,
+      0.0,
+      0.88
+    ]
+  },
+  {
+    "src": "./assets/icons/info.svg",
+    "alt": "",
+    "x": 354.046875,
+    "y": 2140.78125,
+    "w": 14,
+    "h": 14,
+    "phash": "a20d3d77f0989333",
+    "lab_mean": [
+      71.83,
+      0.0,
+      0.91
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 832.78125,
+    "y": 2140.78125,
+    "w": 14,
+    "h": 14,
+    "phash": "bb0bb48cb3348b33",
+    "lab_mean": [
+      70.9,
+      0.0,
+      0.88
+    ]
+  }
+]

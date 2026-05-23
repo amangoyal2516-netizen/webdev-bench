@@ -1,0 +1,212 @@
+[
+  {
+    "src": "./assets/icons/utensils.svg",
+    "alt": "",
+    "x": 118,
+    "y": 26,
+    "w": 18,
+    "h": 18,
+    "phash": "da2382d8edb6c3c4",
+    "lab_mean": [
+      69.12,
+      0.0,
+      -1.46
+    ]
+  },
+  {
+    "src": "./assets/icons/funnel.svg",
+    "alt": "",
+    "x": 104,
+    "y": 1253.21875,
+    "w": 14,
+    "h": 14,
+    "phash": "ee1b4631acb98e83",
+    "lab_mean": [
+      79.26,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/download.svg",
+    "alt": "",
+    "x": 104,
+    "y": 1281.265625,
+    "w": 14,
+    "h": 14,
+    "phash": "b3b5ca833c4c8772",
+    "lab_mean": [
+      82.35,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 654.328125,
+    "y": 1001.71875,
+    "w": 14,
+    "h": 14,
+    "phash": "eccc921e59e1c437",
+    "lab_mean": [
+      89.16,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 975.65625,
+    "y": 1001.71875,
+    "w": 14,
+    "h": 14,
+    "phash": "eccc921e59e1c437",
+    "lab_mean": [
+      89.16,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 1297,
+    "y": 1001.71875,
+    "w": 14,
+    "h": 14,
+    "phash": "eccc921e59e1c437",
+    "lab_mean": [
+      89.16,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 654.328125,
+    "y": 1522.8125,
+    "w": 14,
+    "h": 14,
+    "phash": "eccc921e59e1c437",
+    "lab_mean": [
+      89.16,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 975.65625,
+    "y": 1522.8125,
+    "w": 14,
+    "h": 14,
+    "phash": "eccc921e59e1c437",
+    "lab_mean": [
+      89.16,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 1297,
+    "y": 1522.8125,
+    "w": 14,
+    "h": 14,
+    "phash": "eccc921e59e1c437",
+    "lab_mean": [
+      89.16,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 654.328125,
+    "y": 2043.90625,
+    "w": 14,
+    "h": 14,
+    "phash": "eccc921e59e1c437",
+    "lab_mean": [
+      89.16,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 975.65625,
+    "y": 2043.90625,
+    "w": 14,
+    "h": 14,
+    "phash": "eccc921e59e1c437",
+    "lab_mean": [
+      89.16,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 1297,
+    "y": 2043.90625,
+    "w": 14,
+    "h": 14,
+    "phash": "eccc921e59e1c437",
+    "lab_mean": [
+      89.16,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-left.svg",
+    "alt": "",
+    "x": 396,
+    "y": 2146.953125,
+    "w": 14,
+    "h": 14,
+    "phash": "b998c7cb0cb59172",
+    "lab_mean": [
+      89.15,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 1322,
+    "y": 2146.953125,
+    "w": 14,
+    "h": 14,
+    "phash": "eccc921e59e1c437",
+    "lab_mean": [
+      89.16,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/utensils.svg",
+    "alt": "",
+    "x": 118,
+    "y": 2470.578125,
+    "w": 18,
+    "h": 18,
+    "phash": "da2382caedb6c3c4",
+    "lab_mean": [
+      6.16,
+      0.0,
+      -4.04
+    ]
+  }
+]

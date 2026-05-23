@@ -1,0 +1,142 @@
+[
+  {
+    "src": "./assets/icons/search.svg",
+    "alt": "",
+    "x": 434.8125,
+    "y": 24,
+    "w": 16,
+    "h": 16,
+    "phash": "ab35f03483d28dcb",
+    "lab_mean": [
+      78.98,
+      0.0,
+      -1.71
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-up-right.svg",
+    "alt": "",
+    "x": 1323,
+    "y": 24,
+    "w": 16,
+    "h": 16,
+    "phash": "e9669699c3c63833",
+    "lab_mean": [
+      88.45,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/circle-dot.svg",
+    "alt": "",
+    "x": 96,
+    "y": 551.25,
+    "w": 16,
+    "h": 16,
+    "phash": "9ab43d1ef0acc2e4",
+    "lab_mean": [
+      72.44,
+      -0.75,
+      -6.98
+    ]
+  },
+  {
+    "src": "./assets/icons/copy.svg",
+    "alt": "",
+    "x": 739.828125,
+    "y": 313.234375,
+    "w": 16,
+    "h": 16,
+    "phash": "9027ef9c32786b62",
+    "lab_mean": [
+      72.93,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/info.svg",
+    "alt": "",
+    "x": 381,
+    "y": 523.234375,
+    "w": 16,
+    "h": 16,
+    "phash": "d563c2890f733c99",
+    "lab_mean": [
+      58.68,
+      15.04,
+      -64.46
+    ]
+  },
+  {
+    "src": "./assets/icons/triangle-alert.svg",
+    "alt": "",
+    "x": 381,
+    "y": 2114.25,
+    "w": 16,
+    "h": 16,
+    "phash": "d50a0f3c50f323f6",
+    "lab_mean": [
+      58.37,
+      32.41,
+      40.54
+    ]
+  },
+  {
+    "src": "./assets/icons/thumbs-up.svg",
+    "alt": "",
+    "x": 1089.875,
+    "y": 392.578125,
+    "w": 16,
+    "h": 16,
+    "phash": "bae5e7921e0ab891",
+    "lab_mean": [
+      73.41,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/thumbs-down.svg",
+    "alt": "",
+    "x": 1135.875,
+    "y": 392.578125,
+    "w": 16,
+    "h": 16,
+    "phash": "ef4fb2384aa0a83b",
+    "lab_mean": [
+      73.45,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/copy.svg",
+    "alt": "",
+    "x": 1283.71875,
+    "y": 460.578125,
+    "w": 16,
+    "h": 16,
+    "phash": "efd81063c987949d",
+    "lab_mean": [
+      35.28,
+      -0.73,
+      -4.15
+    ]
+  },
+  {
+    "src": "./assets/icons/play.svg",
+    "alt": "",
+    "x": 1232.203125,
+    "y": 1421.25,
+    "w": 16,
+    "h": 16,
+    "phash": "c1384f3c275f3287",
+    "lab_mean": [
+      22.68,
+      -0.33,
+      -12.58
+    ]
+  }
+]

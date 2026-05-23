@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dashboard — Holloway & Park</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="app">
+<aside class="sidebar">
+<div class="sidebar-brand">
+<div class="brand-mark">H</div>
+<div>
+<div class="brand-name">Holloway &amp; Park</div>
+<div class="brand-sub">Litigation</div>
+</div>
+</div>
+<div class="sidebar-user">
+<div class="initials">MR</div>
+<div class="who">Margaret Reyes<small>Senior Partner</small></div>
+</div>
+<nav class="nav">
+<div class="nav-section-label">Workspace</div>
+<a class="nav-item is-active" href="./dashboard.html"><img class="icon" src="./assets/icons/layout-dashboard.svg" alt=""><span>Dashboard</span></a>
+<a class="nav-item" href="./matters.html"><img class="icon" src="./assets/icons/briefcase.svg" alt=""><span>Matters</span></a>
+<a class="nav-item" href="./time.html"><img class="icon" src="./assets/icons/clock.svg" alt=""><span>Time</span></a>
+<a class="nav-item" href="./calendar.html"><img class="icon" src="./assets/icons/calendar.svg" alt=""><span>Calendar</span></a>
+<a class="nav-item" href="./client-detail.html"><img class="icon" src="./assets/icons/users.svg" alt=""><span>Clients</span></a>
+</nav>
+<button class="sidebar-cta"><img class="icon" src="./assets/icons/play.svg" alt=""><span>Start timer</span></button>
+<div class="sidebar-footer">
+<div class="timer-chip">
+<span class="timer-dot"></span>
+<div class="meta">
+<div class="code">HP-2247 · Drafting</div>
+<div class="clock">01:42:17</div>
+</div>
+<img class="icon" src="./assets/icons/pause.svg" alt="">
+</div>
+</div>
+</aside>
+
+<div class="main">
+<div class="topbar">
+<div class="crumbs">
+<span>Workspace</span><span class="sep">/</span><span class="here">Today</span>
+</div>
+<div class="date-stepper">
+<button aria-label="Previous"><img class="icon" src="./assets/icons/chevron-left.svg" alt=""></button>
+<div class="label">Thu, Oct 17, 2024</div>
+<button aria-label="Next"><img class="icon" src="./assets/icons/chevron-right.svg" alt=""></button>
+</div>
+<div class="search">
+<img class="icon" src="./assets/icons/search.svg" alt="">
+<input type="text" placeholder="Search matters, clients, or codes…">
+</div>
+<div class="topbar-spacer"></div>
+<a class="btn btn-ghost" href="#"><img class="icon" src="./assets/icons/bell.svg" alt=""></a>
+<a class="btn btn-primary" href="#"><img class="icon" src="./assets/icons/file-plus.svg" alt=""><span>Log time</span></a>
+</div>
+
+<main class="page">
+<div class="page-header">
+<div class="page-title">
+<div class="eyebrow">Practice Overview</div>
+<h1>Good morning, Margaret</h1>
+<div class="sub">You have 4 deadlines this week and 6.4 unbilled hours awaiting review.</div>
+</div>
+<div class="page-actions">
+<a class="btn btn-ghost" href="#"><img class="icon" src="./assets/icons/download.svg" alt=""><span>Export</span></a>
+<a class="btn btn-ghost" href="#"><img class="icon" src="./assets/icons/sliders-horizontal.svg" alt=""><span>Customize</span></a>
+</div>
+</div>
+
+<div class="metric-grid">
+<div class="metric">
+<div class="label">Billable hours today</div>
+<div class="metric-body">
+<div>
+<div class="value">5.8<span class="text-muted" style="font-size:var(--text-lg);"> / 8.0</span></div>
+<div class="delta up"><img class="icon" src="./assets/icons/arrow-up.svg" alt="">on pace · +0.6 vs avg</div>
+</div>
+<div class="ring">
+<svg viewBox="0 0 36 36"><circle class="track" cx="18" cy="18" r="15.9" fill="none" stroke-width="3"/><circle class="fill" cx="18" cy="18" r="15.9" fill="none" stroke-width="3" stroke-dasharray="72 100" stroke-linecap="round"/></svg>
+<div class="pct">72%</div>
+</div>
+</div>
+</div>
+
+<div class="metric">
+<div class="label">Billable this week</div>
+<div class="metric-body">
+<div>
+<div class="value">31.4<span class="text-muted" style="font-size:var(--text-lg);"> hrs</span></div>
+<div class="delta up"><img class="icon" src="./assets/icons/trending-up.svg" alt="">+12% vs last week</div>
+</div>
+<div class="mini-bars" style="width:120px;">
+<div class="bar" style="height:42%"></div>
+<div class="bar" style="height:78%"></div>
+<div class="bar" style="height:64%"></div>
+<div class="bar" style="height:88%"></div>
+<div class="bar alt" style="height:55%"></div>
+<div class="bar dim" style="height:20%"></div>
+<div class="bar dim" style="height:14%"></div>
+</div>
+</div>
+</div>
+
+<div class="metric">
+<div class="label">Realization rate</div>
+<div class="metric-body">
+<div>
+<div class="value">87.4%</div>
+<div class="delta down"><img class="icon" src="./assets/icons/arrow-down.svg" alt="">-1.8 pts vs Sept</div>
+</div>
+<svg class="sparkline" viewBox="0 0 100 28" preserveAspectRatio="none" style="width:96px;">
+<polyline fill="none" stroke="#e8d9a8" stroke-width="1.5" points="0,12 12,9 24,14 36,7 48,11 60,5 72,10 84,8 100,14"/>
+</svg>
+</div>
+</div>
+
+<div class="metric">
+<div class="label">Matters touched today</div>
+<div class="metric-body">
+<div>
+<div class="value">7</div>
+<div class="delta"><span class="text-muted">across 4 practice groups</span></div>
+</div>
+<div class="avatar-stack">
+<div class="avatar"><img src="./assets/avatars/notionists-seed-00.svg" alt=""></div>
+<div class="avatar"><img src="./assets/avatars/notionists-seed-03.svg" alt=""></div>
+<div class="avatar"><img src="./assets/avatars/lorelei-seed-02.svg" alt=""></div>
+<div class="avatar"><img src="./assets/avatars/notionists-seed-07.svg" alt=""></div>
+<div class="avatar">+3</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="split-2">
+<section class="card" style="padding:0;">
+<div class="card-head" style="padding:var(--space-5) var(--space-5) var(--space-3);">
+<div>
+<div class="card-title">Active matters</div>
+<div class="card-sub">14 open · sorted by recent activity</div>
+</div>
+<div class="row">
+<a class="chip is-active" href="#">All</a>
+<a class="chip" href="#">Mine</a>
+<a class="chip" href="#">Trial-track</a>
+<a class="btn btn-ghost btn-sm" href="./matters.html"><span>View all</span><img class="icon" src="./assets/icons/external-link.svg" alt=""></a>
+</div>
+</div>
+<div class="table-wrap" style="border:0;border-top:1px solid var(--border-soft);border-radius:0;">
+<table>
+<thead>
+<tr>
+<th>Matter</th>
+<th>Caption / Client</th>
+<th>Practice</th>
+<th>Last activity</th>
+<th class="num">Hours (30d)</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="code">HP-2247</td>
+<td><div class="caption-cell"><span class="title">Aldridge v. Meridian Logistics</span><span class="sub">Aldridge Holdings, LLC</span></div></td>
+<td><span class="badge">Commercial</span></td>
+<td class="text-sm text-muted">12 min ago</td>
+<td class="num"><span class="hours-spark"><span style="height:30%"></span><span style="height:60%"></span><span style="height:45%"></span><span style="height:85%"></span><span style="height:70%"></span><span style="height:95%"></span><span style="height:55%"></span></span></td>
+<td><img class="icon" src="./assets/icons/ellipsis-vertical.svg" alt=""></td>
+</tr>
+<tr>
+<td class="code">HP-2218</td>
+<td><div class="caption-cell"><span class="title">Carver Estate v. Northshore Bank</span><span class="sub">Carver Family Trust</span></div></td>
+<td><span class="badge">Fiduciary</span></td>
+<td class="text-sm text-muted">1 hr ago</td>
+<td class="num"><span class="hours-spark"><span style="height:50%"></span><span style="height:35%"></span><span style="height:60%"></span><span style="height:40%"></span><span style="height:75%"></span><span style="height:65%"></span><span style="height:80%"></span></span></td>
+<td><img class="icon" src="./assets/icons/ellipsis-vertical.svg" alt=""></td>
+</tr>
+<tr>
+<td class="code">HP-2199</td>
+<td><div class="caption-cell"><span class="title">In re Talavera Pharmaceuticals MDL</span><span class="sub">Talavera Pharma Inc.</span></div></td>
+<td><span class="badge">Mass Tort</span></td>
+<td class="text-sm text-muted">3 hrs ago</td>
+<td class="num"><span class="hours-spark"><span style="height:90%"></span><span style="height:95%"></span><span style="height:80%"></span><span style="height:70%"></span><span style="height:88%"></span><span style="height:92%"></span><span style="height:75%"></span></span></td>
+<td><img class="icon" src="./assets/icons/ellipsis-vertical.svg" alt=""></td>
+</tr>
+<tr>
+<td class="code">HP-2261</td>
+<td><div class="caption-cell"><span class="title">Whitfield v. State of Vermont</span><span class="sub">Whitfield, Eleanor</span></div></td>
+<td><span class="badge">Civil Rights</span></td>
+<td class="text-sm text-muted">Yesterday</td>
+<td class="num"><span class="hours-spark"><span style="height:25%"></span><span style="height:40%"></span><span style="height:30%"></span><span style="height:55%"></span><span style="height:42%"></span><span style="height:30%"></span><span style="height:48%"></span></span></td>
+<td><img class="icon" src="./assets/icons/ellipsis-vertical.svg" alt=""></td>
+</tr>
+<tr>
+<td class="code">HP-2188</td>
+<td><div class="caption-cell"><span class="title">Penobscot Mills Trade Secret Action</span><span class="sub">Penobscot Mills Co.</span></div></td>
+<td><span class="badge">IP</span></td>
+<td class="text-sm text-muted">Yesterday</td>
+<td class="num"><span class="hours-spark"><span style="height:60%"></span><span style="height:70%"></span><span style="height:50%"></span><span style="height:65%"></span><span style="height:80%"></span><span style="height:55%"></span><span style="height:62%"></span></span></td>
+<td><img class="icon" src="./assets/icons/ellipsis-vertical.svg" alt=""></td>
+</tr>
+<tr>
+<td class="code">HP-2255</td>
+<td><div class="caption-cell"><span class="title">Sorensen Marine v. Atlantic Underwriters</span><span class="sub">Sorensen Marine Holdings</span></div></td>
+<td><span class="badge">Insurance</span></td>
+<td class="text-sm text-muted">2 days ago</td>
+<td class="num"><span class="hours-spark"><span style="height:35%"></span><span style="height:45%"></span><span style="height:30%"></span><span style="height:60%"></span><span style="height:50%"></span><span style="height:40%"></span><span style="height:35%"></span></span></td>
+<td><img class="icon" src="./assets/icons/ellipsis-vertical.svg" alt=""></td>
+</tr>
+<tr>
+<td class="code">HP-2241</td>
+<td><div class="caption-cell"><span class="title">Brennan Dev. Corp. — Arbitration</span><span class="sub">Brennan Development Corp.</span></div></td>
+<td><span class="badge">Construction</span></td>
+<td class="text-sm text-muted">2 days ago</td>
+<td class="num"><span class="hours-spark"><span style="height:55%"></span><span style="height:48%"></span><span style="height:70%"></span><span style="height:42%"></span><span style="height:60%"></span><span style="height:50%"></span><span style="height:45%"></span></span></td>
+<td><img class="icon" src="./assets/icons/ellipsis-vertical.svg" alt=""></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<section class="card">
+<div class="card-head">
+<div>
+<div class="card-title">Upcoming deadlines</div>
+<div class="card-sub">Next 21 days · 9 items</div>
+</div>
+<a class="btn btn-ghost btn-sm" href="./calendar.html"><img class="icon" src="./assets/icons/calendar.svg" alt=""><span>Calendar</span></a>
+</div>
+<div class="deadline-list">
+
+<div class="deadline-item">
+<span class="days-chip urgent">2d</span>
+<div class="main">
+<div class="type">Reply brief in opposition to MSJ</div>
+<div class="sub"><span class="badge jur">D. Mass.</span> · HP-2199 · Talavera MDL</div>
+</div>
+<div class="avatar" title="Margaret Reyes"><img src="./assets/avatars/lorelei-seed-00.svg" alt=""></div>
+</div>
+
+<div class="deadline-item">
+<span class="days-chip urgent">3d</span>
+<div class="main">
+<div class="type">Rule 26(a) initial disclosures</div>
+<div class="sub"><span class="badge jur">S.D.N.Y.</span> · HP-2247 · Aldridge</div>
+</div>
+<div class="avatar" title="Devon Park"><img src="./assets/avatars/notionists-seed-04.svg" alt=""></div>
+</div>
+
+<div class="deadline-item">
+<span class="days-chip soon">6d</span>
+<div class="main">
+<div class="type">Deposition — Lila Carver (corp. rep.)</div>
+<div class="sub"><span class="badge jur">VT Sup.</span> · HP-2218 · Carver Estate</div>
+</div>
+<div class="avatar" title="J. Holloway"><img src="./assets/avatars/notionists-seed-01.svg" alt=""></div>
+</div>
+
+<div class="deadline-item">
+<span class="days-chip soon">8d</span>
+<div class="main">
+<div class="type">Status conference statement</div>
+<div class="sub"><span class="badge jur">N.D. Cal.</span> · HP-2188 · Penobscot Mills</div>
+</div>
+<div class="avatar" title="Devon Park"><img src="./assets/avatars/notionists-seed-04.svg" alt=""></div>
+</div>
+
+<div class="deadline-item">
+<span class="days-chip ok">12d</span>
+<div class="main">
+<div class="type">Motion to compel arbitration</div>
+<div class="sub"><span class="badge jur">D. Vt.</span> · HP-2241 · Brennan Dev.</div>
+</div>
+<div class="avatar" title="Rosa Iniguez"><img src="./assets/avatars/lorelei-seed-03.svg" alt=""></div>
+</div>
+
+<div class="deadline-item">
+<span class="days-chip ok">15d</span>
+<div class="main">
+<div class="type">Expert report — Dr. Halverson</div>
+<div class="sub"><span class="badge jur">D. Mass.</span> · HP-2199 · Talavera MDL</div>
+</div>
+<div class="avatar" title="Margaret Reyes"><img src="./assets/avatars/lorelei-seed-00.svg" alt=""></div>
+</div>
+
+<div class="deadline-item">
+<span class="days-chip ok">18d</span>
+<div class="main">
+<div class="type">Appellate brief filing</div>
+<div class="sub"><span class="badge jur">2d Cir.</span> · HP-2261 · Whitfield</div>
+</div>
+<div class="avatar" title="Tomás Vega"><img src="./assets/avatars/notionists-seed-07.svg" alt=""></div>
+</div>
+
+</div>
+</section>
+</div>
+
+<section class="card" style="padding:0;">
+<div class="card-head" style="padding:var(--space-5);">
+<div>
+<div class="card-title">Recent time entries</div>
+<div class="card-sub">Today · 6.4 hrs logged across 5 matters</div>
+</div>
+<div class="row">
+<div class="view-toggle">
+<a class="is-active" href="#">Today</a>
+<a href="#">Week</a>
+<a href="#">Unsubmitted</a>
+</div>
+<a class="btn btn-accent btn-sm" href="#"><img class="icon" src="./assets/icons/file-plus.svg" alt=""><span>New entry</span></a>
+</div>
+</div>
+<div class="table-wrap" style="border:0;border-top:1px solid var(--border-soft);border-radius:0;">
+<table>
+<thead>
+<tr>
+<th>Start</th>
+<th class="num">Duration</th>
+<th>Matter</th>
+<th>Narrative</th>
+<th>Billable</th>
+<th>Status</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="mono text-muted">08:42</td>
+<td class="num">1:08</td>
+<td class="code">HP-2199</td>
+<td>Review Talavera expert disclosures; outline rebuttal points for Dr. Halverson section…</td>
+<td><div class="toggle on"><span class="track"></span></div></td>
+<td><span class="pill submitted">Submitted</span></td>
+<td><img class="icon" src="./assets/icons/ellipsis.svg" alt=""></td>
+</tr>
+<tr>
+<td class="mono text-muted">09:55</td>
+<td class="num">0:24</td>
+<td class="code">HP-2247</td>
+<td>Call with R. Aldridge re: scheduling order and proposed protective order revisions.</td>
+<td><div class="toggle on"><span class="track"></span></div></td>
+<td><span class="pill draft">Draft</span></td>
+<td><img class="icon" src="./assets/icons/ellipsis.svg" alt=""></td>
+</tr>
+<tr>
+<td class="mono text-muted">10:30</td>
+<td class="num">2:15</td>
+<td class="code">HP-2247</td>
+<td>Draft initial disclosures; gather production index from K. Mendel; revise privilege log…</td>
+<td><div class="toggle on"><span class="track"></span></div></td>
+<td><span class="pill draft">Draft</span></td>
+<td><img class="icon" src="./assets/icons/ellipsis.svg" alt=""></td>
+</tr>
+<tr>
+<td class="mono text-muted">13:05</td>
+<td class="num">0:42</td>
+<td class="code">HP-2218</td>
+<td>Prep outline for Carver corp. rep. deposition; flag exhibits 14–22 for Tuesday.</td>
+<td><div class="toggle on"><span class="track"></span></div></td>
+<td><span class="pill billed">Billed</span></td>
+<td><img class="icon" src="./assets/icons/ellipsis.svg" alt=""></td>
+</tr>
+<tr>
+<td class="mono text-muted">14:00</td>
+<td class="num">0:18</td>
+<td class="code">HP-2188</td>
+<td>Internal status memo to D. Park on Penobscot scheduling conf.; calendar updates.</td>
+<td><div class="toggle"><span class="track"></span></div></td>
+<td><span class="pill draft">Draft</span></td>
+<td><img class="icon" src="./assets/icons/ellipsis.svg" alt=""></td>
+</tr>
+<tr>
+<td class="mono text-muted">14:45</td>
+<td class="num">1:32</td>
+<td class="code">HP-2241</td>
+<td>Research First Circuit authority on motion to compel arbitration of consumer claims…</td>
+<td><div class="toggle on"><span class="track"></span></div></td>
+<td><span class="pill submitted">Submitted</span></td>
+<td><img class="icon" src="./assets/icons/ellipsis.svg" alt=""></td>
+</tr>
+<tr>
+<td class="mono text-muted">16:30</td>
+<td class="num">0:21</td>
+<td class="code">HP-2261</td>
+<td>Correspondence w/ co-counsel re: Whitfield appellate record stipulation.</td>
+<td><div class="toggle on"><span class="track"></span></div></td>
+<td><span class="pill billed">Billed</span></td>
+<td><img class="icon" src="./assets/icons/ellipsis.svg" alt=""></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="pagination">
+<span>Showing 7 of 14 entries today</span>
+<div class="pages">
+<button><img class="icon" src="./assets/icons/chevron-left.svg" alt=""></button>
+<button class="is-active">1</button>
+<button>2</button>
+<button><img class="icon" src="./assets/icons/chevron-right.svg" alt=""></button>
+</div>
+</div>
+</section>
+</main>
+</div>
+</div>
+</body>
+</html>

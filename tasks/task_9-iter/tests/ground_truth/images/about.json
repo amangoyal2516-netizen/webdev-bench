@@ -1,0 +1,184 @@
+[
+  {
+    "src": "./assets/icons/search.svg",
+    "alt": "",
+    "x": 1083.140625,
+    "y": 26.0625,
+    "w": 16,
+    "h": 16,
+    "phash": "eb25f03483d28dcb",
+    "lab_mean": [
+      21.99,
+      -0.83,
+      -5.73
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-00.svg",
+    "alt": "Portrait of Maren Whitfield",
+    "x": 94,
+    "y": 1384.03125,
+    "w": 92,
+    "h": 92,
+    "phash": "b230cfcfcc993870",
+    "lab_mean": [
+      84.36,
+      0.76,
+      -0.17
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-01.svg",
+    "alt": "Portrait of David Aoki-Greer",
+    "x": 520.65625,
+    "y": 1384.03125,
+    "w": 92,
+    "h": 92,
+    "phash": "e464cfce98993166",
+    "lab_mean": [
+      86.66,
+      0.74,
+      -0.24
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-09.svg",
+    "alt": "Portrait of Sof\u00eda Rend\u00f3n",
+    "x": 947.328125,
+    "y": 1384.03125,
+    "w": 92,
+    "h": 92,
+    "phash": "b931c686cecb989c",
+    "lab_mean": [
+      77.78,
+      0.84,
+      0.1
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-02.svg",
+    "alt": "Portrait of Henrik Lassiter",
+    "x": 94,
+    "y": 1533.421875,
+    "w": 92,
+    "h": 92,
+    "phash": "b8c3cf2c98cd2533",
+    "lab_mean": [
+      73.69,
+      0.77,
+      -0.12
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-10.svg",
+    "alt": "Portrait of Priya Anand-Webb",
+    "x": 520.65625,
+    "y": 1533.421875,
+    "w": 92,
+    "h": 92,
+    "phash": "b861c7c79e983866",
+    "lab_mean": [
+      79.65,
+      0.79,
+      -0.12
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-03.svg",
+    "alt": "Portrait of Marcus Beaubrun",
+    "x": 947.328125,
+    "y": 1533.421875,
+    "w": 92,
+    "h": 92,
+    "phash": "b039c7cc9cd96136",
+    "lab_mean": [
+      80.44,
+      0.76,
+      -0.15
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-11.svg",
+    "alt": "Portrait of Hana Yildirim",
+    "x": 94,
+    "y": 1702.3125,
+    "w": 92,
+    "h": 92,
+    "phash": "bc34e3c39e9c186c",
+    "lab_mean": [
+      83.12,
+      0.81,
+      -0.08
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-04.svg",
+    "alt": "Portrait of Eliot Vanstone",
+    "x": 520.65625,
+    "y": 1702.3125,
+    "w": 92,
+    "h": 92,
+    "phash": "b030cbceccd93c66",
+    "lab_mean": [
+      84.15,
+      0.77,
+      -0.14
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-05.svg",
+    "alt": "Portrait of Camille Okafor-Reyes",
+    "x": 947.328125,
+    "y": 1702.3125,
+    "w": 92,
+    "h": 92,
+    "phash": "a464cf8f99993166",
+    "lab_mean": [
+      85.27,
+      0.76,
+      -0.2
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-06.svg",
+    "alt": "Portrait of Thomas Eriksen",
+    "x": 94,
+    "y": 1851.703125,
+    "w": 92,
+    "h": 92,
+    "phash": "a431cfce9c193167",
+    "lab_mean": [
+      85.35,
+      0.74,
+      -0.24
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-07.svg",
+    "alt": "Portrait of Renata Vasquez",
+    "x": 520.65625,
+    "y": 1851.703125,
+    "w": 92,
+    "h": 92,
+    "phash": "ac2ccfc7c29b3138",
+    "lab_mean": [
+      81.3,
+      0.77,
+      -0.1
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-08.svg",
+    "alt": "Portrait of Julian Pruitt",
+    "x": 947.328125,
+    "y": 1851.703125,
+    "w": 92,
+    "h": 92,
+    "phash": "b833cf8c3ccb6134",
+    "lab_mean": [
+      82.63,
+      0.76,
+      -0.14
+    ]
+  }
+]

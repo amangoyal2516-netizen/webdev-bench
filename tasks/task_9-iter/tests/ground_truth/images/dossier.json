@@ -1,0 +1,156 @@
+[
+  {
+    "src": "./assets/icons/search.svg",
+    "alt": "",
+    "x": 1083.140625,
+    "y": 26.0625,
+    "w": 16,
+    "h": 16,
+    "phash": "eb25f03483d28dcb",
+    "lab_mean": [
+      21.99,
+      -0.83,
+      -5.73
+    ]
+  },
+  {
+    "src": "./assets/icons/bookmark.svg",
+    "alt": "",
+    "x": 1163.875,
+    "y": 292.078125,
+    "w": 16,
+    "h": 16,
+    "phash": "bf656433c434c3cc",
+    "lab_mean": [
+      77.79,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/photos/JBO8vdcy4Mo.jpg",
+    "alt": "The neo-Georgian fa\u00e7ade of 1428 Linden Ridge Road photographed in late autumn light",
+    "x": 92,
+    "y": 912.046875,
+    "w": 704,
+    "h": 466.390625,
+    "phash": "c1e11f5ef0c1839e",
+    "lab_mean": [
+      27.67,
+      -0.17,
+      2.22
+    ]
+  },
+  {
+    "src": "./assets/photos/G1ebTFoqLlM.jpg",
+    "alt": "Interior view of the parlor floor with restored plasterwork and tall windows",
+    "x": 92,
+    "y": 2236.515625,
+    "w": 704,
+    "h": 466.828125,
+    "phash": "e2e0f5267218c6f3",
+    "lab_mean": [
+      39.52,
+      -2.65,
+      6.04
+    ]
+  },
+  {
+    "src": "./assets/photos/Ereoqdv5s48.jpg",
+    "alt": "Comparable townhouse on Strong Place",
+    "x": 1025,
+    "y": 1107.71875,
+    "w": 80,
+    "h": 60,
+    "phash": "d49c608fb7a2a92b",
+    "lab_mean": [
+      66.59,
+      3.08,
+      6.27
+    ]
+  },
+  {
+    "src": "./assets/photos/SwIh3kr1__U.jpg",
+    "alt": "Comparable brownstone on Kane Street",
+    "x": 1025,
+    "y": 1192.71875,
+    "w": 80,
+    "h": 60,
+    "phash": "ce314ecc33ce31c6",
+    "lab_mean": [
+      17.8,
+      8.42,
+      16.62
+    ]
+  },
+  {
+    "src": "./assets/photos/DmgwxkcdFCM.jpg",
+    "alt": "Comparable townhouse on Warren Street",
+    "x": 1025,
+    "y": 1277.71875,
+    "w": 80,
+    "h": 60,
+    "phash": "bdc56a8b74013fc8",
+    "lab_mean": [
+      76.23,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-09.svg",
+    "alt": "",
+    "x": 1027,
+    "y": 1447.765625,
+    "w": 44,
+    "h": 44,
+    "phash": "b931c686cecb989c",
+    "lab_mean": [
+      76.68,
+      2.24,
+      2.24
+    ]
+  },
+  {
+    "src": "./assets/photos/SwIh3kr1__U.jpg",
+    "alt": "A neo-classical townhouse on Kane Street",
+    "x": 93,
+    "y": 3775.359375,
+    "w": 400.65625,
+    "h": 250.40625,
+    "phash": "cc334ecc33cc31ce",
+    "lab_mean": [
+      18.1,
+      8.45,
+      16.82
+    ]
+  },
+  {
+    "src": "./assets/photos/G1ebTFoqLlM.jpg",
+    "alt": "Interior of a Cobble Hill carriage house",
+    "x": 519.65625,
+    "y": 3775.359375,
+    "w": 400.671875,
+    "h": 250.40625,
+    "phash": "e2e0b7267218c7b3",
+    "lab_mean": [
+      39.54,
+      -2.45,
+      6.46
+    ]
+  },
+  {
+    "src": "./assets/photos/Ereoqdv5s48.jpg",
+    "alt": "A limestone townhouse on Strong Place",
+    "x": 946.328125,
+    "y": 3775.359375,
+    "w": 400.65625,
+    "h": 250.40625,
+    "phash": "d4d840dd7796e50c",
+    "lab_mean": [
+      67.21,
+      3.19,
+      6.42
+    ]
+  }
+]

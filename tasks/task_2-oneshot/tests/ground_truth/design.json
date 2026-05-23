@@ -1,0 +1,80 @@
+{
+  "description": "Carbon expense tracker for sustainability officers \u2014 log emissions across scope 1/2/3 categories, track against reduction budgets, and reconcile offsets",
+  "allowed_frameworks": [
+    "html-css"
+  ],
+  "palette": {
+    "background": "#050807",
+    "surface": "#0e1411",
+    "text": "#d8e6dc",
+    "accent": "#39ff7a",
+    "accent_alt": "#ff5c5c",
+    "muted": "#5a6a62"
+  },
+  "pages": [
+    {
+      "name": "dashboard",
+      "description": "Overview of the organisation's carbon ledger for the current reporting period",
+      "components": [
+        "Left sidebar with the workspace name and a reporting-period switcher at the top, then a vertical nav (Dashboard, Ledger, Categories, Offsets, Suppliers, Reports), then a footer block with the current user and an org-switcher",
+        "Top bar in the main area with a page heading 'Q3 2025 Carbon Ledger', a date-range picker, a scope filter chip group (Scope 1, Scope 2, Scope 3), and a primary 'Log emission' button",
+        "Row of four KPI tiles \u2014 Gross emissions tCO2e, Offsets retired tCO2e, Net position tCO2e, Budget remaining \u2014 each tile showing the value, a delta vs prior period, and an inline sparkline",
+        "Two-column block: a stacked-bar chart on the left showing weekly emissions broken down by scope with a legend underneath, and a budget-burn-down chart on the right plotting cumulative emissions against the linear reduction target with a variance band",
+        "Recent activity table at the bottom with columns Date, Source, Category, Scope, Activity data, Emission factor, tCO2e, Status, and a row-action menu"
+      ]
+    },
+    {
+      "name": "ledger",
+      "description": "Searchable, filterable transactional ledger of every logged emission line",
+      "components": [
+        "Same left sidebar with 'Ledger' marked active",
+        "Filter bar across the top with a search input, multi-select dropdowns for Scope, Category, Facility, and Supplier, an emission-factor-source dropdown, and a 'Verified only' toggle",
+        "Bulk-action toolbar showing selected-row count, a 'Recalculate factors' action, an 'Export CSV' action, and an 'Assign to report' action",
+        "Ledger table with sortable columns Date, Description, Facility, Scope/Category, Activity quantity, Emission factor with source tag, tCO2e, and a verification-status badge, plus a totals row summing tCO2e for the filtered view",
+        "Pagination footer with rows-per-page selector, page navigation, and a 'Showing X of Y lines' counter"
+      ]
+    },
+    {
+      "name": "log-emission",
+      "description": "Form for entering a new emission line and previewing its calculated impact",
+      "components": [
+        "Same left sidebar",
+        "Page heading 'Log emission' with a breadcrumb Ledger / New entry and a 'Save draft' secondary button",
+        "Left-column form with sections for Source (date, description, facility dropdown, supplier autocomplete), Classification (scope radio cards, category picker, GHG gas multi-select), and Activity data (quantity, unit, document upload)",
+        "Right column live-preview panel showing the matched emission factor card (factor value, unit, source database, vintage year, region), a computed tCO2e readout updated as inputs change, an uncertainty range bar, and a note field for assumptions",
+        "Sticky action bar at the bottom with 'Cancel', 'Save and add another', and a primary 'Save entry' button"
+      ]
+    },
+    {
+      "name": "offsets",
+      "description": "Portfolio view of purchased carbon offset credits and retirement status",
+      "components": [
+        "Same left sidebar with 'Offsets' active",
+        "Header strip with three summary tiles \u2014 Credits owned, Credits retired this period, Coverage ratio (retired vs gross emissions) shown as a horizontal progress bar with a target marker",
+        "Project portfolio grid (three per row) where each card shows project name, registry badge, project-type icon, vintage year, credits held, price per tonne, and a 'Retire credits' action",
+        "Retirement history table with columns Date retired, Project, Vintage, Credits (tCO2e), Reporting period, Serial-number range, and Certificate link"
+      ]
+    },
+    {
+      "name": "suppliers",
+      "description": "Directory of upstream suppliers and their reported Scope 3 contributions",
+      "components": [
+        "Same left sidebar with 'Suppliers' active",
+        "Page heading 'Suppliers' with an 'Invite supplier' primary button and a 'Request disclosures' secondary button",
+        "Filter row with search, industry dropdown, disclosure-status chip group (Disclosed, Pending, Estimated, No data), and a data-quality-score range slider",
+        "Supplier table with columns Supplier, Industry, Spend, Estimated tCO2e, Disclosed tCO2e, Data-quality tier badge A\u2013E, Last update, and an expand control that opens an inline category breakdown panel"
+      ]
+    },
+    {
+      "name": "reports",
+      "description": "Reporting workspace for generating disclosure-ready exports",
+      "components": [
+        "Same left sidebar with 'Reports' active",
+        "Framework selector tab bar across the top (GHG Protocol, CDP, CSRD/ESRS E1, TCFD, SBTi progress) with the active framework highlighted",
+        "Two-column body: left column lists report sections as a checklist (Boundary & methodology, Scope 1 inventory, Scope 2 location vs market, Scope 3 categories 1\u201315, Offsets & removals, Assurance) with completion status icons next to each",
+        "Right column shows the active section's content \u2014 a generated narrative block, a data table sourced from the ledger, and a 'Data lineage' link list pointing back to underlying entries",
+        "Bottom action bar with an export-format dropdown (PDF, XBRL, XLSX), a 'Send to auditor' secondary button, and a primary 'Lock and publish' button"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Board — Foxglove & Fennel Press</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="./imprint.html"><span class="brand-mark">F</span>Foxglove &amp; Fennel</a>
+    <button class="project-switcher">
+      <span class="label">Project</span>
+      <span>Hearth &amp; Hollow, Vol. II</span>
+      <img src="./assets/icons/chevron-down.svg" alt="" class="icon">
+    </button>
+    <div class="search">
+      <img src="./assets/icons/search.svg" alt="" class="icon">
+      <input type="text" placeholder="Search recipes, ingredients, contributors…">
+      <span class="text-xs">⌘K</span>
+    </div>
+    <div class="spacer"></div>
+    <div class="avatar-stack">
+      <img class="avatar" src="./assets/avatars/notionists-seed-03.svg" alt="Mira Aldenbrook">
+      <img class="avatar" src="./assets/avatars/lorelei-seed-01.svg" alt="Joa Pelletier">
+      <img class="avatar" src="./assets/avatars/notionists-seed-07.svg" alt="Theo Vance">
+      <img class="avatar" src="./assets/avatars/lorelei-seed-04.svg" alt="Saskia Im">
+      <img class="avatar" src="./assets/avatars/notionists-seed-10.svg" alt="Caro Niemand">
+      <img class="avatar" src="./assets/avatars/lorelei-seed-02.svg" alt="Devi Rao">
+    </div>
+    <a class="btn btn-on-dark" href="#">
+      <img src="./assets/icons/user-plus.svg" alt="" class="icon"> Invite
+    </a>
+  </div>
+</header>
+
+<section class="subheader">
+  <div class="subheader-inner">
+    <div>
+      <div class="byline" style="margin-bottom:4px">Cookbook in production</div>
+      <h2 class="subheader-title">Hearth &amp; Hollow, Vol. II — Winter Larder</h2>
+    </div>
+    <span class="meta-pill"><img src="./assets/icons/book-open.svg" alt="" class="icon icon-sm"> 248 pp target</span>
+    <span class="meta-pill"><img src="./assets/icons/calendar.svg" alt="" class="icon icon-sm"> Deadline · Mar 14, 2025</span>
+    <div class="progress">
+      <span class="upper muted">42 / 76 complete</span>
+      <div class="progress-bar"><span class="progress-fill" style="width:55%"></span></div>
+      <span class="text-xs muted">55%</span>
+    </div>
+    <div class="spacer"></div>
+    <nav class="view-toggle" aria-label="View">
+      <a href="./board.html" class="active"><img src="./assets/icons/layout-grid.svg" alt="" class="icon icon-sm"> Board</a>
+      <a href="#"><img src="./assets/icons/table-2.svg" alt="" class="icon icon-sm"> Table</a>
+      <a href="./calendar.html"><img src="./assets/icons/calendar-days.svg" alt="" class="icon icon-sm"> Calendar</a>
+    </nav>
+  </div>
+</section>
+
+<section class="filterbar">
+  <div class="filterbar-inner">
+    <span class="upper muted" style="margin-right:4px"><img src="./assets/icons/funnel.svg" alt="" class="icon icon-sm"> Course</span>
+    <button class="chip active"><span class="chip-dot" style="background:#f4e6c1"></span>All</button>
+    <button class="chip"><span class="chip-dot" style="background:#7a8a4a"></span>Starters</button>
+    <button class="chip"><span class="chip-dot" style="background:#c44a2a"></span>Mains</button>
+    <button class="chip"><span class="chip-dot" style="background:#9a7d3a"></span>Sides</button>
+    <button class="chip"><span class="chip-dot" style="background:#5c3a1e"></span>Desserts</button>
+    <button class="chip"><span class="chip-dot" style="background:#b89a55"></span>Drinks</button>
+
+    <span style="width:1px;height:20px;background:var(--line);margin:0 6px"></span>
+
+    <button class="chip">
+      <img src="./assets/icons/users.svg" alt="" class="icon icon-sm">
+      Assignee · All team
+      <img src="./assets/icons/chevron-down.svg" alt="" class="icon icon-sm">
+    </button>
+
+    <label class="toggle on">
+      <span class="toggle-switch"></span>
+      <img src="./assets/icons/camera.svg" alt="" class="icon icon-sm"> Needs photo
+    </label>
+
+    <label class="toggle">
+      <span class="toggle-switch"></span>
+      <img src="./assets/icons/triangle-alert.svg" alt="" class="icon icon-sm"> Allergens flagged
+    </label>
+
+    <div class="spacer"></div>
+    <button class="btn btn-ghost btn-sm"><img src="./assets/icons/sliders-horizontal.svg" alt="" class="icon icon-sm"> More filters</button>
+    <button class="btn btn-ghost btn-sm"><img src="./assets/icons/download.svg" alt="" class="icon icon-sm"> Export</button>
+  </div>
+</section>
+
+<main class="container">
+  <div class="kanban">
+
+    <!-- DRAFTING -->
+    <section class="kanban-col">
+      <header class="kanban-col-head">
+        <h3 class="kanban-col-title">
+          <img src="./assets/icons/pen-line.svg" alt="" class="icon icon-sm"> Drafting
+          <span class="kanban-col-count">11</span>
+        </h3>
+        <button class="kanban-add" aria-label="Add recipe">
+          <img src="./assets/icons/plus.svg" alt="" class="icon">
+        </button>
+      </header>
+      <div class="kanban-cards">
+
+        <a class="recipe-card" href="./recipe.html">
+          <img class="recipe-card-thumb" src="./assets/photos/c85HdnKXTzg.jpg" alt="Pomegranate on a snow-dusted branch">
+          <div class="row" style="gap:6px;margin-bottom:4px">
+            <span class="badge badge-course">Starters</span>
+            <span class="badge badge-muted">v0.2</span>
+          </div>
+          <h4 class="recipe-card-title">Pomegranate &amp; Buckwheat Crackers</h4>
+          <div class="recipe-card-meta">
+            <img class="avatar avatar-sm" src="./assets/avatars/notionists-seed-03.svg" alt="Mira A.">
+            <span class="yield">Yield · 24 ct</span>
+          </div>
+        </a>
+
+        <a class="recipe-card" href="./recipe.html">
+          <img class="recipe-card-thumb" src="./assets/photos/EWDvHNNfUmQ.jpg" alt="Green leafy vegetable on wood">
+          <div class="row" style="gap:6px;margin-bottom:4px">
+            <span class="badge badge-course">Sides</span>
+            <span class="badge badge-muted">v0.1</span>
+          </div>
+          <h4 class="recipe-card-title">Charred Castelfranco with Anchovy Cream</h4>
+          <div class="recipe-card-meta">
+            <img class="avatar avatar-sm" src="./assets/avatars/lorelei-seed-01.svg" alt="Joa P.">
+            <span class="yield">Yield · 4 svg</span>
+          </div>
+        </a>
+
+        <a class="recipe-card" href="./recipe.html">
+          <img class="recipe-card-thumb" src="./assets/photos/948RpY3gj4c.jpg" alt="Ceramic mug on grill">
+          <div class="row" style="gap:6px;margin-bottom:4px">
+            <span class="badge" style="background:#b89a55;color:#2b1f12;border-color:#b89a55">Drinks</span>
+          </div>
+          <h4 class="recipe-card-title">Smoked Apple Cider, Three Ways</h4>
+          <div class="recipe-card-meta">
+            <img class="avatar avatar-sm" src="./assets/avatars/notionists-seed-07.svg" alt="Theo V.">
+            <span class="yield">Yield · 6 cups</span>
+          </div>
+        </a>
+
+        <a class="recipe-card" href="./recipe.html">
+          <div class="row" style="gap:6px;margin-bottom:6px">
+            <span class="badge badge-course">Mains</span>
+            <span class="badge badge-muted"><img src="./assets/icons/wheat-off.svg" alt="" class="icon icon-sm"> GF</span>
+          </div>
+          <h4 class="recipe-card-title">Cider-Braised Pork Shoulder over Polenta</h4>
+          <p class="text-xs muted" style="margin:6px 0">Outline only — needs ingredient quantities &amp; headnote draft.</p>
+          <div class="recipe-card-meta">
+            <img class="avatar avatar-sm" src="./assets/avatars/lorelei-seed-04.svg" alt="Saskia I.">
+            <span class="yield">Yield · 8 svg</span>
+          </div>
+        </a>
+
+        <a class="recipe-card" href="./recipe.html">
+          <img class="recipe-card-thumb" src="./assets/photos/AiTE9NFQZ3I.jpg" alt="Pink roses in concrete pot">
+          <div class="row" style="gap:6px;margin-bottom:4px">
+            <span class="badge" style="background:#5c3a1e;color:#f4e6c1;border-color:#5c3a1e">Desserts</span>
+          </div>
+          <h4 class="recipe-card-title">Rose-Hip &amp; Saffron Pavlova</h4>
+          <div class="recipe-card-meta">
+            <img class="avatar avatar-sm" src="./assets/avatars/notionists-seed-10.svg" alt="Caro N.">
+            <span class="yield">Yield · 1 cake</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- TESTING -->
+    <section class="kanban-col">
+      <header class="kanban-col-head">
+        <h3 class="kanban-col-title">
+          <img src="./assets/icons/flame.svg" alt="" class="icon icon-sm"> Testing
+          <span class="kanban-col-count">14</span>
+        </h3>
+        <button class="kanban-add" aria-label="Add recipe">
+          <img src="./assets/icons/plus.svg" alt="" class="icon">
+        </button>
+      </header>
+      <div class="kanban-cards">
+
+        <a class="recipe-card" href="./recipe.html">
+          <img class="recipe-card-thumb" src="./assets/photos/dtLvByNVgcE.jpg" alt="Food cooking in black pot">
+          <div class="row" style="gap:6px;margin-bottom:4px">
+            <span class="badge badge-course">Mains</span>
+            <span class="badge badge-muted">Test #3</span>
+          </div>
+          <h4 class="recipe-card-title">Black Cardamom Lamb Hand-Pie</h4>
+          <div class="recipe-card-meta">
+            <img class="avatar avatar-sm" src="./assets/avatars/lorelei-seed-02.svg" alt="Devi R.">
+            <span class="yield">Yield · 6 pies</span>
+          </div>
+        </a>
+
+        <a class="recipe-card" href="./recipe.html">
+          <img class="recipe-card-thumb" src="./assets/photos/RgTI2KaQ5N4.jpg" alt="Glass bowl in focus">
+          <div class="row" style="gap:6px;margin-bottom:4px">
+            <span class="badge badge-course">Starters</span>
+            <span class="badge badge-muted"><img src="./assets/icons/milk-off.svg" alt="" class="icon icon-sm"> DF</span>
+          </div>
+          <h4 class="recipe-card-title">Cured Beet Carpaccio, Toasted Hazelnut</h4>
+          <div class="recipe-card-meta">
+            <img class="avatar avatar-sm" src="./assets/avatars/notionists-seed-04.svg" alt="Petra L.">
+            <span class="yield">Yield · 4 svg</span>
+          </div>
+        </a>
+
+        <a class="recipe-card" href="./recipe.html">
+          <img class="recipe-card-thumb" src="./assets/photos/laG2kmB4Hgc.jpg" alt="Knife on snowy ground">
+          <div class="row" style="gap:6px;margin-bottom:4px">
+            <span class="badge" style="background:#9a7d3a;color:#f4e6c1;border-color:#9a7d3a">Sides</span>
+            <span class="badge badge-alt">Allergen</span>
+          </div>
+          <h4 class="recipe-card-title">Salt-Baked Celeriac, Brown Butter</h4>
+          <div class="recipe-card-meta">
+            <img class="avatar avatar-sm" src="./assets/avatars/lorelei-seed-03.svg" alt="Henri B.">
+            <span class="yield">Yield · 6 svg</span>
+          </div>
+        </a>
+
+        <a class="recipe-card" href="./recipe.html">
+          <img class="recipe-card-thumb" src="./assets/photos/M0NcxA2ktLM.jpg" alt="Pink flower in clear bowl">
+          <div class="row" style="gap:6px;margin-bottom:4px">
+            <span class="badge" style="background:#5c3a1e;color:#f4e6c1;border-color:#5c3a1e">Desserts</span>
+            <span class="badge badge-muted">Test #2</span>
+          </div>
+          <h4 class="recipe-card-title">Rose &amp; Cardamom Milk Pudding</h4>
+          <div class="recipe-card-meta">
+            <img class="avatar avatar-sm" src="./assets/avatars/notionists-seed-03.svg" alt="Mira A.">
+            <span class="yield">Yield · 6 ramekins</span>
+          </div>
+        </a>
+
+        <a class="recipe-card" href="./recipe.html">
+          <img class="recipe-card-thumb" src="./assets/photos/iRVq6avVGDE.jpg" alt="Tilt-shift photo of green fruit">
+          <div class="row" style="gap:6px;margin-bottom:4px">
+            <span class="badge badge-course">Sides</span>
+          </div>
+          <h4 class="recipe-card-title">Quick-Pickled Gooseberry Relish</h4>
+          <div class="recipe-card-meta">
+            <img class="avatar avatar-sm" src="./assets/avatars/lorelei-seed-05.svg" alt="Yui M.">
+            <span class="yield">Yield · 2 jars</span>
+          </div>
+        </a>
+
+        <a class="recipe-card" href="./recipe.html">
+          <img class="recipe-card-thumb" src="./assets/photos/9R3EoFuL584.jpg" alt="Blue ceramic mug">
+          <div class="row" style="gap:6px;margin-bottom:4px">
+            <span class="badge" style="background:#b89a55;color:#2b1f12;border-color:#b89a55">Drinks</span>
+            <span class="badge badge-muted">Test #1</span>
+          </div>
+          <h4 class="recipe-card-title">Buttermilk &amp; Honey Lassi</h4>
+          <div class="recipe-card-meta">
+            <img class="avatar avatar-sm" src="./assets/avatars/notionists-seed-07.svg" alt="Theo V.">
+            <span class="yield">Yield · 4 cups</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- EDITING -->
+    <section class="kanban-col">
+      <header class="kanban-col-head">
+        <h3 class="kanban-col-title">
+          <img src="./assets/icons/square-pen.svg" alt="" class="icon icon-sm"> Editing
+          <span class="kanban-col-count">9</span>
+        </h3>
+        <button class="kanban-add" aria-label="Add recipe">
+          <img src="./assets/icons/plus.svg" alt="" class="icon">
+        </button>
+      </header>
+      <div class="kanban-cards">
+
+        <a class="recipe-card" href="./recipe.html">
+          <img class="recipe-card-thumb" src="./assets/photos/JjWpEsLwe-0.jpg" alt="Brown dessert">
+          <div class="row" style="gap:6px;margin-bottom:4px">
+            <span class="badge" style="background:#5c3a1e;color:#f4e6c1;border-color:#5c3a1e">Desserts</span>
+            <span class="badge badge-accent">Copy R2</span>
+          </div>
+          <h4 class="recipe-card-title">Black Treacle &amp; Walnut Loaf</h4>
+          <div class="recipe-card-meta">
+            <img class="avatar avatar-sm" src="./assets/avatars/notionists-seed-00.svg" alt="Editor">
+            <span class="yield">Yield · 1 loaf</span>
+          </div>
+        </a>
+
+        <a class="recipe-card" href="./recipe.html">
+          <img class="recipe-card-thumb" src="./assets/photos/pvjxMVTJ0i0.jpg" alt="Juice in cup with wooden spoon">
+          <div class="row" style="gap:6px;margin-bottom:4px">
+            <span class="badge" style="background:#b89a55;color:#2b1f12;border-color:#b89a55">Drinks</span>
+          </div>
+          <h4 class="recipe-card-title">Hot Quince Cordial</h4>
+          <div class="recipe-card-meta">
+            <img class="avatar avatar-sm" src="./assets/avatars/notionists-seed-08.svg" alt="Editor">
+            <span class="yield">Yield · 1.5 L</span>
+          </div>
+        </a>
+
+        <a class="recipe-card" href="./recipe.html">
+          <img class="recipe-card-thumb" src="./assets/photos/PcKm231bGvo.jpg" alt="White and black ceramic plate">
+          <div class="row" style="gap:6px;margin-bottom:4px">
+            <span class="badge badge-course">Mains</span>
+            <span class="badge badge-alt">Allergen</span>
+          </div>
+          <h4 class="recipe-card-title">Pan-Roasted Hake, Brown Butter Capers</h4>
+          <div class="recipe-card-meta">
+            <img class="avatar avatar-sm" src="./assets/avatars/lorelei-seed-00.svg" alt="Editor">
+            <span class="yield">Yield · 2 svg</span>
+          </div>
+        </a>
+
+        <a class="recipe-card" href="./recipe.html">
+          <img class="recipe-card-thumb" src="./assets/photos/BS_1XGRkIH4.jpg" alt="Plant in gold pot on white table">
+          <div class="row" style="gap:6px;margin-bottom:4px">
+            <span class="badge badge-course">Starters</span>
+            <span class="badge badge-accent">Copy R1</span>
+          </div>
+          <h4 class="recipe-card-title">Sourdough Crostini, Whipped Lardo</h4>
+          <div class="recipe-card-meta">
+            <img class="avatar avatar-sm" src="./assets/avatars/notionists-seed-11.svg" alt="Editor">
+            <span class="yield">Yield · 12 ct</span>
+          </div>
+        </a>
+
+        <a class="recipe-card" href="./recipe.html">
+          <img class="recipe-card-thumb" src="./assets/photos/S3gNA0HQZo8.jpg" alt="Grape fruit close-up">
+          <div class="row" style="gap:6px;margin-bottom:4px">
+            <span class="badge" style="background:#9a7d3a;color:#f4e6c1;border-color:#9a7d3a">Sides</span>
+          </div>
+          <h4 class="recipe-card-title">Concord Grape &amp; Sage Verjus</h4>
+          <div class="recipe-card-meta">
+            <img class="avatar avatar-sm" src="./assets/avatars/lorelei-seed-02.svg" alt="Editor">
+            <span class="yield">Yield · 500 ml</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- PHOTOGRAPHED -->
+    <section class="kanban-col">
+      <header class="kanban-col-head">
+        <h3 class="kanban-col-title">
+          <img src="./assets/icons/camera.svg" alt="" class="icon icon-sm"> Photographed
+          <span class="kanban-col-count">8</span>
+        </h3>
+        <button class="kanban-add" aria-label="Add recipe">
+          <img src="./assets/icons/plus.svg" alt="" class="icon">
+        </button>
+      </header>
+      <div class="kanban-cards">
+
+        <a class="recipe-card" href="./recipe.html">
+          <img class="recipe-card-thumb" src="./assets/photos/-XZUiNZR7y4.jpg" alt="Ceramic plate plated dish">
+          <div class="row" style="gap:6px;margin-bottom:4px">
+            <span class="badge badge-course">Mains</span>
+            <span class="badge badge-ok"><img src="./assets/icons/circle-check.svg" alt="" class="icon icon-sm"> Shot</span>
+          </div>
+          <h4 class="recipe-card-title">Burnt Honey &amp; Black Pepper Chicken</h4>
+          <div class="recipe-card-meta">
+            <img class="avatar avatar-sm" src="./assets/avatars/notionists-seed-05.svg" alt="Photog.">
+            <span class="yield">Yield · 4 svg</span>
+          </div>
+        </a>
+
+        <a class="recipe-card" href="./recipe.html">
+          <img class="recipe-card-thumb" src="./assets/photos/OSwea3yxjT0.jpg" alt="Green and white cake slice">
+          <div class="row" style="gap:6px;margin-bottom:4px">
+            <span class="badge" style="background:#5c3a1e;color:#f4e6c1;border-color:#5c3a1e">Desserts</span>
+            <span class="badge badge-ok">Shot</span>
+          </div>
+          <h4 class="recipe-card-title">Pistachio &amp; Olive Oil Cake</h4>
+          <div class="recipe-card-meta">
+            <img class="avatar avatar-sm" src="./assets/avatars/notionists-seed-05.svg" alt="Photog.">
+            <span class="yield">Yield · 1 cake</span>
+          </div>
+        </a>
+
+        <a class="recipe-card" href="./recipe.html">
+          <img class="recipe-card-thumb" src="./assets/photos/7lUDryZFbbE.jpg" alt="Two ceramic cups with blueberries">
+          <div class="row" style="gap:6px;margin-bottom:4px">
+            <span class="badge badge-course">Starters</span>
+            <span class="badge badge-ok">Shot</span>
+          </div>
+          <h4 class="recipe-card-title">Blue Cheese &amp; Berry Verrines</h4>
+          <div class="recipe-card-meta">
+            <img class="avatar avatar-sm" src="./assets/avatars/lorelei-seed-04.svg" alt="Saskia I.">
+            <span class="yield">Yield · 6 svg</span>
+          </div>
+        </a>
+
+        <a class="recipe-card" href="./recipe.html">
+          <img class="recipe-card-thumb" src="./assets/photos/ZwI4uewZnPk.jpg" alt="Glass bowl near pink flowers">
+          <div class="row" style="gap:6px;margin-bottom:4px">
+            <span class="badge" style="background:#b89a55;color:#2b1f12;border-color:#b89a55">Drinks</span>
+            <span class="badge badge-ok">Shot</span>
+          </div>
+          <h4 class="recipe-card-title">Hibiscus &amp; Tonka Bean Float</h4>
+          <div class="recipe-card-meta">
+            <img class="avatar avatar-sm" src="./assets/avatars/notionists-seed-07.svg" alt="Theo V.">
+            <span class="yield">Yield · 4 svg</span>
+          </div>
+        </a>
+
+        <a class="recipe-card" href="./recipe.html">
+          <img class="recipe-card-thumb" src="./assets/photos/MRzA2cHznKA.jpg" alt="Round orange fruit close-up">
+          <div class="row" style="gap:6px;margin-bottom:4px">
+            <span class="badge" style="background:#9a7d3a;color:#f4e6c1;border-color:#9a7d3a">Sides</span>
+            <span class="badge badge-ok">Shot</span>
+          </div>
+          <h4 class="recipe-card-title">Blood Orange, Fennel &amp; Olive Salad</h4>
+          <div class="recipe-card-meta">
+            <img class="avatar avatar-sm" src="./assets/avatars/lorelei-seed-01.svg" alt="Joa P.">
+            <span class="yield">Yield · 6 svg</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- PRINT-READY -->
+    <section class="kanban-col">
+      <header class="kanban-col-head">
+        <h3 class="kanban-col-title">
+          <img src="./assets/icons/printer.svg" alt="" class="icon icon-sm"> Print-ready
+          <span class="kanban-col-count">6</span>
+        </h3>
+        <button class="kanban-add" aria-label="Add recipe">
+          <img src="./assets/icons/plus.svg" alt="" class="icon">
+        </button>
+      </header>
+      <div class="kanban-cards">
+
+        <a class="recipe-card" href="./recipe.html">
+          <img class="recipe-card-thumb" src="./assets/photos/VXUxWikFyFM.jpg" alt="Brown dessert">
+          <div class="row" style="gap:6px;margin-bottom:4px">
+            <span class="badge" style="background:#5c3a1e;color:#f4e6c1;border-color:#5c3a1e">Desserts</span>
+            <span class="badge badge-ok"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm"> p.142</span>
+          </div>
+          <h4 class="recipe-card-title">Tahini Caramel Sticky Toffee</h4>
+          <div class="recipe-card-meta">
+            <img class="avatar avatar-sm" src="./assets/avatars/notionists-seed-10.svg" alt="Caro N.">
+            <span class="yield">Yield · 9 svg</span>
+          </div>
+        </a>
+
+        <a class="recipe-card" href="./recipe.html">
+          <img class="recipe-card-thumb" src="./assets/photos/32KY5byUI-Q.jpg" alt="Brown and white bread">
+          <div class="row" style="gap:6px;margin-bottom:4px">
+            <span class="badge badge-course">Starters</span>
+            <span class="badge badge-ok">p.038</span>
+          </div>
+          <h4 class="recipe-card-title">Overnight Country Loaf</h4>
+          <div class="recipe-card-meta">
+            <img class="avatar avatar-sm" src="./assets/avatars/notionists-seed-03.svg" alt="Mira A.">
+            <span class="yield">Yield · 1 loaf</span>
+          </div>
+        </a>
+
+        <a class="recipe-card" href="./recipe.html">
+          <img class="recipe-card-thumb" src="./assets/photos/xnyXLEyE8L0.jpg" alt="Person stirring pot over fire">
+          <div class="row" style="gap:6px;margin-bottom:4px">
+            <span class="badge badge-course">Mains</span>
+            <span class="badge badge-ok">p.094</span>
+          </div>
+          <h4 class="recipe-card-title">Fireside White Bean Cassoulet</h4>
+          <div class="recipe-card-meta">
+            <img class="avatar avatar-sm" src="./assets/avatars/lorelei-seed-04.svg" alt="Saskia I.">
+            <span class="yield">Yield · 6 svg</span>
+          </div>
+        </a>
+
+        <a class="recipe-card" href="./recipe.html">
+          <img class="recipe-card-thumb" src="./assets/photos/9VoUqAsW2sA.jpg" alt="Green succulents in wicker pot">
+          <div class="row" style="gap:6px;margin-bottom:4px">
+            <span class="badge" style="background:#9a7d3a;color:#f4e6c1;border-color:#9a7d3a">Sides</span>
+            <span class="badge badge-ok">p.121</span>
+          </div>
+          <h4 class="recipe-card-title">Herb-Crusted Roast Roots</h4>
+          <div class="recipe-card-meta">
+            <img class="avatar avatar-sm" src="./assets/avatars/lorelei-seed-03.svg" alt="Henri B.">
+            <span class="yield">Yield · 8 svg</span>
+          </div>
+        </a>
+
+        <a class="recipe-card" href="./recipe.html">
+          <img class="recipe-card-thumb" src="./assets/photos/VJX5imdELxo.jpg" alt="Two tea-light candles">
+          <div class="row" style="gap:6px;margin-bottom:4px">
+            <span class="badge" style="background:#b89a55;color:#2b1f12;border-color:#b89a55">Drinks</span>
+            <span class="badge badge-ok">p.207</span>
+          </div>
+          <h4 class="recipe-card-title">Beeswax Mulled White</h4>
+          <div class="recipe-card-meta">
+            <img class="avatar avatar-sm" src="./assets/avatars/notionists-seed-07.svg" alt="Theo V.">
+            <span class="yield">Yield · 8 svg</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="row-between" style="flex-wrap:wrap;gap:16px">
+      <div>
+        <strong style="font-family:var(--serif);font-size:var(--text-md)">Foxglove &amp; Fennel Press</strong>
+        <div class="text-xs muted" style="margin-top:4px">Pipeline workspace · Workshop ledger build 2.14.0</div>
+      </div>
+      <div class="row" style="gap:20px;flex-wrap:wrap">
+        <a href="./board.html" style="color:#f4e6c1cc;text-decoration:none">Board</a>
+        <a href="./recipe.html" style="color:#f4e6c1cc;text-decoration:none">Recipe</a>
+        <a href="./calendar.html" style="color:#f4e6c1cc;text-decoration:none">Calendar</a>
+        <a href="./pantry.html" style="color:#f4e6c1cc;text-decoration:none">Pantry</a>
+        <a href="./imprint.html" style="color:#f4e6c1cc;text-decoration:none">Imprint</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

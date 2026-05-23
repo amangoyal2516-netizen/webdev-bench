@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Civic Venues — Civic Dining Program</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="topbar-brand">
+      <div class="seal"><img src="./assets/icons/utensils.svg" alt="" class="icon"></div>
+      <div class="brand-text">
+        <span class="brand-eyebrow">Food &amp; Culture Office</span>
+        <span class="brand-name">Civic Dining Program</span>
+      </div>
+    </div>
+    <nav class="nav" aria-label="Primary">
+      <a href="./timeline.html">Timeline</a>
+      <a href="./menus.html">Menus</a>
+      <a href="./menu-detail.html">Menu Detail</a>
+      <a href="./venues.html" class="active">Venues</a>
+      <a href="./policy.html">Policy</a>
+      <a href="./about.html">About</a>
+    </nav>
+    <div class="lang-switch" aria-label="Language">
+      <span class="active">EN</span><span>ES</span><span>ZH</span>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-header">
+    <div class="container">
+      <div class="page-meta">
+        <span class="dot"></span>
+        <span>Public Directory</span>
+        <span>·</span>
+        <span>Vol. IV / Section 12</span>
+        <span>·</span>
+        <span>Updated 04 Mar 2025</span>
+      </div>
+      <h1>Civic Venues</h1>
+      <p class="lede">A directory of public halls, parks, plazas, and community kitchens that have hosted meals under the Civic Dining Program since 1998. Filter by district, browse on the map, or request a venue for an upcoming gathering.</p>
+
+      <div class="spacer"></div>
+
+      <div class="row-between">
+        <div class="row">
+          <div class="toggle" role="tablist" aria-label="View mode">
+            <span class="active">Map &amp; List</span>
+            <span>List Only</span>
+            <span>Map Only</span>
+          </div>
+          <div class="chip-row">
+            <span class="chip active">All Districts</span>
+            <span class="chip">Riverside</span>
+            <span class="chip">North Hill</span>
+            <span class="chip">Old Quarter</span>
+            <span class="chip">Harborline</span>
+            <span class="chip">West Vale</span>
+          </div>
+        </div>
+        <div class="row" style="flex:1;max-width:420px;min-width:260px;">
+          <div class="search" style="flex:1;">
+            <img src="./assets/icons/search.svg" alt="">
+            <input class="input" type="search" placeholder="Search venue name or address…" value="">
+          </div>
+          <a href="#" class="btn btn-ghost"><img src="./assets/icons/sliders-horizontal.svg" alt="" class="icon-sm">Filters</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <div class="sort-bar">
+        <div class="count"><strong>42</strong> venues listed across <strong>6</strong> districts</div>
+        <div class="row">
+          <span class="mono muted">Sort:</span>
+          <span class="chip dark">Events hosted</span>
+          <span class="chip">First hosted</span>
+          <span class="chip">Capacity</span>
+          <span class="chip">District</span>
+        </div>
+      </div>
+
+      <div class="split-half">
+
+        <!-- LEFT: MAP -->
+        <div class="map-frame" aria-label="Map of civic venues">
+          <div class="map-overlay"></div>
+
+          <!-- District labels -->
+          <div class="mono" style="position:absolute;top:32px;left:32px;background:var(--bg);padding:4px 10px;border:1px solid var(--border);">Riverside</div>
+          <div class="mono" style="position:absolute;top:60px;right:40px;background:var(--bg);padding:4px 10px;border:1px solid var(--border);">North Hill</div>
+          <div class="mono" style="position:absolute;bottom:120px;left:64px;background:var(--bg);padding:4px 10px;border:1px solid var(--border);">Old Quarter</div>
+          <div class="mono" style="position:absolute;bottom:48px;right:60px;background:var(--bg);padding:4px 10px;border:1px solid var(--border);">Harborline</div>
+          <div class="mono" style="position:absolute;top:50%;left:46%;background:var(--bg);padding:4px 10px;border:1px solid var(--border);">West Vale</div>
+
+          <!-- Pins -->
+          <div class="map-pin" style="top:80px;left:120px;"><span>01</span></div>
+          <div class="map-pin" style="top:140px;left:200px;"><span>02</span></div>
+          <div class="map-pin cluster" style="top:110px;right:140px;"><span>03</span></div>
+          <div class="map-pin" style="top:200px;right:90px;"><span>04</span></div>
+          <div class="map-pin" style="top:260px;left:160px;"><span>05</span></div>
+          <div class="map-pin cluster" style="top:300px;left:280px;"><span>06</span></div>
+          <div class="map-pin" style="top:340px;right:180px;"><span>07</span></div>
+          <div class="map-pin" style="bottom:200px;left:100px;"><span>08</span></div>
+          <div class="map-pin" style="bottom:140px;left:240px;"><span>09</span></div>
+          <div class="map-pin" style="bottom:90px;right:120px;"><span>10</span></div>
+          <div class="map-pin" style="bottom:60px;right:240px;"><span>11</span></div>
+          <div class="map-pin" style="top:430px;left:60px;"><span>12</span></div>
+
+          <!-- Legend -->
+          <div style="position:absolute;bottom:16px;left:16px;background:var(--bg);border:1px solid var(--border);padding:var(--space-3);font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:0.08em;">
+            <div style="display:flex;align-items:center;gap:var(--space-2);margin-bottom:var(--space-1);"><span style="display:inline-block;width:12px;height:12px;background:var(--accent);border-radius:50%;"></span>Single venue</div>
+            <div style="display:flex;align-items:center;gap:var(--space-2);"><span style="display:inline-block;width:12px;height:12px;background:var(--fg);border-radius:50%;"></span>Cluster (2+)</div>
+          </div>
+
+          <!-- Scale -->
+          <div style="position:absolute;bottom:16px;right:16px;background:var(--bg);border:1px solid var(--border);padding:6px 10px;font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);">
+            <div style="height:2px;background:var(--fg);width:80px;margin-bottom:4px;"></div>
+            500 m
+          </div>
+        </div>
+
+        <!-- RIGHT: LIST -->
+        <div class="card-flat" style="padding:0;max-height:560px;overflow:auto;">
+          <a href="#" class="venue-row selected">
+            <div class="pin-num">01</div>
+            <div>
+              <div class="v-name">Riverside Pavilion</div>
+              <div class="v-address">214 Embankment Walk · Riverside</div>
+              <div class="mono muted" style="margin-top:6px;">First hosted Jun 2003 · Cap. 240</div>
+            </div>
+            <div class="v-stats"><strong>28</strong>events</div>
+          </a>
+          <a href="#" class="venue-row">
+            <div class="pin-num">02</div>
+            <div>
+              <div class="v-name">Mercer Street Greenhouse</div>
+              <div class="v-address">88 Mercer Street · Riverside</div>
+              <div class="mono muted" style="margin-top:6px;">First hosted Sep 2011 · Cap. 90</div>
+            </div>
+            <div class="v-stats"><strong>14</strong>events</div>
+          </a>
+          <a href="#" class="venue-row">
+            <div class="pin-num">03</div>
+            <div>
+              <div class="v-name">North Hill Civic Hall</div>
+              <div class="v-address">1 Beacon Square · North Hill</div>
+              <div class="mono muted" style="margin-top:6px;">First hosted Apr 1999 · Cap. 420</div>
+            </div>
+            <div class="v-stats"><strong>46</strong>events</div>
+          </a>
+          <a href="#" class="venue-row">
+            <div class="pin-num">04</div>
+            <div>
+              <div class="v-name">Ashgrove Library Atrium</div>
+              <div class="v-address">37 Ashgrove Road · North Hill</div>
+              <div class="mono muted" style="margin-top:6px;">First hosted Oct 2014 · Cap. 120</div>
+            </div>
+            <div class="v-stats"><strong>11</strong>events</div>
+          </a>
+          <a href="#" class="venue-row">
+            <div class="pin-num">05</div>
+            <div>
+              <div class="v-name">St. Cyril's Refectory</div>
+              <div class="v-address">12 Old Cathedral Lane · Old Quarter</div>
+              <div class="mono muted" style="margin-top:6px;">First hosted Nov 1998 · Cap. 180</div>
+            </div>
+            <div class="v-stats"><strong>52</strong>events</div>
+          </a>
+          <a href="#" class="venue-row">
+            <div class="pin-num">06</div>
+            <div>
+              <div class="v-name">Market Hall Annex</div>
+              <div class="v-address">5 Spice Yard · Old Quarter</div>
+              <div class="mono muted" style="margin-top:6px;">First hosted Mar 2007 · Cap. 300</div>
+            </div>
+            <div class="v-stats"><strong>33</strong>events</div>
+          </a>
+          <a href="#" class="venue-row">
+            <div class="pin-num">07</div>
+            <div>
+              <div class="v-name">Harborline Boathouse</div>
+              <div class="v-address">9 Pier Three · Harborline</div>
+              <div class="mono muted" style="margin-top:6px;">First hosted Jul 2009 · Cap. 160</div>
+            </div>
+            <div class="v-stats"><strong>22</strong>events</div>
+          </a>
+          <a href="#" class="venue-row">
+            <div class="pin-num">08</div>
+            <div>
+              <div class="v-name">West Vale Community Kitchen</div>
+              <div class="v-address">112 Linden Avenue · West Vale</div>
+              <div class="mono muted" style="margin-top:6px;">First hosted May 2016 · Cap. 75</div>
+            </div>
+            <div class="v-stats"><strong>9</strong>events</div>
+          </a>
+          <a href="#" class="venue-row">
+            <div class="pin-num">09</div>
+            <div>
+              <div class="v-name">Linden Park Bandstand</div>
+              <div class="v-address">Linden Park, North Gate · West Vale</div>
+              <div class="mono muted" style="margin-top:6px;">First hosted Aug 2012 · Cap. 350</div>
+            </div>
+            <div class="v-stats"><strong>17</strong>events</div>
+          </a>
+          <a href="#" class="venue-row">
+            <div class="pin-num">10</div>
+            <div>
+              <div class="v-name">Customs House Courtyard</div>
+              <div class="v-address">2 Wharfside Crescent · Harborline</div>
+              <div class="mono muted" style="margin-top:6px;">First hosted Jun 2018 · Cap. 220</div>
+            </div>
+            <div class="v-stats"><strong>8</strong>events</div>
+          </a>
+          <a href="#" class="venue-row">
+            <div class="pin-num">11</div>
+            <div>
+              <div class="v-name">Pier Three Fish Market</div>
+              <div class="v-address">Pier Three, Berth 4 · Harborline</div>
+              <div class="mono muted" style="margin-top:6px;">First hosted Oct 2021 · Cap. 140</div>
+            </div>
+            <div class="v-stats"><strong>5</strong>events</div>
+          </a>
+          <a href="#" class="venue-row">
+            <div class="pin-num">12</div>
+            <div>
+              <div class="v-name">Elmwood Allotment Pavilion</div>
+              <div class="v-address">Elmwood Allotments, Gate B · West Vale</div>
+              <div class="mono muted" style="margin-top:6px;">First hosted Apr 2019 · Cap. 60</div>
+            </div>
+            <div class="v-stats"><strong>7</strong>events</div>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="spacer-lg"></div>
+
+      <!-- SELECTED VENUE PANEL -->
+      <div class="section-title">
+        <h2>Venue 01 — Riverside Pavilion</h2>
+        <span class="num">Selected · Embankment Walk</span>
+      </div>
+
+      <div class="split-right">
+
+        <article class="venue-panel">
+          <div class="row-between" style="margin-bottom:var(--space-4);">
+            <div>
+              <div class="mono muted" style="margin-bottom:6px;">Riverside · District 03</div>
+              <h3 style="margin-bottom:6px;">Riverside Pavilion</h3>
+              <p class="muted" style="margin:0;font-size:var(--text-sm);">A glass-walled civic pavilion on the embankment, opened in 2001 and used for seasonal markets, mayoral receptions, and the annual Solstice Long Table since 2003.</p>
+            </div>
+            <div class="chip-row">
+              <span class="chip active"><img src="./assets/icons/star.svg" alt="" class="icon-sm">Flagship</span>
+              <span class="chip">Outdoor-capable</span>
+            </div>
+          </div>
+
+          <div class="photo">
+            <img src="./assets/photos/JRsZWmRd_Ws.jpg" alt="Interior of the Riverside Pavilion with rows of long tables set for a civic meal">
+          </div>
+
+          <div class="grid grid-3" style="gap:var(--space-4);margin-bottom:var(--space-5);">
+            <div>
+              <div class="mono muted">Capacity</div>
+              <div style="font-size:var(--text-lg);font-weight:700;">240 seated</div>
+              <div class="mono muted" style="font-size:10px;">380 standing</div>
+            </div>
+            <div>
+              <div class="mono muted">Events hosted</div>
+              <div style="font-size:var(--text-lg);font-weight:700;">28</div>
+              <div class="mono muted" style="font-size:10px;">since Jun 2003</div>
+            </div>
+            <div>
+              <div class="mono muted">District</div>
+              <div style="font-size:var(--text-lg);font-weight:700;">Riverside</div>
+              <div class="mono muted" style="font-size:10px;">Ward 4 · Precinct A</div>
+            </div>
+          </div>
+
+          <h4 style="margin-bottom:var(--space-3);"><img src="./assets/icons/accessibility.svg" alt="" class="icon">&nbsp;Accessibility</h4>
+          <ul class="check-list" style="margin-bottom:var(--space-5);">
+            <li class="yes"><span class="mark"></span>Step-free ramp at all public entrances</li>
+            <li class="yes"><span class="mark"></span>Service elevator to mezzanine kitchen</li>
+            <li class="yes"><span class="mark"></span>Hearing-induction loop (front of house)</li>
+            <li class="yes"><span class="mark"></span>Gender-neutral restrooms (2 single-stall)</li>
+            <li class="yes"><span class="mark"></span>Tactile signage and braille wayfinding</li>
+            <li class="no"><span class="mark"></span>On-site accessible parking (use Embankment Lot B, 80m)</li>
+          </ul>
+
+          <h4 style="margin-bottom:var(--space-3);"><img src="./assets/icons/calendar-days.svg" alt="" class="icon">&nbsp;Upcoming Bookings</h4>
+          <ul style="list-style:none;padding:0;margin:0 0 var(--space-5) 0;">
+            <li style="display:grid;grid-template-columns:80px 1fr auto;gap:var(--space-3);padding:var(--space-3) 0;border-bottom:1px dotted var(--border);align-items:center;">
+              <div class="mono"><strong>22 MAR</strong><br><span class="muted">SAT · 18:00</span></div>
+              <div>
+                <div style="font-weight:700;">Spring Equinox Long Table</div>
+                <div class="mono muted" style="font-size:11px;">Chef Mira Okafor · 220 seats · ticketed</div>
+              </div>
+              <span class="badge badge-accent">Sold out</span>
+            </li>
+            <li style="display:grid;grid-template-columns:80px 1fr auto;gap:var(--space-3);padding:var(--space-3) 0;border-bottom:1px dotted var(--border);align-items:center;">
+              <div class="mono"><strong>11 APR</strong><br><span class="muted">FRI · 12:30</span></div>
+              <div>
+                <div style="font-weight:700;">Civic Lunch · Schools Council</div>
+                <div class="mono muted" style="font-size:11px;">Closed session · 140 seats</div>
+              </div>
+              <span class="badge">Invite</span>
+            </li>
+            <li style="display:grid;grid-template-columns:80px 1fr auto;gap:var(--space-3);padding:var(--space-3) 0;border-bottom:1px dotted var(--border);align-items:center;">
+              <div class="mono"><strong>04 MAY</strong><br><span class="muted">SUN · 11:00</span></div>
+              <div>
+                <div style="font-weight:700;">Embankment Brunch &amp; Bake-off</div>
+                <div class="mono muted" style="font-size:11px;">Free entry · drop-in · all ages</div>
+              </div>
+              <span class="badge badge-ok">Open</span>
+            </li>
+            <li style="display:grid;grid-template-columns:80px 1fr auto;gap:var(--space-3);padding:var(--space-3) 0;align-items:center;">
+              <div class="mono"><strong>14 JUN</strong><br><span class="muted">SAT · 19:30</span></div>
+              <div>
+                <div style="font-weight:700;">Diaspora Suppers Vol. 09 — West African Coast</div>
+                <div class="mono muted" style="font-size:11px;">Chef Adaeze Mbeki · 240 seats · waitlist</div>
+              </div>
+              <span class="badge badge-warn">Waitlist</span>
+            </li>
+          </ul>
+
+          <div class="row-between" style="border-top:2px solid var(--fg);padding-top:var(--space-4);">
+            <div class="mono muted">Operated by Food &amp; Culture Office · Property of the City</div>
+            <a href="#" class="btn btn-accent"><img src="./assets/icons/clipboard-list.svg" alt="" class="icon-sm">Request this venue</a>
+          </div>
+        </article>
+
+        <aside class="stack">
+          <div class="card card-surface">
+            <div class="eyebrow" style="margin-bottom:var(--space-2);">At a glance</div>
+            <h4 style="margin-bottom:var(--space-3);">Venue file 03–A</h4>
+            <table class="ledger" style="width:100%;">
+              <tbody>
+                <tr><th>Built</th><td>2001</td></tr>
+                <tr><th>Architect</th><td>Halden &amp; Voss</td></tr>
+                <tr><th>Steward</th><td>Riverside Parks</td></tr>
+                <tr><th>Kitchen</th><td>Full commercial, gas + induction</td></tr>
+                <tr><th>Outdoor</th><td>Terrace 180 m²</td></tr>
+                <tr><th>Power</th><td>3-phase, 4 mains drops</td></tr>
+                <tr><th>Permit class</th><td>A — Public Assembly</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="card">
+            <div class="eyebrow" style="margin-bottom:var(--space-2);">Contact</div>
+            <h4 style="margin-bottom:var(--space-3);">Venue liaison</h4>
+            <div class="stack-sm" style="font-size:var(--text-sm);">
+              <div><strong>Yusuf Adekunle</strong><br><span class="muted" style="font-style:italic;">Pavilion Steward</span></div>
+              <div class="mono muted"><img src="./assets/icons/mail.svg" alt="" class="icon-sm">&nbsp;y.adekunle@city.gov</div>
+              <div class="mono muted"><img src="./assets/icons/phone.svg" alt="" class="icon-sm">&nbsp;(0) 414 · 207 · 8821</div>
+              <div class="mono muted"><img src="./assets/icons/clock.svg" alt="" class="icon-sm">&nbsp;Tue–Sat · 09:00–17:00</div>
+            </div>
+          </div>
+
+          <div class="card card-surface">
+            <div class="eyebrow" style="margin-bottom:var(--space-2);">Hosted programs</div>
+            <ul style="list-style:none;padding:0;margin:0;font-size:var(--text-sm);">
+              <li style="padding:var(--space-2) 0;border-bottom:1px dotted var(--border);"><span class="mono muted" style="font-size:10px;">2003–</span><br>Solstice Long Table</li>
+              <li style="padding:var(--space-2) 0;border-bottom:1px dotted var(--border);"><span class="mono muted" style="font-size:10px;">2008–</span><br>Diaspora Suppers</li>
+              <li style="padding:var(--space-2) 0;border-bottom:1px dotted var(--border);"><span class="mono muted" style="font-size:10px;">2014–</span><br>Schools Civic Lunch</li>
+              <li style="padding:var(--space-2) 0;"><span class="mono muted" style="font-size:10px;">2019–</span><br>Embankment Brunch</li>
+            </ul>
+          </div>
+
+          <div class="footnotes">
+            <h4>How requests are reviewed</h4>
+            <p style="margin:0;">Venue requests are received by the Food &amp; Culture Office and routed to the borough steward within 5 working days. Civic, non-commercial, and accessibility-forward programs are prioritised under Resolution 2017–C/14.</p>
+          </div>
+        </aside>
+
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="row">
+          <div class="seal"><img src="./assets/icons/utensils.svg" alt="" class="icon"></div>
+          <div class="brand-text">
+            <span class="brand-eyebrow">Food &amp; Culture Office</span>
+            <span class="brand-name">Civic Dining Program</span>
+          </div>
+        </div>
+        <p style="font-size:var(--text-sm);color:#9ca3af;max-width:320px;">A chronological archive of public meals, neighborhood pop-ups, and food-policy milestones maintained by the municipal Food &amp; Culture Office.</p>
+        <div class="mono" style="color:#9ca3af;">Est. 1998 · City Hall, 4th Floor</div>
+      </div>
+      <div>
+        <h5>Archive</h5>
+        <ul>
+          <li><a href="./timeline.html">Timeline</a></li>
+          <li><a href="./menus.html">Menus</a></li>
+          <li><a href="./venues.html">Venues</a></li>
+          <li><a href="./policy.html">Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Office</h5>
+        <ul>
+          <li><a href="./about.html">About the Office</a></li>
+          <li><a href="#">Staff &amp; Council</a></li>
+          <li><a href="#">Annual Report 2024</a></li>
+          <li><a href="#">Records Request</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li>City Hall, Room 412</li>
+          <li>14 Civic Plaza</li>
+          <li><a href="#">food@city.gov</a></li>
+          <li>(0) 414 · 207 · 8800</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 1998–2025 · Municipality · Food &amp; Culture Office</span>
+      <span>Public Record · Open Data · Accessibility AA</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

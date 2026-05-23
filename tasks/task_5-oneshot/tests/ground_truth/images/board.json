@@ -1,0 +1,1206 @@
+[
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 524.9375,
+    "y": 21.5,
+    "w": 16,
+    "h": 16,
+    "phash": "a80882a228088aa2",
+    "lab_mean": [
+      18.16,
+      3.73,
+      9.34
+    ]
+  },
+  {
+    "src": "./assets/icons/search.svg",
+    "alt": "",
+    "x": 582.9375,
+    "y": 21.5,
+    "w": 16,
+    "h": 16,
+    "phash": "ab35f03483d28dcb",
+    "lab_mean": [
+      15.55,
+      3.14,
+      8.13
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-03.svg",
+    "alt": "Mira Aldenbrook",
+    "x": 1108.46875,
+    "y": 13.5,
+    "w": 32,
+    "h": 32,
+    "phash": "82390fcc7d736136",
+    "lab_mean": [
+      51.0,
+      1.86,
+      13.32
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-01.svg",
+    "alt": "Joa Pelletier",
+    "x": 1132.46875,
+    "y": 13.5,
+    "w": 32,
+    "h": 32,
+    "phash": "9a3147cf0dcc38ce",
+    "lab_mean": [
+      51.85,
+      1.73,
+      12.75
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-07.svg",
+    "alt": "Theo Vance",
+    "x": 1156.46875,
+    "y": 13.5,
+    "w": 32,
+    "h": 32,
+    "phash": "c0741fcf499b7134",
+    "lab_mean": [
+      54.68,
+      1.77,
+      13.84
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-04.svg",
+    "alt": "Saskia Im",
+    "x": 1180.46875,
+    "y": 13.5,
+    "w": 32,
+    "h": 32,
+    "phash": "983747d849676cc6",
+    "lab_mean": [
+      44.88,
+      1.72,
+      12.24
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-10.svg",
+    "alt": "Caro Niemand",
+    "x": 1204.46875,
+    "y": 13.5,
+    "w": 32,
+    "h": 32,
+    "phash": "d2330fcc7cd32136",
+    "lab_mean": [
+      53.2,
+      1.77,
+      13.56
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-02.svg",
+    "alt": "Devi Rao",
+    "x": 1228.46875,
+    "y": 13.5,
+    "w": 32,
+    "h": 32,
+    "phash": "94714b9e0ccd70e7",
+    "lab_mean": [
+      45.49,
+      1.83,
+      12.21
+    ]
+  },
+  {
+    "src": "./assets/icons/user-plus.svg",
+    "alt": "",
+    "x": 1293.46875,
+    "y": 22.5,
+    "w": 14,
+    "h": 14,
+    "phash": "aef285d9c906a6c9",
+    "lab_mean": [
+      9.7,
+      3.12,
+      8.14
+    ]
+  },
+  {
+    "src": "./assets/icons/book-open.svg",
+    "alt": "",
+    "x": 553.921875,
+    "y": 97.1875,
+    "w": 12,
+    "h": 12,
+    "phash": "f30db8688dba84b3",
+    "lab_mean": [
+      63.68,
+      0.69,
+      19.62
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 694.9375,
+    "y": 97.1875,
+    "w": 12,
+    "h": 12,
+    "phash": "9f3dbd81e1c3c0c2",
+    "lab_mean": [
+      60.74,
+      0.7,
+      18.69
+    ]
+  },
+  {
+    "src": "./assets/icons/layout-grid.svg",
+    "alt": "",
+    "x": 73,
+    "y": 155.390625,
+    "w": 12,
+    "h": 12,
+    "phash": "af0bd02f8dd0d22e",
+    "lab_mean": [
+      17.99,
+      8.73,
+      15.79
+    ]
+  },
+  {
+    "src": "./assets/icons/table-2.svg",
+    "alt": "",
+    "x": 135.40625,
+    "y": 155.390625,
+    "w": 12,
+    "h": 12,
+    "phash": "bb2cec91e46ec690",
+    "lab_mean": [
+      62.34,
+      0.65,
+      13.67
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar-days.svg",
+    "alt": "",
+    "x": 197.8125,
+    "y": 155.390625,
+    "w": 12,
+    "h": 12,
+    "phash": "bf3dbd81e1c2c0c2",
+    "lab_mean": [
+      61.33,
+      0.37,
+      13.77
+    ]
+  },
+  {
+    "src": "./assets/icons/funnel.svg",
+    "alt": "",
+    "x": 60,
+    "y": 219.890625,
+    "w": 12,
+    "h": 12,
+    "phash": "ee1b4631aca98ac7",
+    "lab_mean": [
+      58.18,
+      6.6,
+      53.94
+    ]
+  },
+  {
+    "src": "./assets/icons/users.svg",
+    "alt": "",
+    "x": 713.078125,
+    "y": 228.140625,
+    "w": 12,
+    "h": 12,
+    "phash": "af3ac510b1c53ec6",
+    "lab_mean": [
+      73.12,
+      0.65,
+      16.25
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 872.25,
+    "y": 228.140625,
+    "w": 12,
+    "h": 12,
+    "phash": "ac0dd3e2340d8fb3",
+    "lab_mean": [
+      87.93,
+      0.91,
+      19.24
+    ]
+  },
+  {
+    "src": "./assets/icons/camera.svg",
+    "alt": "",
+    "x": 945.25,
+    "y": 228.140625,
+    "w": 12,
+    "h": 12,
+    "phash": "e6a8b9a4a41b9b4e",
+    "lab_mean": [
+      53.55,
+      6.07,
+      50.4
+    ]
+  },
+  {
+    "src": "./assets/icons/triangle-alert.svg",
+    "alt": "",
+    "x": 1093.53125,
+    "y": 228.140625,
+    "w": 12,
+    "h": 12,
+    "phash": "faa5b0d2af58882d",
+    "lab_mean": [
+      56.61,
+      6.41,
+      52.5
+    ]
+  },
+  {
+    "src": "./assets/icons/sliders-horizontal.svg",
+    "alt": "",
+    "x": 69,
+    "y": 265.390625,
+    "w": 14,
+    "h": 14,
+    "phash": "ec26c799909bc533",
+    "lab_mean": [
+      56.22,
+      6.31,
+      52.51
+    ]
+  },
+  {
+    "src": "./assets/icons/download.svg",
+    "alt": "",
+    "x": 208.546875,
+    "y": 265.390625,
+    "w": 14,
+    "h": 14,
+    "phash": "f3a5ce933c4c8332",
+    "lab_mean": [
+      58.47,
+      6.62,
+      54.32
+    ]
+  },
+  {
+    "src": "./assets/icons/pen-line.svg",
+    "alt": "",
+    "x": 73,
+    "y": 334.375,
+    "w": 12,
+    "h": 12,
+    "phash": "eed04a95a82bb32e",
+    "lab_mean": [
+      71.57,
+      0.8,
+      21.59
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 283.390625,
+    "y": 332.390625,
+    "w": 16,
+    "h": 16,
+    "phash": "b366c8c92c98d367",
+    "lab_mean": [
+      77.97,
+      0.84,
+      23.5
+    ]
+  },
+  {
+    "src": "./assets/photos/c85HdnKXTzg.jpg",
+    "alt": "Pomegranate on a snow-dusted branch",
+    "x": 82,
+    "y": 384.390625,
+    "w": 210.390625,
+    "h": 157.78125,
+    "phash": "eec4a19bce0693aa",
+    "lab_mean": [
+      40.58,
+      -1.03,
+      4.79
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-03.svg",
+    "alt": "Mira A.",
+    "x": 82,
+    "y": 623.046875,
+    "w": 22,
+    "h": 22,
+    "phash": "b239c7cc9c996236",
+    "lab_mean": [
+      81.12,
+      0.41,
+      14.26
+    ]
+  },
+  {
+    "src": "./assets/photos/EWDvHNNfUmQ.jpg",
+    "alt": "Green leafy vegetable on wood",
+    "x": 82,
+    "y": 679.046875,
+    "w": 210.390625,
+    "h": 157.78125,
+    "phash": "f252524aaaeb5555",
+    "lab_mean": [
+      81.23,
+      -1.98,
+      6.03
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-01.svg",
+    "alt": "Joa P.",
+    "x": 82,
+    "y": 917.703125,
+    "w": 22,
+    "h": 22,
+    "phash": "bc30e0c3c78f9ccc",
+    "lab_mean": [
+      77.31,
+      0.3,
+      12.29
+    ]
+  },
+  {
+    "src": "./assets/photos/948RpY3gj4c.jpg",
+    "alt": "Ceramic mug on grill",
+    "x": 82,
+    "y": 973.703125,
+    "w": 210.390625,
+    "h": 157.78125,
+    "phash": "c1d13b2c0e3336f6",
+    "lab_mean": [
+      26.64,
+      7.85,
+      9.81
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-07.svg",
+    "alt": "Theo V.",
+    "x": 82,
+    "y": 1212.359375,
+    "w": 22,
+    "h": 22,
+    "phash": "ac3ce7c7c29b3130",
+    "lab_mean": [
+      82.15,
+      0.38,
+      13.96
+    ]
+  },
+  {
+    "src": "./assets/icons/wheat-off.svg",
+    "alt": "",
+    "x": 151.3125,
+    "y": 1273.609375,
+    "w": 12,
+    "h": 12,
+    "phash": "fa4cc30792fae898",
+    "lab_mean": [
+      67.18,
+      0.03,
+      6.92
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-04.svg",
+    "alt": "Saskia I.",
+    "x": 82,
+    "y": 1382.234375,
+    "w": 22,
+    "h": 22,
+    "phash": "b837c598c34b4dc5",
+    "lab_mean": [
+      68.13,
+      0.29,
+      11.63
+    ]
+  },
+  {
+    "src": "./assets/photos/AiTE9NFQZ3I.jpg",
+    "alt": "Pink roses in concrete pot",
+    "x": 82,
+    "y": 1438.234375,
+    "w": 210.390625,
+    "h": 157.78125,
+    "phash": "d51bedb0f2601b43",
+    "lab_mean": [
+      42.0,
+      10.51,
+      16.19
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-10.svg",
+    "alt": "Caro N.",
+    "x": 82,
+    "y": 1657.703125,
+    "w": 22,
+    "h": 22,
+    "phash": "b033c7cc1cd37334",
+    "lab_mean": [
+      82.0,
+      0.4,
+      14.16
+    ]
+  },
+  {
+    "src": "./assets/icons/flame.svg",
+    "alt": "",
+    "x": 339.390625,
+    "y": 334.375,
+    "w": 12,
+    "h": 12,
+    "phash": "bbe2e41a93cd8c38",
+    "lab_mean": [
+      73.02,
+      0.78,
+      22.17
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 549.796875,
+    "y": 332.390625,
+    "w": 16,
+    "h": 16,
+    "phash": "b366c8c92c98d367",
+    "lab_mean": [
+      77.97,
+      0.84,
+      23.5
+    ]
+  },
+  {
+    "src": "./assets/photos/dtLvByNVgcE.jpg",
+    "alt": "Food cooking in black pot",
+    "x": 348.390625,
+    "y": 384.390625,
+    "w": 210.40625,
+    "h": 157.796875,
+    "phash": "9a93736c4c1393cd",
+    "lab_mean": [
+      24.52,
+      4.88,
+      7.37
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-02.svg",
+    "alt": "Devi R.",
+    "x": 348.390625,
+    "y": 623.0625,
+    "w": 22,
+    "h": 22,
+    "phash": "bc70e09e87c93cc3",
+    "lab_mean": [
+      71.29,
+      0.29,
+      11.89
+    ]
+  },
+  {
+    "src": "./assets/photos/RgTI2KaQ5N4.jpg",
+    "alt": "Glass bowl in focus",
+    "x": 348.390625,
+    "y": 679.0625,
+    "w": 210.40625,
+    "h": 157.796875,
+    "phash": "9c15a5a21bbdc876",
+    "lab_mean": [
+      40.66,
+      -0.78,
+      -7.77
+    ]
+  },
+  {
+    "src": "./assets/icons/milk-off.svg",
+    "alt": "",
+    "x": 439.484375,
+    "y": 850.109375,
+    "w": 12,
+    "h": 12,
+    "phash": "bca547263359b076",
+    "lab_mean": [
+      74.17,
+      0.01,
+      7.6
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-04.svg",
+    "alt": "Petra L.",
+    "x": 348.390625,
+    "y": 917.734375,
+    "w": 22,
+    "h": 22,
+    "phash": "b234e3cfccc83076",
+    "lab_mean": [
+      85.02,
+      0.4,
+      14.32
+    ]
+  },
+  {
+    "src": "./assets/photos/laG2kmB4Hgc.jpg",
+    "alt": "Knife on snowy ground",
+    "x": 348.390625,
+    "y": 973.734375,
+    "w": 210.40625,
+    "h": 157.796875,
+    "phash": "c1f00d9741e2b757",
+    "lab_mean": [
+      56.17,
+      -0.49,
+      0.51
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-03.svg",
+    "alt": "Henri B.",
+    "x": 348.390625,
+    "y": 1212.40625,
+    "w": 22,
+    "h": 22,
+    "phash": "bc32c469d38a6dc5",
+    "lab_mean": [
+      60.54,
+      0.29,
+      11.63
+    ]
+  },
+  {
+    "src": "./assets/photos/M0NcxA2ktLM.jpg",
+    "alt": "Pink flower in clear bowl",
+    "x": 348.390625,
+    "y": 1268.40625,
+    "w": 210.40625,
+    "h": 157.796875,
+    "phash": "f694c38b6bf0840f",
+    "lab_mean": [
+      70.73,
+      5.06,
+      -14.35
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-03.svg",
+    "alt": "Mira A.",
+    "x": 348.390625,
+    "y": 1507.078125,
+    "w": 22,
+    "h": 22,
+    "phash": "b239c7cc9c996236",
+    "lab_mean": [
+      81.13,
+      0.41,
+      14.26
+    ]
+  },
+  {
+    "src": "./assets/photos/iRVq6avVGDE.jpg",
+    "alt": "Tilt-shift photo of green fruit",
+    "x": 348.390625,
+    "y": 1563.078125,
+    "w": 210.40625,
+    "h": 157.796875,
+    "phash": "d94e36331cb4d349",
+    "lab_mean": [
+      15.87,
+      2.07,
+      6.21
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-05.svg",
+    "alt": "Yui M.",
+    "x": 348.390625,
+    "y": 1801.75,
+    "w": 22,
+    "h": 22,
+    "phash": "b833c5dc926958cd",
+    "lab_mean": [
+      68.41,
+      0.31,
+      12.1
+    ]
+  },
+  {
+    "src": "./assets/photos/9R3EoFuL584.jpg",
+    "alt": "Blue ceramic mug",
+    "x": 348.390625,
+    "y": 1857.75,
+    "w": 210.40625,
+    "h": 157.796875,
+    "phash": "d890722e65c7aec5",
+    "lab_mean": [
+      60.55,
+      3.89,
+      9.27
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-07.svg",
+    "alt": "Theo V.",
+    "x": 348.390625,
+    "y": 2077.234375,
+    "w": 22,
+    "h": 22,
+    "phash": "ac3ce7c7c29b3130",
+    "lab_mean": [
+      82.15,
+      0.38,
+      13.96
+    ]
+  },
+  {
+    "src": "./assets/icons/square-pen.svg",
+    "alt": "",
+    "x": 605.796875,
+    "y": 334.375,
+    "w": 12,
+    "h": 12,
+    "phash": "bbcbf812b0ab8364",
+    "lab_mean": [
+      64.03,
+      0.7,
+      19.49
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 816.1875,
+    "y": 332.390625,
+    "w": 16,
+    "h": 16,
+    "phash": "b366c8c92c98d367",
+    "lab_mean": [
+      77.97,
+      0.84,
+      23.5
+    ]
+  },
+  {
+    "src": "./assets/photos/JjWpEsLwe-0.jpg",
+    "alt": "Brown dessert",
+    "x": 614.796875,
+    "y": 384.390625,
+    "w": 210.390625,
+    "h": 157.78125,
+    "phash": "98b86717f19344e6",
+    "lab_mean": [
+      67.27,
+      2.93,
+      5.55
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-00.svg",
+    "alt": "Editor",
+    "x": 614.796875,
+    "y": 603.859375,
+    "w": 22,
+    "h": 22,
+    "phash": "b330e7cfcc993031",
+    "lab_mean": [
+      84.96,
+      0.42,
+      14.38
+    ]
+  },
+  {
+    "src": "./assets/photos/pvjxMVTJ0i0.jpg",
+    "alt": "Juice in cup with wooden spoon",
+    "x": 614.796875,
+    "y": 659.859375,
+    "w": 210.390625,
+    "h": 157.78125,
+    "phash": "d4cf69a4561299f2",
+    "lab_mean": [
+      62.59,
+      2.28,
+      12.39
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-08.svg",
+    "alt": "Editor",
+    "x": 614.796875,
+    "y": 879.328125,
+    "w": 22,
+    "h": 22,
+    "phash": "b833c7cc9cc33334",
+    "lab_mean": [
+      83.27,
+      0.41,
+      14.23
+    ]
+  },
+  {
+    "src": "./assets/photos/PcKm231bGvo.jpg",
+    "alt": "White and black ceramic plate",
+    "x": 614.796875,
+    "y": 935.328125,
+    "w": 210.390625,
+    "h": 157.78125,
+    "phash": "acfe0a0c97174db2",
+    "lab_mean": [
+      58.42,
+      -2.58,
+      -4.59
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-00.svg",
+    "alt": "Editor",
+    "x": 614.796875,
+    "y": 1173.984375,
+    "w": 22,
+    "h": 22,
+    "phash": "b931e28e879998cb",
+    "lab_mean": [
+      76.07,
+      0.33,
+      12.38
+    ]
+  },
+  {
+    "src": "./assets/photos/BS_1XGRkIH4.jpg",
+    "alt": "Plant in gold pot on white table",
+    "x": 614.796875,
+    "y": 1229.984375,
+    "w": 210.390625,
+    "h": 157.78125,
+    "phash": "b133cece9c383133",
+    "lab_mean": [
+      88.94,
+      -2.18,
+      1.9
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-11.svg",
+    "alt": "Editor",
+    "x": 614.796875,
+    "y": 1468.640625,
+    "w": 22,
+    "h": 22,
+    "phash": "b836c3cc9cc1b371",
+    "lab_mean": [
+      81.46,
+      0.39,
+      13.96
+    ]
+  },
+  {
+    "src": "./assets/photos/S3gNA0HQZo8.jpg",
+    "alt": "Grape fruit close-up",
+    "x": 614.796875,
+    "y": 1524.640625,
+    "w": 210.390625,
+    "h": 157.78125,
+    "phash": "bacbc196505d15f1",
+    "lab_mean": [
+      65.45,
+      -4.67,
+      23.09
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-02.svg",
+    "alt": "Editor",
+    "x": 614.796875,
+    "y": 1744.109375,
+    "w": 22,
+    "h": 22,
+    "phash": "bc70e09e87c93cc3",
+    "lab_mean": [
+      71.29,
+      0.29,
+      11.89
+    ]
+  },
+  {
+    "src": "./assets/icons/camera.svg",
+    "alt": "",
+    "x": 872.1875,
+    "y": 334.375,
+    "w": 12,
+    "h": 12,
+    "phash": "e6a8b9a4e41b9b4c",
+    "lab_mean": [
+      65.69,
+      0.74,
+      20.24
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 1082.59375,
+    "y": 332.390625,
+    "w": 16,
+    "h": 16,
+    "phash": "b366c8c92c98d367",
+    "lab_mean": [
+      77.97,
+      0.84,
+      23.5
+    ]
+  },
+  {
+    "src": "./assets/photos/-XZUiNZR7y4.jpg",
+    "alt": "Ceramic plate plated dish",
+    "x": 881.1875,
+    "y": 384.390625,
+    "w": 210.40625,
+    "h": 157.796875,
+    "phash": "90676b92255af62d",
+    "lab_mean": [
+      29.44,
+      -3.06,
+      -10.23
+    ]
+  },
+  {
+    "src": "./assets/icons/circle-check.svg",
+    "alt": "",
+    "x": 950.5,
+    "y": 555.4375,
+    "w": 12,
+    "h": 12,
+    "phash": "ff09e83625499636",
+    "lab_mean": [
+      37.63,
+      -17.16,
+      25.31
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-05.svg",
+    "alt": "Photog.",
+    "x": 881.1875,
+    "y": 623.0625,
+    "w": 22,
+    "h": 22,
+    "phash": "ac64e3cf98993166",
+    "lab_mean": [
+      85.99,
+      0.43,
+      14.68
+    ]
+  },
+  {
+    "src": "./assets/photos/OSwea3yxjT0.jpg",
+    "alt": "Green and white cake slice",
+    "x": 881.1875,
+    "y": 679.0625,
+    "w": 210.40625,
+    "h": 157.796875,
+    "phash": "c1722abd56e38cc6",
+    "lab_mean": [
+      30.08,
+      -4.44,
+      -3.12
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-05.svg",
+    "alt": "Photog.",
+    "x": 881.1875,
+    "y": 898.546875,
+    "w": 22,
+    "h": 22,
+    "phash": "ac64e3cf98993166",
+    "lab_mean": [
+      85.99,
+      0.43,
+      14.68
+    ]
+  },
+  {
+    "src": "./assets/photos/7lUDryZFbbE.jpg",
+    "alt": "Two ceramic cups with blueberries",
+    "x": 881.1875,
+    "y": 954.546875,
+    "w": 210.40625,
+    "h": 157.796875,
+    "phash": "bee3c0cd3f30c3c0",
+    "lab_mean": [
+      85.23,
+      0.8,
+      -3.43
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-04.svg",
+    "alt": "Saskia I.",
+    "x": 881.1875,
+    "y": 1174.03125,
+    "w": 22,
+    "h": 22,
+    "phash": "b837c598c34b4dc5",
+    "lab_mean": [
+      68.13,
+      0.29,
+      11.63
+    ]
+  },
+  {
+    "src": "./assets/photos/ZwI4uewZnPk.jpg",
+    "alt": "Glass bowl near pink flowers",
+    "x": 881.1875,
+    "y": 1230.03125,
+    "w": 210.40625,
+    "h": 157.796875,
+    "phash": "dd97c3983b343a28",
+    "lab_mean": [
+      52.74,
+      6.38,
+      3.61
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-07.svg",
+    "alt": "Theo V.",
+    "x": 881.1875,
+    "y": 1449.515625,
+    "w": 22,
+    "h": 22,
+    "phash": "ac3ce7c7c29b3130",
+    "lab_mean": [
+      82.15,
+      0.38,
+      13.96
+    ]
+  },
+  {
+    "src": "./assets/photos/MRzA2cHznKA.jpg",
+    "alt": "Round orange fruit close-up",
+    "x": 881.1875,
+    "y": 1505.515625,
+    "w": 210.40625,
+    "h": 157.796875,
+    "phash": "9fdc92ce6c930970",
+    "lab_mean": [
+      57.8,
+      -0.92,
+      31.52
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-01.svg",
+    "alt": "Joa P.",
+    "x": 881.1875,
+    "y": 1744.1875,
+    "w": 22,
+    "h": 22,
+    "phash": "bc30e0c3c78f9ccc",
+    "lab_mean": [
+      77.31,
+      0.3,
+      12.29
+    ]
+  },
+  {
+    "src": "./assets/icons/printer.svg",
+    "alt": "",
+    "x": 1138.59375,
+    "y": 334.375,
+    "w": 12,
+    "h": 12,
+    "phash": "bce1e914346b6bb0",
+    "lab_mean": [
+      59.04,
+      0.64,
+      18.34
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 1348.984375,
+    "y": 332.390625,
+    "w": 16,
+    "h": 16,
+    "phash": "b366c8c92c98d367",
+    "lab_mean": [
+      77.97,
+      0.84,
+      23.5
+    ]
+  },
+  {
+    "src": "./assets/photos/VXUxWikFyFM.jpg",
+    "alt": "Brown dessert",
+    "x": 1147.59375,
+    "y": 384.390625,
+    "w": 210.390625,
+    "h": 157.78125,
+    "phash": "95aabdda4b6522b0",
+    "lab_mean": [
+      65.2,
+      6.19,
+      20.08
+    ]
+  },
+  {
+    "src": "./assets/icons/check.svg",
+    "alt": "",
+    "x": 1238.6875,
+    "y": 555.421875,
+    "w": 12,
+    "h": 12,
+    "phash": "ee4ad03626cd791a",
+    "lab_mean": [
+      44.7,
+      -19.81,
+      29.24
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-10.svg",
+    "alt": "Caro N.",
+    "x": 1147.59375,
+    "y": 603.859375,
+    "w": 22,
+    "h": 22,
+    "phash": "b033c7cc1cd37334",
+    "lab_mean": [
+      82.0,
+      0.4,
+      14.16
+    ]
+  },
+  {
+    "src": "./assets/photos/32KY5byUI-Q.jpg",
+    "alt": "Brown and white bread",
+    "x": 1147.59375,
+    "y": 659.859375,
+    "w": 210.390625,
+    "h": 157.78125,
+    "phash": "a5241bb56d6226e7",
+    "lab_mean": [
+      45.2,
+      6.3,
+      17.1
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-03.svg",
+    "alt": "Mira A.",
+    "x": 1147.59375,
+    "y": 879.328125,
+    "w": 22,
+    "h": 22,
+    "phash": "b239c7cc9c996236",
+    "lab_mean": [
+      81.12,
+      0.41,
+      14.26
+    ]
+  },
+  {
+    "src": "./assets/photos/xnyXLEyE8L0.jpg",
+    "alt": "Person stirring pot over fire",
+    "x": 1147.59375,
+    "y": 935.328125,
+    "w": 210.390625,
+    "h": 157.78125,
+    "phash": "92b26d4d3a949b63",
+    "lab_mean": [
+      19.44,
+      4.17,
+      7.36
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-04.svg",
+    "alt": "Saskia I.",
+    "x": 1147.59375,
+    "y": 1154.796875,
+    "w": 22,
+    "h": 22,
+    "phash": "b837c598c34b4dc5",
+    "lab_mean": [
+      68.13,
+      0.29,
+      11.63
+    ]
+  },
+  {
+    "src": "./assets/photos/9VoUqAsW2sA.jpg",
+    "alt": "Green succulents in wicker pot",
+    "x": 1147.59375,
+    "y": 1210.796875,
+    "w": 210.390625,
+    "h": 157.78125,
+    "phash": "e6998cb38d753065",
+    "lab_mean": [
+      49.77,
+      -7.44,
+      3.56
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-03.svg",
+    "alt": "Henri B.",
+    "x": 1147.59375,
+    "y": 1430.265625,
+    "w": 22,
+    "h": 22,
+    "phash": "bc32c469d38a6dc5",
+    "lab_mean": [
+      60.54,
+      0.29,
+      11.63
+    ]
+  },
+  {
+    "src": "./assets/photos/VJX5imdELxo.jpg",
+    "alt": "Two tea-light candles",
+    "x": 1147.59375,
+    "y": 1486.265625,
+    "w": 210.390625,
+    "h": 157.78125,
+    "phash": "9c26396e6d9c3133",
+    "lab_mean": [
+      31.69,
+      -3.31,
+      -4.83
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-07.svg",
+    "alt": "Theo V.",
+    "x": 1147.59375,
+    "y": 1705.734375,
+    "w": 22,
+    "h": 22,
+    "phash": "ac3ce7c7c29b3130",
+    "lab_mean": [
+      82.15,
+      0.38,
+      13.96
+    ]
+  }
+]

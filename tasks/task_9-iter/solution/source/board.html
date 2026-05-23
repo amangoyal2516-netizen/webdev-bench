@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Board — Property Ledger</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body class="page">
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <a href="./board.html" class="masthead-brand"><span class="mark">PL</span> Property Ledger</a>
+    <nav class="masthead-nav">
+      <a href="./board.html" class="active">The Board</a>
+      <a href="./dossier.html">Dossiers</a>
+      <a href="./neighborhoods.html">Neighborhoods</a>
+      <a href="./archive.html">Archive</a>
+      <a href="./about.html">About</a>
+    </nav>
+    <div class="masthead-right">
+      <label class="search">
+        <img src="./assets/icons/search.svg" alt="" class="icon">
+        <input type="search" placeholder="Search addresses, agents, MLS…">
+      </label>
+      <a href="#" class="sign-in">Sign in</a>
+    </div>
+  </div>
+</header>
+
+<section class="subheader">
+  <div class="subheader-inner">
+    <div class="issue-label">Issue <span class="num">№ 184</span> · Week of Oct 14</div>
+    <div class="select">
+      <img src="./assets/icons/map-pin.svg" alt="" class="icon">
+      <span>Market: New York Metro</span>
+      <img src="./assets/icons/chevron-down.svg" alt="" class="icon caret">
+    </div>
+    <div class="chip-row" aria-label="Price band">
+      <span class="label" style="margin-right:4px;">Price</span>
+      <span class="chip">Under $2M</span>
+      <span class="chip is-active">$2M–$5M</span>
+      <span class="chip">$5M–$10M</span>
+      <span class="chip">$10M+</span>
+    </div>
+    <div class="chip-row" aria-label="Property type">
+      <span class="label" style="margin-right:4px;">Type</span>
+      <span class="chip is-active">Townhouse</span>
+      <span class="chip">Co-op</span>
+      <span class="chip">Condo</span>
+      <span class="chip">Loft</span>
+      <span class="chip">Estate</span>
+    </div>
+    <button class="text-btn" type="button">Reset filters</button>
+  </div>
+</section>
+
+<main class="board-shell">
+  <div class="board-layout">
+
+    <div class="kanban">
+
+      <div class="kanban-col">
+        <div class="kanban-col-head">
+          <span class="title">Just Listed</span>
+          <span class="count-badge">12</span>
+        </div>
+        <div class="kanban-col-stack">
+
+          <article class="prop-card">
+            <div class="thumb">
+              <img src="./assets/photos/6Wad1bIYQ94.jpg" alt="Ochre townhouse façade in West Village">
+              <span class="dom-chip cool">2 DOM</span>
+            </div>
+            <div class="body">
+              <div class="address">128 Bank Street, West Village</div>
+              <div class="price">$4,250,000</div>
+              <div class="meta"><span>4 bd</span><span>·</span><span>3.5 ba</span><span>·</span><span>2,840 sf</span></div>
+            </div>
+          </article>
+
+          <article class="prop-card">
+            <div class="thumb">
+              <img src="./assets/photos/SwIh3kr1__U.jpg" alt="Limestone façade in golden hour">
+              <span class="dom-chip cool">5 DOM</span>
+            </div>
+            <div class="body">
+              <div class="address">61 East 79th Street, Apt 11B</div>
+              <div class="price">$3,895,000</div>
+              <div class="meta"><span>3 bd</span><span>·</span><span>3 ba</span><span>·</span><span>2,210 sf</span></div>
+            </div>
+          </article>
+
+          <article class="prop-card">
+            <div class="thumb">
+              <img src="./assets/photos/DmgwxkcdFCM.jpg" alt="Whitewashed modern building">
+              <span class="dom-chip cool">6 DOM</span>
+            </div>
+            <div class="body">
+              <div class="address">432 Greenwich, PHC</div>
+              <div class="price">$8,650,000</div>
+              <div class="meta"><span>4 bd</span><span>·</span><span>4 ba</span><span>·</span><span>3,400 sf</span></div>
+            </div>
+          </article>
+
+          <article class="prop-card">
+            <div class="thumb">
+              <img src="./assets/photos/qBX6EMdy0a4.jpg" alt="Red brick midtown landmark">
+              <span class="dom-chip cool">7 DOM</span>
+            </div>
+            <div class="body">
+              <div class="address">220 Central Park S., 18A</div>
+              <div class="price">$12,400,000</div>
+              <div class="meta"><span>5 bd</span><span>·</span><span>5.5 ba</span><span>·</span><span>4,120 sf</span></div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <div class="kanban-col">
+        <div class="kanban-col-head">
+          <span class="title">Open House</span>
+          <span class="count-badge accent">8</span>
+        </div>
+        <div class="kanban-col-stack">
+
+          <article class="prop-card">
+            <div class="thumb">
+              <img src="./assets/photos/JBO8vdcy4Mo.jpg" alt="Pre-war stone tower">
+              <span class="dom-chip">11 DOM</span>
+            </div>
+            <div class="body">
+              <div class="address">35 Hudson Yards, Apt 72E</div>
+              <div class="price">$6,750,000</div>
+              <div class="meta"><span>3 bd</span><span>·</span><span>3.5 ba</span><span>·</span><span>2,615 sf</span></div>
+            </div>
+          </article>
+
+          <article class="prop-card">
+            <div class="thumb">
+              <img src="./assets/photos/Ereoqdv5s48.jpg" alt="Top-down view of high-rise">
+              <span class="dom-chip">14 DOM</span>
+            </div>
+            <div class="body">
+              <div class="address">200 East 75th, Apt 6F</div>
+              <div class="price">$2,295,000</div>
+              <div class="meta"><span>2 bd</span><span>·</span><span>2 ba</span><span>·</span><span>1,420 sf</span></div>
+            </div>
+          </article>
+
+          <article class="prop-card">
+            <div class="thumb">
+              <img src="./assets/photos/G1ebTFoqLlM.jpg" alt="Interior table and window seat">
+              <span class="dom-chip">18 DOM</span>
+            </div>
+            <div class="body">
+              <div class="address">14 Willow Place, Brooklyn Heights</div>
+              <div class="price">$5,495,000</div>
+              <div class="meta"><span>5 bd</span><span>·</span><span>4 ba</span><span>·</span><span>3,720 sf</span></div>
+            </div>
+          </article>
+
+          <article class="prop-card">
+            <div class="thumb">
+              <img src="./assets/photos/W5z41aTV_Mg.jpg" alt="White pointed high-rise">
+              <span class="dom-chip">21 DOM</span>
+            </div>
+            <div class="body">
+              <div class="address">53 W. 53rd Street, Apt 44B</div>
+              <div class="price">$9,200,000</div>
+              <div class="meta"><span>4 bd</span><span>·</span><span>4.5 ba</span><span>·</span><span>3,160 sf</span></div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <div class="kanban-col">
+        <div class="kanban-col-head">
+          <span class="title">Under Offer</span>
+          <span class="count-badge accent">6</span>
+        </div>
+        <div class="kanban-col-stack">
+
+          <article class="prop-card">
+            <div class="thumb">
+              <img src="./assets/photos/nWkMhTo8Wa4.jpg" alt="Warm orange interior wall">
+              <span class="dom-chip warn">34 DOM</span>
+            </div>
+            <div class="body">
+              <div class="address">88 Morton Street, Apt 3</div>
+              <div class="price">$3,150,000</div>
+              <div class="meta"><span>2 bd</span><span>·</span><span>2 ba</span><span>·</span><span>1,680 sf</span></div>
+            </div>
+          </article>
+
+          <article class="prop-card">
+            <div class="thumb">
+              <img src="./assets/photos/iGANt1N2ge8.jpg" alt="Antlers and antique interior">
+              <span class="dom-chip warn">41 DOM</span>
+            </div>
+            <div class="body">
+              <div class="address">7 Gramercy Park West</div>
+              <div class="price">$14,800,000</div>
+              <div class="meta"><span>6 bd</span><span>·</span><span>5 ba</span><span>·</span><span>5,840 sf</span></div>
+            </div>
+          </article>
+
+          <article class="prop-card">
+            <div class="thumb">
+              <img src="./assets/photos/s5DDiJZ8TMk.jpg" alt="Dark room with chair">
+              <span class="dom-chip warn">47 DOM</span>
+            </div>
+            <div class="body">
+              <div class="address">25 Park Row, Apt 28C</div>
+              <div class="price">$4,990,000</div>
+              <div class="meta"><span>3 bd</span><span>·</span><span>3 ba</span><span>·</span><span>2,340 sf</span></div>
+            </div>
+          </article>
+
+          <article class="prop-card">
+            <div class="thumb">
+              <img src="./assets/photos/JRsZWmRd_Ws.jpg" alt="Cathedral-like interior">
+              <span class="dom-chip warn">52 DOM</span>
+            </div>
+            <div class="body">
+              <div class="address">211 W. 84th Street, Apt 4A</div>
+              <div class="price">$2,775,000</div>
+              <div class="meta"><span>3 bd</span><span>·</span><span>2.5 ba</span><span>·</span><span>2,010 sf</span></div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <div class="kanban-col">
+        <div class="kanban-col-head">
+          <span class="title">In Escrow</span>
+          <span class="count-badge alt">5</span>
+        </div>
+        <div class="kanban-col-stack">
+
+          <article class="prop-card">
+            <div class="thumb">
+              <img src="./assets/photos/PdJjT-zYg_E.jpg" alt="Swing chair on tree">
+              <span class="dom-chip">63 DOM</span>
+            </div>
+            <div class="body">
+              <div class="address">9 East 10th Street, Apt 5</div>
+              <div class="price">$3,395,000</div>
+              <div class="meta"><span>3 bd</span><span>·</span><span>2 ba</span><span>·</span><span>1,920 sf</span></div>
+            </div>
+          </article>
+
+          <article class="prop-card">
+            <div class="thumb">
+              <img src="./assets/photos/Sol5LM1sowA.jpg" alt="Patio overlooking the sea">
+              <span class="dom-chip">71 DOM</span>
+            </div>
+            <div class="body">
+              <div class="address">155 Perry Street, Apt 9B</div>
+              <div class="price">$7,950,000</div>
+              <div class="meta"><span>4 bd</span><span>·</span><span>3.5 ba</span><span>·</span><span>3,060 sf</span></div>
+            </div>
+          </article>
+
+          <article class="prop-card">
+            <div class="thumb">
+              <img src="./assets/photos/ERUl9LC49dc.jpg" alt="Chair and tree in water">
+              <span class="dom-chip">79 DOM</span>
+            </div>
+            <div class="body">
+              <div class="address">432 Park Avenue, Apt 56</div>
+              <div class="price">$18,500,000</div>
+              <div class="meta"><span>5 bd</span><span>·</span><span>5.5 ba</span><span>·</span><span>4,680 sf</span></div>
+            </div>
+          </article>
+
+          <article class="prop-card">
+            <div class="thumb">
+              <img src="./assets/photos/CK_NbNhyTHo.jpg" alt="Water near bridge">
+              <span class="dom-chip">86 DOM</span>
+            </div>
+            <div class="body">
+              <div class="address">1 Brooklyn Bridge Park, PH4</div>
+              <div class="price">$9,995,000</div>
+              <div class="meta"><span>4 bd</span><span>·</span><span>4 ba</span><span>·</span><span>3,540 sf</span></div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <div class="kanban-col">
+        <div class="kanban-col-head">
+          <span class="title">Closed</span>
+          <span class="count-badge">21</span>
+        </div>
+        <div class="kanban-col-stack">
+
+          <article class="prop-card">
+            <div class="thumb">
+              <img src="./assets/photos/HYA9Ak06qR8.jpg" alt="City at night">
+              <span class="dom-chip">94 DOM</span>
+            </div>
+            <div class="body">
+              <div class="address">740 Park Avenue, Apt 8B</div>
+              <div class="price">$22,750,000</div>
+              <div class="meta"><span>6 bd</span><span>·</span><span>6 ba</span><span>·</span><span>5,940 sf</span></div>
+            </div>
+          </article>
+
+          <article class="prop-card">
+            <div class="thumb">
+              <img src="./assets/photos/FxU8KV7psMY.jpg" alt="Golden gate landmark">
+              <span class="dom-chip">102 DOM</span>
+            </div>
+            <div class="body">
+              <div class="address">36 Gramercy Park East, Apt 9N</div>
+              <div class="price">$5,150,000</div>
+              <div class="meta"><span>3 bd</span><span>·</span><span>3 ba</span><span>·</span><span>2,470 sf</span></div>
+            </div>
+          </article>
+
+          <article class="prop-card">
+            <div class="thumb">
+              <img src="./assets/photos/I5o79zxl-U0.jpg" alt="New York skyline">
+              <span class="dom-chip">115 DOM</span>
+            </div>
+            <div class="body">
+              <div class="address">432 West End Avenue, Apt 16A</div>
+              <div class="price">$6,425,000</div>
+              <div class="meta"><span>4 bd</span><span>·</span><span>4.5 ba</span><span>·</span><span>3,210 sf</span></div>
+            </div>
+          </article>
+
+          <article class="prop-card">
+            <div class="thumb">
+              <img src="./assets/photos/T72-kQyQxtA.jpg" alt="High-rise buildings aerial">
+              <span class="dom-chip">128 DOM</span>
+            </div>
+            <div class="body">
+              <div class="address">252 West 7th, Park Slope</div>
+              <div class="price">$3,690,000</div>
+              <div class="meta"><span>4 bd</span><span>·</span><span>3 ba</span><span>·</span><span>2,950 sf</span></div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+    </div>
+
+    <aside class="rail">
+      <h3 class="rail-title">This week on the board</h3>
+
+      <div class="rail-item">
+        <div class="who">128 Bank Street, West Village</div>
+        <div class="move">
+          <span class="from">Watchlist</span>
+          <img src="./assets/icons/arrow-right.svg" alt="" class="icon-sm arrow">
+          <span class="to">Just Listed</span>
+        </div>
+        <div class="ts">Tue · 9:42 AM</div>
+      </div>
+
+      <div class="rail-item">
+        <div class="who">35 Hudson Yards, Apt 72E</div>
+        <div class="move">
+          <span class="from">Just Listed</span>
+          <img src="./assets/icons/arrow-right.svg" alt="" class="icon-sm arrow">
+          <span class="to">Open House</span>
+        </div>
+        <div class="ts">Wed · 11:08 AM</div>
+      </div>
+
+      <div class="rail-item">
+        <div class="who">88 Morton Street, Apt 3</div>
+        <div class="move">
+          <span class="from">Open House</span>
+          <img src="./assets/icons/arrow-right.svg" alt="" class="icon-sm arrow">
+          <span class="to">Under Offer</span>
+        </div>
+        <div class="ts">Thu · 4:21 PM</div>
+      </div>
+
+      <div class="rail-item">
+        <div class="who">155 Perry Street, Apt 9B</div>
+        <div class="move">
+          <span class="from">Under Offer</span>
+          <img src="./assets/icons/arrow-right.svg" alt="" class="icon-sm arrow">
+          <span class="to">In Escrow</span>
+        </div>
+        <div class="ts">Fri · 8:55 AM</div>
+      </div>
+
+      <div class="rail-item">
+        <div class="who">740 Park Avenue, Apt 8B</div>
+        <div class="move">
+          <span class="from">In Escrow</span>
+          <img src="./assets/icons/arrow-right.svg" alt="" class="icon-sm arrow">
+          <span class="to">Closed</span>
+        </div>
+        <div class="ts">Fri · 5:30 PM</div>
+      </div>
+
+    </aside>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="footer-wordmark"><span class="mark">PL</span> Property Ledger</div>
+        <p class="footer-blurb">An editorial magazine for architecture and real-estate enthusiasts. Field-reported dossiers on the properties moving through the pipeline.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Sections</h4>
+        <ul>
+          <li><a href="./board.html">The Board</a></li>
+          <li><a href="./dossier.html">Dossiers</a></li>
+          <li><a href="./neighborhoods.html">Neighborhoods</a></li>
+          <li><a href="./archive.html">Archive</a></li>
+          <li><a href="#">Pull Quotes</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Markets</h4>
+        <ul>
+          <li><a href="#">New York Metro</a></li>
+          <li><a href="#">Los Angeles</a></li>
+          <li><a href="#">Chicago</a></li>
+          <li><a href="#">Miami &amp; the Keys</a></li>
+          <li><a href="#">London</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Newsletter</h4>
+        <p class="footer-blurb">The Weekly Digest: every Friday, the five listings that moved and the one we can't stop thinking about.</p>
+        <form class="newsletter-form" action="#" onsubmit="return false;">
+          <input type="email" placeholder="your@email.com" aria-label="Email">
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="copyline">
+      <div>© 2024 Property Ledger Editorial LLC · Printed weekly</div>
+      <div><a href="./about.html">Masthead</a> · <a href="#">Ethics</a> · <a href="#">Contact</a></div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+{
+  "description": "Beginner-friendly impact analytics tool for small nonprofits \u2014 track donations, programs, volunteers, and grant outcomes with guided explanations",
+  "allowed_frameworks": [
+    "html-css"
+  ],
+  "palette": {
+    "background": "#2a1830",
+    "surface": "#3a2342",
+    "text": "#f5ebdd",
+    "accent": "#c97b3f",
+    "accent_alt": "#8a6fa6",
+    "muted": "#9a8aa0"
+  },
+  "pages": [
+    {
+      "name": "overview",
+      "description": "Main dashboard with tabbed sections and a friendly orientation panel for newcomers",
+      "components": [
+        "Top bar with organization name, a workspace switcher dropdown, a fiscal-year selector, a help icon with a question mark, and a small avatar with the user's first name",
+        "Welcome strip greeting the user by name with a one-sentence 'here is what changed this week' summary and a dismissable 'Take the 2-minute tour' button",
+        "Horizontal tab bar (Overview, Donations, Programs, Volunteers, Grants) with the Overview tab active and a thin underline marking the active tab",
+        "Row of four impact tiles \u2014 Total raised this year, People served, Active volunteers, Programs running \u2014 each tile has a label, a big number, a plain-language comparison line ('that is 12 more than last month'), and a tiny trend arrow icon",
+        "Two-column lower section: left is a 'Where your funding came from' donut chart with a legend listing source categories and percentages, right is a 'Recent milestones' timeline with dated entries (icon, headline, one-sentence description)"
+      ]
+    },
+    {
+      "name": "donations",
+      "description": "Donations tab focused on incoming gifts, with a beginner explainer and a sortable ledger",
+      "components": [
+        "Same top bar and tab bar, with Donations active",
+        "Explainer callout card with an info icon, the heading 'What this page shows', a short paragraph defining recurring vs one-time gifts, and a 'Learn more' link",
+        "Filter and summary row \u2014 date-range picker, campaign dropdown, donor-type chips (Individual, Foundation, Corporate, Anonymous), and three inline summary numbers (total gifts, average gift, new donors)",
+        "Stacked area chart of giving over time with a toggle between Weekly and Monthly views and a small legend separating recurring from one-time gifts",
+        "Donations ledger table with columns Donor, Date, Amount, Campaign, Type, Acknowledgement status \u2014 each row has a follow-up action menu, and a pagination bar sits below the table"
+      ]
+    },
+    {
+      "name": "programs",
+      "description": "Programs tab tracking outcomes for each initiative the nonprofit runs",
+      "components": [
+        "Same top bar and tab bar, with Programs active",
+        "Page heading 'Programs' with a short subtitle and an 'Add a program' primary action button on the right",
+        "Grid of program cards (two per row) \u2014 each card has program name, one-sentence mission, progress bar toward an annual people-served goal, count vs goal, cost-per-outcome figure, and a status pill",
+        "Outcomes comparison panel \u2014 a horizontal bar chart ranking programs by people served this quarter with a toggle to switch the metric to Dollars spent or Hours contributed",
+        "Beginner glossary accordion at the bottom defining terms like 'outcome', 'output', 'cost per outcome', and 'logic model', each row expandable to a short plain-language definition"
+      ]
+    },
+    {
+      "name": "volunteers",
+      "description": "Volunteers tab showing the people powering the work and how their hours are spent",
+      "components": [
+        "Same top bar and tab bar, with Volunteers active",
+        "Summary band with three figures \u2014 Active volunteers, Hours logged this month, Retention rate \u2014 each with a plain-language helper line under the number",
+        "Hours heatmap calendar showing volunteer hours per day across the last three months, with a color-intensity legend and a hover tooltip description in the corner",
+        "Volunteer roster table listing volunteer name, role, hours this month, total hours, last shift date, and a contact icon, with a search input and a role filter above the table",
+        "Upcoming shifts panel \u2014 list of scheduled shifts with date, time window, program name, slots filled vs needed, and a 'Send reminder' link per row"
+      ]
+    },
+    {
+      "name": "grants",
+      "description": "Grants tab tracking grant applications, reporting deadlines, and outcome reporting",
+      "components": [
+        "Same top bar and tab bar, with Grants active",
+        "Pipeline strip showing five status columns (Researching, Drafting, Submitted, Awarded, Reporting) with a count and total dollar value per column",
+        "Upcoming deadlines list \u2014 each row shows funder name, deliverable (application or report), due date, days remaining as a chip, assigned teammate avatar, and a checkbox to mark complete",
+        "Awarded grants table with columns Funder, Award amount, Period, Restrictions, Spent to date (with an inline progress bar), and Next report due",
+        "Reporting helper panel with the heading 'Need to write a report?' and a numbered three-step checklist (Pull program outcomes, Match to funder priorities, Export a one-page summary) each step having a short helper sentence and a button"
+      ]
+    },
+    {
+      "name": "getting-started",
+      "description": "Onboarding page that walks total beginners through setting up their analytics workspace",
+      "components": [
+        "Slim top bar with organization name and a 'Skip setup' text link on the right",
+        "Progress header with the heading 'Set up your impact dashboard', a step counter (Step 2 of 5), and a thin progress bar",
+        "Vertical checklist of five setup tasks (Connect donation platform, Import donor list, Define programs, Invite team, Pick fiscal year) \u2014 each item has icon, title, one-line description, status pill, and action button",
+        "Side help card with the heading 'New to analytics?' containing a short reassuring paragraph, a bulleted list of three short articles (What is an outcome?, Why fiscal year matters, How we keep donor data safe), and a 'Chat with a human' button"
+      ]
+    }
+  ]
+}

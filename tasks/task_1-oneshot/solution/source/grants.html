@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grants — Lantern Impact</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container">
+    <div class="topbar-inner">
+      <div class="topbar-left">
+        <a href="./overview.html" class="brand">
+          <span class="brand-mark"><img src="./assets/icons/sparkles.svg" alt="" class="icon" width="18" height="18"></span>
+          Lantern Impact
+        </a>
+        <div class="workspace-switch">
+          <img src="./assets/icons/building-2.svg" alt="" width="14" height="14">
+          <span>Workspace: <strong>Riverbend Mutual Aid</strong></span>
+          <img src="./assets/icons/chevron-down.svg" alt="" width="14" height="14">
+        </div>
+        <div class="fy-select">
+          <img src="./assets/icons/calendar.svg" alt="" width="14" height="14">
+          FY 2024 — July to June
+          <img src="./assets/icons/chevron-down.svg" alt="" width="14" height="14">
+        </div>
+      </div>
+      <div class="topbar-right">
+        <button class="icon-btn" aria-label="Search"><img src="./assets/icons/search.svg" alt="" width="16" height="16"></button>
+        <button class="icon-btn" aria-label="Help"><img src="./assets/icons/circle-question-mark.svg" alt="" width="16" height="16"></button>
+        <button class="icon-btn" aria-label="Notifications"><img src="./assets/icons/bell.svg" alt="" width="16" height="16"></button>
+        <div class="user-chip">
+          <img src="./assets/avatars/lorelei-seed-02.svg" alt="">
+          <span>Maya R.</span>
+        </div>
+      </div>
+    </div>
+    <nav class="tabbar">
+      <div class="container tabbar-inner" style="padding:0;">
+        <a href="./overview.html" class="tab"><img src="./assets/icons/layout-dashboard.svg" alt="" width="14" height="14">Overview</a>
+        <a href="./donations.html" class="tab"><img src="./assets/icons/hand-heart.svg" alt="" width="14" height="14">Donations</a>
+        <a href="./programs.html" class="tab"><img src="./assets/icons/leaf.svg" alt="" width="14" height="14">Programs</a>
+        <a href="./volunteers.html" class="tab"><img src="./assets/icons/users.svg" alt="" width="14" height="14">Volunteers</a>
+        <a href="./grants.html" class="tab active"><img src="./assets/icons/landmark.svg" alt="" width="14" height="14">Grants</a>
+        <a href="./getting-started.html" class="tab"><img src="./assets/icons/compass.svg" alt="" width="14" height="14">Getting Started</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+  <div class="container">
+
+    <div class="page-head">
+      <div>
+        <h1>Grants &amp; Foundation Giving</h1>
+        <p class="sub">Track every application from first phone call through the final report. We'll remind you when something is due — promise.</p>
+      </div>
+      <div class="row-wrap">
+        <button class="btn btn-ghost"><img src="./assets/icons/download.svg" alt="" width="14" height="14">Export pipeline</button>
+        <button class="btn btn-primary"><img src="./assets/icons/plus.svg" alt="" width="14" height="14">Log a new grant</button>
+      </div>
+    </div>
+
+    <div class="stack-lg">
+
+      <!-- PIPELINE -->
+      <section>
+        <div class="row-between" style="margin-bottom:var(--space-4);">
+          <div>
+            <h2>Pipeline at a glance</h2>
+            <p class="muted text-sm" style="margin-top:4px;">Five stages, 14 grants in motion. Hover any column for details.</p>
+          </div>
+          <div class="inline-stats">
+            <div class="inline-stat"><div class="v">$487,200</div><div class="l">Total in pipeline</div></div>
+            <div class="inline-stat"><div class="v">$184,500</div><div class="l">Awarded YTD</div></div>
+          </div>
+        </div>
+
+        <div class="pipeline">
+          <div class="pipe-col">
+            <div class="row-between"><div class="pipe-label">Researching</div><span class="dot"></span></div>
+            <div class="pipe-count">4</div>
+            <div class="pipe-amt">$96,000 potential</div>
+            <hr style="margin:var(--space-3) 0;">
+            <div class="text-xs muted">Hartwell Foundation</div>
+            <div class="text-xs muted">Pine Ridge Community Fund</div>
+            <div class="text-xs muted">+ 2 more</div>
+          </div>
+          <div class="pipe-col">
+            <div class="row-between"><div class="pipe-label">Drafting</div><span class="dot dot-info"></span></div>
+            <div class="pipe-count">3</div>
+            <div class="pipe-amt">$112,000 requested</div>
+            <hr style="margin:var(--space-3) 0;">
+            <div class="text-xs muted">Wexler Family Trust</div>
+            <div class="text-xs muted">Cornerstone Giving</div>
+            <div class="text-xs muted">Cascade Health Fund</div>
+          </div>
+          <div class="pipe-col">
+            <div class="row-between"><div class="pipe-label">Submitted</div><span class="dot dot-alt"></span></div>
+            <div class="pipe-count">3</div>
+            <div class="pipe-amt">$148,700 pending</div>
+            <hr style="margin:var(--space-3) 0;">
+            <div class="text-xs muted">Mercer Community Trust</div>
+            <div class="text-xs muted">State Arts Council</div>
+            <div class="text-xs muted">Bloomwell Foundation</div>
+          </div>
+          <div class="pipe-col">
+            <div class="row-between"><div class="pipe-label">Awarded</div><span class="dot dot-accent"></span></div>
+            <div class="pipe-count">2</div>
+            <div class="pipe-amt">$84,500 active</div>
+            <hr style="margin:var(--space-3) 0;">
+            <div class="text-xs muted">Henley Family Foundation</div>
+            <div class="text-xs muted">Riverkeeper Alliance</div>
+          </div>
+          <div class="pipe-col">
+            <div class="row-between"><div class="pipe-label">Reporting</div><span class="dot dot-success"></span></div>
+            <div class="pipe-count">2</div>
+            <div class="pipe-amt">$46,000 to close out</div>
+            <hr style="margin:var(--space-3) 0;">
+            <div class="text-xs muted">Sundown Community Fund</div>
+            <div class="text-xs muted">Marigold Trust</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- DEADLINES -->
+      <section class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">Upcoming deadlines</div>
+            <div class="card-sub">Applications and reports due in the next 60 days. Check one off when you've submitted it.</div>
+          </div>
+          <div class="row-wrap">
+            <div class="toggle-group">
+              <button class="active">All</button>
+              <button>Applications</button>
+              <button>Reports</button>
+            </div>
+            <button class="btn btn-ghost btn-sm"><img src="./assets/icons/sliders-horizontal.svg" alt="" width="12" height="12">Filter</button>
+          </div>
+        </div>
+
+        <div class="stack-sm" style="gap:var(--space-2);">
+
+          <div class="deadline-row">
+            <span class="checkbox" aria-label="Mark complete"></span>
+            <div>
+              <div style="font-weight:600;color:var(--fg);">Wexler Family Trust</div>
+              <div class="text-xs muted">Full proposal — General operating support</div>
+            </div>
+            <span class="badge"><img src="./assets/icons/file-text.svg" alt="" width="10" height="10">Application</span>
+            <div class="text-sm dim">Nov 14, 2024</div>
+            <span class="badge badge-danger">3 days left</span>
+            <img src="./assets/avatars/lorelei-seed-02.svg" alt="Maya R." class="avatar-sm">
+          </div>
+
+          <div class="deadline-row">
+            <span class="checkbox" aria-label="Mark complete"></span>
+            <div>
+              <div style="font-weight:600;color:var(--fg);">Sundown Community Fund</div>
+              <div class="text-xs muted">Interim narrative + financial report</div>
+            </div>
+            <span class="badge badge-alt"><img src="./assets/icons/clipboard-check.svg" alt="" width="10" height="10">Report</span>
+            <div class="text-sm dim">Nov 20, 2024</div>
+            <span class="badge badge-warn">9 days left</span>
+            <img src="./assets/avatars/notionists-seed-01.svg" alt="Daniel O." class="avatar-sm">
+          </div>
+
+          <div class="deadline-row">
+            <span class="checkbox done" aria-label="Completed"><img src="./assets/icons/check.svg" alt="" width="12" height="12"></span>
+            <div>
+              <div style="font-weight:600;color:var(--fg);text-decoration:line-through;">Cornerstone Giving</div>
+              <div class="text-xs muted">Letter of inquiry — Submitted Nov 6</div>
+            </div>
+            <span class="badge"><img src="./assets/icons/file-text.svg" alt="" width="10" height="10">Application</span>
+            <div class="text-sm dim">Nov 8, 2024</div>
+            <span class="badge badge-success"><img src="./assets/icons/check.svg" alt="" width="10" height="10">Done</span>
+            <img src="./assets/avatars/lorelei-seed-04.svg" alt="Priya S." class="avatar-sm">
+          </div>
+
+          <div class="deadline-row">
+            <span class="checkbox" aria-label="Mark complete"></span>
+            <div>
+              <div style="font-weight:600;color:var(--fg);">Cascade Health Fund</div>
+              <div class="text-xs muted">Full application — Youth wellness initiative</div>
+            </div>
+            <span class="badge"><img src="./assets/icons/file-text.svg" alt="" width="10" height="10">Application</span>
+            <div class="text-sm dim">Dec 1, 2024</div>
+            <span class="badge badge-warn">20 days left</span>
+            <img src="./assets/avatars/notionists-seed-03.svg" alt="Jordan A." class="avatar-sm">
+          </div>
+
+          <div class="deadline-row">
+            <span class="checkbox" aria-label="Mark complete"></span>
+            <div>
+              <div style="font-weight:600;color:var(--fg);">Henley Family Foundation</div>
+              <div class="text-xs muted">Quarterly outcomes report — Q1 FY25</div>
+            </div>
+            <span class="badge badge-alt"><img src="./assets/icons/clipboard-check.svg" alt="" width="10" height="10">Report</span>
+            <div class="text-sm dim">Dec 15, 2024</div>
+            <span class="badge badge-info">34 days left</span>
+            <img src="./assets/avatars/lorelei-seed-02.svg" alt="Maya R." class="avatar-sm">
+          </div>
+
+          <div class="deadline-row">
+            <span class="checkbox" aria-label="Mark complete"></span>
+            <div>
+              <div style="font-weight:600;color:var(--fg);">Marigold Trust</div>
+              <div class="text-xs muted">Final close-out report + receipts packet</div>
+            </div>
+            <span class="badge badge-alt"><img src="./assets/icons/clipboard-check.svg" alt="" width="10" height="10">Report</span>
+            <div class="text-sm dim">Dec 22, 2024</div>
+            <span class="badge badge-info">41 days left</span>
+            <img src="./assets/avatars/notionists-seed-04.svg" alt="Tomás L." class="avatar-sm">
+          </div>
+
+          <div class="deadline-row">
+            <span class="checkbox" aria-label="Mark complete"></span>
+            <div>
+              <div style="font-weight:600;color:var(--fg);">Bloomwell Foundation</div>
+              <div class="text-xs muted">Site visit confirmation + workplan addendum</div>
+            </div>
+            <span class="badge"><img src="./assets/icons/file-text.svg" alt="" width="10" height="10">Application</span>
+            <div class="text-sm dim">Jan 9, 2025</div>
+            <span class="badge badge-info">59 days left</span>
+            <img src="./assets/avatars/lorelei-seed-05.svg" alt="Aisha B." class="avatar-sm">
+          </div>
+
+        </div>
+      </section>
+
+      <!-- AWARDED TABLE -->
+      <section>
+        <div class="row-between" style="margin-bottom:var(--space-4);">
+          <div>
+            <h2>Awarded grants</h2>
+            <p class="muted text-sm" style="margin-top:4px;">Active awards you're currently drawing down. Spend tracks against the budget in your program ledger.</p>
+          </div>
+          <div class="row-wrap">
+            <span class="chip"><span class="dot dot-success"></span>Active: 6</span>
+            <span class="chip"><span class="dot dot-warn"></span>Closing soon: 2</span>
+          </div>
+        </div>
+
+        <div class="table-wrap">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Funder</th>
+                <th>Award amount</th>
+                <th>Period</th>
+                <th>Restrictions</th>
+                <th>Spent to date</th>
+                <th>Next report due</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="row" style="gap:var(--space-3);">
+                    <div class="avatar-md" style="display:flex;align-items:center;justify-content:center;background:rgba(201,123,63,.2);color:var(--accent-soft);"><img src="./assets/icons/landmark.svg" alt="" width="18" height="18"></div>
+                    <div>
+                      <strong>Henley Family Foundation</strong>
+                      <div class="text-xs muted">Multi-year general operating</div>
+                    </div>
+                  </div>
+                </td>
+                <td><strong>$48,500</strong></td>
+                <td>Jul 2024 – Jun 2025</td>
+                <td><span class="badge">Unrestricted</span></td>
+                <td>
+                  <div class="stack-sm" style="gap:4px;min-width:140px;">
+                    <div class="row-between text-xs"><span>$22,300</span><span class="muted">46%</span></div>
+                    <div class="progress"><span style="width:46%;"></span></div>
+                  </div>
+                </td>
+                <td>Dec 15, 2024</td>
+                <td><button class="btn-icon" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" width="14" height="14"></button></td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="row" style="gap:var(--space-3);">
+                    <div class="avatar-md" style="display:flex;align-items:center;justify-content:center;background:rgba(138,111,166,.22);color:var(--accent-alt-soft);"><img src="./assets/icons/leaf.svg" alt="" width="18" height="18"></div>
+                    <div>
+                      <strong>Riverkeeper Alliance</strong>
+                      <div class="text-xs muted">Watershed education program</div>
+                    </div>
+                  </div>
+                </td>
+                <td><strong>$36,000</strong></td>
+                <td>Sep 2024 – Aug 2025</td>
+                <td><span class="badge badge-alt">Program — restricted</span></td>
+                <td>
+                  <div class="stack-sm" style="gap:4px;min-width:140px;">
+                    <div class="row-between text-xs"><span>$9,420</span><span class="muted">26%</span></div>
+                    <div class="progress progress-alt"><span style="width:26%;"></span></div>
+                  </div>
+                </td>
+                <td>Jan 31, 2025</td>
+                <td><button class="btn-icon" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" width="14" height="14"></button></td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="row" style="gap:var(--space-3);">
+                    <div class="avatar-md" style="display:flex;align-items:center;justify-content:center;background:rgba(201,123,63,.2);color:var(--accent-soft);"><img src="./assets/icons/graduation-cap.svg" alt="" width="18" height="18"></div>
+                    <div>
+                      <strong>Sundown Community Fund</strong>
+                      <div class="text-xs muted">After-school tutoring expansion</div>
+                    </div>
+                  </div>
+                </td>
+                <td><strong>$25,000</strong></td>
+                <td>Apr 2024 – Mar 2025</td>
+                <td><span class="badge badge-alt">Program — restricted</span></td>
+                <td>
+                  <div class="stack-sm" style="gap:4px;min-width:140px;">
+                    <div class="row-between text-xs"><span>$19,150</span><span class="muted">77%</span></div>
+                    <div class="progress"><span style="width:77%;"></span></div>
+                  </div>
+                </td>
+                <td><span class="badge badge-warn">Nov 20, 2024</span></td>
+                <td><button class="btn-icon" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" width="14" height="14"></button></td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="row" style="gap:var(--space-3);">
+                    <div class="avatar-md" style="display:flex;align-items:center;justify-content:center;background:rgba(138,111,166,.22);color:var(--accent-alt-soft);"><img src="./assets/icons/heart.svg" alt="" width="18" height="18"></div>
+                    <div>
+                      <strong>Marigold Trust</strong>
+                      <div class="text-xs muted">Senior meal delivery</div>
+                    </div>
+                  </div>
+                </td>
+                <td><strong>$21,000</strong></td>
+                <td>Jan 2024 – Dec 2024</td>
+                <td><span class="badge badge-alt">Program + 8% admin cap</span></td>
+                <td>
+                  <div class="stack-sm" style="gap:4px;min-width:140px;">
+                    <div class="row-between text-xs"><span>$19,840</span><span class="muted">94%</span></div>
+                    <div class="progress progress-alt"><span style="width:94%;"></span></div>
+                  </div>
+                </td>
+                <td><span class="badge badge-warn">Dec 22, 2024</span></td>
+                <td><button class="btn-icon" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" width="14" height="14"></button></td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="row" style="gap:var(--space-3);">
+                    <div class="avatar-md" style="display:flex;align-items:center;justify-content:center;background:rgba(201,123,63,.2);color:var(--accent-soft);"><img src="./assets/icons/megaphone.svg" alt="" width="18" height="18"></div>
+                    <div>
+                      <strong>State Arts Council</strong>
+                      <div class="text-xs muted">Community storytelling residency</div>
+                    </div>
+                  </div>
+                </td>
+                <td><strong>$18,500</strong></td>
+                <td>Oct 2024 – Sep 2025</td>
+                <td><span class="badge badge-alt">No equipment over $500</span></td>
+                <td>
+                  <div class="stack-sm" style="gap:4px;min-width:140px;">
+                    <div class="row-between text-xs"><span>$3,210</span><span class="muted">17%</span></div>
+                    <div class="progress"><span style="width:17%;"></span></div>
+                  </div>
+                </td>
+                <td>Apr 10, 2025</td>
+                <td><button class="btn-icon" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" width="14" height="14"></button></td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="row" style="gap:var(--space-3);">
+                    <div class="avatar-md" style="display:flex;align-items:center;justify-content:center;background:rgba(138,111,166,.22);color:var(--accent-alt-soft);"><img src="./assets/icons/house.svg" alt="" width="18" height="18"></div>
+                    <div>
+                      <strong>Pine Ridge Community Fund</strong>
+                      <div class="text-xs muted">Emergency housing assistance</div>
+                    </div>
+                  </div>
+                </td>
+                <td><strong>$35,500</strong></td>
+                <td>Jun 2024 – May 2025</td>
+                <td><span class="badge badge-alt">Direct aid only</span></td>
+                <td>
+                  <div class="stack-sm" style="gap:4px;min-width:140px;">
+                    <div class="row-between text-xs"><span>$17,640</span><span class="muted">50%</span></div>
+                    <div class="progress progress-alt"><span style="width:50%;"></span></div>
+                  </div>
+                </td>
+                <td>Feb 28, 2025</td>
+                <td><button class="btn-icon" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" width="14" height="14"></button></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="pager">
+            <span>Showing 6 of 6 active awards</span>
+            <div class="pager-pages">
+              <span class="pg active">1</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- REPORT HELPER -->
+      <section class="help-card">
+        <div class="row" style="gap:var(--space-3);margin-bottom:var(--space-2);">
+          <div class="callout-icon" style="width:44px;height:44px;border-radius:12px;"><img src="./assets/icons/lightbulb.svg" alt="" width="20" height="20"></div>
+          <div>
+            <h3 style="margin:0;">Need to write a report?</h3>
+            <p class="muted text-sm" style="margin-top:4px;">A grant report doesn't have to be scary. Follow these three steps and you'll have a tidy one-pager ready to send.</p>
+          </div>
+        </div>
+
+        <div class="report-step">
+          <div class="step-num">1</div>
+          <div class="step-body">
+            <div class="step-title">Pull program outcomes</div>
+            <div class="step-help">We'll gather every metric tagged to this grant — people served, sessions delivered, milestones met — straight from your Programs tab. You don't need to retype anything.</div>
+          </div>
+          <div class="check-action">
+            <button class="btn btn-secondary"><img src="./assets/icons/chart-bar.svg" alt="" width="14" height="14">Pull outcomes</button>
+          </div>
+        </div>
+
+        <div class="report-step">
+          <div class="step-num">2</div>
+          <div class="step-body">
+            <div class="step-title">Match to funder priorities</div>
+            <div class="step-help">Each funder cares about slightly different things. Tell us which grant you're reporting on and we'll line your outcomes up next to the goals from the original application.</div>
+          </div>
+          <div class="check-action">
+            <button class="btn btn-secondary"><img src="./assets/icons/target.svg" alt="" width="14" height="14">Choose a funder</button>
+          </div>
+        </div>
+
+        <div class="report-step">
+          <div class="step-num">3</div>
+          <div class="step-body">
+            <div class="step-title">Export a one-page summary</div>
+            <div class="step-help">Generate a clean PDF with your numbers, a short narrative prompt for each metric, and your logo at the top. Edit before you send — or send as-is.</div>
+          </div>
+          <div class="check-action">
+            <button class="btn btn-primary"><img src="./assets/icons/download.svg" alt="" width="14" height="14">Export one-pager</button>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container row-between">
+      <div>© 2024 Lantern Impact · Built for small nonprofits</div>
+      <div class="row-wrap">
+        <a href="./getting-started.html">Getting started</a>
+        <a href="#">Glossary</a>
+        <a href="#">Contact support</a>
+      </div>
+    </div>
+  </footer>
+</main>
+
+</body>
+</html>

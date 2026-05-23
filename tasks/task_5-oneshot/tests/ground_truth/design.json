@@ -1,0 +1,67 @@
+{
+  "description": "Pipeline tool for indie cookbook publishers \u2014 a kanban-style workspace where recipe developers, editors, and photographers move recipes from draft to print across multiple cookbook projects",
+  "allowed_frameworks": [
+    "html-css"
+  ],
+  "palette": {
+    "background": "#d4a82c",
+    "surface": "#7a8a4a",
+    "text": "#2b1f12",
+    "accent": "#5c3a1e",
+    "accent_alt": "#c44a2a",
+    "muted": "#9a7d3a"
+  },
+  "pages": [
+    {
+      "name": "board",
+      "description": "Kanban board view of every recipe in the current cookbook project, organized by production stage",
+      "components": [
+        "Top bar with the imprint name, a cookbook-project switcher dropdown, a global search, and a stacked-avatar group showing collaborators with an 'Invite' button",
+        "Sub-header strip with the active cookbook title, target page count, deadline date, a progress bar showing recipes-complete vs total, and view-toggle controls (Board, Table, Calendar)",
+        "Filter bar with chips for course (Starters, Mains, Sides, Desserts, Drinks), an assignee selector, a 'Needs photo' toggle, and a 'Has allergens flagged' toggle",
+        "Five-column kanban board (Drafting, Testing, Editing, Photographed, Print-ready) \u2014 each column has a heading with recipe count, an 'Add recipe' button, and a stack of recipe cards (title, course, assignee, yield, thumbnail)"
+      ]
+    },
+    {
+      "name": "recipe",
+      "description": "Detail view of a single recipe card opened from the board, with the full working document",
+      "components": [
+        "Breadcrumb row (Cookbook / Course / Recipe name) with a stage-pill showing current kanban column and a 'Move to next stage' button",
+        "Header block with recipe title, headnote paragraph, byline of the developer, yield/servings stepper, total time, and a metadata row for oven temp, equipment, and dietary tags",
+        "Two-column working area \u2014 left has an ingredient list grouped by sub-recipe (weight, volume, ingredient, prep note), right has numbered method steps with editor notes pinned to specific steps",
+        "Test-kitchen log panel listing each test attempt \u2014 date, tester name, batch number, outcome rating, and a notes paragraph, with an 'Add test' button at the bottom",
+        "Right rail with allergen checklist, cost-per-serving calculation, cross-references to related recipes in the book, and a photo-brief block showing shot list and styling notes"
+      ]
+    },
+    {
+      "name": "calendar",
+      "description": "Production calendar showing test-kitchen days, photo shoots, and editorial deadlines",
+      "components": [
+        "Top bar (same as board) with a month-navigation control and a 'Today' button on the right",
+        "Legend row mapping color swatches to event types (Test day, Photo shoot, Copyedit due, Print deadline) with a per-cookbook filter dropdown",
+        "Month grid with seven columns \u2014 each day cell shows the date and a stack of event chips with title and time, and weekend cells render on a distinct surface",
+        "Side panel listing the selected day's events in detail \u2014 each event shows time range, attached recipe titles, assigned crew, location (Studio A, Studio B, Home kitchen), and an 'Add to my schedule' button"
+      ]
+    },
+    {
+      "name": "pantry",
+      "description": "Master ingredient library shared across all cookbook projects, used for consistency and sourcing",
+      "components": [
+        "Top bar (same as board) with a 'New ingredient' primary button on the right",
+        "Two-pane layout \u2014 left pane is a category tree (Produce, Dairy, Grains, Spices, Fats, Proteins, Pantry, Ferments) with expand/collapse and counts per category",
+        "Right pane is a table of ingredients with columns for name, preferred supplier, unit cost, seasonality strip (twelve month-cells shaded by availability), allergen flags, and a 'used in N recipes' link",
+        "Footer drawer with a sourcing-notes editor for the selected ingredient \u2014 supplier contacts, substitution rules, and a changelog of price updates"
+      ]
+    },
+    {
+      "name": "imprint",
+      "description": "Public-facing catalog page for the indie publisher showing their cookbook projects in progress and released",
+      "components": [
+        "Masthead with the imprint name, a one-line manifesto, and a navigation row (Catalog, Authors, Stockists, Submissions)",
+        "Featured cookbook block with cover mockup, title, author byline, release date, page count, and a 'Pre-order' button alongside a 'Read sample recipe' link",
+        "Catalog grid (three per row) \u2014 each cookbook tile shows cover, title, author, status badge (In development, Forthcoming, In print), and a brief description",
+        "Submissions block with a heading 'Pitch us a cookbook', a numbered list of three submission steps, and a 'Read the guidelines' link"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Suppliers · Verdance Carbon Ledger</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="app">
+<aside class="sidebar">
+<div class="sidebar-head">
+<div class="workspace">
+<div class="workspace-mark">VC</div>
+<div>
+<div class="workspace-name">Verdance Carbon</div>
+<div class="workspace-sub">org_3812</div>
+</div>
+</div>
+<button class="period-switcher" type="button">
+<div style="display:flex;flex-direction:column;align-items:flex-start;gap:2px">
+<span class="label">Reporting period</span>
+<span class="val">FY2024 · Q3</span>
+</div>
+<img src="./assets/icons/chevron-down.svg" alt="" class="ico" style="width:14px;height:14px">
+</button>
+</div>
+<nav class="sidebar-nav">
+<div class="nav-section-label">Workspace</div>
+<a class="nav-item" href="./dashboard.html"><img src="./assets/icons/layout-dashboard.svg" alt="" class="ico"><span>Dashboard</span></a>
+<a class="nav-item" href="./ledger.html"><img src="./assets/icons/book-open.svg" alt="" class="ico"><span>Ledger</span><span class="badge-mini">2,481</span></a>
+<a class="nav-item" href="./log-emission.html"><img src="./assets/icons/plus.svg" alt="" class="ico"><span>Log emission</span></a>
+<a class="nav-item" href="./offsets.html"><img src="./assets/icons/leaf.svg" alt="" class="ico"><span>Offsets</span></a>
+<a class="nav-item active" href="./suppliers.html"><img src="./assets/icons/truck.svg" alt="" class="ico"><span>Suppliers</span><span class="badge-mini">147</span></a>
+<a class="nav-item" href="./reports.html"><img src="./assets/icons/file-text.svg" alt="" class="ico"><span>Reports</span></a>
+<div class="nav-section-label">Account</div>
+<a class="nav-item" href="#"><img src="./assets/icons/bell.svg" alt="" class="ico"><span>Notifications</span><span class="badge-mini">4</span></a>
+<a class="nav-item" href="#"><img src="./assets/icons/settings.svg" alt="" class="ico"><span>Settings</span></a>
+<a class="nav-item" href="#"><img src="./assets/icons/circle-question-mark.svg" alt="" class="ico"><span>Help &amp; docs</span></a>
+</nav>
+<div class="sidebar-foot">
+<div class="user-card">
+<div class="avatar"><img src="./assets/avatars/notionists-seed-07.svg" alt=""></div>
+<div class="user-info">
+<div class="user-name">Marit Bensson</div>
+<div class="user-role">Sustainability Lead</div>
+</div>
+</div>
+<button class="org-switcher" type="button">
+<img src="./assets/icons/building-2.svg" alt="" class="ico">
+<span class="org-name">Northwind Foods Plc</span>
+<img src="./assets/icons/chevron-down.svg" alt="" class="ico">
+</button>
+</div>
+</aside>
+
+<div class="main">
+<header class="topbar">
+<div class="topbar-title">
+<h1>Suppliers</h1>
+<div class="topbar-sub">scope_3 · upstream · 147 vendors tracked</div>
+</div>
+<div class="topbar-spacer"></div>
+<div class="topbar-actions">
+<button class="btn btn-ghost btn-icon" type="button" aria-label="Notifications"><img src="./assets/icons/bell.svg" alt="" class="ico"></button>
+<button class="btn btn-ghost btn-icon" type="button" aria-label="Help"><img src="./assets/icons/circle-question-mark.svg" alt="" class="ico"></button>
+<button class="btn" type="button"><img src="./assets/icons/download.svg" alt="" class="ico">Export CSV</button>
+</div>
+</header>
+
+<div class="page">
+
+<section class="page-head">
+<div>
+<div class="breadcrumb">workspace<span class="sep">/</span><a href="#">scope_3</a><span class="sep">/</span>suppliers</div>
+<h1>Suppliers</h1>
+<p class="dim" style="margin-top:var(--space-2);max-width:64ch">Directory of upstream vendors and their reported Scope 3 contributions. Track disclosure status, reconcile estimated against reported emissions, and monitor data-quality tiers across your supply chain.</p>
+</div>
+<div style="display:flex;gap:var(--space-3);flex-wrap:wrap">
+<button class="btn" type="button"><img src="./assets/icons/send.svg" alt="" class="ico">Request disclosures</button>
+<button class="btn btn-primary" type="button"><img src="./assets/icons/user-plus.svg" alt="" class="ico">Invite supplier</button>
+</div>
+</section>
+
+<section class="summary-strip">
+<div class="coverage-card">
+<div class="kpi-label">Disclosure coverage</div>
+<div style="display:flex;align-items:baseline;gap:var(--space-2)"><span class="num" style="font-size:var(--text-2xl);font-weight:700">62.4<span class="kpi-unit">% of spend</span></span></div>
+<div class="progress"><div class="progress-bar" style="width:62.4%"></div></div>
+<div class="muted" style="font-size:var(--text-xs);font-family:var(--font-mono)">92 of 147 suppliers disclosed · target 80%</div>
+</div>
+<div class="coverage-card">
+<div class="kpi-label">Scope 3 from suppliers</div>
+<div style="display:flex;align-items:baseline;gap:var(--space-2)"><span class="num" style="font-size:var(--text-2xl);font-weight:700">18,402<span class="kpi-unit">tCO2e YTD</span></span></div>
+<div style="display:flex;align-items:center;gap:var(--space-2)"><span class="delta up"><img src="./assets/icons/trending-up.svg" alt="" class="ico">+4.7%</span><span class="muted" style="font-size:var(--text-xs)">vs FY2023 Q3</span></div>
+</div>
+<div class="coverage-card">
+<div class="kpi-label">Avg data-quality tier</div>
+<div style="display:flex;align-items:baseline;gap:var(--space-3)"><span class="badge-tier tier-c" style="width:34px;height:34px;font-size:var(--text-lg)">C</span><span class="num" style="font-size:var(--text-2xl);font-weight:700">2.83</span></div>
+<div class="muted" style="font-size:var(--text-xs);font-family:var(--font-mono)">A=1 · E=5 · weighted by spend</div>
+</div>
+</section>
+
+<section class="filter-bar">
+<div class="input-group search">
+<img src="./assets/icons/search.svg" alt="" class="ico">
+<input class="input" type="search" placeholder="Search supplier name, vendor ID, or category…">
+</div>
+<select class="select" aria-label="Industry">
+<option>All industries</option>
+<option>Agriculture &amp; food</option>
+<option>Chemicals</option>
+<option>Logistics &amp; freight</option>
+<option>Manufacturing</option>
+<option>Packaging</option>
+<option>Professional services</option>
+<option>Utilities</option>
+</select>
+<div class="chip-group" role="group" aria-label="Disclosure status">
+<button class="chip active" type="button"><span class="dot"></span>Disclosed<span class="num" style="margin-left:4px">92</span></button>
+<button class="chip" type="button"><span class="dot" style="background:var(--warn)"></span>Pending<span class="num" style="margin-left:4px">21</span></button>
+<button class="chip" type="button"><span class="dot" style="background:var(--fg-dim)"></span>Estimated<span class="num" style="margin-left:4px">28</span></button>
+<button class="chip" type="button"><span class="dot" style="background:var(--accent-alt)"></span>No data<span class="num" style="margin-left:4px">6</span></button>
+</div>
+<div class="field" style="min-width:220px;flex:0 0 auto">
+<div style="display:flex;align-items:center;justify-content:space-between;gap:var(--space-2)">
+<span class="field-label" style="margin:0">Data-quality score</span>
+<span class="num" style="font-size:var(--text-xs);color:var(--fg-dim)">2.0 – 4.5</span>
+</div>
+<div class="slider">
+<div class="slider-track" style="left:20%;right:10%"></div>
+<div class="slider-handle" style="left:20%"></div>
+<div class="slider-handle" style="left:90%"></div>
+</div>
+</div>
+<button class="btn btn-ghost btn-sm" type="button"><img src="./assets/icons/funnel-x.svg" alt="" class="ico">Reset</button>
+</section>
+
+<section class="card-flat">
+<div class="card-head">
+<div style="display:flex;align-items:center;gap:var(--space-3)">
+<h3>Supplier directory</h3>
+<span class="badge estimated">147 results</span>
+</div>
+<div style="display:flex;align-items:center;gap:var(--space-2)">
+<button class="btn btn-ghost btn-sm" type="button"><img src="./assets/icons/sliders-horizontal.svg" alt="" class="ico">Columns</button>
+<button class="btn btn-ghost btn-sm" type="button"><img src="./assets/icons/refresh-cw.svg" alt="" class="ico">Refresh</button>
+</div>
+</div>
+<div class="table-wrap">
+<table class="tbl">
+<thead>
+<tr>
+<th style="width:28px"></th>
+<th>Supplier</th>
+<th>Industry</th>
+<th class="num">Spend (USD)</th>
+<th class="num">Est. tCO2e</th>
+<th class="num">Disclosed tCO2e</th>
+<th>DQ tier</th>
+<th>Last update</th>
+<th style="width:80px">Status</th>
+<th style="width:32px"></th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+<td><button class="action-dots" aria-label="Expand row"><img src="./assets/icons/chevron-down.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+<td>
+<div style="display:flex;align-items:center;gap:var(--space-3)">
+<div style="width:28px;height:28px;border-radius:6px;background:var(--surface-3);display:grid;place-items:center"><img src="./assets/icons/factory.svg" alt="" class="ico" style="width:14px;height:14px;color:var(--info)"></div>
+<div>
+<div style="font-weight:600">Halberd Steelworks GmbH</div>
+<div class="mono dim" style="font-size:var(--text-xs)">vnd_00184 · DE</div>
+</div>
+</div>
+</td>
+<td><span class="dim">Manufacturing</span></td>
+<td class="num">4,820,500</td>
+<td class="num dim">3,914.20</td>
+<td class="num accent">3,712.80</td>
+<td><span class="badge-tier tier-b">B</span></td>
+<td class="num dim">2024-09-12</td>
+<td><span class="badge verified">Disclosed</span></td>
+<td><button class="action-dots" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+</tr>
+
+<tr style="border-top:0">
+<td colspan="10" style="padding:0;border-top:0">
+<div class="expand-row">
+<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:var(--space-3);gap:var(--space-3);flex-wrap:wrap">
+<div style="display:flex;align-items:center;gap:var(--space-3)">
+<span class="uppercase">Category breakdown · Halberd Steelworks</span>
+<span class="badge scope-3">scope_3.1 purchased goods</span>
+</div>
+<div style="display:flex;gap:var(--space-2)">
+<button class="btn btn-ghost btn-sm" type="button"><img src="./assets/icons/eye.svg" alt="" class="ico">View ledger</button>
+<button class="btn btn-ghost btn-sm" type="button"><img src="./assets/icons/external-link.svg" alt="" class="ico">Open profile</button>
+</div>
+</div>
+<div class="expand-grid">
+<div class="card" style="padding:var(--space-4)">
+<div class="kpi-label">Hot-rolled coil</div>
+<div class="num" style="font-size:var(--text-lg);font-weight:700;margin-top:var(--space-2)">2,184.4 <span class="kpi-unit">tCO2e</span></div>
+<div class="progress" style="margin-top:var(--space-3)"><div class="progress-bar" style="width:78%"></div></div>
+<div class="muted mono" style="font-size:var(--text-xs);margin-top:var(--space-2)">58.9% of total</div>
+</div>
+<div class="card" style="padding:var(--space-4)">
+<div class="kpi-label">Cold-rolled sheet</div>
+<div class="num" style="font-size:var(--text-lg);font-weight:700;margin-top:var(--space-2)">812.1 <span class="kpi-unit">tCO2e</span></div>
+<div class="progress" style="margin-top:var(--space-3)"><div class="progress-bar" style="width:32%"></div></div>
+<div class="muted mono" style="font-size:var(--text-xs);margin-top:var(--space-2)">21.9% of total</div>
+</div>
+<div class="card" style="padding:var(--space-4)">
+<div class="kpi-label">Galvanized strip</div>
+<div class="num" style="font-size:var(--text-lg);font-weight:700;margin-top:var(--space-2)">498.6 <span class="kpi-unit">tCO2e</span></div>
+<div class="progress" style="margin-top:var(--space-3)"><div class="progress-bar" style="width:18%"></div></div>
+<div class="muted mono" style="font-size:var(--text-xs);margin-top:var(--space-2)">13.4% of total</div>
+</div>
+<div class="card" style="padding:var(--space-4)">
+<div class="kpi-label">Logistics &amp; freight</div>
+<div class="num" style="font-size:var(--text-lg);font-weight:700;margin-top:var(--space-2)">217.7 <span class="kpi-unit">tCO2e</span></div>
+<div class="progress" style="margin-top:var(--space-3)"><div class="progress-bar" style="width:8%"></div></div>
+<div class="muted mono" style="font-size:var(--text-xs);margin-top:var(--space-2)">5.8% of total</div>
+</div>
+</div>
+<ul class="lineage-list" style="margin-top:var(--space-4)">
+<li><img src="./assets/icons/badge-check.svg" alt="" class="ico">CDP Climate 2024 disclosure verified · uploaded 2024-09-12 by buyer_ops</li>
+<li><img src="./assets/icons/link.svg" alt="" class="ico">Mapped to 18 PO lines · ledger ref 2024-Q3-PG-0418</li>
+<li><img src="./assets/icons/shield-check.svg" alt="" class="ico">Third-party assured · DNV reasonable assurance opinion</li>
+</ul>
+</div>
+</td>
+</tr>
+
+<tr>
+<td><button class="action-dots" aria-label="Expand row"><img src="./assets/icons/chevron-right.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+<td>
+<div style="display:flex;align-items:center;gap:var(--space-3)">
+<div style="width:28px;height:28px;border-radius:6px;background:var(--surface-3);display:grid;place-items:center"><img src="./assets/icons/sprout.svg" alt="" class="ico" style="width:14px;height:14px;color:var(--accent)"></div>
+<div>
+<div style="font-weight:600">Greenfield Dairy Co-op</div>
+<div class="mono dim" style="font-size:var(--text-xs)">vnd_00211 · IE</div>
+</div>
+</div>
+</td>
+<td><span class="dim">Agriculture &amp; food</span></td>
+<td class="num">3,140,820</td>
+<td class="num dim">2,802.50</td>
+<td class="num accent">2,654.10</td>
+<td><span class="badge-tier tier-a">A</span></td>
+<td class="num dim">2024-09-21</td>
+<td><span class="badge verified">Disclosed</span></td>
+<td><button class="action-dots" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+</tr>
+
+<tr>
+<td><button class="action-dots" aria-label="Expand row"><img src="./assets/icons/chevron-right.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+<td>
+<div style="display:flex;align-items:center;gap:var(--space-3)">
+<div style="width:28px;height:28px;border-radius:6px;background:var(--surface-3);display:grid;place-items:center"><img src="./assets/icons/truck.svg" alt="" class="ico" style="width:14px;height:14px;color:var(--warn)"></div>
+<div>
+<div style="font-weight:600">Meridian Freight Logistics</div>
+<div class="mono dim" style="font-size:var(--text-xs)">vnd_00045 · NL</div>
+</div>
+</div>
+</td>
+<td><span class="dim">Logistics &amp; freight</span></td>
+<td class="num">2,915,400</td>
+<td class="num dim">1,840.70</td>
+<td class="num muted">— pending —</td>
+<td><span class="badge-tier tier-c">C</span></td>
+<td class="num dim">2024-08-30</td>
+<td><span class="badge pending">Pending</span></td>
+<td><button class="action-dots" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+</tr>
+
+<tr>
+<td><button class="action-dots" aria-label="Expand row"><img src="./assets/icons/chevron-right.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+<td>
+<div style="display:flex;align-items:center;gap:var(--space-3)">
+<div style="width:28px;height:28px;border-radius:6px;background:var(--surface-3);display:grid;place-items:center"><img src="./assets/icons/flame.svg" alt="" class="ico" style="width:14px;height:14px;color:var(--accent-alt)"></div>
+<div>
+<div style="font-weight:600">Calix Chemical Partners</div>
+<div class="mono dim" style="font-size:var(--text-xs)">vnd_00302 · BE</div>
+</div>
+</div>
+</td>
+<td><span class="dim">Chemicals</span></td>
+<td class="num">2,402,180</td>
+<td class="num dim">2,210.90</td>
+<td class="num accent">2,388.45</td>
+<td><span class="badge-tier tier-b">B</span></td>
+<td class="num dim">2024-09-04</td>
+<td><span class="badge verified">Disclosed</span></td>
+<td><button class="action-dots" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+</tr>
+
+<tr>
+<td><button class="action-dots" aria-label="Expand row"><img src="./assets/icons/chevron-right.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+<td>
+<div style="display:flex;align-items:center;gap:var(--space-3)">
+<div style="width:28px;height:28px;border-radius:6px;background:var(--surface-3);display:grid;place-items:center"><img src="./assets/icons/recycle.svg" alt="" class="ico" style="width:14px;height:14px;color:var(--accent)"></div>
+<div>
+<div style="font-weight:600">Verpack Packaging Solutions</div>
+<div class="mono dim" style="font-size:var(--text-xs)">vnd_00118 · PL</div>
+</div>
+</div>
+</td>
+<td><span class="dim">Packaging</span></td>
+<td class="num">1,820,400</td>
+<td class="num dim">1,402.30</td>
+<td class="num muted">— estimated —</td>
+<td><span class="badge-tier tier-d">D</span></td>
+<td class="num dim">2024-07-14</td>
+<td><span class="badge estimated">Estimated</span></td>
+<td><button class="action-dots" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+</tr>
+
+<tr>
+<td><button class="action-dots" aria-label="Expand row"><img src="./assets/icons/chevron-right.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+<td>
+<div style="display:flex;align-items:center;gap:var(--space-3)">
+<div style="width:28px;height:28px;border-radius:6px;background:var(--surface-3);display:grid;place-items:center"><img src="./assets/icons/zap.svg" alt="" class="ico" style="width:14px;height:14px;color:var(--warn)"></div>
+<div>
+<div style="font-weight:600">Nordic Power Utilities AB</div>
+<div class="mono dim" style="font-size:var(--text-xs)">vnd_00009 · SE</div>
+</div>
+</div>
+</td>
+<td><span class="dim">Utilities</span></td>
+<td class="num">1,604,950</td>
+<td class="num dim">948.10</td>
+<td class="num accent">912.40</td>
+<td><span class="badge-tier tier-a">A</span></td>
+<td class="num dim">2024-09-18</td>
+<td><span class="badge verified">Disclosed</span></td>
+<td><button class="action-dots" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+</tr>
+
+<tr>
+<td><button class="action-dots" aria-label="Expand row"><img src="./assets/icons/chevron-right.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+<td>
+<div style="display:flex;align-items:center;gap:var(--space-3)">
+<div style="width:28px;height:28px;border-radius:6px;background:var(--surface-3);display:grid;place-items:center"><img src="./assets/icons/sprout.svg" alt="" class="ico" style="width:14px;height:14px;color:var(--accent)"></div>
+<div>
+<div style="font-weight:600">Sunrise Grain Cooperative</div>
+<div class="mono dim" style="font-size:var(--text-xs)">vnd_00277 · FR</div>
+</div>
+</div>
+</td>
+<td><span class="dim">Agriculture &amp; food</span></td>
+<td class="num">1,402,100</td>
+<td class="num dim">1,118.80</td>
+<td class="num muted">— estimated —</td>
+<td><span class="badge-tier tier-c">C</span></td>
+<td class="num dim">2024-08-02</td>
+<td><span class="badge estimated">Estimated</span></td>
+<td><button class="action-dots" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+</tr>
+
+<tr>
+<td><button class="action-dots" aria-label="Expand row"><img src="./assets/icons/chevron-right.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+<td>
+<div style="display:flex;align-items:center;gap:var(--space-3)">
+<div style="width:28px;height:28px;border-radius:6px;background:var(--surface-3);display:grid;place-items:center"><img src="./assets/icons/factory.svg" alt="" class="ico" style="width:14px;height:14px;color:var(--info)"></div>
+<div>
+<div style="font-weight:600">Kessler Glass Industries</div>
+<div class="mono dim" style="font-size:var(--text-xs)">vnd_00154 · AT</div>
+</div>
+</div>
+</td>
+<td><span class="dim">Manufacturing</span></td>
+<td class="num">982,400</td>
+<td class="num dim">704.20</td>
+<td class="num accent">688.90</td>
+<td><span class="badge-tier tier-b">B</span></td>
+<td class="num dim">2024-09-08</td>
+<td><span class="badge verified">Disclosed</span></td>
+<td><button class="action-dots" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+</tr>
+
+<tr>
+<td><button class="action-dots" aria-label="Expand row"><img src="./assets/icons/chevron-right.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+<td>
+<div style="display:flex;align-items:center;gap:var(--space-3)">
+<div style="width:28px;height:28px;border-radius:6px;background:var(--surface-3);display:grid;place-items:center"><img src="./assets/icons/truck.svg" alt="" class="ico" style="width:14px;height:14px;color:var(--warn)"></div>
+<div>
+<div style="font-weight:600">Atlas Maritime Shipping</div>
+<div class="mono dim" style="font-size:var(--text-xs)">vnd_00076 · GR</div>
+</div>
+</div>
+</td>
+<td><span class="dim">Logistics &amp; freight</span></td>
+<td class="num">812,500</td>
+<td class="num dim">1,902.40</td>
+<td class="num muted">— no data —</td>
+<td><span class="badge-tier tier-e">E</span></td>
+<td class="num dim">2024-05-22</td>
+<td><span class="badge error">No data</span></td>
+<td><button class="action-dots" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+</tr>
+
+<tr>
+<td><button class="action-dots" aria-label="Expand row"><img src="./assets/icons/chevron-right.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+<td>
+<div style="display:flex;align-items:center;gap:var(--space-3)">
+<div style="width:28px;height:28px;border-radius:6px;background:var(--surface-3);display:grid;place-items:center"><img src="./assets/icons/users.svg" alt="" class="ico" style="width:14px;height:14px;color:var(--fg-dim)"></div>
+<div>
+<div style="font-weight:600">Brightline Consulting Group</div>
+<div class="mono dim" style="font-size:var(--text-xs)">vnd_00390 · UK</div>
+</div>
+</div>
+</td>
+<td><span class="dim">Professional services</span></td>
+<td class="num">604,200</td>
+<td class="num dim">42.80</td>
+<td class="num accent">38.10</td>
+<td><span class="badge-tier tier-a">A</span></td>
+<td class="num dim">2024-09-15</td>
+<td><span class="badge verified">Disclosed</span></td>
+<td><button class="action-dots" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+</tr>
+
+<tr>
+<td><button class="action-dots" aria-label="Expand row"><img src="./assets/icons/chevron-right.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+<td>
+<div style="display:flex;align-items:center;gap:var(--space-3)">
+<div style="width:28px;height:28px;border-radius:6px;background:var(--surface-3);display:grid;place-items:center"><img src="./assets/icons/factory.svg" alt="" class="ico" style="width:14px;height:14px;color:var(--info)"></div>
+<div>
+<div style="font-weight:600">Polaris Electronics Mfg.</div>
+<div class="mono dim" style="font-size:var(--text-xs)">vnd_00428 · TW</div>
+</div>
+</div>
+</td>
+<td><span class="dim">Manufacturing</span></td>
+<td class="num">488,720</td>
+<td class="num dim">512.30</td>
+<td class="num muted">— pending —</td>
+<td><span class="badge-tier tier-d">D</span></td>
+<td class="num dim">2024-08-19</td>
+<td><span class="badge pending">Pending</span></td>
+<td><button class="action-dots" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+</tr>
+
+<tr>
+<td><button class="action-dots" aria-label="Expand row"><img src="./assets/icons/chevron-right.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+<td>
+<div style="display:flex;align-items:center;gap:var(--space-3)">
+<div style="width:28px;height:28px;border-radius:6px;background:var(--surface-3);display:grid;place-items:center"><img src="./assets/icons/recycle.svg" alt="" class="ico" style="width:14px;height:14px;color:var(--accent)"></div>
+<div>
+<div style="font-weight:600">Cedarfold Paper Mills</div>
+<div class="mono dim" style="font-size:var(--text-xs)">vnd_00188 · FI</div>
+</div>
+</div>
+</td>
+<td><span class="dim">Packaging</span></td>
+<td class="num">402,180</td>
+<td class="num dim">318.40</td>
+<td class="num accent">301.25</td>
+<td><span class="badge-tier tier-b">B</span></td>
+<td class="num dim">2024-09-02</td>
+<td><span class="badge verified">Disclosed</span></td>
+<td><button class="action-dots" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+</tr>
+
+<tr class="totals">
+<td></td>
+<td>12 of 147 shown</td>
+<td class="dim">—</td>
+<td class="num">21,406,350</td>
+<td class="num">17,717.60</td>
+<td class="num accent">10,696.00</td>
+<td colspan="3" class="dim mono" style="font-size:var(--text-xs)">weighted avg DQ tier · C (2.83)</td>
+<td></td>
+</tr>
+
+</tbody>
+</table>
+</div>
+<div class="pagination">
+<div class="dim mono" style="font-size:var(--text-xs)">Showing 1–12 of 147 suppliers</div>
+<div class="pager">
+<button class="pg-btn" aria-label="First"><img src="./assets/icons/chevrons-left.svg" alt="" class="ico" style="width:12px;height:12px"></button>
+<button class="pg-btn" aria-label="Previous"><img src="./assets/icons/chevron-left.svg" alt="" class="ico" style="width:12px;height:12px"></button>
+<button class="pg-btn active">1</button>
+<button class="pg-btn">2</button>
+<button class="pg-btn">3</button>
+<button class="pg-btn">4</button>
+<span class="pg-btn" style="cursor:default">…</span>
+<button class="pg-btn">13</button>
+<button class="pg-btn" aria-label="Next"><img src="./assets/icons/chevron-right.svg" alt="" class="ico" style="width:12px;height:12px"></button>
+<button class="pg-btn" aria-label="Last"><img src="./assets/icons/chevrons-right.svg" alt="" class="ico" style="width:12px;height:12px"></button>
+</div>
+<div style="display:flex;align-items:center;gap:var(--space-2)">
+<span class="dim" style="font-size:var(--text-xs)">Rows per page</span>
+<select class="select" style="width:auto;padding:var(--space-1) var(--space-2)">
+<option>12</option><option>25</option><option>50</option><option>100</option>
+</select>
+</div>
+</div>
+</section>
+
+</div>
+</div>
+</div>
+</body>
+</html>

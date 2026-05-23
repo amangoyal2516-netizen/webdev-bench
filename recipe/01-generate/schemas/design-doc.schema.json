@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://webdev-bench.local/schemas/design-doc.schema.json",
+  "title": "design-doc",
+  "description": "Minimal design specification for one webdev-bench site. Produced by the author prompt (recipe/01-generate/prompts/author.md), consumed by the builder. The grader does NOT read this — precompute extracts reference values from the rendered ground-truth.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["description", "allowed_frameworks", "palette", "pages"],
+  "properties": {
+    "description": {
+      "type": "string",
+      "minLength": 10,
+      "description": "One-line meaning of the website — what it is and what it represents. Example: 'Dashboard for fintech analytics tracking trading performance across portfolios'."
+    },
+    "allowed_frameworks": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": ["html-css", "react-css", "react-tailwind", "solid-tailwind"]
+      },
+      "description": "Frameworks the agent is allowed to use. For this benchmark, always ['html-css']. The framework_compliance gate (×0.3) enforces this at grade time."
+    },
+    "palette": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["background", "surface", "text", "accent"],
+      "description": "Concrete color palette the builder must use. Carried in design.json so generated designs don't all converge on the same warm-cream default. Agent never sees this field (it's isolated to the verifier container); it's consumed by the builder only.",
+      "properties": {
+        "background": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$", "description": "Page background." },
+        "surface":    { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$", "description": "Card / panel / sidebar background, distinct from page bg (~5-15% lightness offset)." },
+        "text":       { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$", "description": "Primary body text color. Must have ≥ 4.5:1 contrast against background." },
+        "accent":     { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$", "description": "Primary brand color — buttons, links, active states. Use sparingly." },
+        "accent_alt": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$", "description": "Optional secondary accent — a status color or complementary brand color." },
+        "muted":      { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$", "description": "Optional secondary text / borders / disabled state." }
+      }
+    },
+    "pages": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "description", "components"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]*$",
+            "description": "Lowercase kebab-case; becomes <name>.html per the canonical-filename convention."
+          },
+          "description": {
+            "type": "string",
+            "minLength": 10,
+            "description": "One-line purpose of this page."
+          },
+          "components": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 5,
+            "items": {
+              "type": "string",
+              "minLength": 5,
+              "maxLength": 250
+            },
+            "description": "Three to five components, ordered top-to-bottom on the page. Each component is a single sentence (≤ 250 chars). Forces complexity to spread across pages, not pile up on one."
+          }
+        }
+      }
+    }
+  }
+}

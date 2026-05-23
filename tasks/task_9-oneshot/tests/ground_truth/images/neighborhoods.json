@@ -1,0 +1,240 @@
+[
+  {
+    "src": "./assets/icons/search.svg",
+    "alt": "",
+    "x": 1083.140625,
+    "y": 26.0625,
+    "w": 16,
+    "h": 16,
+    "phash": "eb25f03483d28dcb",
+    "lab_mean": [
+      21.99,
+      -0.83,
+      -5.73
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 1379,
+    "y": 93.203125,
+    "w": 16,
+    "h": 16,
+    "phash": "bd0dc2e23c1c8fe2",
+    "lab_mean": [
+      93.66,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/photos/2FCVdvwqmGg.jpg",
+    "alt": "Aerial view of a waterfront district at dusk",
+    "x": 92,
+    "y": 465.15625,
+    "w": 667.625,
+    "h": 534.09375,
+    "phash": "a5d34bb4422dd24f",
+    "lab_mean": [
+      59.89,
+      -2.27,
+      2.13
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 791.625,
+    "y": 764.0625,
+    "w": 14,
+    "h": 14,
+    "phash": "eccc921e59e1c437",
+    "lab_mean": [
+      84.6,
+      -0.8,
+      -1.76
+    ]
+  },
+  {
+    "src": "./assets/photos/Hk7l6DmgO7Q.jpg",
+    "alt": "Pacific Heights row houses",
+    "x": 93,
+    "y": 1176.484375,
+    "w": 400.65625,
+    "h": 250.40625,
+    "phash": "c5fe4b15cec13648",
+    "lab_mean": [
+      58.76,
+      -7.71,
+      -4.08
+    ]
+  },
+  {
+    "src": "./assets/photos/DHMcRjvBmdk.jpg",
+    "alt": "Mission District streetscape",
+    "x": 519.65625,
+    "y": 1176.484375,
+    "w": 400.671875,
+    "h": 250.40625,
+    "phash": "abd4c9023d76f885",
+    "lab_mean": [
+      54.26,
+      2.94,
+      -8.86
+    ]
+  },
+  {
+    "src": "./assets/photos/6Wad1bIYQ94.jpg",
+    "alt": "Painted Victorian facade in Noe Valley",
+    "x": 946.328125,
+    "y": 1176.484375,
+    "w": 400.65625,
+    "h": 250.40625,
+    "phash": "da9856b886ae274e",
+    "lab_mean": [
+      40.61,
+      19.21,
+      37.79
+    ]
+  },
+  {
+    "src": "./assets/photos/SwIh3kr1__U.jpg",
+    "alt": "Hayes Valley building at golden hour",
+    "x": 93,
+    "y": 1695.015625,
+    "w": 400.65625,
+    "h": 250.40625,
+    "phash": "cc334ecc33cc31ce",
+    "lab_mean": [
+      18.1,
+      8.45,
+      16.82
+    ]
+  },
+  {
+    "src": "./assets/photos/T6VTsM4_fGU.jpg",
+    "alt": "South Beach high-rises",
+    "x": 519.65625,
+    "y": 1695.015625,
+    "w": 400.671875,
+    "h": 250.40625,
+    "phash": "a9f0a3693c09b2fc",
+    "lab_mean": [
+      51.56,
+      -1.44,
+      0.18
+    ]
+  },
+  {
+    "src": "./assets/photos/XA2OEcvrrP8.jpg",
+    "alt": "Financial District tower",
+    "x": 946.328125,
+    "y": 1695.015625,
+    "w": 400.65625,
+    "h": 250.40625,
+    "phash": "d08f0bb773509c8d",
+    "lab_mean": [
+      33.95,
+      -4.4,
+      -2.11
+    ]
+  },
+  {
+    "src": "./assets/photos/ykfjtb0kphU.jpg",
+    "alt": "Bernal Heights view",
+    "x": 93,
+    "y": 2213.546875,
+    "w": 400.65625,
+    "h": 250.40625,
+    "phash": "84e2751e0671bc9f",
+    "lab_mean": [
+      50.27,
+      2.52,
+      7.18
+    ]
+  },
+  {
+    "src": "./assets/photos/z0l-3cWpKto.jpg",
+    "alt": "Sunset District residential",
+    "x": 519.65625,
+    "y": 2213.546875,
+    "w": 400.671875,
+    "h": 250.40625,
+    "phash": "c3683e8f308df1cc",
+    "lab_mean": [
+      39.02,
+      -3.16,
+      -14.37
+    ]
+  },
+  {
+    "src": "./assets/photos/qBX6EMdy0a4.jpg",
+    "alt": "North Beach corner building",
+    "x": 946.328125,
+    "y": 2213.546875,
+    "w": 400.65625,
+    "h": 250.40625,
+    "phash": "d01b66d12ed13fc2",
+    "lab_mean": [
+      20.8,
+      -0.01,
+      2.85
+    ]
+  },
+  {
+    "src": "./assets/photos/Ereoqdv5s48.jpg",
+    "alt": "Russian Hill high-rise",
+    "x": 93,
+    "y": 2732.078125,
+    "w": 400.65625,
+    "h": 250.40625,
+    "phash": "d4d840dd7796e50c",
+    "lab_mean": [
+      67.21,
+      3.19,
+      6.42
+    ]
+  },
+  {
+    "src": "./assets/photos/JBO8vdcy4Mo.jpg",
+    "alt": "Civic Center facade",
+    "x": 519.65625,
+    "y": 2732.078125,
+    "w": 400.671875,
+    "h": 250.40625,
+    "phash": "c1e11f5ef0c083de",
+    "lab_mean": [
+      28.29,
+      -0.17,
+      2.22
+    ]
+  },
+  {
+    "src": "./assets/photos/RaVcslj475Y.jpg",
+    "alt": "Mission Bay tower",
+    "x": 946.328125,
+    "y": 2732.078125,
+    "w": 400.65625,
+    "h": 250.40625,
+    "phash": "c1bcbfc0934c7a29",
+    "lab_mean": [
+      65.47,
+      -4.0,
+      -1.1
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 1161.96875,
+    "y": 3316.65625,
+    "w": 14,
+    "h": 14,
+    "phash": "eccc921e59e1c437",
+    "lab_mean": [
+      84.6,
+      -0.8,
+      -1.76
+    ]
+  }
+]

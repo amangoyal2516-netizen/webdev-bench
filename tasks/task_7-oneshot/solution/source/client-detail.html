@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Halberd & Crowe — Meridian Logistics Holdings</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <div class="brand-mark">H</div>
+      <div>
+        <div class="brand-name">Halberd &amp; Crowe</div>
+        <div class="brand-sub">Matter OS</div>
+      </div>
+    </div>
+    <div class="sidebar-user">
+      <div class="initials">EM</div>
+      <div class="who">Elena Marchetti<small>Partner · Litigation</small></div>
+    </div>
+    <nav class="nav">
+      <div class="nav-section-label">Workspace</div>
+      <a class="nav-item" href="./dashboard.html"><img src="./assets/icons/layout-dashboard.svg" alt="" class="icon"><span>Dashboard</span></a>
+      <a class="nav-item" href="./matters.html"><img src="./assets/icons/briefcase.svg" alt="" class="icon"><span>Matters</span></a>
+      <a class="nav-item" href="./time.html"><img src="./assets/icons/clock.svg" alt="" class="icon"><span>Time</span></a>
+      <a class="nav-item" href="./calendar.html"><img src="./assets/icons/calendar.svg" alt="" class="icon"><span>Calendar</span></a>
+      <a class="nav-item is-active" href="./client-detail.html"><img src="./assets/icons/users.svg" alt="" class="icon"><span>Clients</span></a>
+      <div class="nav-section-label">Account</div>
+      <a class="nav-item" href="#"><img src="./assets/icons/bell.svg" alt="" class="icon"><span>Notifications</span></a>
+      <a class="nav-item" href="#"><img src="./assets/icons/settings.svg" alt="" class="icon"><span>Settings</span></a>
+    </nav>
+    <button class="sidebar-cta"><img src="./assets/icons/play.svg" alt="" class="icon"><span>Start timer</span></button>
+    <div class="sidebar-footer">
+      <div class="timer-chip">
+        <div class="timer-dot"></div>
+        <div class="meta">
+          <div class="code">MER-2241 · Drafting</div>
+          <div class="clock">01:42:18</div>
+        </div>
+        <img src="./assets/icons/pause.svg" alt="" class="icon">
+      </div>
+    </div>
+  </aside>
+
+  <div class="main">
+    <div class="topbar">
+      <div class="crumbs">
+        <a href="#">Clients</a>
+        <span class="sep">/</span>
+        <span class="here">Meridian Logistics Holdings</span>
+      </div>
+      <div class="topbar-spacer"></div>
+      <div class="search">
+        <img src="./assets/icons/search.svg" alt="" class="icon">
+        <input type="text" placeholder="Search clients, matters, invoices…">
+      </div>
+      <button class="btn btn-ghost btn-icon" aria-label="Notifications"><img src="./assets/icons/bell.svg" alt="" class="icon"></button>
+    </div>
+
+    <div class="page">
+
+      <header class="page-header">
+        <div class="page-title">
+          <div class="eyebrow">Client · Active since Mar 14, 2017</div>
+          <h1>Meridian Logistics Holdings, Inc.</h1>
+          <div class="matter-hero" style="border-bottom:0;padding-bottom:0;">
+            <div class="meta-row">
+              <div><img src="./assets/icons/building-2.svg" alt="" class="icon"> <span>Type</span> <span class="v">Corporate</span></div>
+              <div><img src="./assets/icons/landmark.svg" alt="" class="icon"> <span>Industry</span> <span class="v">Freight &amp; Logistics</span></div>
+              <div><img src="./assets/icons/user-plus.svg" alt="" class="icon"> <span>Primary contact</span> <span class="v">Daniel Forsythe, GC</span></div>
+              <div><img src="./assets/icons/scale.svg" alt="" class="icon"> <span>Originating</span> <span class="v">M. Halberd</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="page-actions">
+          <button class="btn btn-ghost"><img src="./assets/icons/square-pen.svg" alt="" class="icon">Edit client</button>
+          <button class="btn btn-ghost"><img src="./assets/icons/file-plus.svg" alt="" class="icon">New matter</button>
+          <button class="btn btn-primary"><img src="./assets/icons/triangle-alert.svg" alt="" class="icon">Open conflict check</button>
+        </div>
+      </header>
+
+      <section class="split-3">
+        <div class="metric">
+          <div class="label">Lifetime fees billed</div>
+          <div class="metric-body">
+            <div>
+              <div class="value">$4,287,140</div>
+              <div class="delta up" style="margin-top:6px;"><img src="./assets/icons/trending-up.svg" alt="" class="icon">+18.4% vs. prior 12 mo.</div>
+            </div>
+            <svg class="sparkline" viewBox="0 0 100 28" preserveAspectRatio="none" aria-hidden="true">
+              <polyline points="0,22 10,20 20,18 30,19 40,14 50,15 60,11 70,9 80,10 90,6 100,4" fill="none" stroke="#e8d9a8" stroke-width="1.5"/>
+            </svg>
+          </div>
+        </div>
+
+        <div class="metric">
+          <div class="label">Outstanding A/R</div>
+          <div class="value">$184,612.50</div>
+          <div class="aging-bar" aria-label="Aging breakdown">
+            <div class="seg s1" style="width:42%"></div>
+            <div class="seg s2" style="width:28%"></div>
+            <div class="seg s3" style="width:18%"></div>
+            <div class="seg s4" style="width:12%"></div>
+          </div>
+          <div class="aging-legend">
+            <div>0–30 days<span>$77,538</span></div>
+            <div>31–60 days<span>$51,691</span></div>
+            <div>61–90 days<span>$33,231</span></div>
+            <div>90+ days<span>$22,153</span></div>
+          </div>
+        </div>
+
+        <div class="metric">
+          <div class="label">Active matters</div>
+          <div class="metric-body">
+            <div>
+              <div class="value">7</div>
+              <div class="delta" style="margin-top:6px;color:var(--muted);">3 in active litigation · 2 on hold · 14 closed lifetime</div>
+            </div>
+            <div class="ring" aria-hidden="true">
+              <svg viewBox="0 0 36 36">
+                <circle class="track" cx="18" cy="18" r="15.9" fill="none" stroke-width="3"/>
+                <circle class="fill" cx="18" cy="18" r="15.9" fill="none" stroke-width="3" stroke-dasharray="48,100"/>
+              </svg>
+              <div class="pct">7/21</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="split-2">
+
+        <div class="card">
+          <div class="card-head">
+            <div>
+              <div class="card-title">Matters</div>
+              <div class="card-sub">All engagements for this client</div>
+            </div>
+            <div class="row">
+              <button class="btn btn-ghost btn-sm"><img src="./assets/icons/sliders-horizontal.svg" alt="" class="icon">Filter</button>
+              <button class="btn btn-primary btn-sm"><img src="./assets/icons/plus.svg" alt="" class="icon">New matter</button>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Code</th>
+                  <th>Caption</th>
+                  <th>Status</th>
+                  <th>Lead</th>
+                  <th>Opened</th>
+                  <th class="num">Fees YTD</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="code">MER-2241</td>
+                  <td>
+                    <div class="caption-cell">
+                      <span class="title">Meridian v. Caldwell Freight Systems</span>
+                      <span class="sub">Breach of contract · 9th Cir. <span class="badge jur">CA-N</span></span>
+                    </div>
+                  </td>
+                  <td><span class="pill active">Active</span></td>
+                  <td>E. Marchetti</td>
+                  <td>Feb 04, 2024</td>
+                  <td class="num">$612,480</td>
+                </tr>
+                <tr>
+                  <td class="code">MER-2198</td>
+                  <td>
+                    <div class="caption-cell">
+                      <span class="title">In re Meridian Driver Wage &amp; Hour</span>
+                      <span class="sub">Class action defense · <span class="badge jur">CA-C</span></span>
+                    </div>
+                  </td>
+                  <td><span class="pill active">Active</span></td>
+                  <td>R. Okafor</td>
+                  <td>Sep 22, 2023</td>
+                  <td class="num">$481,205</td>
+                </tr>
+                <tr>
+                  <td class="code">MER-2156</td>
+                  <td>
+                    <div class="caption-cell">
+                      <span class="title">Pacific Rail Interchange Dispute</span>
+                      <span class="sub">Commercial arbitration · AAA</span>
+                    </div>
+                  </td>
+                  <td><span class="pill active">Active</span></td>
+                  <td>M. Halberd</td>
+                  <td>Jun 11, 2023</td>
+                  <td class="num">$298,640</td>
+                </tr>
+                <tr>
+                  <td class="code">MER-2104</td>
+                  <td>
+                    <div class="caption-cell">
+                      <span class="title">DOT Compliance Investigation — Region IX</span>
+                      <span class="sub">Regulatory · FMCSA</span>
+                    </div>
+                  </td>
+                  <td><span class="pill hold">On hold</span></td>
+                  <td>S. Yamada</td>
+                  <td>Mar 30, 2023</td>
+                  <td class="num">$74,330</td>
+                </tr>
+                <tr>
+                  <td class="code">MER-2071</td>
+                  <td>
+                    <div class="caption-cell">
+                      <span class="title">Acquisition of Vanguard Drayage LLC</span>
+                      <span class="sub">M&amp;A diligence · <span class="badge jur">DE</span></span>
+                    </div>
+                  </td>
+                  <td><span class="pill active">Active</span></td>
+                  <td>P. Chen</td>
+                  <td>Jan 18, 2023</td>
+                  <td class="num">$156,910</td>
+                </tr>
+                <tr>
+                  <td class="code">MER-2014</td>
+                  <td>
+                    <div class="caption-cell">
+                      <span class="title">Workers' Comp — Ontario Yard Incident</span>
+                      <span class="sub">Defense · <span class="badge jur">CA-WCAB</span></span>
+                    </div>
+                  </td>
+                  <td><span class="pill hold">On hold</span></td>
+                  <td>A. Beaumont</td>
+                  <td>Nov 02, 2022</td>
+                  <td class="num">$0</td>
+                </tr>
+                <tr>
+                  <td class="code">MER-1988</td>
+                  <td>
+                    <div class="caption-cell">
+                      <span class="title">Trademark Enforcement — "Meridian Express"</span>
+                      <span class="sub">IP litigation · <span class="badge jur">TTAB</span></span>
+                    </div>
+                  </td>
+                  <td><span class="pill active">Active</span></td>
+                  <td>J. Lindqvist</td>
+                  <td>Aug 14, 2022</td>
+                  <td class="num">$112,470</td>
+                </tr>
+                <tr>
+                  <td class="code">MER-1842</td>
+                  <td>
+                    <div class="caption-cell">
+                      <span class="title">Brennan Insurance Subrogation Action</span>
+                      <span class="sub">Closed · Settled Dec 2023</span>
+                    </div>
+                  </td>
+                  <td><span class="pill closed">Closed</span></td>
+                  <td>E. Marchetti</td>
+                  <td>Feb 09, 2021</td>
+                  <td class="num">$0</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="pagination">
+            <div>Showing 8 of 21 matters</div>
+            <div class="pages">
+              <button aria-label="Previous"><img src="./assets/icons/chevron-left.svg" alt="" class="icon"></button>
+              <button class="is-active">1</button>
+              <button>2</button>
+              <button>3</button>
+              <button aria-label="Next"><img src="./assets/icons/chevron-right.svg" alt="" class="icon"></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="stack">
+
+          <div class="card">
+            <div class="card-head">
+              <div class="card-title">Contacts</div>
+              <button class="btn btn-ghost btn-sm"><img src="./assets/icons/user-plus.svg" alt="" class="icon">Add</button>
+            </div>
+            <div class="deadline-list">
+              <div class="deadline-item">
+                <div class="avatar"><img src="./assets/avatars/lorelei-seed-02.svg" alt=""></div>
+                <div class="main">
+                  <div class="type">Daniel Forsythe</div>
+                  <div class="sub">General Counsel · Primary</div>
+                  <div class="sub" style="margin-top:4px;">
+                    <img src="./assets/icons/mail.svg" alt="" class="icon"> d.forsythe@meridianlog.com
+                  </div>
+                  <div class="sub">
+                    <img src="./assets/icons/phone.svg" alt="" class="icon"> +1 (415) 555-2087
+                  </div>
+                </div>
+                <span class="pill billed no-dot" style="align-self:flex-start;">Primary</span>
+              </div>
+              <div class="deadline-item">
+                <div class="avatar"><img src="./assets/avatars/notionists-seed-04.svg" alt=""></div>
+                <div class="main">
+                  <div class="type">Priya Iyengar</div>
+                  <div class="sub">Deputy GC, Litigation</div>
+                  <div class="sub" style="margin-top:4px;">
+                    <img src="./assets/icons/mail.svg" alt="" class="icon"> p.iyengar@meridianlog.com
+                  </div>
+                  <div class="sub">
+                    <img src="./assets/icons/phone.svg" alt="" class="icon"> +1 (415) 555-2103
+                  </div>
+                </div>
+                <span class="pill" style="align-self:flex-start;">Billing</span>
+              </div>
+              <div class="deadline-item">
+                <div class="avatar"><img src="./assets/avatars/notionists-seed-07.svg" alt=""></div>
+                <div class="main">
+                  <div class="type">Marcus Whittaker</div>
+                  <div class="sub">SVP, Operations</div>
+                  <div class="sub" style="margin-top:4px;">
+                    <img src="./assets/icons/mail.svg" alt="" class="icon"> m.whittaker@meridianlog.com
+                  </div>
+                  <div class="sub">
+                    <img src="./assets/icons/phone.svg" alt="" class="icon"> +1 (510) 555-7741
+                  </div>
+                </div>
+                <span class="pill" style="align-self:flex-start;">Business</span>
+              </div>
+              <div class="deadline-item">
+                <div class="avatar"><img src="./assets/avatars/lorelei-seed-05.svg" alt=""></div>
+                <div class="main">
+                  <div class="type">Helena Rasmussen</div>
+                  <div class="sub">CFO</div>
+                  <div class="sub" style="margin-top:4px;">
+                    <img src="./assets/icons/mail.svg" alt="" class="icon"> h.rasmussen@meridianlog.com
+                  </div>
+                  <div class="sub">
+                    <img src="./assets/icons/phone.svg" alt="" class="icon"> +1 (415) 555-2009
+                  </div>
+                </div>
+                <span class="pill" style="align-self:flex-start;">Finance</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-head">
+              <div class="card-title">Engagement letters</div>
+              <button class="btn btn-ghost btn-sm"><img src="./assets/icons/upload.svg" alt="" class="icon">Upload</button>
+            </div>
+            <div class="deadline-list">
+              <div class="deadline-item">
+                <img src="./assets/icons/file-text.svg" alt="" class="icon" style="color:var(--accent);">
+                <div class="main">
+                  <div class="type">Master Engagement &amp; Outside Counsel Guidelines</div>
+                  <div class="sub">Executed Mar 14, 2017 · Rev. Jan 02, 2024</div>
+                </div>
+                <span class="pill paid no-dot">Active</span>
+              </div>
+              <div class="deadline-item">
+                <img src="./assets/icons/file-text.svg" alt="" class="icon" style="color:var(--accent);">
+                <div class="main">
+                  <div class="type">Litigation Addendum — MER-2241</div>
+                  <div class="sub">Executed Feb 09, 2024 · Hourly + success fee</div>
+                </div>
+                <span class="pill paid no-dot">Active</span>
+              </div>
+              <div class="deadline-item">
+                <img src="./assets/icons/file-text.svg" alt="" class="icon" style="color:var(--accent);">
+                <div class="main">
+                  <div class="type">Class Action Defense Letter — MER-2198</div>
+                  <div class="sub">Executed Oct 04, 2023</div>
+                </div>
+                <span class="pill paid no-dot">Active</span>
+              </div>
+              <div class="deadline-item">
+                <img src="./assets/icons/file-text.svg" alt="" class="icon" style="color:var(--muted);">
+                <div class="main">
+                  <div class="type">2024 Rate Schedule Acknowledgement</div>
+                  <div class="sub">Awaiting countersignature · Sent Apr 11, 2024</div>
+                </div>
+                <span class="pill outstanding no-dot">Pending</span>
+              </div>
+              <div class="deadline-item">
+                <img src="./assets/icons/file-text.svg" alt="" class="icon" style="color:var(--muted);">
+                <div class="main">
+                  <div class="type">Conflict Waiver — Vanguard Drayage Diligence</div>
+                  <div class="sub">Executed Jan 22, 2023</div>
+                </div>
+                <span class="pill closed no-dot">Archived</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="card">
+        <div class="card-head">
+          <div>
+            <div class="card-title">Invoice history</div>
+            <div class="card-sub">All billing across active and closed matters</div>
+          </div>
+          <div class="row">
+            <button class="btn btn-ghost btn-sm"><img src="./assets/icons/download.svg" alt="" class="icon">Export CSV</button>
+            <button class="btn btn-ghost btn-sm"><img src="./assets/icons/receipt.svg" alt="" class="icon">Generate invoice</button>
+          </div>
+        </div>
+
+        <div class="row" style="gap:8px;">
+          <span class="chip is-active">All <span class="text-muted" style="color:var(--bg-deep);opacity:.7;">· 42</span></span>
+          <span class="chip">Outstanding <span class="text-muted">· 6</span></span>
+          <span class="chip">Paid <span class="text-muted">· 34</span></span>
+          <span class="chip">Overdue <span class="text-muted">· 2</span></span>
+          <div style="flex:1;"></div>
+          <span class="chip"><img src="./assets/icons/calendar.svg" alt="" class="icon">Last 12 months</span>
+          <span class="chip"><img src="./assets/icons/funnel-x.svg" alt="" class="icon">Clear</span>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Invoice #</th>
+                <th>Issued</th>
+                <th>Period</th>
+                <th>Matter</th>
+                <th class="num">Amount</th>
+                <th>Paid</th>
+                <th>Status</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="code">INV-04822</td>
+                <td>May 01, 2024</td>
+                <td>Apr 01 – Apr 30, 2024</td>
+                <td class="code">MER-2241</td>
+                <td class="num">$78,420.00</td>
+                <td class="text-muted">—</td>
+                <td><span class="pill submitted">Submitted</span></td>
+                <td class="num"><img src="./assets/icons/ellipsis.svg" alt="" class="icon"></td>
+              </tr>
+              <tr>
+                <td class="code">INV-04821</td>
+                <td>May 01, 2024</td>
+                <td>Apr 01 – Apr 30, 2024</td>
+                <td class="code">MER-2198</td>
+                <td class="num">$54,180.50</td>
+                <td class="text-muted">—</td>
+                <td><span class="pill submitted">Submitted</span></td>
+                <td class="num"><img src="./assets/icons/ellipsis.svg" alt="" class="icon"></td>
+              </tr>
+              <tr>
+                <td class="code">INV-04760</td>
+                <td>Apr 02, 2024</td>
+                <td>Mar 01 – Mar 31, 2024</td>
+                <td class="code">MER-2241</td>
+                <td class="num">$92,310.00</td>
+                <td class="text-muted">—</td>
+                <td><span class="pill outstanding">Outstanding</span></td>
+                <td class="num"><img src="./assets/icons/ellipsis.svg" alt="" class="icon"></td>
+              </tr>
+              <tr>
+                <td class="code">INV-04759</td>
+                <td>Apr 02, 2024</td>
+                <td>Mar 01 – Mar 31, 2024</td>
+                <td class="code">MER-2198</td>
+                <td class="num">$47,815.25</td>
+                <td>Apr 24, 2024</td>
+                <td><span class="pill paid">Paid</span></td>
+                <td class="num"><img src="./assets/icons/ellipsis.svg" alt="" class="icon"></td>
+              </tr>
+              <tr>
+                <td class="code">INV-04702</td>
+                <td>Mar 04, 2024</td>
+                <td>Feb 01 – Feb 29, 2024</td>
+                <td class="code">MER-2241</td>
+                <td class="num">$33,640.00</td>
+                <td>Mar 28, 2024</td>
+                <td><span class="pill paid">Paid</span></td>
+                <td class="num"><img src="./assets/icons/ellipsis.svg" alt="" class="icon"></td>
+              </tr>
+              <tr>
+                <td class="code">INV-04681</td>
+                <td>Feb 02, 2024</td>
+                <td>Jan 01 – Jan 31, 2024</td>
+                <td class="code">MER-2156</td>
+                <td class="num">$22,153.00</td>
+                <td class="text-muted">—</td>
+                <td><span class="pill overdue">Overdue · 90+</span></td>
+                <td class="num"><img src="./assets/icons/ellipsis.svg" alt="" class="icon"></td>
+              </tr>
+              <tr>
+                <td class="code">INV-04644</td>
+                <td>Jan 03, 2024</td>
+                <td>Dec 01 – Dec 31, 2023</td>
+                <td class="code">MER-2071</td>
+                <td class="num">$41,290.00</td>
+                <td>Feb 14, 2024</td>
+                <td><span class="pill paid">Paid</span></td>
+                <td class="num"><img src="./assets/icons/ellipsis.svg" alt="" class="icon"></td>
+              </tr>
+              <tr>
+                <td class="code">INV-04602</td>
+                <td>Dec 04, 2023</td>
+                <td>Nov 01 – Nov 30, 2023</td>
+                <td class="code">MER-1988</td>
+                <td class="num">$18,940.75</td>
+                <td>Jan 09, 2024</td>
+                <td><span class="pill paid">Paid</span></td>
+                <td class="num"><img src="./assets/icons/ellipsis.svg" alt="" class="icon"></td>
+              </tr>
+              <tr>
+                <td class="code">INV-04571</td>
+                <td>Nov 06, 2023</td>
+                <td>Oct 01 – Oct 31, 2023</td>
+                <td class="code">MER-2241</td>
+                <td class="num">$64,820.00</td>
+                <td>Dec 01, 2023</td>
+                <td><span class="pill paid">Paid</span></td>
+                <td class="num"><img src="./assets/icons/ellipsis.svg" alt="" class="icon"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pagination">
+          <div>Showing 9 of 42 invoices · Total billed $4.29M</div>
+          <div class="pages">
+            <button aria-label="Previous"><img src="./assets/icons/chevron-left.svg" alt="" class="icon"></button>
+            <button class="is-active">1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+            <button>5</button>
+            <button aria-label="Next"><img src="./assets/icons/chevron-right.svg" alt="" class="icon"></button>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</div>
+</body>
+</html>

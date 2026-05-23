@@ -1,0 +1,449 @@
+[92m16:50:01 - LiteLLM:WARNING[0m: common_utils.py:979 - litellm: could not pre-load bedrock-runtime response stream shape — Bedrock event-stream decoding will be unavailable. Error: No module named 'botocore'
+[92m16:50:01 - LiteLLM:WARNING[0m: common_utils.py:24 - litellm: could not pre-load sagemaker-runtime response stream shape — SageMaker event-stream decoding will be unavailable. Error: No module named 'botocore'
+fatal: bad revision 'HEAD'
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+/home/aman/miniconda3/envs/py312/lib/python3.12/asyncio/events.py:88: DeprecationError: 2026-04-15: `Sandbox.ls()` is deprecated. Use `Sandbox.filesystem.list_files()` instead.
+  self._context.run(self._callback, *self._args)
+  20/20 Color_Palette__Judge: 0.933 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0:35:03 0:00:00
+adhoc • claude-code • claude-opus-4-7
+┏━━━┳━━━┳━━━┳━━━┳━━━┳━━━┳━━━┳━━━┳━━━┳━━━┳━━━┳━━━┳━━━┳━━━┳━━━━┳━━━┳━━━━┳━━━┳━━━━┓
+┃ … ┃ … ┃ … ┃ … ┃ … ┃ … ┃ … ┃ … ┃ … ┃ … ┃ … ┃ … ┃ … ┃ … ┃ S… ┃ … ┃ T… ┃ … ┃ V… ┃
+┡━━━╇━━━╇━━━╇━━━╇━━━╇━━━╇━━━╇━━━╇━━━╇━━━╇━━━╇━━━╇━━━╇━━━╇━━━━╇━━━╇━━━━╇━━━╇━━━━┩
+│ … │ 0 │ … │ … │ … │ … │ … │ … │ … │ … │ … │ … │ … │ … │ 0… │ … │ 0… │ … │ 0… │
+└───┴───┴───┴───┴───┴───┴───┴───┴───┴───┴───┴───┴───┴───┴────┴───┴────┴───┴────┘
+
+┏━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━┓
+┃ Reward              ┃ Count ┃
+┡━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━┩
+│ 0.7674015404120186  │     1 │
+│ 0.7127370111109045  │     1 │
+│ 0.8208160923011745  │     1 │
+│ 0.8244585016757853  │     1 │
+│ 0.8050441645153722  │     1 │
+│ 0.6456278543512093  │     1 │
+│ 0.6840628584700064  │     1 │
+│ 0.726556848869729   │     1 │
+│ 0.691874345617433   │     1 │
+│ 0.7111587428060149  │     1 │
+│ 0.6060679595991806  │     1 │
+│ 0.6310222838612841  │     1 │
+│ 0.7595327464255436  │     1 │
+│ 0.7200128323127241  │     1 │
+│ 0.8463314994331398  │     1 │
+│ 0.7800160846983992  │     1 │
+│ 0.717191712043968   │     1 │
+│ 0.6849325835998913  │     1 │
+│ 0.7527538761961324  │     1 │
+│ 0.6927218546263962  │     1 │
+│ 0.8377713548026048  │     1 │
+│ 0.8430422644485145  │     1 │
+│ 0.8371962759462759  │     1 │
+│ 0.8411998244810744  │     1 │
+│ 0.8605584808709809  │     1 │
+│ 0.8336762947700448  │     1 │
+│ 0.7988705738705739  │     1 │
+│ 0.8513329263329265  │     1 │
+│ 0.7508167735042734  │     1 │
+│ 0.7176364468864468  │     1 │
+│ 0.664643543956044   │     1 │
+│ 0.7331259157509158  │     1 │
+│ 0.8522299297924298  │     1 │
+│ 0.8286140109890109  │     1 │
+│ 0.8481337759462759  │     1 │
+│ 0.7811696174196174  │     1 │
+│ 0.8108526022588523  │     1 │
+│ 0.8244710902523401  │     1 │
+│ 0.7871606379731378  │     1 │
+│ 0.7354476495726495  │     1 │
+│ 0.7674015404120186  │     1 │
+│ 0.7127370111109045  │     1 │
+│ 0.8208160923011745  │     1 │
+│ 0.8244585016757853  │     1 │
+│ 0.8050441645153722  │     1 │
+│ 0.6456278543512093  │     1 │
+│ 0.6840628584700064  │     1 │
+│ 0.726556848869729   │     1 │
+│ 0.691874345617433   │     1 │
+│ 0.7111587428060149  │     1 │
+│ 0.6060679595991806  │     1 │
+│ 0.6310222838612841  │     1 │
+│ 0.7595327464255436  │     1 │
+│ 0.7200128323127241  │     1 │
+│ 0.8463314994331398  │     1 │
+│ 0.7800160846983992  │     1 │
+│ 0.717191712043968   │     1 │
+│ 0.6849325835998913  │     1 │
+│ 0.7527538761961324  │     1 │
+│ 0.6927218546263962  │     1 │
+│ 0.8377713548026048  │     1 │
+│ 0.8430422644485145  │     1 │
+│ 0.8371962759462759  │     1 │
+│ 0.8411998244810744  │     1 │
+│ 0.8605584808709809  │     1 │
+│ 0.8336762947700448  │     1 │
+│ 0.7988705738705739  │     1 │
+│ 0.8513329263329265  │     1 │
+│ 0.7508167735042734  │     1 │
+│ 0.7176364468864468  │     1 │
+│ 0.664643543956044   │     1 │
+│ 0.7331259157509158  │     1 │
+│ 0.8522299297924298  │     1 │
+│ 0.8286140109890109  │     1 │
+│ 0.8481337759462759  │     1 │
+│ 0.7811696174196174  │     1 │
+│ 0.8108526022588523  │     1 │
+│ 0.8244710902523401  │     1 │
+│ 0.7871606379731378  │     1 │
+│ 0.7354476495726495  │     1 │
+│ 1.0                 │    20 │
+│ 0.685425501807943   │     1 │
+│ 0.6854513702128365  │     1 │
+│ 0.612815183158658   │     1 │
+│ 0.6071301221001683  │     1 │
+│ 0.6330795189783887  │     1 │
+│ 0.6265882963393558  │     1 │
+│ 0.6325547004070663  │     1 │
+│ 0.6251526502056096  │     1 │
+│ 0.45893969183782896 │     1 │
+│ 0.4875247497284826  │     1 │
+│ 0.4321506458771921  │     1 │
+│ 0.46049783852292325 │     1 │
+│ 0.6118536450226257  │     1 │
+│ 0.6213130462102197  │     1 │
+│ 0.6698176079378854  │     1 │
+│ 0.6689387328687094  │     1 │
+│ 0.5781132845653205  │     1 │
+│ 0.5589271300818407  │     1 │
+│ 0.5023240518684728  │     1 │
+│ 0.4983212010117285  │     1 │
+│ 0.642094017094017   │     1 │
+│ 0.6378205128205128  │     1 │
+│ 0.6474358974358975  │     2 │
+│ 0.657051282051282   │     2 │
+│ 0.6463675213675214  │     1 │
+│ 0.6784188034188036  │     1 │
+│ 0.6228632478632479  │     1 │
+│ 0.6551282051282051  │     1 │
+│ 0.5923076923076923  │     1 │
+│ 0.5282051282051283  │     1 │
+│ 0.5320512820512819  │     1 │
+│ 0.6128205128205129  │     1 │
+│ 0.6487179487179486  │     1 │
+│ 0.594017094017094   │     1 │
+│ 0.6153846153846154  │     1 │
+│ 0.6420940170940171  │     1 │
+│ 0.632051282051282   │     1 │
+│ 0.5705128205128205  │     1 │
+│ 0.6527777777777778  │     1 │
+│ 0.41666666666666674 │     1 │
+│ 0.9583333333333334  │     2 │
+│ 0.9444444444444445  │     1 │
+│ 0.344973544973545   │     1 │
+│ 0.6853174603174604  │     1 │
+│ 0.7388888888888889  │     1 │
+│ 0.95                │     3 │
+│ 0.7045238095238096  │     1 │
+│ 0.7523809523809524  │     1 │
+│ 0.7333333333333334  │     1 │
+│ 0.8666666666666668  │     1 │
+│ 1.0                 │     2 │
+│ 0.8958333333333334  │     1 │
+│ 0.7708333333333334  │     1 │
+│ 0.8433333333333334  │     1 │
+│ 0.9306547619047619  │     1 │
+│ 0.9526785714285714  │     1 │
+│ 0.950595238095238   │     1 │
+│ 0.9357142857142856  │     1 │
+│ 0.9642857142857143  │     1 │
+│ 0.9145833333333333  │     1 │
+│ 0.8958333333333335  │     1 │
+│ 0.943452380952381   │     1 │
+│ 0.8742857142857142  │     1 │
+│ 0.8457142857142858  │     1 │
+│ 0.760357142857143   │     1 │
+│ 0.8685714285714285  │     1 │
+│ 0.9557142857142857  │     1 │
+│ 0.9117857142857142  │     1 │
+│ 0.9654761904761906  │     1 │
+│ 0.8797619047619047  │     1 │
+│ 0.9047619047619048  │     1 │
+│ 0.9354166666666667  │     1 │
+│ 0.917142857142857   │     1 │
+│ 0.8485714285714285  │     1 │
+│ 0.8712054774259043  │     1 │
+│ 0.9848092366413869  │     1 │
+│ 0.9782794408095263  │     1 │
+│ 0.9757476358339061  │     1 │
+│ 0.958891483549031   │     1 │
+│ 0.9428859623800152  │     1 │
+│ 0.9745977463685745  │     1 │
+│ 0.9711862116802775  │     1 │
+│ 0.8873845568923183  │     1 │
+│ 0.8570157968032888  │     1 │
+│ 0.8704741593032272  │     1 │
+│ 0.8940549755937013  │     1 │
+│ 0.9334914891702082  │     1 │
+│ 0.9086127652113557  │     1 │
+│ 0.8973423762000848  │     1 │
+│ 0.9071177277889867  │     1 │
+│ 0.89399902529772    │     1 │
+│ 0.8978164687646815  │     1 │
+│ 0.9082310331016356  │     1 │
+│ 0.8168658998191998  │     1 │
+│ 0.9598765432098766  │     1 │
+│ 0.9876543209876543  │     2 │
+│ 0.9351851851851852  │     1 │
+│ 0.9490740740740741  │     2 │
+│ 0.9753086419753086  │     1 │
+│ 0.9444444444444445  │     1 │
+│ 0.9614197530864197  │     1 │
+│ 0.8981481481481481  │     1 │
+│ 0.861111111111111   │     1 │
+│ 0.8222222222222223  │     1 │
+│ 0.8777777777777779  │     1 │
+│ 0.9962962962962963  │     1 │
+│ 0.9277777777777777  │     1 │
+│ 0.9475308641975309  │     1 │
+│ 0.9675925925925926  │     1 │
+│ 0.9521604938271605  │     1 │
+│ 0.8925925925925926  │     1 │
+│ 0.8629629629629629  │     1 │
+│ 0.8731543629533922  │     1 │
+│ 0.8493812702181249  │     1 │
+│ 0.855736652224194   │     1 │
+│ 0.8771303101751481  │     1 │
+│ 0.7971180281693081  │     1 │
+│ 0.7983835571843914  │     1 │
+│ 0.5228798714407764  │     1 │
+│ 0.5243729777437083  │     1 │
+│ 0.7052765257599088  │     1 │
+│ 0.7854007167179888  │     1 │
+│ 0.7129080911567109  │     1 │
+│ 0.7236379579057285  │     1 │
+│ 0.8517779333754524  │     1 │
+│ 0.5947867639907541  │     1 │
+│ 0.8689799371214003  │     1 │
+│ 0.8056991806657466  │     1 │
+│ 0.6016737706950527  │     1 │
+│ 0.5050692169618908  │     1 │
+│ 0.8445801291216128  │     1 │
+│ 0.8316084837595525  │     1 │
+│ 0.8055555555555555  │     1 │
+│ 0.7857142857142857  │     1 │
+│ 0.8571428571428571  │     1 │
+│ 0.8670634920634921  │     1 │
+│ 0.8869047619047619  │     1 │
+│ 0.8630952380952381  │     1 │
+│ 0.867063492063492   │     1 │
+│ 0.9186507936507936  │     1 │
+│ 0.8190476190476191  │     1 │
+│ 0.8357142857142857  │     1 │
+│ 0.8000000000000002  │     1 │
+│ 0.7952380952380953  │     1 │
+│ 0.9071428571428571  │     1 │
+│ 0.8833333333333334  │     1 │
+│ 0.871031746031746   │     1 │
+│ 0.880952380952381   │     1 │
+│ 0.8511904761904763  │     1 │
+│ 0.8313492063492064  │     1 │
+│ 0.8714285714285713  │     1 │
+│ 0.85                │     1 │
+│ 0.6953166966051615  │     1 │
+│ 0.5555844182429627  │     1 │
+│ 0.70765664033896    │     1 │
+│ 0.7231907151219655  │     1 │
+│ 0.6591062396082392  │     1 │
+│ 0.5134467067590321  │     1 │
+│ 0.5059577900362849  │     1 │
+│ 0.6789841272951014  │     1 │
+│ 0.4281484514324217  │     1 │
+│ 0.46940408607791106 │     1 │
+│ 0.3369401655357737  │     1 │
+│ 0.2020695890424046  │     1 │
+│ 0.6240675146381985  │     1 │
+│ 0.48269329151234797 │     1 │
+│ 0.7742431683630131  │     1 │
+│ 0.4918340023971983  │     1 │
+│ 0.512794058652269   │     1 │
+│ 0.5904593983616521  │     1 │
+│ 0.5459683061945846  │     1 │
+│ 0.5046243110569776  │     1 │
+│ 0.953125            │     2 │
+│ 0.9739583333333334  │     1 │
+│ 0.9583333333333334  │     1 │
+│ 0.9479166666666666  │     1 │
+│ 0.9010416666666666  │     1 │
+│ 0.8333333333333334  │     1 │
+│ 0.875               │     1 │
+│ 0.66875             │     1 │
+│ 0.625               │     1 │
+│ 0.58125             │     1 │
+│ 0.7125              │     2 │
+│ 0.90625             │     1 │
+│ 0.9875              │     1 │
+│ 0.8645833333333334  │     1 │
+│ 0.7916666666666666  │     1 │
+│ 0.890625            │     1 │
+│ 0.9114583333333334  │     1 │
+│ 0.73125             │     1 │
+│ 0.9953812885680858  │     1 │
+│ 0.9957459645899079  │     1 │
+│ 0.9469471983894122  │     1 │
+│ 0.9459900531442357  │     1 │
+│ 0.9561803318289934  │     1 │
+│ 0.8177863732314559  │     1 │
+│ 0.8834538012790237  │     1 │
+│ 0.9630941103268583  │     1 │
+│ 0.8401799254527841  │     1 │
+│ 0.8250446543401602  │     1 │
+│ 0.6907717382576392  │     1 │
+│ 0.9245725537308763  │     1 │
+│ 0.9850212792564159  │     1 │
+│ 0.9343731431966725  │     1 │
+│ 0.9779227519599374  │     1 │
+│ 0.8208376485343217  │     1 │
+│ 0.9222669603921506  │     1 │
+│ 0.9203237179953078  │     1 │
+│ 0.9235594296633931  │     1 │
+│ 0.7651008351143808  │     1 │
+│ 0.8333333333333334  │     1 │
+│ 0.8095238095238096  │     1 │
+│ 0.7261904761904762  │     2 │
+│ 0.7440476190476191  │     1 │
+│ 0.8273809523809522  │     1 │
+│ 0.7023809523809524  │     1 │
+│ 0.6726190476190476  │     1 │
+│ 0.8511904761904763  │     1 │
+│ 0.5428571428571429  │     1 │
+│ 0.5214285714285715  │     1 │
+│ 0.5                 │     1 │
+│ 0.6857142857142856  │     1 │
+│ 0.8642857142857142  │     1 │
+│ 0.6428571428571429  │     1 │
+│ 0.9047619047619048  │     1 │
+│ 0.6369047619047619  │     1 │
+│ 0.6964285714285713  │     1 │
+│ 0.7142857142857144  │     1 │
+│ 0.5928571428571429  │     1 │
+└─────────────────────┴───────┘
+
+Job Info
+Total runtime: 35m 5s
+Results written to jobs/webdev-bench-20260523-164957/result.json
+Inspect results by running `harbor view jobs`
+Share results by running `harbor upload jobs/webdev-bench-20260523-164957`
+
+→ 20 task(s) × 1 attempt(s) = 20 trial(s) on modal
+  job_name: webdev-bench-20260523-164957
+  tasks:    ['task_1-iter', 'task_1-oneshot', 'task_10-iter', 'task_10-oneshot', 'task_2-iter', 'task_2-oneshot', 'task_3-iter', 'task_3-oneshot', 'task_4-iter', 'task_4-oneshot', 'task_5-iter', 'task_5-oneshot', 'task_6-iter', 'task_6-oneshot', 'task_7-iter', 'task_7-oneshot', 'task_8-iter', 'task_8-oneshot', 'task_9-iter', 'task_9-oneshot']
+  Track B:  on
+→ harbor run -c /home/aman/webdev-bench/eval/_runs/webdev-bench-20260523-164957.yaml
+  (config: eval/_runs/webdev-bench-20260523-164957.yaml)
+
+✓ report rendered: eval/reports/webdev-bench-20260523-164957.html  (94454 KB, 20 trial(s))
+
+==============================================================================
+  job:         webdev-bench-20260523-164957
+  trials:      20
+  wall time:   35.1 min
+==============================================================================
+  trial                                      Track A   Track B  gate  flag
+  ----------------------------------------  --------  --------  ----  ----
+  task_1-iter__zkgR7dQ                        0.7674    0.8378  1.0000  
+  task_1-oneshot__yhmBhsy                     0.7127    0.8430  1.0000  |Δ|=0.13 ⚠
+  task_10-iter__3JtZTbp                       0.8208    0.8372  1.0000  
+  task_10-oneshot__3nVzSRy                    0.8245    0.8412  1.0000  
+  task_2-iter__CYoej2o                        0.8050    0.8606  1.0000  
+  task_2-oneshot__NBPiRsQ                     0.6456    0.8337  1.0000  |Δ|=0.19 ⚠
+  task_3-iter__9dcM3ws                        0.6841    0.7989  1.0000  |Δ|=0.11 ⚠
+  task_3-oneshot__vaq65ns                     0.7266    0.8513  1.0000  |Δ|=0.12 ⚠
+  task_4-iter__BRjVGyA                        0.6919    0.7508  1.0000  
+  task_4-oneshot__DnyjJFB                     0.7112    0.7176  1.0000  
+  task_5-iter__3BD3F9X                        0.6061    0.6646  1.0000  
+  task_5-oneshot__af4QqPe                     0.6310    0.7331  1.0000  |Δ|=0.10 ⚠
+  task_6-iter__8kEd2uK                        0.7595    0.8522  1.0000  
+  task_6-oneshot__jmMpFvN                     0.7200    0.8286  1.0000  |Δ|=0.11 ⚠
+  task_7-iter__TeRDp2G                        0.8463    0.8481  1.0000  
+  task_7-oneshot__WQuZHfr                     0.7800    0.7812  1.0000  
+  task_8-iter__azbcVoW                        0.7172    0.8109  1.0000  
+  task_8-oneshot__TzhbN9r                     0.6849    0.8245  1.0000  |Δ|=0.14 ⚠
+  task_9-iter__mrR39xw                        0.7528    0.7872  1.0000  
+  task_9-oneshot__qgcrcpR                     0.6927    0.7354  1.0000  
+==============================================================================

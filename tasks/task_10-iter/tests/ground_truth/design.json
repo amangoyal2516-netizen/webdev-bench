@@ -1,0 +1,79 @@
+{
+  "description": "Public-facing site for a city's Civic Dining Program \u2014 a chronological archive of community meals, neighborhood pop-ups, and food-policy milestones run by the municipal Food & Culture Office, aimed at residents who track local food culture closely",
+  "allowed_frameworks": [
+    "html-css"
+  ],
+  "palette": {
+    "background": "#ffffff",
+    "surface": "#f4f6fa",
+    "text": "#161a22",
+    "accent": "#0047ff",
+    "muted": "#6b7280"
+  },
+  "pages": [
+    {
+      "name": "timeline",
+      "description": "Chronological archive of every civic meal and food-policy event, year by year",
+      "components": [
+        "Top bar with the program seal, the office name 'Department of Food & Culture', a primary nav (Timeline, Menus, Venues, Policy, About), and a small 'EN / ES / \u4e2d\u6587' language switcher",
+        "Page header with title 'A Public Record of Civic Meals', a one-sentence mission line, and a filter strip with a year-range slider, category multi-select, and neighborhood dropdown",
+        "Vertical timeline running down the center \u2014 alternating left/right entry cards anchored to a spine of date dots, each card showing date, event name, neighborhood tag, category chip, two-line summary, attendance count, and a 'View menu' link",
+        "Decade jump-rail pinned to the side \u2014 vertical list of decade labels (2010s, 2020s) with sub-items per year, highlighting the year currently in view",
+        "Footer with office address, public-records request link, accessibility statement, open-data CSV download of the full timeline, and the city seal"
+      ]
+    },
+    {
+      "name": "menus",
+      "description": "Browsable index of every menu served at civic events, treated like a permanent municipal record",
+      "components": [
+        "Same top bar",
+        "Page heading 'Menu Archive' with a count of total menus on file and a sort dropdown (Most recent, Oldest, By chef, By neighborhood)",
+        "Filter rail on the left with checkboxes for course type (Starter, Main, Side, Dessert, Beverage), dietary tags (Vegan, Halal, Kosher, Gluten-free), sourcing radius slider in miles, and a season chip row (Spring, Summer, Fall, Winter)",
+        "Grid of menu cards (three per row) \u2014 each card shows event date, event name, presiding chef, an indexed course list with prices marked 'Free / Civic', a sourcing-radius badge, and a 'Read full menu' link"
+      ]
+    },
+    {
+      "name": "menu-detail",
+      "description": "Single archived menu rendered as an official document with provenance",
+      "components": [
+        "Same top bar",
+        "Document header with event title, date, venue, presiding chef, attendance, and a row of metadata pills (record number, filed-by clerk, archived-on date)",
+        "Two-column menu body \u2014 left column lists numbered courses with dish name, description, and dietary icons; right column is a 'Sourcing ledger' table mapping each ingredient to its supplier",
+        "Footnotes section below the menu with a chef's note paragraph, a translator credit, and an allergen disclosure block",
+        "Provenance footer bar with previous-menu and next-menu navigation arrows, a 'Cite this record' button that reveals a citation string, and a 'Download as PDF' link"
+      ]
+    },
+    {
+      "name": "venues",
+      "description": "Directory of public venues that have hosted civic meals",
+      "components": [
+        "Same top bar",
+        "Page heading 'Civic Venues' with a toggle between Map view and List view and a search input for venue name or address",
+        "Map-plus-list split \u2014 left half is an interactive map with numbered pins clustered by district, right half is a scrollable list of venue rows (each row: pin number, venue name, address, district, total events hosted, first-hosted date, capacity)",
+        "Selected-venue side panel that slides in with the venue photo block, an accessibility checklist (ramp, elevator, hearing loop, gender-neutral restrooms), a list of upcoming bookings, and a 'Request this venue' civic-form button"
+      ]
+    },
+    {
+      "name": "policy",
+      "description": "Public log of food-policy decisions tied to the dining program",
+      "components": [
+        "Same top bar",
+        "Page heading 'Policy & Ordinances' with a short paragraph explaining how the dining program intersects with municipal code",
+        "Chronological ordinance list \u2014 each entry has ordinance number, enactment date, title, sponsoring council member, a two-sentence summary, a status chip (In effect, Amended, Repealed), and links to the full text and the vote record",
+        "Sidebar with a 'Currently in deliberation' list of three pending items, each showing committee name, next hearing date, and a 'Submit public comment' link",
+        "Bottom panel 'How a meal becomes policy' \u2014 a horizontal five-step process diagram with numbered stages (Proposal, Community input, Committee review, Council vote, Implementation)"
+      ]
+    },
+    {
+      "name": "about",
+      "description": "About page describing the Civic Dining Program, its staff, and how to participate",
+      "components": [
+        "Same top bar",
+        "Mandate block with the program's founding statement, founding date, and the name of the council resolution that established it",
+        "Staff roster grid (three per row) \u2014 each entry has a portrait placeholder, name, civic title, office phone extension, and public email",
+        "Get-involved section with three side-by-side cards: 'Propose a meal' (form link), 'Volunteer as a server' (calendar link), 'Nominate a venue' (form link)",
+        "Footer (same as timeline page)"
+      ]
+    }
+  ]
+}

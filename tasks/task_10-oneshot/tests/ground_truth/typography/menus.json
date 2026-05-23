@@ -1,0 +1,2432 @@
+[
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 10,
+    "font_weight": "400",
+    "line_height": "11px",
+    "area": 2006.640625,
+    "text_len": 24
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 17,
+    "font_weight": "700",
+    "line_height": "18.7px",
+    "area": 3409.0087890625,
+    "text_len": 20
+  },
+  {
+    "tag": "a",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 2697.853271484375,
+    "text_len": 8
+  },
+  {
+    "tag": "a",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 1686.53076171875,
+    "text_len": 5
+  },
+  {
+    "tag": "a",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 2023.8369140625,
+    "text_len": 6
+  },
+  {
+    "tag": "a",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 2023.8369140625,
+    "text_len": 6
+  },
+  {
+    "tag": "a",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 1686.53076171875,
+    "text_len": 5
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1262.493896484375,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1262.493896484375,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1229.447021484375,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1713.477294921875,
+    "text_len": 13
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1582.1630859375,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 2514.94677734375,
+    "text_len": 19
+  },
+  {
+    "tag": "h1",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 46,
+    "font_weight": "700",
+    "line_height": "52.9px",
+    "area": 65161.25,
+    "text_len": 12
+  },
+  {
+    "tag": "p",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 17,
+    "font_weight": "400",
+    "line_height": "26.35px",
+    "area": 61644.375,
+    "text_len": 293
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 2111.1875,
+    "text_len": 14
+  },
+  {
+    "tag": "strong",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 20,
+    "font_weight": "700",
+    "line_height": "31px",
+    "area": 927.5,
+    "text_len": 3
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 2114.375,
+    "text_len": 13
+  },
+  {
+    "tag": "label",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 4091.25,
+    "text_len": 7
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1492.13427734375,
+    "text_len": 11
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 240.25439453125,
+    "text_len": 2
+  },
+  {
+    "tag": "label",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 5236.5625,
+    "text_len": 7
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 360.115234375,
+    "text_len": 3
+  },
+  {
+    "tag": "label",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 5236.5625,
+    "text_len": 4
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 360.115234375,
+    "text_len": 3
+  },
+  {
+    "tag": "label",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 5236.5625,
+    "text_len": 4
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 360.115234375,
+    "text_len": 3
+  },
+  {
+    "tag": "label",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 5236.5625,
+    "text_len": 7
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 360.115234375,
+    "text_len": 3
+  },
+  {
+    "tag": "label",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 5236.5625,
+    "text_len": 8
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 360.115234375,
+    "text_len": 3
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1627.177490234375,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 240.25439453125,
+    "text_len": 2
+  },
+  {
+    "tag": "label",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 5236.5625,
+    "text_len": 5
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 240.25439453125,
+    "text_len": 2
+  },
+  {
+    "tag": "label",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 5236.5625,
+    "text_len": 5
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 360.115234375,
+    "text_len": 3
+  },
+  {
+    "tag": "label",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 5236.5625,
+    "text_len": 6
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 240.25439453125,
+    "text_len": 2
+  },
+  {
+    "tag": "label",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 5236.5625,
+    "text_len": 11
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 360.115234375,
+    "text_len": 3
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 2032.30712890625,
+    "text_len": 15
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 240.25439453125,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 457.0693359375,
+    "text_len": 4
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 801.469482421875,
+    "text_len": 7
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 682.141357421875,
+    "text_len": 6
+  },
+  {
+    "tag": "p",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 8864.375,
+    "text_len": 55
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 810.25927734375,
+    "text_len": 6
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 240.25439453125,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1917.369873046875,
+    "text_len": 6
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1917.369873046875,
+    "text_len": 6
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1512.9345703125,
+    "text_len": 4
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1917.369873046875,
+    "text_len": 6
+  },
+  {
+    "tag": "a",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 5212.1875,
+    "text_len": 13
+  },
+  {
+    "tag": "a",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 5212.1875,
+    "text_len": 20
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 2258.977294921875,
+    "text_len": 17
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 10,
+    "font_weight": "400",
+    "line_height": "15.5px",
+    "area": 1240.3828125,
+    "text_len": 7
+  },
+  {
+    "tag": "h3",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 20,
+    "font_weight": "700",
+    "line_height": "23px",
+    "area": 11377.09375,
+    "text_len": 30
+  },
+  {
+    "tag": "p",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4981.343017578125,
+    "text_len": 31
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4486.95361328125,
+    "text_len": 27
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1450.125,
+    "text_len": 3
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 6730.430419921875,
+    "text_len": 37
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 5313.3486328125,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1063.6767578125,
+    "text_len": 4
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4390.02685546875,
+    "text_len": 29
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 3
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4486.95361328125,
+    "text_len": 28
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4486.95361328125,
+    "text_len": 23
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1687.374267578125,
+    "text_len": 14
+  },
+  {
+    "tag": "a",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 2556.916259765625,
+    "text_len": 14
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 2258.977294921875,
+    "text_len": 17
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 10,
+    "font_weight": "400",
+    "line_height": "15.5px",
+    "area": 1240.3828125,
+    "text_len": 7
+  },
+  {
+    "tag": "h3",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 20,
+    "font_weight": "700",
+    "line_height": "23px",
+    "area": 5688.546875,
+    "text_len": 22
+  },
+  {
+    "tag": "p",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4981.343017578125,
+    "text_len": 30
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4486.95361328125,
+    "text_len": 32
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 3
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4486.95361328125,
+    "text_len": 23
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1063.6767578125,
+    "text_len": 4
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4390.02685546875,
+    "text_len": 31
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 3
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4486.95361328125,
+    "text_len": 36
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4486.95361328125,
+    "text_len": 26
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1687.374267578125,
+    "text_len": 14
+  },
+  {
+    "tag": "a",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 2556.916259765625,
+    "text_len": 14
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 2258.977294921875,
+    "text_len": 17
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 10,
+    "font_weight": "400",
+    "line_height": "15.5px",
+    "area": 1240.3828125,
+    "text_len": 7
+  },
+  {
+    "tag": "h3",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 20,
+    "font_weight": "700",
+    "line_height": "23px",
+    "area": 5688.90625,
+    "text_len": 24
+  },
+  {
+    "tag": "p",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4981.65771484375,
+    "text_len": 28
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4487.5830078125,
+    "text_len": 26
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 3
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4487.5830078125,
+    "text_len": 31
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1063.6767578125,
+    "text_len": 4
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4390.65625,
+    "text_len": 29
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 3
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4487.5830078125,
+    "text_len": 26
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 483.375,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 2243.79150390625,
+    "text_len": 19
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1771.1162109375,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1687.374267578125,
+    "text_len": 14
+  },
+  {
+    "tag": "a",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 2556.916259765625,
+    "text_len": 14
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 2258.977294921875,
+    "text_len": 17
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 10,
+    "font_weight": "400",
+    "line_height": "15.5px",
+    "area": 1240.3828125,
+    "text_len": 7
+  },
+  {
+    "tag": "h3",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 20,
+    "font_weight": "700",
+    "line_height": "23px",
+    "area": 5688.546875,
+    "text_len": 25
+  },
+  {
+    "tag": "p",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4981.343017578125,
+    "text_len": 28
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4486.95361328125,
+    "text_len": 30
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 483.375,
+    "text_len": 3
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 2243.476806640625,
+    "text_len": 19
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1771.1162109375,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1063.6767578125,
+    "text_len": 4
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4390.02685546875,
+    "text_len": 26
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 483.375,
+    "text_len": 3
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 2243.476806640625,
+    "text_len": 19
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1771.1162109375,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4486.95361328125,
+    "text_len": 28
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1687.374267578125,
+    "text_len": 14
+  },
+  {
+    "tag": "a",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 2556.916259765625,
+    "text_len": 14
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 2258.977294921875,
+    "text_len": 17
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 10,
+    "font_weight": "400",
+    "line_height": "15.5px",
+    "area": 1240.3828125,
+    "text_len": 7
+  },
+  {
+    "tag": "h3",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 20,
+    "font_weight": "700",
+    "line_height": "23px",
+    "area": 5688.546875,
+    "text_len": 22
+  },
+  {
+    "tag": "p",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4981.343017578125,
+    "text_len": 29
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4486.95361328125,
+    "text_len": 25
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 3
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4486.95361328125,
+    "text_len": 25
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1063.6767578125,
+    "text_len": 4
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4390.02685546875,
+    "text_len": 22
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 3
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4486.95361328125,
+    "text_len": 28
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 483.375,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 2243.476806640625,
+    "text_len": 18
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1771.1162109375,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1687.374267578125,
+    "text_len": 14
+  },
+  {
+    "tag": "a",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 2556.916259765625,
+    "text_len": 14
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 2258.977294921875,
+    "text_len": 17
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 10,
+    "font_weight": "400",
+    "line_height": "15.5px",
+    "area": 1240.3828125,
+    "text_len": 7
+  },
+  {
+    "tag": "h3",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 20,
+    "font_weight": "700",
+    "line_height": "23px",
+    "area": 5688.90625,
+    "text_len": 23
+  },
+  {
+    "tag": "p",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4981.65771484375,
+    "text_len": 28
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4487.5830078125,
+    "text_len": 27
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 3
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4487.5830078125,
+    "text_len": 21
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1063.6767578125,
+    "text_len": 4
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4390.65625,
+    "text_len": 24
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 3
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4487.5830078125,
+    "text_len": 28
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4487.5830078125,
+    "text_len": 22
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1687.374267578125,
+    "text_len": 14
+  },
+  {
+    "tag": "a",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 2556.916259765625,
+    "text_len": 14
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 2258.977294921875,
+    "text_len": 17
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 10,
+    "font_weight": "400",
+    "line_height": "15.5px",
+    "area": 1240.3828125,
+    "text_len": 7
+  },
+  {
+    "tag": "h3",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 20,
+    "font_weight": "700",
+    "line_height": "23px",
+    "area": 5688.546875,
+    "text_len": 28
+  },
+  {
+    "tag": "p",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4981.343017578125,
+    "text_len": 29
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4486.95361328125,
+    "text_len": 23
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 3
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4486.95361328125,
+    "text_len": 23
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1063.6767578125,
+    "text_len": 4
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4390.02685546875,
+    "text_len": 29
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 3
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4486.95361328125,
+    "text_len": 25
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4486.95361328125,
+    "text_len": 24
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1687.374267578125,
+    "text_len": 14
+  },
+  {
+    "tag": "a",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 2556.916259765625,
+    "text_len": 14
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 2258.977294921875,
+    "text_len": 17
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 10,
+    "font_weight": "400",
+    "line_height": "15.5px",
+    "area": 1240.3828125,
+    "text_len": 7
+  },
+  {
+    "tag": "h3",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 20,
+    "font_weight": "700",
+    "line_height": "23px",
+    "area": 5688.546875,
+    "text_len": 21
+  },
+  {
+    "tag": "p",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4981.343017578125,
+    "text_len": 30
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4486.95361328125,
+    "text_len": 22
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 3
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4486.95361328125,
+    "text_len": 27
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1063.6767578125,
+    "text_len": 4
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4390.02685546875,
+    "text_len": 25
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 3
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4486.95361328125,
+    "text_len": 26
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4486.95361328125,
+    "text_len": 22
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1687.374267578125,
+    "text_len": 14
+  },
+  {
+    "tag": "a",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 2556.916259765625,
+    "text_len": 14
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 2258.977294921875,
+    "text_len": 17
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 10,
+    "font_weight": "400",
+    "line_height": "15.5px",
+    "area": 1240.3828125,
+    "text_len": 7
+  },
+  {
+    "tag": "h3",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 20,
+    "font_weight": "700",
+    "line_height": "23px",
+    "area": 5688.90625,
+    "text_len": 27
+  },
+  {
+    "tag": "p",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4981.65771484375,
+    "text_len": 31
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4487.5830078125,
+    "text_len": 25
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 483.375,
+    "text_len": 3
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 2243.79150390625,
+    "text_len": 21
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1771.1162109375,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1063.6767578125,
+    "text_len": 4
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4390.65625,
+    "text_len": 25
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 3
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4487.5830078125,
+    "text_len": 29
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 966.75,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 4487.5830078125,
+    "text_len": 25
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3542.232421875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1687.374267578125,
+    "text_len": 14
+  },
+  {
+    "tag": "a",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 2556.916259765625,
+    "text_len": 14
+  },
+  {
+    "tag": "a",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1784.861083984375,
+    "text_len": 11
+  },
+  {
+    "tag": "div",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 3161.66259765625,
+    "text_len": 26
+  },
+  {
+    "tag": "a",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 1784.861083984375,
+    "text_len": 11
+  },
+  {
+    "tag": "div",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 64008.125,
+    "text_len": 52
+  },
+  {
+    "tag": "em",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 4382.65625,
+    "text_len": 47
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 10,
+    "font_weight": "400",
+    "line_height": "11px",
+    "area": 2006.640625,
+    "text_len": 24
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 17,
+    "font_weight": "700",
+    "line_height": "18.7px",
+    "area": 3409.0087890625,
+    "text_len": 20
+  },
+  {
+    "tag": "p",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 18484.938720703125,
+    "text_len": 124
+  },
+  {
+    "tag": "p",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 12323.29248046875,
+    "text_len": 26
+  },
+  {
+    "tag": "h5",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "12.65px",
+    "area": 3263.453857421875,
+    "text_len": 7
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 790.234375,
+    "text_len": 8
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 601.640625,
+    "text_len": 5
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 638.296875,
+    "text_len": 6
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 564.984375,
+    "text_len": 6
+  },
+  {
+    "tag": "h5",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "12.65px",
+    "area": 3263.6513671875,
+    "text_len": 6
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 1666.796875,
+    "text_len": 17
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 1188.40625,
+    "text_len": 13
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 1409.40625,
+    "text_len": 16
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 1280.578125,
+    "text_len": 13
+  },
+  {
+    "tag": "h5",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "12.65px",
+    "area": 3263.6513671875,
+    "text_len": 7
+  },
+  {
+    "tag": "li",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 5200.0576171875,
+    "text_len": 21
+  },
+  {
+    "tag": "li",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 5200.0576171875,
+    "text_len": 17
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 1413.390625,
+    "text_len": 15
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Source Serif 4\", Georgia, serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 957.3125,
+    "text_len": 10
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 6901.32080078125,
+    "text_len": 52
+  },
+  {
+    "tag": "span",
+    "font_family": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "17.05px",
+    "area": 5167.600341796875,
+    "text_len": 39
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "description": "Matter analytics and time-tracking workspace for litigation attorneys \u2014 sidebar-driven app with caseload dashboard, billable-hours tracking, deadline calendar, and matter detail views",
+  "allowed_frameworks": [
+    "html-css"
+  ],
+  "palette": {
+    "background": "#1f2e22",
+    "surface": "#3d4a35",
+    "text": "#f1e8d4",
+    "accent": "#e8d9a8",
+    "accent_alt": "#b8643a",
+    "muted": "#8a9582"
+  },
+  "pages": [
+    {
+      "name": "dashboard",
+      "description": "Practice overview showing daily billables, active matters, and upcoming deadlines",
+      "components": [
+        "Persistent left sidebar with firm name, attorney initials, primary nav (Dashboard, Matters, Time, Calendar, Clients), a 'Start timer' action, and a footer running-timer indicator",
+        "Top utility bar with breadcrumb 'Today', a date stepper, a global search input scoped to matters/clients, and a 'Log time' button",
+        "Row of four metric tiles: Billable hours today (goal-progress ring), Billable hours this week (7-day bar mini-chart), Realization rate (percent with delta), Matters touched today (count + avatar stack)",
+        "Two-column area \u2014 left 'Active matters' table (matter code, caption, client, practice area, last activity, hours sparkline); right 'Upcoming deadlines' list (jurisdiction badge, deadline type, days-remaining chip, attorney)",
+        "Bottom strip 'Recent time entries' as a compact table with start time, duration, matter code, narrative excerpt, billable toggle, and a status pill (Draft, Submitted, Billed)"
+      ]
+    },
+    {
+      "name": "matters",
+      "description": "Filterable caseload list of every active and archived matter",
+      "components": [
+        "Same persistent sidebar",
+        "Page header with title 'Matters', a result count, a 'New matter' primary button, and a view toggle (Table / Board)",
+        "Filter bar with chips for Practice area, Status (Active, On hold, Closed), Lead attorney dropdown, Client dropdown, Jurisdiction dropdown, and a date-opened range picker",
+        "Main matters table with columns: matter code, caption, client, practice area, lead attorney (avatar + name), opened date, last activity, hours MTD, fees MTD, status pill, and a row-hover overflow menu",
+        "Pagination footer with rows-per-page selector, page range indicator, and an 'Export to CSV' link"
+      ]
+    },
+    {
+      "name": "matter-detail",
+      "description": "Single matter workspace with parties, timeline, documents, and billing summary",
+      "components": [
+        "Same persistent sidebar",
+        "Matter header with breadcrumb, matter caption as title, sub-row (client, opened date, lead attorney, jurisdiction, status pill), and actions 'Start timer', 'Add deadline', 'Generate invoice'",
+        "Horizontal tab strip (Overview, Parties, Timeline, Documents, Time & fees, Notes) above a two-column body: 'Parties' card (opposing counsel, judge, client contacts) and 'Key dates' card (filed, next hearing, SOL, trial)",
+        "Right column 'Activity timeline' as a vertical thread of dated entries (filings, calls, emails, time logs, document uploads) each with an event-type icon, actor, summary, and a duration chip when applicable",
+        "Bottom 'Billing summary' panel with a stacked-bar chart of monthly fees vs costs, a fees-to-date / retainer-remaining pair, and a small table of the five most recent invoices (number, date, amount, status)"
+      ]
+    },
+    {
+      "name": "time",
+      "description": "Weekly timesheet for reviewing, editing, and submitting billable entries",
+      "components": [
+        "Same persistent sidebar",
+        "Header with title 'Timesheet', a week-of date stepper, a target-vs-actual hours indicator for the week, and buttons 'Add entry' and 'Submit week'",
+        "Weekly grid with rows grouped by matter and columns for each day of the week \u2014 each cell shows logged hours, hovering reveals entry count, and a totals row across the bottom plus a totals column on the right",
+        "Below the grid, an 'Unsubmitted entries' list where each row contains matter code, date, duration stepper, billable toggle, activity-code dropdown (UTBMS task code), a narrative text field, and a delete control",
+        "Side panel 'Timer' docked to the right with a large running clock, matter selector, activity-code selector, narrative textarea, and Stop / Discard buttons"
+      ]
+    },
+    {
+      "name": "calendar",
+      "description": "Deadline and court-date calendar with jurisdiction-aware rules",
+      "components": [
+        "Same persistent sidebar",
+        "Header with title 'Calendar', view toggle (Month / Week / Agenda), date navigator, a 'Filter by matter' multi-select, and an 'Add deadline' primary button",
+        "Month grid with day cells showing date number, an indicator for court holidays per selected jurisdiction, and stacked event chips colored by event type (Filing deadline, Hearing, Deposition, Internal)",
+        "Right-hand 'Selected day' panel listing the day's events in order with time, event type icon, matter caption, location/courtroom, assigned attorneys (avatar stack), and a 'Compute deadline chain' link",
+        "Bottom 'Rule-based deadlines' helper showing a small form with trigger event dropdown, jurisdiction dropdown, and a generated checklist of downstream deadlines with proposed dates and a 'Add all to calendar' button"
+      ]
+    },
+    {
+      "name": "client-detail",
+      "description": "Client profile aggregating all matters, contacts, and billing history",
+      "components": [
+        "Same persistent sidebar",
+        "Client header with breadcrumb (Clients / [name]), client name as title, sub-row with client type (Corporate / Individual), industry, primary contact, originating attorney, and an 'Open conflict check' action",
+        "Three-up summary cards: Lifetime fees billed, Outstanding A/R (with an aging bar broken into 0\u201330 / 31\u201360 / 61\u201390 / 90+ segments), and Active matters count",
+        "Two-column body \u2014 left 'Matters' table (code, caption, status, lead attorney, opened, fees YTD); right column stacked with a 'Contacts' card (name, title, email, phone, role) and an 'Engagement letters' card",
+        "Bottom 'Invoice history' table with invoice number, issued date, period, amount, paid date, and status pill, plus a row of quick-filter chips above for All / Outstanding / Paid / Overdue"
+      ]
+    }
+  ]
+}

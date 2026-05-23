@@ -1,0 +1,902 @@
+[
+  {
+    "tag": "span",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "700",
+    "line_height": "20.15px",
+    "area": 676,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 16,
+    "font_weight": "700",
+    "line_height": "24.8px",
+    "area": 2321.607421875,
+    "text_len": 10
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "500",
+    "line_height": "20.15px",
+    "area": 1099.866943359375,
+    "text_len": 7
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "500",
+    "line_height": "20.15px",
+    "area": 628.76513671875,
+    "text_len": 4
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "500",
+    "line_height": "20.15px",
+    "area": 1099.866943359375,
+    "text_len": 7
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "500",
+    "line_height": "20.15px",
+    "area": 1414.24951171875,
+    "text_len": 9
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "500",
+    "line_height": "20.15px",
+    "area": 1414.24951171875,
+    "text_len": 9
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "600",
+    "line_height": "12px",
+    "area": 2727.4375,
+    "text_len": 7
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "600",
+    "line_height": "12px",
+    "area": 4440.71875,
+    "text_len": 11
+  },
+  {
+    "tag": "span",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "600",
+    "line_height": "18.6px",
+    "area": 17299.33154296875,
+    "text_len": 29
+  },
+  {
+    "tag": "h1",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 52,
+    "font_weight": "700",
+    "line_height": "56.16px",
+    "area": 63507.4541015625,
+    "text_len": 20
+  },
+  {
+    "tag": "p",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 18,
+    "font_weight": "400",
+    "line_height": "27.9px",
+    "area": 78854.20532226562,
+    "text_len": 232
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 16,
+    "font_weight": "600",
+    "line_height": "16px",
+    "area": 12381.25,
+    "text_len": 17
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 16,
+    "font_weight": "600",
+    "line_height": "16px",
+    "area": 10181.25,
+    "text_len": 13
+  },
+  {
+    "tag": "span",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 1812.970947265625,
+    "text_len": 13
+  },
+  {
+    "tag": "span",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 3464.81689453125,
+    "text_len": 24
+  },
+  {
+    "tag": "span",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 1418.340576171875,
+    "text_len": 10
+  },
+  {
+    "tag": "button",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 12,
+    "font_weight": "400",
+    "line_height": "normal",
+    "area": 1478.75,
+    "text_len": 4
+  },
+  {
+    "tag": "button",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 12,
+    "font_weight": "400",
+    "line_height": "normal",
+    "area": 1478.75,
+    "text_len": 4
+  },
+  {
+    "tag": "button",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 12,
+    "font_weight": "400",
+    "line_height": "normal",
+    "area": 1882.125,
+    "text_len": 6
+  },
+  {
+    "tag": "button",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 12,
+    "font_weight": "400",
+    "line_height": "normal",
+    "area": 1075.375,
+    "text_len": 2
+  },
+  {
+    "tag": "button",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 12,
+    "font_weight": "400",
+    "line_height": "normal",
+    "area": 2038.75,
+    "text_len": 4
+  },
+  {
+    "tag": "span",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "22.1px",
+    "area": 6797.609375,
+    "text_len": 51
+  },
+  {
+    "tag": "pre",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "22.1px",
+    "area": 205082.81787109375,
+    "text_len": 4
+  },
+  {
+    "tag": "span",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "22.1px",
+    "area": 6100.609375,
+    "text_len": 46
+  },
+  {
+    "tag": "span",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "22.1px",
+    "area": 4655.34375,
+    "text_len": 35
+  },
+  {
+    "tag": "span",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "22.1px",
+    "area": 4247.34375,
+    "text_len": 32
+  },
+  {
+    "tag": "span",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "22.1px",
+    "area": 54823.5126953125,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "22.1px",
+    "area": 1856.71875,
+    "text_len": 14
+  },
+  {
+    "tag": "span",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "22.1px",
+    "area": 4509.25,
+    "text_len": 34
+  },
+  {
+    "tag": "span",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "22.1px",
+    "area": 1326.265625,
+    "text_len": 10
+  },
+  {
+    "tag": "span",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "22.1px",
+    "area": 2652.53125,
+    "text_len": 20
+  },
+  {
+    "tag": "span",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "22.1px",
+    "area": 1856.71875,
+    "text_len": 14
+  },
+  {
+    "tag": "span",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "22.1px",
+    "area": 928.359375,
+    "text_len": 7
+  },
+  {
+    "tag": "span",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "22.1px",
+    "area": 1193.71875,
+    "text_len": 9
+  },
+  {
+    "tag": "span",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "22.1px",
+    "area": 1193.71875,
+    "text_len": 9
+  },
+  {
+    "tag": "span",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "22.1px",
+    "area": 795.8125,
+    "text_len": 6
+  },
+  {
+    "tag": "span",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "22.1px",
+    "area": 1326.265625,
+    "text_len": 10
+  },
+  {
+    "tag": "span",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "22.1px",
+    "area": 3726.984375,
+    "text_len": 28
+  },
+  {
+    "tag": "span",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "22.1px",
+    "area": 530.71875,
+    "text_len": 4
+  },
+  {
+    "tag": "span",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "22.1px",
+    "area": 1856.71875,
+    "text_len": 14
+  },
+  {
+    "tag": "span",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "22.1px",
+    "area": 1061.171875,
+    "text_len": 8
+  },
+  {
+    "tag": "span",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "22.1px",
+    "area": 1459.078125,
+    "text_len": 11
+  },
+  {
+    "tag": "span",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "22.1px",
+    "area": 1193.71875,
+    "text_len": 9
+  },
+  {
+    "tag": "span",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "22.1px",
+    "area": 265.359375,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "22.1px",
+    "area": 1591.625,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "22.1px",
+    "area": 530.71875,
+    "text_len": 4
+  },
+  {
+    "tag": "span",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "22.1px",
+    "area": 1326.265625,
+    "text_len": 10
+  },
+  {
+    "tag": "span",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "22.1px",
+    "area": 132.8125,
+    "text_len": 1
+  },
+  {
+    "tag": "p",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "600",
+    "line_height": "18.6px",
+    "area": 21420,
+    "text_len": 33
+  },
+  {
+    "tag": "div",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 16,
+    "font_weight": "700",
+    "line_height": "24.8px",
+    "area": 4265.0625,
+    "text_len": 9
+  },
+  {
+    "tag": "div",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 16,
+    "font_weight": "700",
+    "line_height": "24.8px",
+    "area": 4265.0625,
+    "text_len": 13
+  },
+  {
+    "tag": "div",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 16,
+    "font_weight": "700",
+    "line_height": "24.8px",
+    "area": 4265.0625,
+    "text_len": 10
+  },
+  {
+    "tag": "div",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 16,
+    "font_weight": "700",
+    "line_height": "24.8px",
+    "area": 4265.0625,
+    "text_len": 9
+  },
+  {
+    "tag": "div",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 16,
+    "font_weight": "700",
+    "line_height": "24.8px",
+    "area": 4265.0625,
+    "text_len": 12
+  },
+  {
+    "tag": "div",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 16,
+    "font_weight": "700",
+    "line_height": "24.8px",
+    "area": 4265.0625,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "600",
+    "line_height": "18.6px",
+    "area": 20803.75,
+    "text_len": 12
+  },
+  {
+    "tag": "h2",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 38,
+    "font_weight": "700",
+    "line_height": "43.7px",
+    "area": 29707.5,
+    "text_len": 31
+  },
+  {
+    "tag": "p",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 18,
+    "font_weight": "400",
+    "line_height": "27.9px",
+    "area": 56896.875,
+    "text_len": 148
+  },
+  {
+    "tag": "h3",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 22,
+    "font_weight": "700",
+    "line_height": "26.4px",
+    "area": 9711.75,
+    "text_len": 17
+  },
+  {
+    "tag": "p",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 15,
+    "font_weight": "400",
+    "line_height": "23.25px",
+    "area": 51336,
+    "text_len": 228
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "20.15px",
+    "area": 7411.75,
+    "text_len": 10
+  },
+  {
+    "tag": "h3",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 22,
+    "font_weight": "700",
+    "line_height": "26.4px",
+    "area": 9711.75,
+    "text_len": 12
+  },
+  {
+    "tag": "p",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 15,
+    "font_weight": "400",
+    "line_height": "23.25px",
+    "area": 42780,
+    "text_len": 206
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "20.15px",
+    "area": 7411.75,
+    "text_len": 10
+  },
+  {
+    "tag": "h3",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 22,
+    "font_weight": "700",
+    "line_height": "26.4px",
+    "area": 9711.75,
+    "text_len": 19
+  },
+  {
+    "tag": "p",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 15,
+    "font_weight": "400",
+    "line_height": "23.25px",
+    "area": 51336,
+    "text_len": 214
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "20.15px",
+    "area": 7411.75,
+    "text_len": 10
+  },
+  {
+    "tag": "span",
+    "font_family": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+    "font_size_px": 13,
+    "font_weight": "700",
+    "line_height": "20.15px",
+    "area": 676,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 16,
+    "font_weight": "700",
+    "line_height": "24.8px",
+    "area": 2321.607421875,
+    "text_len": 10
+  },
+  {
+    "tag": "p",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 21386.826171875,
+    "text_len": 113
+  },
+  {
+    "tag": "span",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "600",
+    "line_height": "18.6px",
+    "area": 8652.6220703125,
+    "text_len": 23
+  },
+  {
+    "tag": "h5",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "700",
+    "line_height": "16.2px",
+    "area": 3069.8076171875,
+    "text_len": 7
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 2061.25,
+    "text_len": 17
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 1437.25,
+    "text_len": 12
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 2311,
+    "text_len": 19
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 873.75,
+    "text_len": 7
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 1123.5,
+    "text_len": 9
+  },
+  {
+    "tag": "h5",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "700",
+    "line_height": "16.2px",
+    "area": 3069.5546875,
+    "text_len": 10
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 1622.75,
+    "text_len": 13
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 1581.25,
+    "text_len": 13
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 1248.25,
+    "text_len": 10
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 1875.5,
+    "text_len": 16
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 749,
+    "text_len": 6
+  },
+  {
+    "tag": "h5",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "700",
+    "line_height": "16.2px",
+    "area": 3069.5546875,
+    "text_len": 7
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 643.5,
+    "text_len": 5
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 1123.5,
+    "text_len": 9
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 873.75,
+    "text_len": 7
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 499.5,
+    "text_len": 4
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 873.75,
+    "text_len": 7
+  },
+  {
+    "tag": "h5",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "700",
+    "line_height": "16.2px",
+    "area": 3069.5546875,
+    "text_len": 5
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 1875.5,
+    "text_len": 16
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 1686.75,
+    "text_len": 14
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 393.75,
+    "text_len": 3
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 1622.75,
+    "text_len": 13
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.15px",
+    "area": 998.75,
+    "text_len": 8
+  },
+  {
+    "tag": "span",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "400",
+    "line_height": "18.6px",
+    "area": 6449.41650390625,
+    "text_len": 54
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "400",
+    "line_height": "18.6px",
+    "area": 937.53173828125,
+    "text_len": 7
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "400",
+    "line_height": "18.6px",
+    "area": 803.5986328125,
+    "text_len": 6
+  },
+  {
+    "tag": "a",
+    "font_family": "Inter, system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "400",
+    "line_height": "18.6px",
+    "area": 1071.17431640625,
+    "text_len": 8
+  }
+]

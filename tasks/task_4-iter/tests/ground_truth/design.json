@@ -1,0 +1,71 @@
+{
+  "description": "Kid-friendly astronomy paper reader where families browse simplified versions of real space research \u2014 homepage acts as a hub linking out to topic galaxies, a paper reader with a 'big words explained' helper, and a stargazing planner",
+  "allowed_frameworks": [
+    "html-css"
+  ],
+  "palette": {
+    "background": "#ff6f5e",
+    "surface": "#ffd8b8",
+    "text": "#2b1d3a",
+    "accent": "#2f8f5e",
+    "accent_alt": "#ffe27a",
+    "muted": "#a86a5c"
+  },
+  "pages": [
+    {
+      "name": "home",
+      "description": "Hub landing page that spokes out to topic areas, a featured paper, and reading tools",
+      "components": [
+        "Top bar with the site mascot logo on the left, a row of nav links (Discover, Topics, Sky Tonight, Word Helper, For Grown-ups), and a 'Reading level' selector with three choices (Little Astronaut, Junior Scientist, Family Mode)",
+        "Hero hub block with a greeting headline, a one-sentence subtitle, and a circular arrangement of six spoke buttons (Planets, Stars, Galaxies, Black Holes, Rockets, Aliens?) each with an icon and a paper-count badge",
+        "Featured-paper card showing a telescope image, paper title rewritten for kids, the original author names with affiliations, a 'reading time' chip, an age-range chip, and a 'Start reading' primary button",
+        "Three-column 'Today in space' row with cards for Sky tonight (moon phase icon, visible planets list), Word of the day (term, kid-friendly definition, pronunciation), and Ask a scientist (question text, scientist name, photo, short answer preview)",
+        "Footer with columns for About, Schools, Parents & teachers, Original sources, plus a newsletter signup labeled 'Get a new space story every Sunday' and a credit line about partnering with real research archives"
+      ]
+    },
+    {
+      "name": "topic",
+      "description": "Topic galaxy page listing every kid-translated paper in a chosen subject",
+      "components": [
+        "Same top bar with the reading-level selector",
+        "Topic header with a back-to-hub link, a large topic title (e.g. 'Black Holes'), a friendly one-paragraph intro, and three stat chips (papers in this topic, newest update date, recommended ages)",
+        "Filter strip with chips for sub-topics (How they form, What's inside, Famous ones, Mysteries), a difficulty slider from 1 to 5 stars, and a sort dropdown (Newest, Easiest, Most loved)",
+        "Paper-card grid (three per row) where each card shows a thumbnail illustration, kid-title, original-title in smaller text below, a star-difficulty meter, reading-time chip, and a row of reaction emoji counts (mind-blown, curious, scary, cool)",
+        "Bottom 'Jump to another galaxy' strip with six small spoke buttons linking to the other topic pages"
+      ]
+    },
+    {
+      "name": "paper",
+      "description": "Kid-friendly paper reader with a translated abstract, illustrated sections, and a vocabulary helper",
+      "components": [
+        "Sticky reader top bar with back arrow, paper title, a progress bar showing how far through the paper the reader is, and toggle buttons for Read-aloud, Word Helper, and Original Version",
+        "Paper header card with the kid-title, original title and journal citation below it, author row with portrait avatars and institution names, publication date, and a 'Why this matters' callout box with one sentence",
+        "Main reading column split into four labeled sections (The Big Question, What They Did, What They Found, What It Means) where each section has a heading, a plain-language body, an inline illustration with caption, and underlined glossary words",
+        "Right-side Word Helper panel listing tricky terms from the paper \u2014 each entry shows the word, a one-sentence kid definition, a tiny diagram, and a 'say it' speaker button, plus a 'Show on the page' link that highlights the term in context",
+        "End-of-paper block with a three-question comprehension quiz (multiple choice with emoji answers), a reaction bar (mind-blown, curious, scary, cool buttons), and a 'Read the real grown-up version' link out to the source PDF"
+      ]
+    },
+    {
+      "name": "sky-tonight",
+      "description": "Stargazing planner that connects what's visible in the sky to related papers",
+      "components": [
+        "Same top bar",
+        "Location and time picker bar with a city input, a date picker defaulting to tonight, a time slider from sunset to sunrise, and a light-pollution indicator with a 1-to-9 scale",
+        "Sky-dome visualization panel showing a half-circle horizon view with labeled dots for visible planets, the moon at its current phase, and three featured constellations, plus a legend below mapping each dot to its name and brightness",
+        "'What you can see' list with rows for each visible object \u2014 each row has an icon, object name, best viewing time, naked-eye/binoculars/telescope indicator, and a 'Read about it' button linking to a related kid-paper",
+        "Family activity card at the bottom suggesting one stargazing activity for the night with a materials list, step-by-step numbered instructions, and a printable-version link"
+      ]
+    },
+    {
+      "name": "for-grown-ups",
+      "description": "Parents and teachers page explaining the translation process and offering classroom tools",
+      "components": [
+        "Same top bar",
+        "Intro section with a heading 'For parents, teachers, and curious grown-ups', a two-paragraph explanation of how real papers get translated, and a row of three credibility badges (Peer-reviewed sources, Reviewed by educators, Reviewed by scientists)",
+        "Three-step process diagram showing the pipeline from Original paper to Educator review to Kid-friendly version, with a portrait, name, and role under each step",
+        "Classroom tools section with a two-column layout \u2014 left column lists downloadable lesson plans (title, grade range, duration, download link), right column has a 'Build a reading list' tool with a search input and a saved-list preview area",
+        "FAQ accordion at the bottom with questions about reading levels, source accuracy, screen time, accessibility features, and how to suggest a paper for translation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,800 @@
+[
+  {
+    "src": "./assets/icons/sparkles.svg",
+    "alt": "",
+    "x": 111,
+    "y": 22,
+    "w": 18,
+    "h": 18,
+    "phash": "b6e2a68c491db5a5",
+    "lab_mean": [
+      38.03,
+      15.08,
+      7.2
+    ]
+  },
+  {
+    "src": "./assets/icons/building-2.svg",
+    "alt": "",
+    "x": 288.453125,
+    "y": 24,
+    "w": 14,
+    "h": 14,
+    "phash": "fef8a0058577d24a",
+    "lab_mean": [
+      12.83,
+      11.69,
+      -11.35
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 608.3125,
+    "y": 24,
+    "w": 14,
+    "h": 14,
+    "phash": "bd1dc2e2201d9fe2",
+    "lab_mean": [
+      20.27,
+      17.63,
+      -16.77
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 664.3125,
+    "y": 24,
+    "w": 14,
+    "h": 14,
+    "phash": "ea3c3cd07cd6c183",
+    "lab_mean": [
+      13.98,
+      12.64,
+      -12.1
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 809.53125,
+    "y": 24,
+    "w": 14,
+    "h": 14,
+    "phash": "bd1dc2e2201d9fe2",
+    "lab_mean": [
+      20.27,
+      17.63,
+      -16.77
+    ]
+  },
+  {
+    "src": "./assets/icons/compass.svg",
+    "alt": "",
+    "x": 986.96875,
+    "y": 24,
+    "w": 14,
+    "h": 14,
+    "phash": "b245ecba30c792ce",
+    "lab_mean": [
+      11.51,
+      11.19,
+      -10.64
+    ]
+  },
+  {
+    "src": "./assets/icons/circle-question-mark.svg",
+    "alt": "",
+    "x": 1138.390625,
+    "y": 23,
+    "w": 16,
+    "h": 16,
+    "phash": "e624b99be4649333",
+    "lab_mean": [
+      15.56,
+      13.89,
+      -13.26
+    ]
+  },
+  {
+    "src": "./assets/icons/bell.svg",
+    "alt": "",
+    "x": 1186.390625,
+    "y": 23,
+    "w": 16,
+    "h": 16,
+    "phash": "abacb03693e05bc3",
+    "lab_mean": [
+      17.29,
+      15.23,
+      -14.52
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-03.svg",
+    "alt": "Maren Okafor",
+    "x": 1229.390625,
+    "y": 17,
+    "w": 28,
+    "h": 28,
+    "phash": "9b32cc65939a61cd",
+    "lab_mean": [
+      22.07,
+      11.98,
+      -11.8
+    ]
+  },
+  {
+    "src": "./assets/icons/layout-dashboard.svg",
+    "alt": "",
+    "x": 120,
+    "y": 72.75,
+    "w": 14,
+    "h": 14,
+    "phash": "abe9cc9c8d89c466",
+    "lab_mean": [
+      10.17,
+      10.28,
+      -9.74
+    ]
+  },
+  {
+    "src": "./assets/icons/hand-heart.svg",
+    "alt": "",
+    "x": 240.421875,
+    "y": 72.75,
+    "w": 14,
+    "h": 14,
+    "phash": "ea62990fdc3c839a",
+    "lab_mean": [
+      11.95,
+      11.51,
+      -10.93
+    ]
+  },
+  {
+    "src": "./assets/icons/leaf.svg",
+    "alt": "",
+    "x": 368.640625,
+    "y": 72.75,
+    "w": 14,
+    "h": 14,
+    "phash": "baeae12fd3849c30",
+    "lab_mean": [
+      12.36,
+      11.97,
+      -11.34
+    ]
+  },
+  {
+    "src": "./assets/icons/users.svg",
+    "alt": "",
+    "x": 489.0625,
+    "y": 72.75,
+    "w": 14,
+    "h": 14,
+    "phash": "af3bc510b1c58ec6",
+    "lab_mean": [
+      12.33,
+      12.0,
+      -11.41
+    ]
+  },
+  {
+    "src": "./assets/icons/landmark.svg",
+    "alt": "",
+    "x": 625.078125,
+    "y": 72.75,
+    "w": 14,
+    "h": 14,
+    "phash": "bbb192e1b093724b",
+    "lab_mean": [
+      10.72,
+      10.66,
+      -10.1
+    ]
+  },
+  {
+    "src": "./assets/icons/compass.svg",
+    "alt": "",
+    "x": 729.890625,
+    "y": 72.75,
+    "w": 14,
+    "h": 14,
+    "phash": "b265ecb830c792ce",
+    "lab_mean": [
+      11.28,
+      11.04,
+      -10.45
+    ]
+  },
+  {
+    "src": "./assets/icons/download.svg",
+    "alt": "",
+    "x": 1034.546875,
+    "y": 154.5,
+    "w": 14,
+    "h": 14,
+    "phash": "a3f4ce813cca33b4",
+    "lab_mean": [
+      17.39,
+      15.5,
+      -14.84
+    ]
+  },
+  {
+    "src": "./assets/icons/user-plus.svg",
+    "alt": "",
+    "x": 1199.171875,
+    "y": 154.5,
+    "w": 14,
+    "h": 14,
+    "phash": "bef285d9c906a6c1",
+    "lab_mean": [
+      46.57,
+      21.66,
+      36.02
+    ]
+  },
+  {
+    "src": "./assets/icons/info.svg",
+    "alt": "",
+    "x": 1038,
+    "y": 497.59375,
+    "w": 16,
+    "h": 16,
+    "phash": "ea983d36f0c89267",
+    "lab_mean": [
+      18.96,
+      13.05,
+      -2.28
+    ]
+  },
+  {
+    "src": "./assets/icons/search.svg",
+    "alt": "",
+    "x": 139,
+    "y": 1400.09375,
+    "w": 16,
+    "h": 16,
+    "phash": "eb25f03483d28dcb",
+    "lab_mean": [
+      17.44,
+      15.35,
+      -14.63
+    ]
+  },
+  {
+    "src": "./assets/icons/sliders-horizontal.svg",
+    "alt": "",
+    "x": 1201.375,
+    "y": 1401.09375,
+    "w": 14,
+    "h": 14,
+    "phash": "eca6c799909bc133",
+    "lab_mean": [
+      13.18,
+      12.66,
+      -12.04
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-00.svg",
+    "alt": "",
+    "x": 142,
+    "y": 1504.84375,
+    "w": 28,
+    "h": 28,
+    "phash": "993164c6679938cf",
+    "lab_mean": [
+      34.95,
+      12.03,
+      -11.84
+    ]
+  },
+  {
+    "src": "./assets/icons/mail.svg",
+    "alt": "",
+    "x": 1267,
+    "y": 1509.59375,
+    "w": 14,
+    "h": 14,
+    "phash": "960eebf1b00d8793",
+    "lab_mean": [
+      14.38,
+      12.85,
+      -12.35
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-01.svg",
+    "alt": "",
+    "x": 142,
+    "y": 1566.34375,
+    "w": 28,
+    "h": 28,
+    "phash": "cc3d33e60cd33934",
+    "lab_mean": [
+      40.95,
+      14.01,
+      -13.83
+    ]
+  },
+  {
+    "src": "./assets/icons/mail.svg",
+    "alt": "",
+    "x": 1267,
+    "y": 1571.09375,
+    "w": 14,
+    "h": 14,
+    "phash": "961febe1b00c8793",
+    "lab_mean": [
+      14.34,
+      12.81,
+      -12.28
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-02.svg",
+    "alt": "",
+    "x": 142,
+    "y": 1627.84375,
+    "w": 28,
+    "h": 28,
+    "phash": "9c73609e839c3cc7",
+    "lab_mean": [
+      31.43,
+      11.56,
+      -11.38
+    ]
+  },
+  {
+    "src": "./assets/icons/mail.svg",
+    "alt": "",
+    "x": 1267,
+    "y": 1632.59375,
+    "w": 14,
+    "h": 14,
+    "phash": "961febe1b00c8793",
+    "lab_mean": [
+      14.34,
+      12.81,
+      -12.28
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-03.svg",
+    "alt": "",
+    "x": 142,
+    "y": 1689.34375,
+    "w": 28,
+    "h": 28,
+    "phash": "c239e3cc1cd32f34",
+    "lab_mean": [
+      36.2,
+      13.53,
+      -13.35
+    ]
+  },
+  {
+    "src": "./assets/icons/phone.svg",
+    "alt": "",
+    "x": 1267,
+    "y": 1694.09375,
+    "w": 14,
+    "h": 14,
+    "phash": "b999c07e8f94c863",
+    "lab_mean": [
+      15.81,
+      14.09,
+      -13.48
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-04.svg",
+    "alt": "",
+    "x": 142,
+    "y": 1750.84375,
+    "w": 28,
+    "h": 28,
+    "phash": "9827459c93636dce",
+    "lab_mean": [
+      28.72,
+      11.28,
+      -11.11
+    ]
+  },
+  {
+    "src": "./assets/icons/mail.svg",
+    "alt": "",
+    "x": 1267,
+    "y": 1755.59375,
+    "w": 14,
+    "h": 14,
+    "phash": "961febe1b00c8793",
+    "lab_mean": [
+      14.34,
+      12.81,
+      -12.28
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-05.svg",
+    "alt": "",
+    "x": 142,
+    "y": 1812.34375,
+    "w": 28,
+    "h": 28,
+    "phash": "cc3d33e70cd33930",
+    "lab_mean": [
+      39.9,
+      13.91,
+      -13.74
+    ]
+  },
+  {
+    "src": "./assets/icons/mail.svg",
+    "alt": "",
+    "x": 1267,
+    "y": 1817.09375,
+    "w": 14,
+    "h": 14,
+    "phash": "961febe1b00c8793",
+    "lab_mean": [
+      14.34,
+      12.81,
+      -12.28
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-06.svg",
+    "alt": "",
+    "x": 142,
+    "y": 1873.84375,
+    "w": 28,
+    "h": 28,
+    "phash": "9a3165c6c3999ace",
+    "lab_mean": [
+      38.08,
+      12.71,
+      -12.53
+    ]
+  },
+  {
+    "src": "./assets/icons/mail.svg",
+    "alt": "",
+    "x": 1267,
+    "y": 1878.59375,
+    "w": 14,
+    "h": 14,
+    "phash": "961febe1b00c8793",
+    "lab_mean": [
+      14.34,
+      12.81,
+      -12.28
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-02.svg",
+    "alt": "",
+    "x": 142,
+    "y": 1935.34375,
+    "w": 28,
+    "h": 28,
+    "phash": "986732669bc82fb1",
+    "lab_mean": [
+      29.51,
+      13.41,
+      -13.22
+    ]
+  },
+  {
+    "src": "./assets/icons/phone.svg",
+    "alt": "",
+    "x": 1267,
+    "y": 1940.09375,
+    "w": 14,
+    "h": 14,
+    "phash": "b999c07e8f94c863",
+    "lab_mean": [
+      15.81,
+      14.09,
+      -13.48
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-07.svg",
+    "alt": "",
+    "x": 142,
+    "y": 1996.84375,
+    "w": 28,
+    "h": 28,
+    "phash": "98326565c79c98cf",
+    "lab_mean": [
+      37.84,
+      13.16,
+      -12.98
+    ]
+  },
+  {
+    "src": "./assets/icons/mail.svg",
+    "alt": "",
+    "x": 1267,
+    "y": 2001.59375,
+    "w": 14,
+    "h": 14,
+    "phash": "961febe1b00c8793",
+    "lab_mean": [
+      14.34,
+      12.81,
+      -12.28
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar-days.svg",
+    "alt": "",
+    "x": 1166.375,
+    "y": 2181.09375,
+    "w": 14,
+    "h": 14,
+    "phash": "ea3cbc90fcd2c183",
+    "lab_mean": [
+      13.19,
+      12.07,
+      -11.57
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 216,
+    "y": 2286.09375,
+    "w": 12,
+    "h": 12,
+    "phash": "e633b9cc64b38364",
+    "lab_mean": [
+      16.14,
+      14.65,
+      -14.07
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 337.828125,
+    "y": 2286.09375,
+    "w": 12,
+    "h": 12,
+    "phash": "be3eb4896260ce87",
+    "lab_mean": [
+      16.59,
+      14.83,
+      -14.17
+    ]
+  },
+  {
+    "src": "./assets/icons/send.svg",
+    "alt": "",
+    "x": 1181.375,
+    "y": 2273.84375,
+    "w": 12,
+    "h": 12,
+    "phash": "ea5ac4e1928c9db9",
+    "lab_mean": [
+      16.56,
+      14.75,
+      -14.1
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 216,
+    "y": 2370.09375,
+    "w": 12,
+    "h": 12,
+    "phash": "e633b9cc64b38364",
+    "lab_mean": [
+      16.14,
+      14.65,
+      -14.07
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 337.828125,
+    "y": 2370.09375,
+    "w": 12,
+    "h": 12,
+    "phash": "be3eb4896260ce87",
+    "lab_mean": [
+      16.59,
+      14.83,
+      -14.17
+    ]
+  },
+  {
+    "src": "./assets/icons/send.svg",
+    "alt": "",
+    "x": 1181.375,
+    "y": 2357.84375,
+    "w": 12,
+    "h": 12,
+    "phash": "ea5ac4e1928c9db9",
+    "lab_mean": [
+      16.56,
+      14.75,
+      -14.1
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 216,
+    "y": 2454.09375,
+    "w": 12,
+    "h": 12,
+    "phash": "e633b9cc64b38364",
+    "lab_mean": [
+      16.14,
+      14.65,
+      -14.07
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 372.21875,
+    "y": 2454.09375,
+    "w": 12,
+    "h": 12,
+    "phash": "be3eb4896260ce87",
+    "lab_mean": [
+      16.59,
+      14.83,
+      -14.17
+    ]
+  },
+  {
+    "src": "./assets/icons/send.svg",
+    "alt": "",
+    "x": 1181.375,
+    "y": 2441.84375,
+    "w": 12,
+    "h": 12,
+    "phash": "ea5ac4e1928c9db9",
+    "lab_mean": [
+      16.56,
+      14.75,
+      -14.1
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 216,
+    "y": 2538.09375,
+    "w": 12,
+    "h": 12,
+    "phash": "e633b9cc64b38364",
+    "lab_mean": [
+      16.14,
+      14.65,
+      -14.07
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 337.828125,
+    "y": 2538.09375,
+    "w": 12,
+    "h": 12,
+    "phash": "be3eb4896260ce87",
+    "lab_mean": [
+      16.59,
+      14.83,
+      -14.17
+    ]
+  },
+  {
+    "src": "./assets/icons/send.svg",
+    "alt": "",
+    "x": 1181.375,
+    "y": 2525.84375,
+    "w": 12,
+    "h": 12,
+    "phash": "ea5ac4e1928c9db9",
+    "lab_mean": [
+      16.56,
+      14.75,
+      -14.1
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 216,
+    "y": 2622.09375,
+    "w": 12,
+    "h": 12,
+    "phash": "e633b9cc64b38364",
+    "lab_mean": [
+      16.14,
+      14.65,
+      -14.07
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 337.828125,
+    "y": 2622.09375,
+    "w": 12,
+    "h": 12,
+    "phash": "be3eb4896260ce87",
+    "lab_mean": [
+      16.59,
+      14.83,
+      -14.17
+    ]
+  },
+  {
+    "src": "./assets/icons/send.svg",
+    "alt": "",
+    "x": 1181.375,
+    "y": 2609.84375,
+    "w": 12,
+    "h": 12,
+    "phash": "ea5ac4e1928c9db9",
+    "lab_mean": [
+      16.56,
+      14.75,
+      -14.1
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 216,
+    "y": 2706.09375,
+    "w": 12,
+    "h": 12,
+    "phash": "e633b9cc64b38364",
+    "lab_mean": [
+      16.14,
+      14.65,
+      -14.07
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 337.828125,
+    "y": 2706.09375,
+    "w": 12,
+    "h": 12,
+    "phash": "be3eb4896260ce87",
+    "lab_mean": [
+      16.59,
+      14.83,
+      -14.17
+    ]
+  },
+  {
+    "src": "./assets/icons/send.svg",
+    "alt": "",
+    "x": 1181.375,
+    "y": 2693.84375,
+    "w": 12,
+    "h": 12,
+    "phash": "ea5ac4e1928c9db9",
+    "lab_mean": [
+      16.56,
+      14.75,
+      -14.1
+    ]
+  }
+]

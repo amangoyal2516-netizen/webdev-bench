@@ -1,0 +1,1570 @@
+[
+  {
+    "src": "./assets/icons/rocket.svg",
+    "alt": "",
+    "x": 123,
+    "y": 23,
+    "w": 20,
+    "h": 20,
+    "phash": "bed0c46dc91b9236",
+    "lab_mean": [
+      65.58,
+      0.72,
+      39.67
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-left.svg",
+    "alt": "",
+    "x": 126,
+    "y": 125.296875,
+    "w": 16,
+    "h": 16,
+    "phash": "b9c6c7384c3991c7",
+    "lab_mean": [
+      85.28,
+      1.77,
+      5.3
+    ]
+  },
+  {
+    "src": "./assets/icons/orbit.svg",
+    "alt": "",
+    "x": 130,
+    "y": 192.4375,
+    "w": 16,
+    "h": 16,
+    "phash": "ead2ee90a40f9745",
+    "lab_mean": [
+      62.01,
+      0.66,
+      37.78
+    ]
+  },
+  {
+    "src": "./assets/icons/sparkles.svg",
+    "alt": "",
+    "x": 307.21875,
+    "y": 192.4375,
+    "w": 16,
+    "h": 16,
+    "phash": "a6e2a20fc91db5b4",
+    "lab_mean": [
+      64.53,
+      0.68,
+      39.25
+    ]
+  },
+  {
+    "src": "./assets/icons/book-open.svg",
+    "alt": "",
+    "x": 130,
+    "y": 498.765625,
+    "w": 16,
+    "h": 16,
+    "phash": "a204a929dd3bd4d7",
+    "lab_mean": [
+      36.09,
+      -27.05,
+      12.56
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 380.03125,
+    "y": 498.765625,
+    "w": 16,
+    "h": 16,
+    "phash": "8a3cbc94b597c1c3",
+    "lab_mean": [
+      67.99,
+      1.47,
+      4.15
+    ]
+  },
+  {
+    "src": "./assets/icons/backpack.svg",
+    "alt": "",
+    "x": 672.078125,
+    "y": 498.765625,
+    "w": 16,
+    "h": 16,
+    "phash": "bee4a4c2834b9e4b",
+    "lab_mean": [
+      57.65,
+      0.66,
+      35.09
+    ]
+  },
+  {
+    "src": "./assets/icons/lightbulb.svg",
+    "alt": "",
+    "x": 1074,
+    "y": 207.59375,
+    "w": 20,
+    "h": 20,
+    "phash": "bc1ce3e0b093c3cb",
+    "lab_mean": [
+      76.45,
+      0.83,
+      45.96
+    ]
+  },
+  {
+    "src": "./assets/icons/x.svg",
+    "alt": "",
+    "x": 1173.578125,
+    "y": 642.90625,
+    "w": 16,
+    "h": 16,
+    "phash": "bc96ca69e3682c1e",
+    "lab_mean": [
+      77.87,
+      9.64,
+      18.49
+    ]
+  },
+  {
+    "src": "./assets/icons/sparkles.svg",
+    "alt": "",
+    "x": 152,
+    "y": 723.09375,
+    "w": 16,
+    "h": 16,
+    "phash": "a6e2a20fc91db5b4",
+    "lab_mean": [
+      37.12,
+      -27.59,
+      12.8
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 616,
+    "y": 764.6875,
+    "w": 16,
+    "h": 16,
+    "phash": "aba2b4ffcb0a882c",
+    "lab_mean": [
+      68.6,
+      8.5,
+      16.43
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 634,
+    "y": 764.6875,
+    "w": 16,
+    "h": 16,
+    "phash": "aba2b4ffcb0a882c",
+    "lab_mean": [
+      68.6,
+      8.5,
+      16.43
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 652,
+    "y": 764.6875,
+    "w": 16,
+    "h": 16,
+    "phash": "aba2b4ffcb0a882c",
+    "lab_mean": [
+      68.6,
+      8.5,
+      16.43
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 670,
+    "y": 764.6875,
+    "w": 16,
+    "h": 16,
+    "phash": "abe2b0afcb1a882d",
+    "lab_mean": [
+      82.3,
+      10.12,
+      19.66
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 688,
+    "y": 764.6875,
+    "w": 16,
+    "h": 16,
+    "phash": "abe2b0afcb1a882d",
+    "lab_mean": [
+      82.3,
+      10.12,
+      19.66
+    ]
+  },
+  {
+    "src": "./assets/icons/sliders-horizontal.svg",
+    "alt": "",
+    "x": 925,
+    "y": 808.828125,
+    "w": 16,
+    "h": 16,
+    "phash": "ec26c3d9961b9133",
+    "lab_mean": [
+      70.25,
+      8.69,
+      16.81
+    ]
+  },
+  {
+    "src": "./assets/photos/L8126OwlroY.jpg",
+    "alt": "Starry night sky illustration",
+    "x": 140,
+    "y": 973.671875,
+    "w": 333.328125,
+    "h": 206.828125,
+    "phash": "91e1e3e12f1e1e1c",
+    "lab_mean": [
+      14.58,
+      2.55,
+      -11.11
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 138,
+    "y": 1344.234375,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 156,
+    "y": 1344.234375,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 174,
+    "y": 1344.234375,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b0bfcb0a882d",
+    "lab_mean": [
+      90.0,
+      1.79,
+      5.56
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 192,
+    "y": 1344.234375,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b0bfcb0a882d",
+    "lab_mean": [
+      90.0,
+      1.79,
+      5.56
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 210,
+    "y": 1344.234375,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b0bfcb0a882d",
+    "lab_mean": [
+      90.0,
+      1.79,
+      5.56
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 377.71875,
+    "y": 1344.234375,
+    "w": 16,
+    "h": 16,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      72.97,
+      1.53,
+      4.58
+    ]
+  },
+  {
+    "src": "./assets/photos/Oze6U2m1oYU.jpg",
+    "alt": "Galaxy and black hole illustration",
+    "x": 553.328125,
+    "y": 973.671875,
+    "w": 333.328125,
+    "h": 206.828125,
+    "phash": "c3f062e6cc191f1e",
+    "lab_mean": [
+      13.58,
+      -2.21,
+      3.92
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 551.328125,
+    "y": 1322.546875,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 569.328125,
+    "y": 1322.546875,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 587.328125,
+    "y": 1322.546875,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 605.328125,
+    "y": 1322.546875,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 623.328125,
+    "y": 1322.546875,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 783.84375,
+    "y": 1322.546875,
+    "w": 16,
+    "h": 16,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      72.97,
+      1.53,
+      4.58
+    ]
+  },
+  {
+    "src": "./assets/photos/UdvXJ95Yqt8.jpg",
+    "alt": "Star trails over rock formations",
+    "x": 966.65625,
+    "y": 973.671875,
+    "w": 333.34375,
+    "h": 206.828125,
+    "phash": "c0e170c17f1e2f1e",
+    "lab_mean": [
+      29.48,
+      -0.68,
+      -3.42
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 964.65625,
+    "y": 1344.234375,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 982.65625,
+    "y": 1344.234375,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 1000.65625,
+    "y": 1344.234375,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 1018.65625,
+    "y": 1344.234375,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b0bfcb0a882d",
+    "lab_mean": [
+      90.0,
+      1.79,
+      5.56
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 1036.65625,
+    "y": 1344.234375,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b0bfcb0a882d",
+    "lab_mean": [
+      90.0,
+      1.79,
+      5.56
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 1204.390625,
+    "y": 1344.234375,
+    "w": 16,
+    "h": 16,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      72.97,
+      1.53,
+      4.58
+    ]
+  },
+  {
+    "src": "./assets/photos/UuVkBMbNSlM.jpg",
+    "alt": "Bright moon-like sphere on black background",
+    "x": 140,
+    "y": 1498.21875,
+    "w": 333.328125,
+    "h": 206.828125,
+    "phash": "c2d07864e3331f1f",
+    "lab_mean": [
+      20.41,
+      0.7,
+      3.16
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 138,
+    "y": 1847.09375,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 156,
+    "y": 1847.09375,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 174,
+    "y": 1847.09375,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 192,
+    "y": 1847.09375,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 210,
+    "y": 1847.09375,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b0bfcb0a882d",
+    "lab_mean": [
+      90.0,
+      1.79,
+      5.56
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 370.515625,
+    "y": 1847.09375,
+    "w": 16,
+    "h": 16,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      72.97,
+      1.53,
+      4.58
+    ]
+  },
+  {
+    "src": "./assets/photos/TV2gg2kZD1o.jpg",
+    "alt": "Cosmic night scene",
+    "x": 553.328125,
+    "y": 1498.21875,
+    "w": 333.328125,
+    "h": 206.828125,
+    "phash": "e168e069b01f1f1f",
+    "lab_mean": [
+      22.3,
+      3.14,
+      -7.95
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 551.328125,
+    "y": 1847.09375,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 569.328125,
+    "y": 1847.09375,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 587.328125,
+    "y": 1847.09375,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b0bfcb0a882d",
+    "lab_mean": [
+      90.0,
+      1.79,
+      5.56
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 605.328125,
+    "y": 1847.09375,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b0bfcb0a882d",
+    "lab_mean": [
+      90.0,
+      1.79,
+      5.56
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 623.328125,
+    "y": 1847.09375,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b0bfcb0a882d",
+    "lab_mean": [
+      90.0,
+      1.79,
+      5.56
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 791.046875,
+    "y": 1847.09375,
+    "w": 16,
+    "h": 16,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      72.97,
+      1.53,
+      4.58
+    ]
+  },
+  {
+    "src": "./assets/photos/aI1tDC8PaLM.jpg",
+    "alt": "Deep purple night sky",
+    "x": 966.65625,
+    "y": 1498.21875,
+    "w": 333.34375,
+    "h": 206.828125,
+    "phash": "90d0c9cc9f1f1e0f",
+    "lab_mean": [
+      31.87,
+      6.69,
+      -4.57
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 964.65625,
+    "y": 1868.78125,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 982.65625,
+    "y": 1868.78125,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 1000.65625,
+    "y": 1868.78125,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 1018.65625,
+    "y": 1868.78125,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b0bfcb0a882d",
+    "lab_mean": [
+      90.0,
+      1.79,
+      5.56
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 1036.65625,
+    "y": 1868.78125,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b0bfcb0a882d",
+    "lab_mean": [
+      90.0,
+      1.79,
+      5.56
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 1204.390625,
+    "y": 1868.78125,
+    "w": 16,
+    "h": 16,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      72.97,
+      1.53,
+      4.58
+    ]
+  },
+  {
+    "src": "./assets/photos/R3pUGn5YiTg.jpg",
+    "alt": "Northern lights over night landscape",
+    "x": 140,
+    "y": 2022.765625,
+    "w": 333.328125,
+    "h": 206.828125,
+    "phash": "83e170e5eb1c1d1e",
+    "lab_mean": [
+      29.76,
+      -16.94,
+      -0.05
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 138,
+    "y": 2393.328125,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 156,
+    "y": 2393.328125,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 174,
+    "y": 2393.328125,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 192,
+    "y": 2393.328125,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 210,
+    "y": 2393.328125,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b0bfcb0a882d",
+    "lab_mean": [
+      90.0,
+      1.79,
+      5.56
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 370.515625,
+    "y": 2393.328125,
+    "w": 16,
+    "h": 16,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      72.97,
+      1.53,
+      4.58
+    ]
+  },
+  {
+    "src": "./assets/photos/Jztmx9yqjBw.jpg",
+    "alt": "Trees against night sky",
+    "x": 553.328125,
+    "y": 2022.765625,
+    "w": 333.328125,
+    "h": 206.828125,
+    "phash": "c8f170e06b1c1f1f",
+    "lab_mean": [
+      17.62,
+      5.98,
+      -15.96
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 551.328125,
+    "y": 2371.640625,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 569.328125,
+    "y": 2371.640625,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 587.328125,
+    "y": 2371.640625,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 605.328125,
+    "y": 2371.640625,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 623.328125,
+    "y": 2371.640625,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 783.84375,
+    "y": 2371.640625,
+    "w": 16,
+    "h": 16,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      72.97,
+      1.53,
+      4.58
+    ]
+  },
+  {
+    "src": "./assets/photos/eodA_8CTOFo.jpg",
+    "alt": "Trees silhouetted under starry sky",
+    "x": 966.65625,
+    "y": 2022.765625,
+    "w": 333.34375,
+    "h": 206.828125,
+    "phash": "c0e063531bbd0f1f",
+    "lab_mean": [
+      21.24,
+      2.85,
+      -16.66
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 964.65625,
+    "y": 2393.328125,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 982.65625,
+    "y": 2393.328125,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 1000.65625,
+    "y": 2393.328125,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b0bfcb0a882d",
+    "lab_mean": [
+      90.0,
+      1.79,
+      5.56
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 1018.65625,
+    "y": 2393.328125,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b0bfcb0a882d",
+    "lab_mean": [
+      90.0,
+      1.79,
+      5.56
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 1036.65625,
+    "y": 2393.328125,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b0bfcb0a882d",
+    "lab_mean": [
+      90.0,
+      1.79,
+      5.56
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 1204.390625,
+    "y": 2393.328125,
+    "w": 16,
+    "h": 16,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      72.97,
+      1.53,
+      4.58
+    ]
+  },
+  {
+    "src": "./assets/photos/GjwsHRIcQjU.jpg",
+    "alt": "Red blood moon at night",
+    "x": 140,
+    "y": 2547.3125,
+    "w": 333.328125,
+    "h": 206.828125,
+    "phash": "c0e1e3e1cc1e3f1c",
+    "lab_mean": [
+      8.16,
+      1.57,
+      -2.35
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 138,
+    "y": 2896.1875,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 156,
+    "y": 2896.1875,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 174,
+    "y": 2896.1875,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 192,
+    "y": 2896.1875,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 210,
+    "y": 2896.1875,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b0bfcb0a882d",
+    "lab_mean": [
+      90.0,
+      1.79,
+      5.56
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 377.71875,
+    "y": 2896.1875,
+    "w": 16,
+    "h": 16,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      72.97,
+      1.53,
+      4.58
+    ]
+  },
+  {
+    "src": "./assets/photos/zhUzdTgtRP8.jpg",
+    "alt": "Mountain silhouette under starry sky",
+    "x": 553.328125,
+    "y": 2547.3125,
+    "w": 333.328125,
+    "h": 206.828125,
+    "phash": "d0f0f0e02d1f1e1f",
+    "lab_mean": [
+      15.79,
+      -9.83,
+      -1.98
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 551.328125,
+    "y": 2917.875,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 569.328125,
+    "y": 2917.875,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 587.328125,
+    "y": 2917.875,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 605.328125,
+    "y": 2917.875,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 623.328125,
+    "y": 2917.875,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 783.84375,
+    "y": 2917.875,
+    "w": 16,
+    "h": 16,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      72.97,
+      1.53,
+      4.58
+    ]
+  },
+  {
+    "src": "./assets/photos/b3PuuRU8IPc.jpg",
+    "alt": "Milky way galaxy over a building",
+    "x": 966.65625,
+    "y": 2547.3125,
+    "w": 333.34375,
+    "h": 206.828125,
+    "phash": "f3c061e334931f1d",
+    "lab_mean": [
+      21.87,
+      7.6,
+      1.37
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 964.65625,
+    "y": 2896.1875,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 982.65625,
+    "y": 2896.1875,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 1000.65625,
+    "y": 2896.1875,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b4fbcb0a882c",
+    "lab_mean": [
+      75.04,
+      1.53,
+      4.71
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 1018.65625,
+    "y": 2896.1875,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b0bfcb0a882d",
+    "lab_mean": [
+      90.0,
+      1.79,
+      5.56
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 1036.65625,
+    "y": 2896.1875,
+    "w": 16,
+    "h": 16,
+    "phash": "afa2b0bfcb0a882d",
+    "lab_mean": [
+      90.0,
+      1.79,
+      5.56
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 1204.390625,
+    "y": 2896.1875,
+    "w": 16,
+    "h": 16,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      72.97,
+      1.53,
+      4.58
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 804.90625,
+    "y": 3089.796875,
+    "w": 20,
+    "h": 20,
+    "phash": "a90dc2f2341c9fe3",
+    "lab_mean": [
+      49.72,
+      -35.85,
+      16.94
+    ]
+  },
+  {
+    "src": "./assets/icons/orbit.svg",
+    "alt": "",
+    "x": 164,
+    "y": 3272.59375,
+    "w": 16,
+    "h": 16,
+    "phash": "ead2ee90a40f9745",
+    "lab_mean": [
+      62.01,
+      0.66,
+      37.78
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 1254,
+    "y": 3312.78125,
+    "w": 16,
+    "h": 16,
+    "phash": "ec99926319b6c4d9",
+    "lab_mean": [
+      85.26,
+      1.78,
+      5.3
+    ]
+  },
+  {
+    "src": "./assets/icons/sun.svg",
+    "alt": "",
+    "x": 308.328125,
+    "y": 3445.984375,
+    "w": 42,
+    "h": 42,
+    "phash": "aec8c3b3d42cf09a",
+    "lab_mean": [
+      74.27,
+      0.81,
+      44.54
+    ]
+  },
+  {
+    "src": "./assets/icons/globe.svg",
+    "alt": "",
+    "x": 698.984375,
+    "y": 3445.984375,
+    "w": 42,
+    "h": 42,
+    "phash": "b865b706b539c0e3",
+    "lab_mean": [
+      59.24,
+      1.24,
+      3.69
+    ]
+  },
+  {
+    "src": "./assets/icons/moon-star.svg",
+    "alt": "",
+    "x": 1089.65625,
+    "y": 3445.984375,
+    "w": 42,
+    "h": 42,
+    "phash": "fb12b0c8c5a5876d",
+    "lab_mean": [
+      68.0,
+      8.42,
+      16.15
+    ]
+  },
+  {
+    "src": "./assets/icons/satellite.svg",
+    "alt": "",
+    "x": 308.328125,
+    "y": 3609.984375,
+    "w": 42,
+    "h": 42,
+    "phash": "f9239456d3990e66",
+    "lab_mean": [
+      40.43,
+      -29.32,
+      13.82
+    ]
+  },
+  {
+    "src": "./assets/icons/atom.svg",
+    "alt": "",
+    "x": 698.984375,
+    "y": 3609.984375,
+    "w": 42,
+    "h": 42,
+    "phash": "abcc90f8cd23d466",
+    "lab_mean": [
+      61.05,
+      1.26,
+      3.79
+    ]
+  },
+  {
+    "src": "./assets/icons/telescope.svg",
+    "alt": "",
+    "x": 1089.65625,
+    "y": 3609.984375,
+    "w": 42,
+    "h": 42,
+    "phash": "ea4ac8a71e19b734",
+    "lab_mean": [
+      66.52,
+      0.73,
+      39.89
+    ]
+  },
+  {
+    "src": "./assets/icons/rocket.svg",
+    "alt": "",
+    "x": 123,
+    "y": 3924.828125,
+    "w": 20,
+    "h": 20,
+    "phash": "bed0c46dc91b9236",
+    "lab_mean": [
+      58.29,
+      1.76,
+      32.66
+    ]
+  },
+  {
+    "src": "./assets/icons/mail.svg",
+    "alt": "",
+    "x": 1064,
+    "y": 4020.984375,
+    "w": 20,
+    "h": 20,
+    "phash": "820effb1b54c8393",
+    "lab_mean": [
+      67.59,
+      1.43,
+      4.15
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 1227.203125,
+    "y": 4087.78125,
+    "w": 16,
+    "h": 16,
+    "phash": "ec9992671996c4d9",
+    "lab_mean": [
+      79.37,
+      0.86,
+      47.66
+    ]
+  }
+]

@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Set up your workspace — Clausal</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header class="topbar">
+<div class="container-wide">
+<div class="topbar-inner">
+<a href="./home.html" class="wordmark"><span class="wordmark-mark">C/</span>Clausal</a>
+<div class="stepper">
+<div class="step is-done"><span class="step-num"><img src="./assets/icons/check.svg" alt="" class="icon-sm" style="filter:brightness(0) invert(1);width:12px;height:12px;"></span><span>Create workspace</span></div>
+<span class="step-sep"></span>
+<div class="step is-active"><span class="step-num">2</span><span>Verify org</span></div>
+<span class="step-sep"></span>
+<div class="step"><span class="step-num">3</span><span>Choose plan</span></div>
+<span class="step-sep"></span>
+<div class="step"><span class="step-num">4</span><span>Generate keys</span></div>
+<span class="step-sep"></span>
+<div class="step"><span class="step-num">5</span><span>Make first call</span></div>
+</div>
+<a href="./home.html" class="text-sm soft">Save &amp; exit</a>
+</div>
+</div>
+</header>
+
+<main class="container-wide" style="padding-top:var(--space-6);padding-bottom:var(--space-7);">
+<div class="grid-wizard">
+<section>
+<div class="row" style="gap:var(--space-2);margin-bottom:var(--space-3);">
+<span class="badge badge-accent">Step 2 of 5</span>
+<span class="badge"><img src="./assets/icons/clock.svg" alt="" class="icon-sm"> ~2 min remaining</span>
+</div>
+<h1 style="margin-bottom:var(--space-3);">Verify your organization</h1>
+<p class="lead" style="margin-bottom:var(--space-6);">Tell us a bit about where your workspace lives and who&rsquo;s on the team. This helps us route requests to the right region and tune defaults for your usage profile.</p>
+
+<div class="card card-pad-lg">
+<div class="field">
+<label class="label" for="workspace-name">Workspace name</label>
+<input id="workspace-name" type="text" class="input" value="Northwind Legal" />
+<div class="help row" style="gap:6px;"><img src="./assets/icons/circle-check.svg" alt="" class="icon-sm" style="color:var(--accent-alt);"><span class="help-success">Available — clausal.dev/northwind-legal</span></div>
+</div>
+
+<div class="field">
+<label class="label" for="legal-name">Legal entity name <span class="muted" style="font-weight:400;">(as it appears on invoices)</span></label>
+<input id="legal-name" type="text" class="input" placeholder="e.g. Northwind Legal Services, Inc." value="Northwind Legal Services, Inc." />
+<div class="help">We&rsquo;ll use this on receipts and DPAs. Editable later under Settings → Billing.</div>
+</div>
+
+<div class="field">
+<label class="label" for="region">Data residency region</label>
+<select id="region" class="input">
+<option>United States — us-east-1 (Virginia)</option>
+<option>United States — us-west-2 (Oregon)</option>
+<option selected>European Union — eu-west-1 (Frankfurt)</option>
+<option>United Kingdom — uk-south-1 (London)</option>
+<option>Asia Pacific — ap-southeast-2 (Sydney)</option>
+<option>Canada — ca-central-1 (Montréal)</option>
+</select>
+<div class="help row" style="gap:6px;"><img src="./assets/icons/info.svg" alt="" class="icon-sm"><span>Documents and embeddings stay inside this region. Region cannot be changed after step 5.</span></div>
+</div>
+
+<div class="field">
+<label class="label">Team size</label>
+<div class="radio-group">
+<label class="radio-card">
+<span class="radio-dot"></span>
+<div class="stack-1" style="flex:1;">
+<span style="font-weight:600;font-size:var(--text-sm);">Just me</span>
+<span class="muted text-xs">Solo developer or founder evaluating the API.</span>
+</div>
+<span class="badge">≤ 2k calls/mo</span>
+</label>
+<label class="radio-card is-selected">
+<span class="radio-dot"></span>
+<div class="stack-1" style="flex:1;">
+<span style="font-weight:600;font-size:var(--text-sm);">Small team (2–10)</span>
+<span class="muted text-xs">A product squad shipping clause review into an existing app.</span>
+</div>
+<span class="badge">≤ 50k calls/mo</span>
+</label>
+<label class="radio-card">
+<span class="radio-dot"></span>
+<div class="stack-1" style="flex:1;">
+<span style="font-weight:600;font-size:var(--text-sm);">Growing org (11–50)</span>
+<span class="muted text-xs">Multiple environments, SSO, and role-based access.</span>
+</div>
+<span class="badge">≤ 500k calls/mo</span>
+</label>
+<label class="radio-card">
+<span class="radio-dot"></span>
+<div class="stack-1" style="flex:1;">
+<span style="font-weight:600;font-size:var(--text-sm);">Enterprise (50+)</span>
+<span class="muted text-xs">Custom SLA, on-prem deployment, paralegal review add-on.</span>
+</div>
+<span class="badge">Custom</span>
+</label>
+</div>
+<div class="help">Used only to suggest a sensible default plan in step 3. You can pick any plan regardless.</div>
+</div>
+
+<div class="field" style="margin-bottom:0;">
+<label class="label" for="primary-use">Primary use case</label>
+<select id="primary-use" class="input">
+<option>Contract review inside a CLM product</option>
+<option selected>Vendor agreement triage for procurement</option>
+<option>NDA &amp; MSA redlining for in-house counsel</option>
+<option>Risk scoring for diligence / M&amp;A</option>
+<option>Embedded clause search in a doc editor</option>
+<option>Other / not sure yet</option>
+</select>
+</div>
+</div>
+
+<div class="callout callout-warn" style="margin-top:var(--space-5);">
+<div class="callout-icon"><img src="./assets/icons/triangle-alert.svg" alt="" class="icon-sm" style="filter:brightness(0) invert(1);"></div>
+<div>
+<h5>Heads up — region is locked at first call</h5>
+<p>Once you make your first API call in step 5, the data residency region above is permanent for this workspace. Spin up a second workspace if you need a different region later.</p>
+</div>
+</div>
+</section>
+
+<aside class="stack-5">
+<div class="card">
+<div class="row" style="gap:10px;margin-bottom:var(--space-3);">
+<span class="feature-icon" style="width:36px;height:36px;margin:0;"><img src="./assets/icons/sparkles.svg" alt="" class="icon-sm"></span>
+<h4 style="font-size:var(--text-lg);">What happens next</h4>
+</div>
+<ul class="bullet-list">
+<li><span class="bullet-icon"><img src="./assets/icons/check.svg" alt="" class="icon-sm"></span><span>We&rsquo;ll provision an isolated tenant in <strong class="mono">eu-west-1</strong> and seed it with our default clause taxonomy (412 clause types).</span></li>
+<li><span class="bullet-icon"><img src="./assets/icons/check.svg" alt="" class="icon-sm"></span><span>You&rsquo;ll pick a plan — every plan starts with a 14-day sandbox that doesn&rsquo;t count against quota.</span></li>
+<li><span class="bullet-icon"><img src="./assets/icons/check.svg" alt="" class="icon-sm"></span><span>We&rsquo;ll generate a live key and a test key, then walk you through <span class="mono">POST /v1/reviews</span> with a sample MSA.</span></li>
+</ul>
+</div>
+
+<div class="callout callout-alt">
+<div class="callout-icon"><img src="./assets/icons/gavel.svg" alt="" class="icon-sm" style="filter:brightness(0) invert(1);"></div>
+<div style="flex:1;">
+<h5>Need a paralegal in the loop?</h5>
+<p>Pair every flagged clause with a 30-minute review from a licensed paralegal. Add the <strong>Human Review</strong> add-on at checkout or any time later.</p>
+<a href="#" class="learn-link" style="margin-top:8px;">Learn about Human Review <img src="./assets/icons/arrow-up-right.svg" alt="" class="icon-sm"></a>
+</div>
+</div>
+
+<div class="card">
+<div class="row-between" style="margin-bottom:var(--space-3);">
+<h4 style="font-size:var(--text-lg);">Common questions</h4>
+<a href="./docs.html" class="text-sm">All docs →</a>
+</div>
+<div class="faq-item">
+<div class="faq-q">Can I change region later? <img src="./assets/icons/chevron-down.svg" alt="" class="icon-sm"></div>
+<div class="faq-a">No — region is fixed after step 5. You can, however, run multiple workspaces under one billing account, each pinned to a different region.</div>
+</div>
+<div class="faq-item">
+<div class="faq-q">Does the sandbox count against quota? <img src="./assets/icons/chevron-right.svg" alt="" class="icon-sm"></div>
+</div>
+<div class="faq-item">
+<div class="faq-q">Is my contract data used to train models? <img src="./assets/icons/chevron-right.svg" alt="" class="icon-sm"></div>
+</div>
+</div>
+
+<div class="card-surface" style="padding:var(--space-4);">
+<div class="row" style="gap:10px;">
+<img src="./assets/icons/shield-check.svg" alt="" class="icon" style="color:var(--accent-alt);">
+<div class="stack-1">
+<span class="text-sm" style="font-weight:600;">SOC 2 Type II · ISO 27001</span>
+<span class="muted text-xs">Encrypted at rest with per-tenant KMS keys.</span>
+</div>
+</div>
+</div>
+</aside>
+</div>
+</main>
+
+<footer class="wizard-footer">
+<div class="container-wide">
+<div class="wizard-footer-inner">
+<a href="./wizard.html" class="btn btn-secondary"><img src="./assets/icons/chevron-left.svg" alt="" class="icon-sm"> Back</a>
+<span class="step-counter">Step 2 of 5 — <span class="soft" style="font-weight:600;">Verify org</span></span>
+<a href="./wizard-keys.html" class="btn btn-primary">Continue <img src="./assets/icons/arrow-right.svg" alt="" class="icon-sm" style="filter:brightness(0) invert(1);"></a>
+</div>
+</div>
+</footer>
+</body>
+</html>

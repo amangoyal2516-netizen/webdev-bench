@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calendar — Lexbinder</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="app">
+<aside class="sidebar">
+<div class="sidebar-brand">
+<div class="brand-mark">L</div>
+<div>
+<div class="brand-name">Lexbinder</div>
+<div class="brand-sub">Litigation OS</div>
+</div>
+</div>
+<div class="sidebar-user">
+<div class="initials">MR</div>
+<div class="who">Margaret Reyes<small>Partner · Lit. Group</small></div>
+</div>
+<nav class="nav">
+<div class="nav-section-label">Workspace</div>
+<a href="./dashboard.html" class="nav-item"><img src="./assets/icons/layout-dashboard.svg" class="icon" alt=""><span>Dashboard</span></a>
+<a href="./matters.html" class="nav-item"><img src="./assets/icons/briefcase.svg" class="icon" alt=""><span>Matters</span></a>
+<a href="./time.html" class="nav-item"><img src="./assets/icons/clock.svg" class="icon" alt=""><span>Time</span></a>
+<a href="./calendar.html" class="nav-item is-active"><img src="./assets/icons/calendar.svg" class="icon" alt=""><span>Calendar</span></a>
+<a href="./client-detail.html" class="nav-item"><img src="./assets/icons/users.svg" class="icon" alt=""><span>Clients</span></a>
+<div class="nav-section-label">Account</div>
+<a href="#" class="nav-item"><img src="./assets/icons/bell.svg" class="icon" alt=""><span>Notifications</span></a>
+<a href="#" class="nav-item"><img src="./assets/icons/settings.svg" class="icon" alt=""><span>Settings</span></a>
+</nav>
+<button class="sidebar-cta"><img src="./assets/icons/play.svg" class="icon" alt=""><span>Start timer</span></button>
+<div class="sidebar-footer">
+<div class="timer-chip">
+<span class="timer-dot"></span>
+<div class="meta">
+<div class="code">HARRIS-2024-0117 · Drafting</div>
+<div class="clock">01:42:08</div>
+</div>
+<img src="./assets/icons/pause.svg" class="icon" alt="">
+</div>
+</div>
+</aside>
+
+<div class="main">
+<div class="topbar">
+<div class="crumbs"><span>Workspace</span><span class="sep">/</span><span class="here">Calendar</span></div>
+<div class="date-stepper">
+<button aria-label="Previous"><img src="./assets/icons/chevron-left.svg" class="icon" alt=""></button>
+<div class="label">October 2024</div>
+<button aria-label="Next"><img src="./assets/icons/chevron-right.svg" class="icon" alt=""></button>
+</div>
+<div class="search">
+<img src="./assets/icons/search.svg" class="icon" alt="">
+<input type="text" placeholder="Search deadlines, matters, courts…">
+</div>
+<div class="topbar-spacer"></div>
+<a href="#" class="btn btn-ghost"><img src="./assets/icons/download.svg" class="icon" alt="">Export .ics</a>
+</div>
+
+<div class="page">
+
+<div class="page-header">
+<div class="page-title">
+<div class="eyebrow">Deadlines &amp; court dates</div>
+<h1>Calendar</h1>
+<div class="sub">23 events this month · 4 statutory deadlines in the next 14 days</div>
+</div>
+<div class="page-actions">
+<div class="view-toggle">
+<a href="#" class="is-active">Month</a>
+<a href="#">Week</a>
+<a href="#">Agenda</a>
+</div>
+<button class="btn btn-ghost"><img src="./assets/icons/chevron-left.svg" class="icon" alt="">Prev</button>
+<button class="btn btn-ghost">Today</button>
+<button class="btn btn-ghost">Next<img src="./assets/icons/chevron-right.svg" class="icon" alt=""></button>
+<button class="btn btn-ghost"><img src="./assets/icons/funnel-x.svg" class="icon" alt="">Filter by matter <span class="badge">3</span><img src="./assets/icons/chevron-down.svg" class="icon" alt=""></button>
+<a href="#" class="btn btn-primary"><img src="./assets/icons/plus.svg" class="icon" alt="">Add deadline</a>
+</div>
+</div>
+
+<div class="filter-bar">
+<span class="text-xs text-muted" style="text-transform:uppercase;letter-spacing:.08em;">Event types</span>
+<span class="chip is-active"><span style="width:8px;height:8px;background:var(--accent-alt);border-radius:50%;display:inline-block;"></span>Filing deadline</span>
+<span class="chip is-active"><span style="width:8px;height:8px;background:var(--accent);border-radius:50%;display:inline-block;"></span>Hearing</span>
+<span class="chip is-active"><span style="width:8px;height:8px;background:var(--info);border-radius:50%;display:inline-block;"></span>Deposition</span>
+<span class="chip is-active"><span style="width:8px;height:8px;background:var(--muted);border-radius:50%;display:inline-block;"></span>Internal</span>
+<span class="sep"></span>
+<span class="text-xs text-muted" style="text-transform:uppercase;letter-spacing:.08em;">Jurisdiction</span>
+<span class="badge jur">N.D. Cal.</span>
+<span class="badge jur">9th Cir.</span>
+<span class="badge jur">CA Sup. Ct.</span>
+<span class="chip"><img src="./assets/icons/plus.svg" class="icon" alt="">Add</span>
+<span class="sep"></span>
+<span class="text-xs text-muted"><span class="holiday-dot" style="display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--accent-alt);margin-right:6px;vertical-align:middle;"></span>Court holidays shown for selected jurisdictions</span>
+</div>
+
+<div class="split-2">
+<div class="stack">
+<div class="cal-grid">
+<div class="cal-head">Sun</div><div class="cal-head">Mon</div><div class="cal-head">Tue</div><div class="cal-head">Wed</div><div class="cal-head">Thu</div><div class="cal-head">Fri</div><div class="cal-head">Sat</div>
+
+<div class="cal-day dim"><span class="num">29</span></div>
+<div class="cal-day dim"><span class="num">30</span></div>
+<div class="cal-day"><span class="num">1</span><span class="event-chip internal">10:00 Team standup</span></div>
+<div class="cal-day"><span class="num">2</span><span class="event-chip filing">Resp. brief — Harris</span></div>
+<div class="cal-day"><span class="num">3</span><span class="event-chip depo">Depo: K. Sato</span><span class="event-chip internal">Strategy review</span></div>
+<div class="cal-day"><span class="num">4</span></div>
+<div class="cal-day dim"><span class="num">5</span></div>
+
+<div class="cal-day dim"><span class="num">6</span></div>
+<div class="cal-day"><span class="num">7</span><span class="event-chip hearing">CMC — Vega v. Atlas</span></div>
+<div class="cal-day"><span class="num">8</span><span class="event-chip filing">MSJ opp. — Chen</span></div>
+<div class="cal-day"><span class="num">9</span><span class="event-chip depo">Depo: Dr. Aluko</span></div>
+<div class="cal-day"><span class="num">10</span><span class="event-chip filing">Disc. responses — Pell</span><span class="event-chip internal">Witness prep</span></div>
+<div class="cal-day"><span class="num">11</span><span class="event-chip hearing">Motion to compel</span></div>
+<div class="cal-day dim"><span class="num">12</span></div>
+
+<div class="cal-day dim"><span class="num">13</span></div>
+<div class="cal-day"><span class="num">14</span><span class="holiday-dot" title="Columbus Day (Fed.)"></span><span class="event-chip internal">Fed. holiday</span></div>
+<div class="cal-day"><span class="num">15</span><span class="event-chip filing">Reply brief — Vega</span><span class="event-chip depo">Depo: M. Okafor</span></div>
+<div class="cal-day"><span class="num">16</span><span class="event-chip hearing">Sanctions hearing</span></div>
+<div class="cal-day today"><span class="num">17</span><span class="event-chip filing">Expert disclosures</span><span class="event-chip hearing">CMC — Harris</span><span class="event-chip depo">Depo: J. Whitlock</span><span class="empty-overflow text-xs">+1 more</span></div>
+<div class="cal-day"><span class="num">18</span><span class="event-chip internal">Doc review</span></div>
+<div class="cal-day dim"><span class="num">19</span></div>
+
+<div class="cal-day dim"><span class="num">20</span></div>
+<div class="cal-day"><span class="num">21</span><span class="event-chip filing">Trial brief — Pell</span></div>
+<div class="cal-day"><span class="num">22</span><span class="event-chip hearing">Pretrial conf.</span></div>
+<div class="cal-day"><span class="num">23</span><span class="event-chip depo">Depo: R. Mendel</span><span class="event-chip internal">Mock argument</span></div>
+<div class="cal-day"><span class="num">24</span><span class="event-chip filing">Mot. in limine</span></div>
+<div class="cal-day"><span class="num">25</span><span class="event-chip hearing">Settlement conf.</span></div>
+<div class="cal-day dim"><span class="num">26</span></div>
+
+<div class="cal-day dim"><span class="num">27</span></div>
+<div class="cal-day"><span class="num">28</span><span class="event-chip filing">Jury instructions</span></div>
+<div class="cal-day"><span class="num">29</span><span class="event-chip hearing">Trial Day 1 — Harris</span></div>
+<div class="cal-day"><span class="num">30</span><span class="event-chip hearing">Trial Day 2 — Harris</span></div>
+<div class="cal-day"><span class="num">31</span><span class="event-chip hearing">Trial Day 3 — Harris</span><span class="event-chip internal">Closing prep</span></div>
+<div class="cal-day dim"><span class="num">1</span></div>
+<div class="cal-day dim"><span class="num">2</span></div>
+</div>
+
+<div class="row" style="font-size:var(--text-xs);color:var(--muted);justify-content:space-between;">
+<span><img src="./assets/icons/info.svg" class="icon" alt=""> Dates are computed against N.D. Cal. Local Rules 7-3 and FRCP timing. Verify against docket before filing.</span>
+<span>Showing 23 of 23 events</span>
+</div>
+</div>
+
+<div class="card">
+<div class="card-head">
+<div>
+<div class="card-title">Thursday, Oct 17</div>
+<div class="card-sub">Selected day · 4 events</div>
+</div>
+<button class="btn btn-ghost btn-sm"><img src="./assets/icons/plus.svg" class="icon" alt="">Event</button>
+</div>
+
+<div class="deadline-list">
+
+<div class="deadline-item">
+<div class="timeline-icon" style="background:rgba(184,100,58,.18);color:var(--accent-alt-soft);"><img src="./assets/icons/file-text.svg" class="icon" alt=""></div>
+<div class="main">
+<div class="type">Expert witness disclosures due</div>
+<div class="sub">Harris v. Northwood Holdings · N.D. Cal. Courtroom 3 (Judge Liang)</div>
+<div class="row" style="margin-top:6px;gap:var(--space-2);">
+<span class="pill overdue no-dot" style="padding:2px 8px;">Filing</span>
+<span class="badge jur">N.D. Cal.</span>
+<span class="text-xs text-muted">5:00 PM PT</span>
+</div>
+</div>
+<div class="avatar-stack">
+<img class="avatar" src="./assets/avatars/notionists-seed-01.svg" alt="">
+<img class="avatar" src="./assets/avatars/lorelei-seed-03.svg" alt="">
+</div>
+</div>
+
+<div class="deadline-item">
+<div class="timeline-icon" style="background:rgba(232,217,168,.14);color:var(--accent);"><img src="./assets/icons/gavel.svg" class="icon" alt=""></div>
+<div class="main">
+<div class="type">Case Management Conference</div>
+<div class="sub">Harris v. Northwood Holdings · Phillip Burton Federal Bldg., Ctrm 3</div>
+<div class="row" style="margin-top:6px;gap:var(--space-2);">
+<span class="pill billed no-dot" style="padding:2px 8px;">Hearing</span>
+<span class="badge jur">N.D. Cal.</span>
+<span class="text-xs text-muted">9:30 AM PT</span>
+</div>
+</div>
+<div class="avatar-stack">
+<img class="avatar" src="./assets/avatars/notionists-seed-00.svg" alt="">
+<img class="avatar" src="./assets/avatars/notionists-seed-04.svg" alt="">
+<img class="avatar" src="./assets/avatars/lorelei-seed-01.svg" alt="">
+</div>
+</div>
+
+<div class="deadline-item">
+<div class="timeline-icon" style="background:rgba(143,169,184,.16);color:var(--info);"><img src="./assets/icons/users.svg" class="icon" alt=""></div>
+<div class="main">
+<div class="type">Deposition: Jonathan Whitlock (CFO)</div>
+<div class="sub">Vega v. Atlas Logistics · Carrington Reporting, 525 Market St. #2400</div>
+<div class="row" style="margin-top:6px;gap:var(--space-2);">
+<span class="pill submitted no-dot" style="padding:2px 8px;">Deposition</span>
+<span class="badge jur">CA Sup. Ct.</span>
+<span class="text-xs text-muted">1:00 PM – 5:00 PM PT</span>
+</div>
+</div>
+<div class="avatar-stack">
+<img class="avatar" src="./assets/avatars/notionists-seed-02.svg" alt="">
+<img class="avatar" src="./assets/avatars/lorelei-seed-05.svg" alt="">
+</div>
+</div>
+
+<div class="deadline-item">
+<div class="timeline-icon" style="background:var(--surface-3);color:var(--fg-dim);"><img src="./assets/icons/message-square.svg" class="icon" alt=""></div>
+<div class="main">
+<div class="type">Client status call — Pell Industries</div>
+<div class="sub">Internal · Zoom (link in matter notes)</div>
+<div class="row" style="margin-top:6px;gap:var(--space-2);">
+<span class="pill no-dot" style="padding:2px 8px;">Internal</span>
+<span class="text-xs text-muted">3:30 PM PT</span>
+</div>
+</div>
+<div class="avatar-stack">
+<img class="avatar" src="./assets/avatars/notionists-seed-06.svg" alt="">
+</div>
+</div>
+
+</div>
+
+<div class="divider"></div>
+<a href="#" class="row" style="justify-content:space-between;color:var(--accent);font-size:var(--text-sm);font-weight:500;">
+<span><img src="./assets/icons/scale.svg" class="icon" alt=""> Compute deadline chain from selected day</span>
+<img src="./assets/icons/arrow-up-right.svg" class="icon" alt="">
+</a>
+</div>
+</div>
+
+<div class="card">
+<div class="card-head">
+<div>
+<div class="card-title">Rule-based deadlines</div>
+<div class="card-sub">Generate downstream filing dates from a trigger event using local rules and FRCP timing</div>
+</div>
+<span class="badge jur"><img src="./assets/icons/info.svg" class="icon" alt=""> Rules library v2024.09</span>
+</div>
+
+<div class="split-3">
+<div class="field">
+<label class="label">Trigger event</label>
+<select class="select">
+<option>Service of Motion for Summary Judgment</option>
+<option>Service of Complaint</option>
+<option>Order on Motion to Compel</option>
+<option>Notice of Removal filed</option>
+<option>Trial date set</option>
+</select>
+</div>
+<div class="field">
+<label class="label">Jurisdiction</label>
+<select class="select">
+<option>N.D. Cal. — Local Rules + FRCP</option>
+<option>C.D. Cal. — Local Rules + FRCP</option>
+<option>9th Circuit — FRAP</option>
+<option>California Superior Court — CCP</option>
+<option>Delaware Court of Chancery</option>
+</select>
+</div>
+<div class="field">
+<label class="label">Trigger date</label>
+<input class="input" type="text" value="Oct 17, 2024">
+</div>
+</div>
+
+<div>
+<div class="row between" style="margin-bottom:var(--space-3);">
+<div class="section-title">Generated checklist <small>7 downstream deadlines</small></div>
+<span class="text-xs text-muted">All dates account for weekends &amp; N.D. Cal. court holidays</span>
+</div>
+
+<div class="checklist">
+<div class="item">
+<span class="check"></span>
+<span class="label">Opposition to MSJ — file and serve <span class="text-muted" style="text-transform:none;letter-spacing:0;">(L.R. 7-3(a), 14 days after service)</span></span>
+<span class="badge jur">L.R. 7-3(a)</span>
+<span class="date">Oct 31, 2024</span>
+<span class="days-chip soon">14d</span>
+</div>
+<div class="item">
+<span class="check"></span>
+<span class="label">Reply in support of MSJ <span class="text-muted" style="text-transform:none;letter-spacing:0;">(L.R. 7-3(c), 7 days after opposition)</span></span>
+<span class="badge jur">L.R. 7-3(c)</span>
+<span class="date">Nov 7, 2024</span>
+<span class="days-chip ok">21d</span>
+</div>
+<div class="item">
+<span class="check"></span>
+<span class="label">Hearing date (earliest available, 35 days from filing)</span>
+<span class="badge jur">L.R. 7-2(a)</span>
+<span class="date">Nov 21, 2024</span>
+<span class="days-chip ok">35d</span>
+</div>
+<div class="item">
+<span class="check"></span>
+<span class="label">Joint statement of undisputed facts</span>
+<span class="badge jur">Std. Order</span>
+<span class="date">Oct 28, 2024</span>
+<span class="days-chip soon">11d</span>
+</div>
+<div class="item">
+<span class="check"></span>
+<span class="label">Objections to evidence in support of MSJ</span>
+<span class="badge jur">FRE 103</span>
+<span class="date">Oct 31, 2024</span>
+<span class="days-chip soon">14d</span>
+</div>
+<div class="item">
+<span class="check"></span>
+<span class="label">Expert rebuttal disclosures (if applicable)</span>
+<span class="badge jur">FRCP 26(a)(2)(D)</span>
+<span class="date">Nov 16, 2024</span>
+<span class="days-chip ok">30d</span>
+</div>
+<div class="item">
+<span class="check"></span>
+<span class="label">Internal: partner sign-off on opposition draft</span>
+<span class="badge">Internal</span>
+<span class="date">Oct 28, 2024</span>
+<span class="days-chip soon">11d</span>
+</div>
+</div>
+
+<div class="row between" style="margin-top:var(--space-4);">
+<span class="text-xs text-muted"><img src="./assets/icons/triangle-alert.svg" class="icon" alt=""> Nov 11 (Veterans Day) skipped in calculation. Verify any standing orders from Judge Liang.</span>
+<div class="row" style="gap:var(--space-2);">
+<button class="btn btn-ghost"><img src="./assets/icons/rotate-ccw.svg" class="icon" alt="">Recompute</button>
+<button class="btn btn-ghost"><img src="./assets/icons/eye.svg" class="icon" alt="">Preview ICS</button>
+<button class="btn btn-primary"><img src="./assets/icons/calendar.svg" class="icon" alt="">Add all to calendar</button>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</body>
+</html>

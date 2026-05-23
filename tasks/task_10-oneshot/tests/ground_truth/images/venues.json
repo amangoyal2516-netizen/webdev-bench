@@ -1,0 +1,170 @@
+[
+  {
+    "src": "./assets/icons/utensils.svg",
+    "alt": "",
+    "x": 118,
+    "y": 26,
+    "w": 18,
+    "h": 18,
+    "phash": "da2382d8edb6c3c4",
+    "lab_mean": [
+      69.12,
+      0.0,
+      -1.46
+    ]
+  },
+  {
+    "src": "./assets/icons/search.svg",
+    "alt": "",
+    "x": 104,
+    "y": 363.1875,
+    "w": 24,
+    "h": 24,
+    "phash": "eba5f03483528dcb",
+    "lab_mean": [
+      81.66,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/sliders-horizontal.svg",
+    "alt": "",
+    "x": 432.625,
+    "y": 368.1875,
+    "w": 14,
+    "h": 14,
+    "phash": "ec26c799909bc533",
+    "lab_mean": [
+      79.28,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 144,
+    "y": 1380.34375,
+    "w": 14,
+    "h": 14,
+    "phash": "afb2b1afca0a882d",
+    "lab_mean": [
+      72.3,
+      0.0,
+      -7.74
+    ]
+  },
+  {
+    "src": "./assets/photos/JRsZWmRd_Ws.jpg",
+    "alt": "Interior of the Riverside Pavilion with rows of long tables set for a civic meal",
+    "x": 132,
+    "y": 1417.875,
+    "w": 826,
+    "h": 515.5,
+    "phash": "981d65027591fa5f",
+    "lab_mean": [
+      20.04,
+      3.23,
+      7.81
+    ]
+  },
+  {
+    "src": "./assets/icons/accessibility.svg",
+    "alt": "",
+    "x": 131,
+    "y": 2042.171875,
+    "w": 18,
+    "h": 18,
+    "phash": "afe5994fe0928632",
+    "lab_mean": [
+      80.08,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar-days.svg",
+    "alt": "",
+    "x": 131,
+    "y": 2262.015625,
+    "w": 18,
+    "h": 18,
+    "phash": "af78adc0bdc2d482",
+    "lab_mean": [
+      66.05,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/clipboard-list.svg",
+    "alt": "",
+    "x": 784.53125,
+    "y": 2609.46875,
+    "w": 14,
+    "h": 14,
+    "phash": "ee3131c4e4c6e693",
+    "lab_mean": [
+      25.68,
+      28.47,
+      -67.8
+    ]
+  },
+  {
+    "src": "./assets/icons/mail.svg",
+    "alt": "",
+    "x": 1041,
+    "y": 1782.453125,
+    "w": 14,
+    "h": 14,
+    "phash": "820ffff0f50c80d3",
+    "lab_mean": [
+      68.79,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/phone.svg",
+    "alt": "",
+    "x": 1041,
+    "y": 1821.5,
+    "w": 14,
+    "h": 14,
+    "phash": "b999c07e8f94c863",
+    "lab_mean": [
+      75.14,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 1041,
+    "y": 1860.546875,
+    "w": 14,
+    "h": 14,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      75.15,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/utensils.svg",
+    "alt": "",
+    "x": 118,
+    "y": 2845,
+    "w": 18,
+    "h": 18,
+    "phash": "da2382caedb6c3c4",
+    "lab_mean": [
+      6.16,
+      0.0,
+      -4.04
+    ]
+  }
+]

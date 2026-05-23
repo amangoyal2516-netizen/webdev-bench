@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pricing — Clausepoint</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="container-wide topbar-inner">
+    <a href="./home.html" class="wordmark"><span class="wordmark-mark">{ }</span> Clausepoint</a>
+    <nav class="topbar-nav">
+      <a href="./home.html">Product</a>
+      <a href="./pricing.html">Pricing</a>
+      <a href="./docs.html">Docs</a>
+      <a href="./customers.html">Customers</a>
+      <a href="./wizard.html">Integrate</a>
+    </nav>
+    <div class="topbar-actions">
+      <div class="search-input"><img src="./assets/icons/search.svg" alt="" class="icon icon-sm"><input type="text" placeholder="Search docs…"><span class="kbd">⌘K</span></div>
+      <a href="#" class="btn btn-ghost btn-sm">Sign in</a>
+      <a href="./wizard.html" class="btn btn-primary btn-sm">Start free</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <div class="stack stack-5" style="align-items:center;text-align:center;max-width:760px;margin:0 auto;">
+        <span class="eyebrow">Pricing</span>
+        <h1>Pricing built around contracts reviewed</h1>
+        <p class="lead">No seat math, no token counting. Pay for the agreements you actually push through <span class="mono">POST&nbsp;/v1/review</span> — everything else (clause library, redlines, webhooks, SDKs) is included.</p>
+        <div class="row" style="gap:var(--space-4);justify-content:center;flex-wrap:wrap;">
+          <div class="toggle-group" role="tablist" aria-label="Billing period">
+            <button class="toggle-opt" type="button">Monthly</button>
+            <button class="toggle-opt is-active" type="button">Annual · save 20%</button>
+          </div>
+          <div class="row" style="gap:var(--space-2);">
+            <img src="./assets/icons/globe.svg" alt="" class="icon icon-sm muted">
+            <select class="input" style="height:38px;width:auto;min-width:200px;">
+              <option>Region — United States (USD)</option>
+              <option>European Union (EUR)</option>
+              <option>United Kingdom (GBP)</option>
+              <option>Canada (CAD)</option>
+              <option>Australia (AUD)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="container">
+      <div class="grid-3" style="align-items:stretch;padding-top:var(--space-3);">
+        <article class="plan-card">
+          <div class="stack stack-3">
+            <span class="plan-name">Developer</span>
+            <div class="plan-price"><span class="amount">$49</span><span class="per">/ month · billed annually</span></div>
+            <p class="muted text-sm">For prototypes, side projects, and proof-of-concepts running on a single repo.</p>
+          </div>
+          <div class="plan-included"><strong>250</strong> contracts reviewed / month included <br><span class="muted text-xs mono">$0.18 per additional contract</span></div>
+          <ul class="feature-list">
+            <li><span class="check"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm" style="filter:brightness(0) saturate(100%) invert(54%) sepia(73%) saturate(456%) hue-rotate(118deg) brightness(94%) contrast(88%);"></span> Full clause taxonomy (180+ types)</li>
+            <li><span class="check"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm"></span> 3 jurisdiction packs included</li>
+            <li><span class="check"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm"></span> REST API + Python, Node, Go SDKs</li>
+            <li><span class="check"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm"></span> Up to 2 API keys, 1 environment</li>
+            <li><span class="check"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm"></span> Community Slack support</li>
+            <li><span class="check"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm"></span> 30-day retention on stored reviews</li>
+          </ul>
+          <a href="./wizard.html" class="btn btn-secondary btn-block btn-lg">Choose Developer</a>
+        </article>
+
+        <article class="plan-card is-featured">
+          <span class="plan-ribbon">Most popular</span>
+          <div class="stack stack-3">
+            <span class="plan-name">Team</span>
+            <div class="plan-price"><span class="amount">$299</span><span class="per">/ month · billed annually</span></div>
+            <p class="muted text-sm">For product teams shipping contract workflows to real customers and counterparties.</p>
+          </div>
+          <div class="plan-included"><strong>2,500</strong> contracts reviewed / month included <br><span class="muted text-xs mono">$0.11 per additional contract</span></div>
+          <ul class="feature-list">
+            <li><span class="check"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm"></span> Everything in Developer, plus —</li>
+            <li><span class="check"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm"></span> 12 jurisdiction packs + custom playbooks</li>
+            <li><span class="check"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm"></span> Redline suggestions & alt-clause library</li>
+            <li><span class="check"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm"></span> Webhooks, batch endpoints, async jobs</li>
+            <li><span class="check"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm"></span> Unlimited API keys, 3 environments</li>
+            <li><span class="check"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm"></span> 99.9% uptime SLA · email support · 8h</li>
+            <li><span class="check"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm"></span> 1-year retention, export to S3/GCS</li>
+          </ul>
+          <a href="./wizard.html" class="btn btn-primary btn-block btn-lg">Choose Team <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm" style="filter:invert(1);"></a>
+        </article>
+
+        <article class="plan-card">
+          <div class="stack stack-3">
+            <span class="plan-name">Scale</span>
+            <div class="plan-price"><span class="amount">$1,290</span><span class="per">/ month · billed annually</span></div>
+            <p class="muted text-sm">For high-volume legal-tech platforms and procurement tooling at production scale.</p>
+          </div>
+          <div class="plan-included"><strong>15,000</strong> contracts reviewed / month included <br><span class="muted text-xs mono">$0.06 per additional contract</span></div>
+          <ul class="feature-list">
+            <li><span class="check"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm"></span> Everything in Team, plus —</li>
+            <li><span class="check"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm"></span> All 38 jurisdiction packs worldwide</li>
+            <li><span class="check"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm"></span> Fine-tune on your own clause corpus</li>
+            <li><span class="check"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm"></span> Priority routing · 99.95% uptime SLA</li>
+            <li><span class="check"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm"></span> Dedicated CSM + quarterly review</li>
+            <li><span class="check"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm"></span> 7-year retention, regional data residency</li>
+            <li><span class="check"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm"></span> SOC 2 Type II, ISO 27001 reports</li>
+          </ul>
+          <a href="./wizard.html" class="btn btn-secondary btn-block btn-lg">Choose Scale</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="card-elev card-pad-lg">
+        <div class="row-between" style="align-items:flex-start;margin-bottom:var(--space-5);flex-wrap:wrap;gap:var(--space-3);">
+          <div class="stack stack-2">
+            <span class="eyebrow"><img src="./assets/icons/sliders-horizontal.svg" alt="" class="icon icon-sm" style="vertical-align:-3px;"> Usage estimator</span>
+            <h2>Model your monthly bill</h2>
+            <p class="muted">Drag the sliders to match your expected throughput. The estimator picks the plan that minimizes cost and shows the overage breakdown.</p>
+          </div>
+          <span class="badge"><img src="./assets/icons/info.svg" alt="" class="icon icon-sm"> Estimate only — taxes excluded</span>
+        </div>
+
+        <div class="grid-2" style="gap:var(--space-6);align-items:start;">
+          <div class="stack stack-6">
+            <div class="field" style="margin:0;">
+              <div class="row-between" style="margin-bottom:10px;">
+                <label class="label" style="margin:0;">Monthly contracts reviewed</label>
+                <span class="mono text-sm" style="font-weight:700;color:var(--accent);">4,200</span>
+              </div>
+              <input class="slider" type="range" min="0" max="25000" value="4200">
+              <div class="slider-row"><span>0</span><span>5K</span><span>10K</span><span>15K</span><span>20K</span><span>25K+</span></div>
+            </div>
+
+            <div class="field" style="margin:0;">
+              <div class="row-between" style="margin-bottom:10px;">
+                <label class="label" style="margin:0;">Average pages per contract</label>
+                <span class="mono text-sm" style="font-weight:700;color:var(--accent);">14 pages</span>
+              </div>
+              <input class="slider" type="range" min="1" max="80" value="14">
+              <div class="slider-row"><span>1</span><span>20</span><span>40</span><span>60</span><span>80+</span></div>
+              <p class="help">Contracts over 25 pages count as 2 reviews. Bundling is automatic.</p>
+            </div>
+
+            <div class="field" style="margin:0;">
+              <label class="label">Jurisdictions covered</label>
+              <select class="input">
+                <option>4 jurisdictions — US, EU, UK, Canada</option>
+                <option>2 jurisdictions — US, EU</option>
+                <option>8 jurisdictions — Common-law package</option>
+                <option>12 jurisdictions — Global expansion</option>
+                <option>All 38 jurisdictions (Scale only)</option>
+              </select>
+              <p class="help">Each pack ships with playbooks, fallback positions, and locale-specific risk weights.</p>
+            </div>
+
+            <div class="callout callout-alt">
+              <span class="callout-icon"><img src="./assets/icons/sparkles.svg" alt="" class="icon icon-sm" style="filter:invert(1);"></span>
+              <div>
+                <h5>Annual commit unlocks 20% off</h5>
+                <p>Lock in your rate and roll unused volume forward up to 25% each month.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="estimator-output">
+            <div class="row-between" style="margin-bottom:var(--space-4);">
+              <div class="stack stack-1">
+                <span class="text-xs" style="color:#9ca3af;text-transform:uppercase;letter-spacing:.08em;font-weight:700;">Recommended plan</span>
+                <span style="font-size:var(--text-xl);font-weight:700;">Team · Annual</span>
+              </div>
+              <span class="badge badge-accent" style="background:rgba(0,102,255,.18);color:#79c0ff;border:0;"><img src="./assets/icons/circle-check.svg" alt="" class="icon icon-sm"> Best fit</span>
+            </div>
+
+            <div class="estimator-line"><span>Base plan (Team, annual)</span><span class="mono">$299.00</span></div>
+            <div class="estimator-line"><span>Included: 2,500 contracts</span><span class="mono" style="color:#9ca3af;">— $0.00</span></div>
+            <div class="estimator-line"><span>Overage · 1,700 contracts × $0.11</span><span class="mono">$187.00</span></div>
+            <div class="estimator-line"><span>Jurisdiction pack add-on (×1)</span><span class="mono">$24.00</span></div>
+            <div class="estimator-line"><span>Long-document surcharge (≈ 8%)</span><span class="mono">$15.36</span></div>
+            <div class="estimator-line"><span style="color:#9ca3af;">Annual discount applied</span><span class="mono" style="color:#34d399;">−$105.07</span></div>
+            <div class="estimator-line total"><span>Estimated monthly total</span><span class="mono">$420.29</span></div>
+
+            <div class="row" style="gap:var(--space-3);margin-top:var(--space-5);">
+              <a href="./wizard.html" class="btn btn-primary btn-block">Start with this plan <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm" style="filter:invert(1);"></a>
+            </div>
+            <p class="text-xs" style="color:#9ca3af;margin-top:var(--space-3);text-align:center;">Switch plans any time. Overages are billed at the end of the cycle.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="enterprise-band">
+        <div class="grid-2" style="gap:var(--space-7);align-items:center;">
+          <div class="stack stack-5">
+            <span class="eyebrow" style="background:rgba(255,255,255,.08);color:#79c0ff;"><img src="./assets/icons/building-2.svg" alt="" class="icon icon-sm" style="vertical-align:-3px;"> Enterprise</span>
+            <h2>Built for legal-ops teams that don't joke around about contracts.</h2>
+            <p style="font-size:var(--text-lg);max-width:560px;">Single sign-on with SAML/SCIM, immutable audit logs streamed to your SIEM, a signed Business Associate Agreement, regional data residency, and a dedicated legal-operations engineer assigned to your account from week one.</p>
+            <ul class="feature-list" style="gap:14px;max-width:520px;">
+              <li style="color:#e6edf3;"><span class="check" style="background:rgba(0,179,122,.18);"><img src="./assets/icons/shield-check.svg" alt="" class="icon icon-sm"></span> SSO via Okta, Azure AD, Google Workspace, JumpCloud</li>
+              <li style="color:#e6edf3;"><span class="check" style="background:rgba(0,179,122,.18);"><img src="./assets/icons/scan-text.svg" alt="" class="icon icon-sm"></span> Immutable audit logs, hash-chained, exportable to Splunk &amp; Datadog</li>
+              <li style="color:#e6edf3;"><span class="check" style="background:rgba(0,179,122,.18);"><img src="./assets/icons/gavel.svg" alt="" class="icon icon-sm"></span> HIPAA BAA, GDPR DPA, and customer-controlled retention windows</li>
+              <li style="color:#e6edf3;"><span class="check" style="background:rgba(0,179,122,.18);"><img src="./assets/icons/users.svg" alt="" class="icon icon-sm"></span> Dedicated legal-ops engineer, onboarding playbook, quarterly reviews</li>
+            </ul>
+            <div class="row" style="gap:var(--space-3);margin-top:var(--space-3);flex-wrap:wrap;">
+              <a href="#" class="btn btn-primary btn-lg">Talk to sales <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm" style="filter:invert(1);"></a>
+              <a href="./docs.html" class="btn btn-secondary btn-lg" style="background:transparent;color:#fff;border-color:rgba(255,255,255,.25);">Download security pack</a>
+            </div>
+            <p class="text-xs mono" style="color:#9ca3af;">Typical response under 1 business day · contracts in 2 weeks</p>
+          </div>
+
+          <div class="stack stack-4">
+            <p class="text-xs mono" style="color:#9ca3af;text-transform:uppercase;letter-spacing:.1em;">Trusted by enterprise legal teams at</p>
+            <div class="stack stack-3">
+              <div class="card" style="background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.12);padding:var(--space-4) var(--space-5);">
+                <div class="row" style="gap:var(--space-4);">
+                  <span style="width:40px;height:40px;border-radius:8px;background:rgba(0,102,255,.18);color:#79c0ff;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;"><img src="./assets/icons/landmark.svg" alt="" class="icon"></span>
+                  <div class="stack stack-1">
+                    <strong style="color:#fff;letter-spacing:-.01em;">Meridian Federal Bank</strong>
+                    <span class="text-xs" style="color:#9ca3af;">14,200 MSA reviews / month · 6 jurisdictions</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.12);padding:var(--space-4) var(--space-5);">
+                <div class="row" style="gap:var(--space-4);">
+                  <span style="width:40px;height:40px;border-radius:8px;background:rgba(0,179,122,.18);color:#34d399;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;"><img src="./assets/icons/cpu.svg" alt="" class="icon"></span>
+                  <div class="stack stack-1">
+                    <strong style="color:#fff;letter-spacing:-.01em;">Nordstack Robotics</strong>
+                    <span class="text-xs" style="color:#9ca3af;">Supplier NDAs auto-redlined inside their PLM</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.12);padding:var(--space-4) var(--space-5);">
+                <div class="row" style="gap:var(--space-4);">
+                  <span style="width:40px;height:40px;border-radius:8px;background:rgba(245,158,11,.18);color:#f59e0b;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;"><img src="./assets/icons/briefcase.svg" alt="" class="icon"></span>
+                  <div class="stack stack-1">
+                    <strong style="color:#fff;letter-spacing:-.01em;">Halcyon Health Group</strong>
+                    <span class="text-xs" style="color:#9ca3af;">HIPAA BAA workflow, 47 hospital networks</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="stack stack-4">
+        <a href="./home.html" class="wordmark"><span class="wordmark-mark">{ }</span> Clausepoint</a>
+        <p class="muted text-sm" style="max-width:320px;">The contract review API for product teams. Parse, classify, and redline agreements in under two seconds.</p>
+        <span class="status-pill"><span class="badge-dot"></span> All systems operational</span>
+      </div>
+      <div class="footer-col">
+        <h5>Product</h5>
+        <ul>
+          <li><a href="./home.html">Overview</a></li>
+          <li><a href="./pricing.html">Pricing</a></li>
+          <li><a href="./wizard.html">Integration wizard</a></li>
+          <li><a href="./docs.html">Changelog</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Developers</h5>
+        <ul>
+          <li><a href="./docs.html">API reference</a></li>
+          <li><a href="./docs.html">SDKs</a></li>
+          <li><a href="./wizard-keys.html">API keys</a></li>
+          <li><a href="#">Status page</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="./customers.html">Customers</a></li>
+          <li><a href="#">Security</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Contact sales</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="#">Terms of service</a></li>
+          <li><a href="#">Privacy policy</a></li>
+          <li><a href="#">DPA</a></li>
+          <li><a href="#">Subprocessors</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Clausepoint Labs, Inc. · 548 Townsend St, San Francisco CA</span>
+      <span class="mono">v4.12.0 · build a91f3c2</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

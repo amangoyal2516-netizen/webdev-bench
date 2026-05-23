@@ -1,0 +1,371 @@
+[
+  {
+    "tag": "span",
+    "font_family": "Fraunces, Georgia, serif",
+    "font_size_px": 17,
+    "font_weight": "700",
+    "line_height": "25.5px",
+    "area": 5429.5078125,
+    "text_len": 28
+  },
+  {
+    "tag": "a",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 1638.3046875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "700",
+    "line_height": "16.5px",
+    "area": 30184,
+    "text_len": 11
+  },
+  {
+    "tag": "h1",
+    "font_family": "Fraunces, Georgia, serif",
+    "font_size_px": 34,
+    "font_weight": "700",
+    "line_height": "39.1px",
+    "area": 48163.5,
+    "text_len": 28
+  },
+  {
+    "tag": "p",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 15,
+    "font_weight": "400",
+    "line_height": "22.5px",
+    "area": 29700,
+    "text_len": 143
+  },
+  {
+    "tag": "p",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 20328,
+    "text_len": 45
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 17,
+    "font_weight": "600",
+    "line_height": "25.5px",
+    "area": 14624.6484375,
+    "text_len": 30
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 11183.5546875,
+    "text_len": 73
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 1176.828125,
+    "text_len": 4
+  },
+  {
+    "tag": "button",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "11px",
+    "area": 1519.78125,
+    "text_len": 4
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 17,
+    "font_weight": "600",
+    "line_height": "25.5px",
+    "area": 13058.390625,
+    "text_len": 22
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 19971.65625,
+    "text_len": 87
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 2165.3125,
+    "text_len": 12
+  },
+  {
+    "tag": "button",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "11px",
+    "area": 1902.671875,
+    "text_len": 6
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 17,
+    "font_weight": "600",
+    "line_height": "25.5px",
+    "area": 12711.75,
+    "text_len": 20
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 19441.5,
+    "text_len": 97
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 1722.3203125,
+    "text_len": 11
+  },
+  {
+    "tag": "a",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "11px",
+    "area": 3226,
+    "text_len": 8
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 17,
+    "font_weight": "600",
+    "line_height": "25.5px",
+    "area": 12716.53125,
+    "text_len": 16
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 19448.8125,
+    "text_len": 82
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 1722.3203125,
+    "text_len": 11
+  },
+  {
+    "tag": "button",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "11px",
+    "area": 2918.125,
+    "text_len": 12
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 17,
+    "font_weight": "600",
+    "line_height": "25.5px",
+    "area": 12328.8515625,
+    "text_len": 21
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 18855.890625,
+    "text_len": 98
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "16.5px",
+    "area": 1722.3203125,
+    "text_len": 11
+  },
+  {
+    "tag": "button",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "600",
+    "line_height": "11px",
+    "area": 3359.015625,
+    "text_len": 15
+  },
+  {
+    "tag": "h3",
+    "font_family": "Fraunces, Georgia, serif",
+    "font_size_px": 20,
+    "font_weight": "700",
+    "line_height": "25px",
+    "area": 3614.84375,
+    "text_len": 17
+  },
+  {
+    "tag": "p",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "20.8px",
+    "area": 36670.73974609375,
+    "text_len": 191
+  },
+  {
+    "tag": "a",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 3586.5,
+    "text_len": 10
+  },
+  {
+    "tag": "em",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 982.96875,
+    "text_len": 7
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 5554.828125,
+    "text_len": 10
+  },
+  {
+    "tag": "a",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 5098.5,
+    "text_len": 40
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 5554.828125,
+    "text_len": 10
+  },
+  {
+    "tag": "a",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 3359.53125,
+    "text_len": 27
+  },
+  {
+    "tag": "div",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 5554.828125,
+    "text_len": 10
+  },
+  {
+    "tag": "button",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "600",
+    "line_height": "13px",
+    "area": 14458.90625,
+    "text_len": 17
+  },
+  {
+    "tag": "p",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 11,
+    "font_weight": "400",
+    "line_height": "16.5px",
+    "area": 5818.828125,
+    "text_len": 29
+  },
+  {
+    "tag": "span",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 6131.8359375,
+    "text_len": 44
+  },
+  {
+    "tag": "a",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 1579.8046875,
+    "text_len": 11
+  },
+  {
+    "tag": "a",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 1064.8828125,
+    "text_len": 7
+  },
+  {
+    "tag": "a",
+    "font_family": "Manrope, system-ui, sans-serif",
+    "font_size_px": 13,
+    "font_weight": "400",
+    "line_height": "19.5px",
+    "area": 1064.8828125,
+    "text_len": 7
+  }
+]

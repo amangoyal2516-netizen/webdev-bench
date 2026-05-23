@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Welcome — sit.dev</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="onboard-shell">
+<header class="onboard-top">
+<a href="./practice.html" class="wordmark"><span class="dot"></span>sit<span class="slash">/</span>dev</a>
+<nav class="stepper" aria-label="Setup progress">
+<span class="step-pill done"><span class="num"><img src="./assets/icons/check.svg" alt="" class="ico" style="width:12px;height:12px;"></span>About you</span>
+<span class="step-sep"></span>
+<span class="step-pill active"><span class="num">2</span>Goals</span>
+<span class="step-sep"></span>
+<span class="step-pill"><span class="num">3</span>Schedule</span>
+<span class="step-sep"></span>
+<span class="step-pill"><span class="num">4</span>First practice</span>
+</nav>
+</header>
+
+<main class="onboard-main">
+<div class="onboard-card">
+<div class="stack-sm">
+<div class="mono uppercase text-xs muted">STEP 02 · GOALS</div>
+<h1 class="text-xl" style="font-size:var(--text-2xl);">What brings you here?</h1>
+<p class="muted-2 text-sm">Pick one or more — we'll suggest practices that match. You can change these any time from Settings.</p>
+</div>
+
+<div class="stack">
+<label class="goal-option selected">
+<span class="goal-icon"><img src="./assets/icons/moon.svg" alt="" class="ico" style="width:18px;height:18px;filter:brightness(0) invert(1);"></span>
+<span class="goal-body">
+<span class="goal-label">Sleep better</span>
+<div class="goal-helper">Wind-down breathing, body scans, and a wearable-friendly nightly check-in.</div>
+</span>
+<span class="goal-check"><img src="./assets/icons/check.svg" alt="" style="width:12px;height:12px;filter:brightness(0) invert(1);"></span>
+</label>
+
+<label class="goal-option selected">
+<span class="goal-icon"><img src="./assets/icons/wind.svg" alt="" class="ico" style="width:18px;height:18px;filter:brightness(0) invert(1);"></span>
+<span class="goal-body">
+<span class="goal-label">Feel less anxious</span>
+<div class="goal-helper">Short breathing tickets you can open in under two minutes when things spike.</div>
+</span>
+<span class="goal-check"><img src="./assets/icons/check.svg" alt="" style="width:12px;height:12px;filter:brightness(0) invert(1);"></span>
+</label>
+
+<label class="goal-option">
+<span class="goal-icon"><img src="./assets/icons/zap.svg" alt="" class="ico" style="width:18px;height:18px;"></span>
+<span class="goal-body">
+<span class="goal-label">Build a daily habit</span>
+<div class="goal-helper">Streak tracking, gentle reminders, and a calm-board to triage your week.</div>
+</span>
+<span class="goal-check"></span>
+</label>
+
+<label class="goal-option">
+<span class="goal-icon"><img src="./assets/icons/leaf.svg" alt="" class="ico" style="width:18px;height:18px;"></span>
+<span class="goal-body">
+<span class="goal-label">Be more present</span>
+<div class="goal-helper">Open-awareness meditations and a one-line gratitude log at the end of the day.</div>
+</span>
+<span class="goal-check"></span>
+</label>
+
+<label class="goal-option">
+<span class="goal-icon"><img src="./assets/icons/sparkles.svg" alt="" class="ico" style="width:18px;height:18px;"></span>
+<span class="goal-body">
+<span class="goal-label">Just curious</span>
+<div class="goal-helper">No pressure — we'll start you with a guided 3-minute breath and see how it lands.</div>
+</span>
+<span class="goal-check"></span>
+</label>
+</div>
+
+<div class="divider"></div>
+
+<section class="stack">
+<div class="stack-sm">
+<div class="mono uppercase text-xs muted">SCHEDULE · WHEN SHOULD WE NUDGE YOU?</div>
+<p class="text-sm muted-2">Tap the days you'd like a reminder. You can mute everything from the bell icon later.</p>
+</div>
+
+<div class="weekday-row" role="group" aria-label="Active days of the week">
+<button type="button" class="weekday-toggle on">Mon</button>
+<button type="button" class="weekday-toggle on">Tue</button>
+<button type="button" class="weekday-toggle">Wed</button>
+<button type="button" class="weekday-toggle on">Thu</button>
+<button type="button" class="weekday-toggle on">Fri</button>
+<button type="button" class="weekday-toggle">Sat</button>
+<button type="button" class="weekday-toggle on">Sun</button>
+</section>
+
+<section class="stack-sm">
+<div class="mono uppercase text-xs muted">PREFERRED TIME OF DAY</div>
+<div class="time-chooser" role="group" aria-label="Preferred time of day">
+<button type="button" class="time-option">
+<div style="margin-bottom:6px;display:flex;justify-content:center;"><img src="./assets/icons/sunrise.svg" alt="" style="width:18px;height:18px;"></div>
+Morning
+<div class="mono text-xs muted" style="margin-top:2px;">06–10</div>
+</button>
+<button type="button" class="time-option selected">
+<div style="margin-bottom:6px;display:flex;justify-content:center;"><img src="./assets/icons/sun.svg" alt="" style="width:18px;height:18px;"></div>
+Midday
+<div class="mono text-xs" style="margin-top:2px;opacity:0.8;">11–14</div>
+</button>
+<button type="button" class="time-option">
+<div style="margin-bottom:6px;display:flex;justify-content:center;"><img src="./assets/icons/sunset.svg" alt="" style="width:18px;height:18px;"></div>
+Evening
+<div class="mono text-xs muted" style="margin-top:2px;">18–22</div>
+</button>
+<button type="button" class="time-option">
+<div style="margin-bottom:6px;display:flex;justify-content:center;"><img src="./assets/icons/clock.svg" alt="" style="width:18px;height:18px;"></div>
+No preference
+<div class="mono text-xs muted" style="margin-top:2px;">any</div>
+</button>
+</div>
+</section>
+
+<div class="action-row">
+<a href="./onboarding.html" class="btn btn-ghost"><img src="./assets/icons/chevron-left.svg" alt="" class="ico"> Back</a>
+<div class="row-tight">
+<span class="mono text-xs muted">2 of 4</span>
+<a href="./onboarding.html" class="btn btn-primary btn-lg">Continue <img src="./assets/icons/arrow-right.svg" alt="" class="ico" style="filter:brightness(0) invert(1);"></a>
+</div>
+</div>
+<a href="./practice.html" class="skip-link">Skip setup — I'll configure later</a>
+</div>
+</main>
+
+<footer class="footer-hint">
+Need a hand? <a href="./library.html">Browse the starter library</a> or read the <a href="#">two-minute intro</a>. Press <span class="badge" style="margin:0 4px;">Esc</span> any time to pause setup.
+</footer>
+</div>
+</body>
+</html>

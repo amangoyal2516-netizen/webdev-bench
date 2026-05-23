@@ -1,0 +1,562 @@
+[
+  {
+    "src": "./assets/icons/layout-dashboard.svg",
+    "alt": "",
+    "x": 28,
+    "y": 199.5,
+    "w": 18,
+    "h": 18,
+    "phash": "eee9cc9c9923c446",
+    "lab_mean": [
+      6.82,
+      -3.57,
+      1.88
+    ]
+  },
+  {
+    "src": "./assets/icons/briefcase.svg",
+    "alt": "",
+    "x": 28,
+    "y": 238.5,
+    "w": 18,
+    "h": 18,
+    "phash": "adf2a7c0874a8f2a",
+    "lab_mean": [
+      6.97,
+      -3.67,
+      1.93
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 28,
+    "y": 277.5,
+    "w": 18,
+    "h": 18,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      8.14,
+      -4.27,
+      2.23
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 28,
+    "y": 316.5,
+    "w": 18,
+    "h": 18,
+    "phash": "8ff8a9d02bd283d2",
+    "lab_mean": [
+      20.18,
+      -6.23,
+      7.65
+    ]
+  },
+  {
+    "src": "./assets/icons/users.svg",
+    "alt": "",
+    "x": 28,
+    "y": 355.5,
+    "w": 18,
+    "h": 18,
+    "phash": "ef3ac510b1c58ec6",
+    "lab_mean": [
+      8.12,
+      -4.25,
+      2.19
+    ]
+  },
+  {
+    "src": "./assets/icons/bell.svg",
+    "alt": "",
+    "x": 28,
+    "y": 425,
+    "w": 18,
+    "h": 18,
+    "phash": "abbcb423c2f61b82",
+    "lab_mean": [
+      8.8,
+      -4.63,
+      2.35
+    ]
+  },
+  {
+    "src": "./assets/icons/settings.svg",
+    "alt": "",
+    "x": 28,
+    "y": 464,
+    "w": 18,
+    "h": 18,
+    "phash": "eb47b488e3f1831c",
+    "lab_mean": [
+      7.53,
+      -3.93,
+      2.07
+    ]
+  },
+  {
+    "src": "./assets/icons/play.svg",
+    "alt": "",
+    "x": 63.984375,
+    "y": 522.5,
+    "w": 16,
+    "h": 16,
+    "phash": "bec0b0cad867cd32",
+    "lab_mean": [
+      41.51,
+      26.02,
+      31.61
+    ]
+  },
+  {
+    "src": "./assets/icons/pause.svg",
+    "alt": "",
+    "x": 194,
+    "y": 831.25,
+    "w": 16,
+    "h": 16,
+    "phash": "ae2f8c2f84a9d3d0",
+    "lab_mean": [
+      15.21,
+      -6.27,
+      4.09
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-left.svg",
+    "alt": "",
+    "x": 433.625,
+    "y": 19.5,
+    "w": 16,
+    "h": 16,
+    "phash": "e693cc4c9b65668c",
+    "lab_mean": [
+      21.12,
+      -8.44,
+      5.61
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-right.svg",
+    "alt": "",
+    "x": 583.359375,
+    "y": 19.5,
+    "w": 16,
+    "h": 16,
+    "phash": "b3c69939ce30338b",
+    "lab_mean": [
+      21.12,
+      -8.44,
+      5.6
+    ]
+  },
+  {
+    "src": "./assets/icons/search.svg",
+    "alt": "",
+    "x": 636.359375,
+    "y": 20.5,
+    "w": 14,
+    "h": 14,
+    "phash": "eb95f089c22d8f38",
+    "lab_mean": [
+      18.21,
+      -7.43,
+      4.92
+    ]
+  },
+  {
+    "src": "./assets/icons/download.svg",
+    "alt": "",
+    "x": 1301.984375,
+    "y": 20.5,
+    "w": 14,
+    "h": 14,
+    "phash": "b3a5ce946c8e33e0",
+    "lab_mean": [
+      13.62,
+      -7.23,
+      4.74
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-left.svg",
+    "alt": "",
+    "x": 472.84375,
+    "y": 181.59375,
+    "w": 14,
+    "h": 14,
+    "phash": "e623cc989b63669c",
+    "lab_mean": [
+      15.92,
+      -8.33,
+      5.54
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-right.svg",
+    "alt": "",
+    "x": 680.484375,
+    "y": 181.59375,
+    "w": 14,
+    "h": 14,
+    "phash": "b33299c9ce3233c9",
+    "lab_mean": [
+      15.92,
+      -8.33,
+      5.55
+    ]
+  },
+  {
+    "src": "./assets/icons/funnel-x.svg",
+    "alt": "",
+    "x": 736.484375,
+    "y": 181.59375,
+    "w": 14,
+    "h": 14,
+    "phash": "ba1b03b1b4b4cec3",
+    "lab_mean": [
+      13.29,
+      -7.07,
+      4.62
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 904.359375,
+    "y": 181.59375,
+    "w": 14,
+    "h": 14,
+    "phash": "bd0dc2e2251d8fe2",
+    "lab_mean": [
+      15.91,
+      -8.32,
+      5.55
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 960.359375,
+    "y": 181.59375,
+    "w": 14,
+    "h": 14,
+    "phash": "b3b1990e6ce4c64e",
+    "lab_mean": [
+      79.24,
+      0.0,
+      23.9
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 1202.125,
+    "y": 250.34375,
+    "w": 12,
+    "h": 12,
+    "phash": "a733c8ca3d8cd34a",
+    "lab_mean": [
+      20.11,
+      -8.18,
+      5.39
+    ]
+  },
+  {
+    "src": "./assets/icons/info.svg",
+    "alt": "",
+    "x": 264,
+    "y": 948.09375,
+    "w": 16,
+    "h": 16,
+    "phash": "ea89bd76f0888366",
+    "lab_mean": [
+      12.72,
+      -6.76,
+      4.43
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 1328.984375,
+    "y": 367.84375,
+    "w": 14,
+    "h": 14,
+    "phash": "b331994e6ce4c64e",
+    "lab_mean": [
+      20.31,
+      -8.23,
+      5.46
+    ]
+  },
+  {
+    "src": "./assets/icons/file-text.svg",
+    "alt": "",
+    "x": 1010.609375,
+    "y": 457.34375,
+    "w": 14,
+    "h": 14,
+    "phash": "efadb436309a704a",
+    "lab_mean": [
+      17.13,
+      -1.35,
+      7.74
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-01.svg",
+    "alt": "",
+    "x": 1347,
+    "y": 450.34375,
+    "w": 28,
+    "h": 28,
+    "phash": "cd3432c63cdb7134",
+    "lab_mean": [
+      37.44,
+      -6.72,
+      6.18
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-03.svg",
+    "alt": "",
+    "x": 1367,
+    "y": 450.34375,
+    "w": 28,
+    "h": 28,
+    "phash": "b932cecc93de20cc",
+    "lab_mean": [
+      23.53,
+      -6.17,
+      5.49
+    ]
+  },
+  {
+    "src": "./assets/icons/gavel.svg",
+    "alt": "",
+    "x": 1010.609375,
+    "y": 561.84375,
+    "w": 14,
+    "h": 14,
+    "phash": "bbe28d2cd692db08",
+    "lab_mean": [
+      24.3,
+      -5.47,
+      6.9
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-00.svg",
+    "alt": "",
+    "x": 1327,
+    "y": 554.84375,
+    "w": 28,
+    "h": 28,
+    "phash": "8a7532ce7c8b7134",
+    "lab_mean": [
+      37.98,
+      -6.78,
+      6.26
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-04.svg",
+    "alt": "",
+    "x": 1347,
+    "y": 554.84375,
+    "w": 28,
+    "h": 28,
+    "phash": "df3023ce2cd33136",
+    "lab_mean": [
+      36.49,
+      -6.48,
+      6.0
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-01.svg",
+    "alt": "",
+    "x": 1367,
+    "y": 554.84375,
+    "w": 28,
+    "h": 28,
+    "phash": "983267cd06dc38cf",
+    "lab_mean": [
+      34.99,
+      -6.32,
+      5.66
+    ]
+  },
+  {
+    "src": "./assets/icons/users.svg",
+    "alt": "",
+    "x": 1010.609375,
+    "y": 678.59375,
+    "w": 14,
+    "h": 14,
+    "phash": "af3bc510b1c58ec6",
+    "lab_mean": [
+      22.4,
+      -6.32,
+      1.61
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-02.svg",
+    "alt": "",
+    "x": 1347,
+    "y": 671.59375,
+    "w": 28,
+    "h": 28,
+    "phash": "996f26745d986632",
+    "lab_mean": [
+      29.36,
+      -6.65,
+      6.09
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-05.svg",
+    "alt": "",
+    "x": 1367,
+    "y": 671.59375,
+    "w": 28,
+    "h": 28,
+    "phash": "992266dc32ff20ce",
+    "lab_mean": [
+      28.86,
+      -6.24,
+      5.58
+    ]
+  },
+  {
+    "src": "./assets/icons/message-square.svg",
+    "alt": "",
+    "x": 1010.609375,
+    "y": 786.53125,
+    "w": 14,
+    "h": 14,
+    "phash": "83f42f789d2ad485",
+    "lab_mean": [
+      26.63,
+      -7.64,
+      8.56
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-06.svg",
+    "alt": "",
+    "x": 1367,
+    "y": 779.53125,
+    "w": 28,
+    "h": 28,
+    "phash": "cd3133ce3cc3313c",
+    "lab_mean": [
+      37.07,
+      -7.01,
+      6.41
+    ]
+  },
+  {
+    "src": "./assets/icons/scale.svg",
+    "alt": "",
+    "x": 1001.609375,
+    "y": 887.203125,
+    "w": 16,
+    "h": 16,
+    "phash": "ba83b1d0cccf1e34",
+    "lab_mean": [
+      14.84,
+      -6.11,
+      4.02
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-up-right.svg",
+    "alt": "",
+    "x": 1379,
+    "y": 886.484375,
+    "w": 16,
+    "h": 16,
+    "phash": "e9669699c3c63833",
+    "lab_mean": [
+      19.92,
+      -7.98,
+      5.29
+    ]
+  },
+  {
+    "src": "./assets/icons/info.svg",
+    "alt": "",
+    "x": 1222.296875,
+    "y": 1051.34375,
+    "w": 16,
+    "h": 16,
+    "phash": "eac9ad36f0888367",
+    "lab_mean": [
+      8.28,
+      -4.34,
+      2.28
+    ]
+  },
+  {
+    "src": "./assets/icons/triangle-alert.svg",
+    "alt": "",
+    "x": 285,
+    "y": 1567.59375,
+    "w": 16,
+    "h": 16,
+    "phash": "abb5b0c3af18dc09",
+    "lab_mean": [
+      16.71,
+      -6.83,
+      4.48
+    ]
+  },
+  {
+    "src": "./assets/icons/rotate-ccw.svg",
+    "alt": "",
+    "x": 962.140625,
+    "y": 1568.09375,
+    "w": 14,
+    "h": 14,
+    "phash": "9f0fa5c3c2f89a14",
+    "lab_mean": [
+      17.71,
+      -7.29,
+      4.77
+    ]
+  },
+  {
+    "src": "./assets/icons/eye.svg",
+    "alt": "",
+    "x": 1090.953125,
+    "y": 1568.09375,
+    "w": 14,
+    "h": 14,
+    "phash": "ab48eca79258cb2d",
+    "lab_mean": [
+      16.44,
+      -6.71,
+      4.36
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 1229.96875,
+    "y": 1568.09375,
+    "w": 14,
+    "h": 14,
+    "phash": "aa7c7c943cc391c3",
+    "lab_mean": [
+      58.93,
+      0.0,
+      18.13
+    ]
+  }
+]

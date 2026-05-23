@@ -1,0 +1,522 @@
+[
+  {
+    "src": "./assets/icons/axe.svg",
+    "alt": "",
+    "x": 84,
+    "y": 20,
+    "w": 24,
+    "h": 24,
+    "phash": "bbe0852ed693cb0c",
+    "lab_mean": [
+      49.08,
+      42.94,
+      54.27
+    ]
+  },
+  {
+    "src": "./assets/icons/search.svg",
+    "alt": "",
+    "x": 1232,
+    "y": 20,
+    "w": 24,
+    "h": 24,
+    "phash": "eba5f03483528dcb",
+    "lab_mean": [
+      76.47,
+      0.0,
+      0.89
+    ]
+  },
+  {
+    "src": "./assets/icons/user.svg",
+    "alt": "",
+    "x": 1280,
+    "y": 20,
+    "w": 24,
+    "h": 24,
+    "phash": "bc308b3ba3cb2ccc",
+    "lab_mean": [
+      78.39,
+      0.0,
+      0.88
+    ]
+  },
+  {
+    "src": "./assets/icons/shopping-cart.svg",
+    "alt": "",
+    "x": 1328,
+    "y": 20,
+    "w": 24,
+    "h": 24,
+    "phash": "da1781e39ad96178",
+    "lab_mean": [
+      70.38,
+      1.9,
+      3.23
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 258.9375,
+    "y": 467.03125,
+    "w": 24,
+    "h": 24,
+    "phash": "ec9992665966c476",
+    "lab_mean": [
+      56.11,
+      48.56,
+      61.62
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-up-right.svg",
+    "alt": "",
+    "x": 472.765625,
+    "y": 471.03125,
+    "w": 16,
+    "h": 16,
+    "phash": "e9669699c7c63831",
+    "lab_mean": [
+      56.06,
+      -0.83,
+      1.8
+    ]
+  },
+  {
+    "src": "./assets/photos/laG2kmB4Hgc.jpg",
+    "alt": "A handle knife resting on a work surface, ready for the first cut",
+    "x": 759.234375,
+    "y": 138,
+    "w": 567.765625,
+    "h": 710.203125,
+    "phash": "e9fd4ba270f8a412",
+    "lab_mean": [
+      57.39,
+      -0.36,
+      0.35
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 1312,
+    "y": 979.296875,
+    "w": 16,
+    "h": 16,
+    "phash": "ec9992671996c4d9",
+    "lab_mean": [
+      82.13,
+      0.0,
+      0.97
+    ]
+  },
+  {
+    "src": "./assets/photos/LuK-MuZ-yf0.jpg",
+    "alt": "",
+    "x": 126,
+    "y": 1114.390625,
+    "w": 140,
+    "h": 140,
+    "phash": "f1a942c63e3b2e62",
+    "lab_mean": [
+      56.27,
+      3.63,
+      8.4
+    ]
+  },
+  {
+    "src": "./assets/photos/EWDvHNNfUmQ.jpg",
+    "alt": "",
+    "x": 310,
+    "y": 1114.390625,
+    "w": 140,
+    "h": 140,
+    "phash": "f4555551525adab2",
+    "lab_mean": [
+      81.19,
+      -0.5,
+      5.3
+    ]
+  },
+  {
+    "src": "./assets/photos/-12cgSu9HW0.jpg",
+    "alt": "",
+    "x": 494,
+    "y": 1114.390625,
+    "w": 140,
+    "h": 140,
+    "phash": "b3d04e33c34eb04f",
+    "lab_mean": [
+      80.99,
+      -0.23,
+      1.72
+    ]
+  },
+  {
+    "src": "./assets/photos/4ADrWAWYnT4.jpg",
+    "alt": "",
+    "x": 678,
+    "y": 1114.390625,
+    "w": 140,
+    "h": 140,
+    "phash": "b9c63338c731cc33",
+    "lab_mean": [
+      93.76,
+      0.21,
+      1.09
+    ]
+  },
+  {
+    "src": "./assets/photos/XU1-sAMZFqc.jpg",
+    "alt": "",
+    "x": 862,
+    "y": 1114.390625,
+    "w": 140,
+    "h": 140,
+    "phash": "e40683899edee4c7",
+    "lab_mean": [
+      51.8,
+      0.09,
+      3.02
+    ]
+  },
+  {
+    "src": "./assets/photos/-usiHqEOjLM.jpg",
+    "alt": "",
+    "x": 1046,
+    "y": 1114.390625,
+    "w": 140,
+    "h": 140,
+    "phash": "8f61709d0eb8dd61",
+    "lab_mean": [
+      24.12,
+      0.61,
+      4.49
+    ]
+  },
+  {
+    "src": "./assets/photos/PgfSWgL3wjI.jpg",
+    "alt": "",
+    "x": 1230,
+    "y": 1114.390625,
+    "w": 140,
+    "h": 140,
+    "phash": "a43eecf3332123c6",
+    "lab_mean": [
+      57.62,
+      3.21,
+      8.66
+    ]
+  },
+  {
+    "src": "./assets/photos/9VoUqAsW2sA.jpg",
+    "alt": "",
+    "x": 1414,
+    "y": 1114.390625,
+    "w": 140,
+    "h": 140,
+    "phash": "8000000000000000",
+    "lab_mean": [
+      93.73,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "src": "./assets/photos/BS_1XGRkIH4.jpg",
+    "alt": "",
+    "x": 1598,
+    "y": 1114.390625,
+    "w": 140,
+    "h": 140,
+    "phash": null,
+    "lab_mean": null,
+    "phash_error": "bbox outside screenshot"
+  },
+  {
+    "src": "./assets/photos/iGANt1N2ge8.jpg",
+    "alt": "",
+    "x": 1782,
+    "y": 1114.390625,
+    "w": 140,
+    "h": 140,
+    "phash": null,
+    "lab_mean": null,
+    "phash_error": "bbox outside screenshot"
+  },
+  {
+    "src": "./assets/photos/G1ebTFoqLlM.jpg",
+    "alt": "",
+    "x": 1966,
+    "y": 1114.390625,
+    "w": 140,
+    "h": 140,
+    "phash": null,
+    "lab_mean": null,
+    "phash_error": "bbox outside screenshot"
+  },
+  {
+    "src": "./assets/photos/Au1eENDHD10.jpg",
+    "alt": "",
+    "x": 2150,
+    "y": 1114.390625,
+    "w": 140,
+    "h": 140,
+    "phash": null,
+    "lab_mean": null,
+    "phash_error": "bbox outside screenshot"
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 1287,
+    "y": 1483.671875,
+    "w": 16,
+    "h": 16,
+    "phash": "ec9c92671996c4d9",
+    "lab_mean": [
+      55.46,
+      -0.8,
+      1.81
+    ]
+  },
+  {
+    "src": "./assets/photos/LuK-MuZ-yf0.jpg",
+    "alt": "A small stack of maple coasters with a single autumn leaf on top",
+    "x": 113,
+    "y": 1549.765625,
+    "w": 387.328125,
+    "h": 289.484375,
+    "phash": "d0002ffe3f1d2c66",
+    "lab_mean": [
+      50.42,
+      3.47,
+      8.27
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 137,
+    "y": 1935.78125,
+    "w": 14,
+    "h": 14,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      70.35,
+      0.0,
+      0.9
+    ]
+  },
+  {
+    "src": "./assets/icons/wrench.svg",
+    "alt": "",
+    "x": 255.015625,
+    "y": 1935.78125,
+    "w": 14,
+    "h": 14,
+    "phash": "eb6087accc91d74c",
+    "lab_mean": [
+      70.52,
+      0.0,
+      0.93
+    ]
+  },
+  {
+    "src": "./assets/icons/package.svg",
+    "alt": "",
+    "x": 339.4375,
+    "y": 1935.78125,
+    "w": 14,
+    "h": 14,
+    "phash": "ba19b193e46cce86",
+    "lab_mean": [
+      63.6,
+      0.0,
+      0.85
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 344.171875,
+    "y": 2069.6875,
+    "w": 14,
+    "h": 14,
+    "phash": "b3b19c0a6ce4c74e",
+    "lab_mean": [
+      57.96,
+      50.48,
+      64.26
+    ]
+  },
+  {
+    "src": "./assets/photos/EWDvHNNfUmQ.jpg",
+    "alt": "A wooden cutting board with fresh leafy greens",
+    "x": 526.328125,
+    "y": 1549.765625,
+    "w": 387.328125,
+    "h": 289.484375,
+    "phash": "f252524aaaeb5555",
+    "lab_mean": [
+      81.36,
+      -1.97,
+      6.02
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 550.328125,
+    "y": 1935.78125,
+    "w": 14,
+    "h": 14,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      70.35,
+      0.0,
+      0.9
+    ]
+  },
+  {
+    "src": "./assets/icons/wrench.svg",
+    "alt": "",
+    "x": 668.34375,
+    "y": 1935.78125,
+    "w": 14,
+    "h": 14,
+    "phash": "eb6087accc91d74c",
+    "lab_mean": [
+      70.52,
+      0.0,
+      0.93
+    ]
+  },
+  {
+    "src": "./assets/icons/package.svg",
+    "alt": "",
+    "x": 752.765625,
+    "y": 1935.78125,
+    "w": 14,
+    "h": 14,
+    "phash": "af19b193e46cc692",
+    "lab_mean": [
+      63.47,
+      0.0,
+      0.85
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 757.5,
+    "y": 2048,
+    "w": 14,
+    "h": 14,
+    "phash": "b3b19c0a6ce4c74e",
+    "lab_mean": [
+      57.96,
+      50.48,
+      64.26
+    ]
+  },
+  {
+    "src": "./assets/photos/-12cgSu9HW0.jpg",
+    "alt": "A potted green plant on a low wooden riser",
+    "x": 939.65625,
+    "y": 1549.765625,
+    "w": 387.34375,
+    "h": 289.5,
+    "phash": "b3924c33c78cb36c",
+    "lab_mean": [
+      81.29,
+      -0.05,
+      1.33
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 963.65625,
+    "y": 1935.796875,
+    "w": 14,
+    "h": 14,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      70.35,
+      0.0,
+      0.9
+    ]
+  },
+  {
+    "src": "./assets/icons/wrench.svg",
+    "alt": "",
+    "x": 1081.671875,
+    "y": 1935.796875,
+    "w": 14,
+    "h": 14,
+    "phash": "eb6087accc91d74c",
+    "lab_mean": [
+      70.52,
+      0.0,
+      0.93
+    ]
+  },
+  {
+    "src": "./assets/icons/package.svg",
+    "alt": "",
+    "x": 1166.09375,
+    "y": 1935.796875,
+    "w": 14,
+    "h": 14,
+    "phash": "ba19b193e46cce86",
+    "lab_mean": [
+      63.6,
+      0.0,
+      0.85
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 1170.84375,
+    "y": 2048.015625,
+    "w": 14,
+    "h": 14,
+    "phash": "b3b19c0a6ce4c74e",
+    "lab_mean": [
+      57.96,
+      50.48,
+      64.26
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 1222.390625,
+    "y": 2518.140625,
+    "w": 14,
+    "h": 14,
+    "phash": "eccc921f59e1c436",
+    "lab_mean": [
+      56.74,
+      49.34,
+      62.82
+    ]
+  },
+  {
+    "src": "./assets/icons/triangle-alert.svg",
+    "alt": "",
+    "x": 129,
+    "y": 2596.140625,
+    "w": 18,
+    "h": 18,
+    "phash": "aaf5a1d2af48dd08",
+    "lab_mean": [
+      49.36,
+      -0.65,
+      1.6
+    ]
+  }
+]

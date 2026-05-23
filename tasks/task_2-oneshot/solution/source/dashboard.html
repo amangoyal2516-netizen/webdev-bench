@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dashboard — Q3 2025 Carbon Ledger</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="app">
+
+<aside class="sidebar">
+<div class="sidebar-head">
+<div class="workspace">
+<div class="workspace-mark">NV</div>
+<div>
+<div class="workspace-name">Northwind Verde</div>
+<div class="workspace-sub">GHG-PROTO / v2.3</div>
+</div>
+</div>
+<button class="period-switcher" aria-label="Switch reporting period">
+<div>
+<div class="label">Reporting period</div>
+<div class="val">Q3 · FY25</div>
+</div>
+<img src="./assets/icons/chevron-down.svg" alt="" class="ico" style="width:14px;height:14px">
+</button>
+</div>
+
+<nav class="sidebar-nav">
+<div class="nav-section-label">Workspace</div>
+<a href="./dashboard.html" class="nav-item active"><img src="./assets/icons/layout-dashboard.svg" alt="" class="ico"><span>Dashboard</span></a>
+<a href="./ledger.html" class="nav-item"><img src="./assets/icons/book-open.svg" alt="" class="ico"><span>Ledger</span><span class="badge-mini">1,284</span></a>
+<a href="#" class="nav-item"><img src="./assets/icons/layers.svg" alt="" class="ico"><span>Categories</span></a>
+<a href="./offsets.html" class="nav-item"><img src="./assets/icons/leaf.svg" alt="" class="ico"><span>Offsets</span></a>
+<a href="./suppliers.html" class="nav-item"><img src="./assets/icons/truck.svg" alt="" class="ico"><span>Suppliers</span><span class="badge-mini">47</span></a>
+<a href="./reports.html" class="nav-item"><img src="./assets/icons/file-text.svg" alt="" class="ico"><span>Reports</span></a>
+
+<div class="nav-section-label">Settings</div>
+<a href="#" class="nav-item"><img src="./assets/icons/bell.svg" alt="" class="ico"><span>Alerts</span><span class="badge-mini">3</span></a>
+<a href="#" class="nav-item"><img src="./assets/icons/settings.svg" alt="" class="ico"><span>Configuration</span></a>
+</nav>
+
+<div class="sidebar-foot">
+<div class="user-card">
+<div class="avatar"><img src="./assets/avatars/notionists-seed-03.svg" alt="Maren Holloway"></div>
+<div class="user-info">
+<div class="user-name">Maren Holloway</div>
+<div class="user-role">Sustainability Lead</div>
+</div>
+</div>
+<button class="org-switcher">
+<img src="./assets/icons/building-2.svg" alt="" class="ico">
+<span class="org-name">Northwind Group</span>
+<img src="./assets/icons/chevrons-right.svg" alt="" class="ico">
+</button>
+</div>
+</aside>
+
+<div class="main">
+
+<header class="topbar">
+<div class="topbar-title">
+<h1>Q3 2025 Carbon Ledger</h1>
+<div class="topbar-sub">PERIOD 01.JUL.25 → 30.SEP.25 · LAST SYNC 14:08 UTC</div>
+</div>
+<div class="topbar-spacer"></div>
+<div class="topbar-actions">
+<button class="btn btn-sm">
+<img src="./assets/icons/calendar-range.svg" alt="" class="ico">
+<span class="mono">Jul 01 – Sep 30, 2025</span>
+<img src="./assets/icons/chevron-down.svg" alt="" class="ico">
+</button>
+<div class="chip-group" role="group" aria-label="Scope filter">
+<button class="chip active"><span class="dot"></span>Scope 1</button>
+<button class="chip active"><span class="dot"></span>Scope 2</button>
+<button class="chip active"><span class="dot"></span>Scope 3</button>
+</div>
+<button class="btn btn-ghost btn-icon" aria-label="Notifications"><img src="./assets/icons/bell.svg" alt="" class="ico"></button>
+<a href="./log-emission.html" class="btn btn-primary"><img src="./assets/icons/plus.svg" alt="" class="ico">Log emission</a>
+</div>
+</header>
+
+<div class="page">
+
+<section class="kpi-grid">
+<div class="kpi">
+<div class="kpi-label">Gross emissions</div>
+<div class="kpi-value">8,427.6<span class="kpi-unit">tCO₂e</span></div>
+<div class="kpi-foot">
+<span class="delta up"><img src="./assets/icons/trending-up.svg" alt="" class="ico">+4.2% vs Q2</span>
+<svg class="sparkline" viewBox="0 0 80 32" preserveAspectRatio="none" aria-hidden="true">
+<polyline fill="none" stroke="#ff5c5c" stroke-width="1.5" points="0,22 8,20 16,24 24,18 32,19 40,15 48,17 56,12 64,14 72,9 80,6"/>
+<polyline fill="rgba(255,92,92,0.10)" stroke="none" points="0,22 8,20 16,24 24,18 32,19 40,15 48,17 56,12 64,14 72,9 80,6 80,32 0,32"/>
+</svg>
+</div>
+</div>
+
+<div class="kpi">
+<div class="kpi-label">Offsets retired</div>
+<div class="kpi-value">1,920.0<span class="kpi-unit">tCO₂e</span></div>
+<div class="kpi-foot">
+<span class="delta down"><img src="./assets/icons/trending-up.svg" alt="" class="ico">+18.6% vs Q2</span>
+<svg class="sparkline" viewBox="0 0 80 32" preserveAspectRatio="none" aria-hidden="true">
+<polyline fill="none" stroke="#39ff7a" stroke-width="1.5" points="0,28 8,26 16,24 24,22 32,20 40,17 48,14 56,12 64,10 72,7 80,4"/>
+<polyline fill="rgba(57,255,122,0.10)" stroke="none" points="0,28 8,26 16,24 24,22 32,20 40,17 48,14 56,12 64,10 72,7 80,4 80,32 0,32"/>
+</svg>
+</div>
+</div>
+
+<div class="kpi">
+<div class="kpi-label">Net position</div>
+<div class="kpi-value">6,507.6<span class="kpi-unit">tCO₂e</span></div>
+<div class="kpi-foot">
+<span class="delta up"><img src="./assets/icons/trending-up.svg" alt="" class="ico">+1.1% vs Q2</span>
+<svg class="sparkline" viewBox="0 0 80 32" preserveAspectRatio="none" aria-hidden="true">
+<polyline fill="none" stroke="#ffb547" stroke-width="1.5" points="0,18 8,20 16,17 24,19 32,16 40,18 48,15 56,16 64,13 72,15 80,14"/>
+</svg>
+</div>
+</div>
+
+<div class="kpi">
+<div class="kpi-label">Budget remaining</div>
+<div class="kpi-value">1,572.4<span class="kpi-unit">tCO₂e</span></div>
+<div class="kpi-foot">
+<span class="delta up"><img src="./assets/icons/trending-down.svg" alt="" class="ico">−14.7% vs plan</span>
+<svg class="sparkline" viewBox="0 0 80 32" preserveAspectRatio="none" aria-hidden="true">
+<polyline fill="none" stroke="#5cb8ff" stroke-width="1.5" points="0,4 8,7 16,9 24,12 32,15 40,17 48,20 56,22 64,24 72,27 80,29"/>
+</svg>
+</div>
+</div>
+</section>
+
+<section class="layout-split">
+
+<div class="card-flat">
+<div class="card-head">
+<div>
+<h3>Weekly emissions by scope</h3>
+<div class="topbar-sub" style="margin-top:2px">13 weeks · tCO₂e</div>
+</div>
+<div class="chip-group">
+<button class="chip">Weekly</button>
+<button class="chip active"><span class="dot"></span>Stacked</button>
+<button class="btn btn-ghost btn-icon" aria-label="Download"><img src="./assets/icons/download.svg" alt="" class="ico"></button>
+</div>
+</div>
+<div class="card-body">
+<svg class="chart" viewBox="0 0 640 240" preserveAspectRatio="none" aria-label="Stacked bar chart of weekly emissions by scope">
+<g stroke="#1e2a24" stroke-width="1">
+<line x1="0" y1="40" x2="640" y2="40"/>
+<line x1="0" y1="90" x2="640" y2="90"/>
+<line x1="0" y1="140" x2="640" y2="140"/>
+<line x1="0" y1="190" x2="640" y2="190"/>
+</g>
+<g font-family="JetBrains Mono" font-size="10" fill="#5a6a62">
+<text x="4" y="38">900</text>
+<text x="4" y="88">675</text>
+<text x="4" y="138">450</text>
+<text x="4" y="188">225</text>
+<text x="4" y="218">0</text>
+</g>
+<g>
+<!-- 13 weeks, x positions 40..580 step ~44, bar width 28 -->
+<!-- W27 -->
+<rect x="40" y="118" width="28" height="42" fill="#ff5c5c"/>
+<rect x="40" y="80" width="28" height="38" fill="#ffb547"/>
+<rect x="40" y="40" width="28" height="40" fill="#5cb8ff"/>
+<!-- W28 -->
+<rect x="84" y="124" width="28" height="36" fill="#ff5c5c"/>
+<rect x="84" y="88" width="28" height="36" fill="#ffb547"/>
+<rect x="84" y="52" width="28" height="36" fill="#5cb8ff"/>
+<!-- W29 -->
+<rect x="128" y="110" width="28" height="50" fill="#ff5c5c"/>
+<rect x="128" y="74" width="28" height="36" fill="#ffb547"/>
+<rect x="128" y="34" width="28" height="40" fill="#5cb8ff"/>
+<!-- W30 -->
+<rect x="172" y="130" width="28" height="30" fill="#ff5c5c"/>
+<rect x="172" y="98" width="28" height="32" fill="#ffb547"/>
+<rect x="172" y="58" width="28" height="40" fill="#5cb8ff"/>
+<!-- W31 -->
+<rect x="216" y="120" width="28" height="40" fill="#ff5c5c"/>
+<rect x="216" y="86" width="28" height="34" fill="#ffb547"/>
+<rect x="216" y="46" width="28" height="40" fill="#5cb8ff"/>
+<!-- W32 -->
+<rect x="260" y="114" width="28" height="46" fill="#ff5c5c"/>
+<rect x="260" y="78" width="28" height="36" fill="#ffb547"/>
+<rect x="260" y="36" width="28" height="42" fill="#5cb8ff"/>
+<!-- W33 -->
+<rect x="304" y="126" width="28" height="34" fill="#ff5c5c"/>
+<rect x="304" y="92" width="28" height="34" fill="#ffb547"/>
+<rect x="304" y="48" width="28" height="44" fill="#5cb8ff"/>
+<!-- W34 -->
+<rect x="348" y="108" width="28" height="52" fill="#ff5c5c"/>
+<rect x="348" y="70" width="28" height="38" fill="#ffb547"/>
+<rect x="348" y="28" width="28" height="42" fill="#5cb8ff"/>
+<!-- W35 -->
+<rect x="392" y="116" width="28" height="44" fill="#ff5c5c"/>
+<rect x="392" y="82" width="28" height="34" fill="#ffb547"/>
+<rect x="392" y="40" width="28" height="42" fill="#5cb8ff"/>
+<!-- W36 -->
+<rect x="436" y="122" width="28" height="38" fill="#ff5c5c"/>
+<rect x="436" y="88" width="28" height="34" fill="#ffb547"/>
+<rect x="436" y="44" width="28" height="44" fill="#5cb8ff"/>
+<!-- W37 -->
+<rect x="480" y="112" width="28" height="48" fill="#ff5c5c"/>
+<rect x="480" y="74" width="28" height="38" fill="#ffb547"/>
+<rect x="480" y="30" width="28" height="44" fill="#5cb8ff"/>
+<!-- W38 -->
+<rect x="524" y="128" width="28" height="32" fill="#ff5c5c"/>
+<rect x="524" y="94" width="28" height="34" fill="#ffb547"/>
+<rect x="524" y="52" width="28" height="42" fill="#5cb8ff"/>
+<!-- W39 -->
+<rect x="568" y="120" width="28" height="40" fill="#ff5c5c"/>
+<rect x="568" y="84" width="28" height="36" fill="#ffb547"/>
+<rect x="568" y="42" width="28" height="42" fill="#5cb8ff"/>
+</g>
+<g font-family="JetBrains Mono" font-size="9" fill="#5a6a62" text-anchor="middle">
+<text x="54" y="232">W27</text>
+<text x="98" y="232">W28</text>
+<text x="142" y="232">W29</text>
+<text x="186" y="232">W30</text>
+<text x="230" y="232">W31</text>
+<text x="274" y="232">W32</text>
+<text x="318" y="232">W33</text>
+<text x="362" y="232">W34</text>
+<text x="406" y="232">W35</text>
+<text x="450" y="232">W36</text>
+<text x="494" y="232">W37</text>
+<text x="538" y="232">W38</text>
+<text x="582" y="232">W39</text>
+</g>
+</svg>
+<div class="legend">
+<div class="legend-item"><span class="legend-swatch" style="background:#ff5c5c"></span>Scope 1 — Direct combustion <span class="mono dim" style="margin-left:6px">2,108.4 t</span></div>
+<div class="legend-item"><span class="legend-swatch" style="background:#ffb547"></span>Scope 2 — Purchased energy <span class="mono dim" style="margin-left:6px">1,944.7 t</span></div>
+<div class="legend-item"><span class="legend-swatch" style="background:#5cb8ff"></span>Scope 3 — Value chain <span class="mono dim" style="margin-left:6px">4,374.5 t</span></div>
+</div>
+</div>
+</div>
+
+<div class="card-flat">
+<div class="card-head">
+<div>
+<h3>Budget burn-down</h3>
+<div class="topbar-sub" style="margin-top:2px">Cumulative vs linear reduction target</div>
+</div>
+<div class="chip-group">
+<button class="chip active"><span class="dot"></span>FY25 plan</button>
+<button class="btn btn-ghost btn-icon" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="ico"></button>
+</div>
+</div>
+<div class="card-body">
+<svg class="chart" viewBox="0 0 640 240" preserveAspectRatio="none" aria-label="Budget burn-down chart">
+<defs>
+<linearGradient id="band" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="#ffb547" stop-opacity="0.20"/>
+<stop offset="100%" stop-color="#ffb547" stop-opacity="0.04"/>
+</linearGradient>
+<linearGradient id="actualFill" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="#39ff7a" stop-opacity="0.20"/>
+<stop offset="100%" stop-color="#39ff7a" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<g stroke="#1e2a24" stroke-width="1">
+<line x1="40" y1="40" x2="620" y2="40"/>
+<line x1="40" y1="90" x2="620" y2="90"/>
+<line x1="40" y1="140" x2="620" y2="140"/>
+<line x1="40" y1="190" x2="620" y2="190"/>
+<line x1="40" y1="40" x2="40" y2="200" stroke="#1e2a24"/>
+</g>
+<g font-family="JetBrains Mono" font-size="10" fill="#5a6a62">
+<text x="4" y="44">10k</text>
+<text x="4" y="94">7.5k</text>
+<text x="4" y="144">5k</text>
+<text x="4" y="194">2.5k</text>
+</g>
+<!-- variance band around target -->
+<path d="M40,200 L120,170 L200,150 L280,128 L360,108 L440,92 L520,76 L620,60 L620,80 L520,96 L440,112 L360,128 L280,148 L200,170 L120,190 L40,220 Z" fill="url(#band)"/>
+<!-- linear target -->
+<polyline points="40,200 120,180 200,160 280,138 360,118 440,102 520,86 620,70" fill="none" stroke="#ffb547" stroke-width="1.5" stroke-dasharray="4 4"/>
+<!-- actual cumulative -->
+<path d="M40,200 L100,184 L160,162 L220,140 L280,118 L340,98 L400,82 L460,70 L520,56 L580,42 L580,200 L40,200 Z" fill="url(#actualFill)"/>
+<polyline points="40,200 100,184 160,162 220,140 280,118 340,98 400,82 460,70 520,56 580,42" fill="none" stroke="#39ff7a" stroke-width="2"/>
+<!-- today marker -->
+<line x1="460" y1="40" x2="460" y2="200" stroke="#d8e6dc" stroke-width="1" stroke-dasharray="2 3" opacity="0.4"/>
+<text x="464" y="52" font-family="JetBrains Mono" font-size="10" fill="#d8e6dc">TODAY</text>
+<!-- end point -->
+<circle cx="460" cy="70" r="3.5" fill="#39ff7a"/>
+<circle cx="460" cy="102" r="3" fill="#ffb547"/>
+<g font-family="JetBrains Mono" font-size="9" fill="#5a6a62" text-anchor="middle">
+<text x="40" y="216">JUL</text>
+<text x="120" y="216">AUG</text>
+<text x="200" y="216">SEP</text>
+<text x="280" y="216">OCT</text>
+<text x="360" y="216">NOV</text>
+<text x="440" y="216">DEC</text>
+<text x="520" y="216">JAN</text>
+<text x="600" y="216">FY</text>
+</g>
+</svg>
+<div class="legend">
+<div class="legend-item"><span class="legend-swatch" style="background:#39ff7a"></span>Actual cumulative</div>
+<div class="legend-item"><span class="legend-swatch" style="background:#ffb547"></span>Linear target (−7.5% YoY)</div>
+<div class="legend-item"><span class="legend-swatch" style="background:rgba(255,181,71,0.25)"></span>±10% variance band</div>
+<div class="legend-item" style="margin-left:auto"><span class="dim">Forecast YE:</span> <span class="num accent" style="margin-left:4px">9,840 t</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="card-flat">
+<div class="card-head">
+<div>
+<h3>Recent activity</h3>
+<div class="topbar-sub" style="margin-top:2px">Latest 8 entries in the carbon ledger</div>
+</div>
+<div style="display:flex;gap:8px;align-items:center">
+<div class="input-group" style="width:220px">
+<img src="./assets/icons/search.svg" alt="" class="ico">
+<input class="input" placeholder="Search ledger…">
+</div>
+<button class="btn btn-sm"><img src="./assets/icons/funnel.svg" alt="" class="ico">Filter</button>
+<a href="./ledger.html" class="btn btn-sm btn-ghost">View all<img src="./assets/icons/arrow-up-right.svg" alt="" class="ico"></a>
+</div>
+</div>
+<div class="table-wrap">
+<table class="tbl">
+<thead>
+<tr>
+<th>Date</th>
+<th>Source</th>
+<th>Category</th>
+<th>Scope</th>
+<th class="num">Activity data</th>
+<th class="num">Emission factor</th>
+<th class="num">tCO₂e</th>
+<th>Status</th>
+<th style="width:40px"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="num dim">28 Sep 25</td>
+<td>Rotterdam DC — Diesel gensets</td>
+<td>Stationary combustion</td>
+<td><span class="badge scope-1">S1</span></td>
+<td class="num">4,820.0 L</td>
+<td class="num dim">2.6870 kgCO₂e/L</td>
+<td class="num">12.95</td>
+<td><span class="badge verified"><img src="./assets/icons/badge-check.svg" alt="" class="ico" style="width:10px;height:10px">Verified</span></td>
+<td><button class="action-dots" aria-label="Row actions"><img src="./assets/icons/ellipsis-vertical.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+</tr>
+<tr>
+<td class="num dim">27 Sep 25</td>
+<td>Lyon HQ — Grid electricity</td>
+<td>Purchased electricity</td>
+<td><span class="badge scope-2">S2</span></td>
+<td class="num">184,210 kWh</td>
+<td class="num dim">0.0524 kgCO₂e/kWh</td>
+<td class="num">9.65</td>
+<td><span class="badge verified"><img src="./assets/icons/badge-check.svg" alt="" class="ico" style="width:10px;height:10px">Verified</span></td>
+<td><button class="action-dots" aria-label="Row actions"><img src="./assets/icons/ellipsis-vertical.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+</tr>
+<tr>
+<td class="num dim">26 Sep 25</td>
+<td>Maersk · Container freight BR-NL</td>
+<td>Upstream transport (3.4)</td>
+<td><span class="badge scope-3">S3</span></td>
+<td class="num">12,400 t·km</td>
+<td class="num dim">0.0080 kgCO₂e/t·km</td>
+<td class="num">99.20</td>
+<td><span class="badge pending"><img src="./assets/icons/clock.svg" alt="" class="ico" style="width:10px;height:10px">Pending</span></td>
+<td><button class="action-dots" aria-label="Row actions"><img src="./assets/icons/ellipsis-vertical.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+</tr>
+<tr>
+<td class="num dim">25 Sep 25</td>
+<td>Fleet — Tractor units (B7 diesel)</td>
+<td>Mobile combustion</td>
+<td><span class="badge scope-1">S1</span></td>
+<td class="num">3,142.5 L</td>
+<td class="num dim">2.5410 kgCO₂e/L</td>
+<td class="num">7.99</td>
+<td><span class="badge verified"><img src="./assets/icons/badge-check.svg" alt="" class="ico" style="width:10px;height:10px">Verified</span></td>
+<td><button class="action-dots" aria-label="Row actions"><img src="./assets/icons/ellipsis-vertical.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+</tr>
+<tr>
+<td class="num dim">24 Sep 25</td>
+<td>Hamburg WH — District heating</td>
+<td>Purchased heat &amp; steam</td>
+<td><span class="badge scope-2">S2</span></td>
+<td class="num">2,810 GJ</td>
+<td class="num dim">63.40 kgCO₂e/GJ</td>
+<td class="num">178.15</td>
+<td><span class="badge estimated"><img src="./assets/icons/info.svg" alt="" class="ico" style="width:10px;height:10px">Estimated</span></td>
+<td><button class="action-dots" aria-label="Row actions"><img src="./assets/icons/ellipsis-vertical.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+</tr>
+<tr>
+<td class="num dim">23 Sep 25</td>
+<td>Lufthansa · Business travel EU</td>
+<td>Business travel (6)</td>
+<td><span class="badge scope-3">S3</span></td>
+<td class="num">38,420 km</td>
+<td class="num dim">0.1980 kgCO₂e/pkm</td>
+<td class="num">7.61</td>
+<td><span class="badge verified"><img src="./assets/icons/badge-check.svg" alt="" class="ico" style="width:10px;height:10px">Verified</span></td>
+<td><button class="action-dots" aria-label="Row actions"><img src="./assets/icons/ellipsis-vertical.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+</tr>
+<tr>
+<td class="num dim">22 Sep 25</td>
+<td>Veolia · Mixed waste landfill</td>
+<td>Waste in operations (5)</td>
+<td><span class="badge scope-3">S3</span></td>
+<td class="num">14.8 t</td>
+<td class="num dim">467.00 kgCO₂e/t</td>
+<td class="num">6.91</td>
+<td><span class="badge draft"><img src="./assets/icons/circle-dot.svg" alt="" class="ico" style="width:10px;height:10px">Draft</span></td>
+<td><button class="action-dots" aria-label="Row actions"><img src="./assets/icons/ellipsis-vertical.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+</tr>
+<tr>
+<td class="num dim">21 Sep 25</td>
+<td>Acme Polymers · Resin PE-LD</td>
+<td>Purchased goods (1)</td>
+<td><span class="badge scope-3">S3</span></td>
+<td class="num">68.20 t</td>
+<td class="num dim">1,840 kgCO₂e/t</td>
+<td class="num">125.49</td>
+<td><span class="badge error"><img src="./assets/icons/circle-alert.svg" alt="" class="ico" style="width:10px;height:10px">Factor stale</span></td>
+<td><button class="action-dots" aria-label="Row actions"><img src="./assets/icons/ellipsis-vertical.svg" alt="" class="ico" style="width:14px;height:14px"></button></td>
+</tr>
+<tr class="totals">
+<td colspan="6">Subtotal · last 8 entries</td>
+<td class="num">447.95</td>
+<td colspan="2"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="pagination">
+<div class="dim mono" style="font-size:12px">Showing 1–8 of 1,284 entries</div>
+<div class="pager">
+<button class="pg-btn" aria-label="First"><img src="./assets/icons/chevrons-left.svg" alt="" class="ico" style="width:14px;height:14px"></button>
+<button class="pg-btn" aria-label="Prev"><img src="./assets/icons/chevron-left.svg" alt="" class="ico" style="width:14px;height:14px"></button>
+<button class="pg-btn active">1</button>
+<button class="pg-btn">2</button>
+<button class="pg-btn">3</button>
+<button class="pg-btn">…</button>
+<button class="pg-btn">161</button>
+<button class="pg-btn" aria-label="Next"><img src="./assets/icons/chevron-right.svg" alt="" class="ico" style="width:14px;height:14px"></button>
+<button class="pg-btn" aria-label="Last"><img src="./assets/icons/chevrons-right.svg" alt="" class="ico" style="width:14px;height:14px"></button>
+</div>
+</div>
+</section>
+
+</div>
+</div>
+</div>
+</body>
+</html>

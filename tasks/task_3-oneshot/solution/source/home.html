@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clausewise — Contract review API for developers</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container topbar-inner">
+    <a href="./home.html" class="wordmark">
+      <span class="wordmark-mark">cw</span>
+      <span>Clausewise</span>
+    </a>
+    <nav class="topbar-nav">
+      <a href="./home.html">Product</a>
+      <a href="./docs.html">Docs</a>
+      <a href="./pricing.html">Pricing</a>
+      <a href="./customers.html">Customers</a>
+      <a href="#">Changelog</a>
+    </nav>
+    <div class="topbar-actions">
+      <a href="#" class="btn btn-ghost btn-sm">Sign in</a>
+      <a href="./wizard.html" class="btn btn-primary btn-sm">Get API key <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm"></a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="container">
+    <div class="grid-hero">
+      <div class="stack stack-5">
+        <span class="eyebrow">v2.4 · Now with redline diffs</span>
+        <h1>Ship contract review<br>in an afternoon.</h1>
+        <p class="lead">Clausewise is the contract intelligence API for product teams building legal, procurement, and compliance workflows. Extract clauses, score risk, and suggest redlines from a single POST — with citations back to the source paragraph.</p>
+        <div class="row-wrap">
+          <a href="./wizard.html" class="btn btn-primary btn-lg">Start integrating <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm"></a>
+          <a href="./docs.html" class="btn btn-secondary btn-lg"><img src="./assets/icons/book-open.svg" alt="" class="icon icon-sm">Read the docs</a>
+        </div>
+        <div class="row-wrap" style="gap:var(--space-5);margin-top:var(--space-2);">
+          <span class="row" style="gap:8px;"><img src="./assets/icons/circle-check.svg" alt="" class="icon icon-sm" style="color:var(--accent-alt);"><span class="text-sm muted">SOC 2 Type II</span></span>
+          <span class="row" style="gap:8px;"><img src="./assets/icons/shield-check.svg" alt="" class="icon icon-sm" style="color:var(--accent-alt);"><span class="text-sm muted">No training on your data</span></span>
+          <span class="row" style="gap:8px;"><img src="./assets/icons/zap.svg" alt="" class="icon icon-sm" style="color:var(--accent-alt);"><span class="text-sm muted">p95 &lt; 1.4s</span></span>
+        </div>
+      </div>
+
+      <div class="code-panel">
+        <div class="code-panel-header">
+          <div class="code-tabs">
+            <button class="code-tab is-active">cURL</button>
+            <button class="code-tab">Node</button>
+            <button class="code-tab">Python</button>
+            <button class="code-tab">Go</button>
+          </div>
+          <div class="code-actions">
+            <button class="code-copy"><img src="./assets/icons/copy.svg" alt="" class="icon icon-sm" style="filter:invert(.6);">Copy</button>
+          </div>
+        </div>
+        <div class="code-body">
+<pre><span class="tok-com"># Review an NDA and get clauses, risk, and redlines</span>
+curl <span class="tok-str">https://api.clausewise.dev/v1/contracts/review</span> \
+  -H <span class="tok-str">"Authorization: Bearer $CW_API_KEY"</span> \
+  -H <span class="tok-str">"Content-Type: application/json"</span> \
+  -d <span class="tok-str">'{
+    <span class="tok-key">"document_url"</span>: <span class="tok-str">"https://files.acme.co/nda-v3.pdf"</span>,
+    <span class="tok-key">"playbook"</span>: <span class="tok-str">"mutual-nda-default"</span>,
+    <span class="tok-key">"jurisdiction"</span>: <span class="tok-str">"US-DE"</span>,
+    <span class="tok-key">"include"</span>: [<span class="tok-str">"clauses"</span>, <span class="tok-str">"risk"</span>, <span class="tok-str">"redlines"</span>]
+  }'</span>
+
+<span class="tok-com">// 200 OK — application/json</span>
+{
+  <span class="tok-key">"id"</span>: <span class="tok-str">"rev_8fK2a1xQ"</span>,
+  <span class="tok-key">"status"</span>: <span class="tok-str">"completed"</span>,
+  <span class="tok-key">"clauses"</span>: <span class="tok-num">23</span>,
+  <span class="tok-key">"risk_score"</span>: <span class="tok-num">0.34</span>,
+  <span class="tok-key">"redlines"</span>: <span class="tok-num">4</span>
+}</pre>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container">
+  <div class="logo-strip">
+    <p class="logo-strip-label">Trusted by legal and ops teams at</p>
+    <div class="logo-row">
+      <div class="logo-mark"><img src="./assets/icons/landmark.svg" alt="" class="icon"> Northwind</div>
+      <div class="logo-mark"><img src="./assets/icons/scale.svg" alt="" class="icon"> Brevity Legal</div>
+      <div class="logo-mark"><img src="./assets/icons/building-2.svg" alt="" class="icon"> Harborline</div>
+      <div class="logo-mark"><img src="./assets/icons/briefcase.svg" alt="" class="icon"> Quorum HR</div>
+      <div class="logo-mark"><img src="./assets/icons/gavel.svg" alt="" class="icon"> Statute &amp; Co</div>
+      <div class="logo-mark"><img src="./assets/icons/globe.svg" alt="" class="icon"> Meridian Ops</div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="stack stack-3" style="max-width:680px;margin-bottom:var(--space-6);">
+      <span class="eyebrow">What you get</span>
+      <h2>Three primitives, one API call.</h2>
+      <p class="lead">Mix and match the parts you need. Everything returns structured JSON with paragraph-level citations so your UI can highlight exactly the right line.</p>
+    </div>
+
+    <div class="grid-3">
+      <article class="feature">
+        <span class="feature-icon"><img src="./assets/icons/scan-text.svg" alt="" class="icon icon-lg" style="filter:brightness(0) saturate(100%) invert(28%) sepia(98%) saturate(2980%) hue-rotate(213deg) brightness(101%) contrast(101%);"></span>
+        <h3>Clause extraction</h3>
+        <p class="muted">Identify, classify, and normalize 180+ clause types — from indemnification and limitation of liability to assignment, change of control, and data processing addenda. Returns structured spans with confidence and source citations.</p>
+        <a href="./docs.html" class="learn-link">Learn more <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm"></a>
+      </article>
+
+      <article class="feature">
+        <span class="feature-icon alt"><img src="./assets/icons/chart-line.svg" alt="" class="icon icon-lg" style="filter:brightness(0) saturate(100%) invert(53%) sepia(96%) saturate(404%) hue-rotate(118deg) brightness(91%) contrast(101%);"></span>
+        <h3>Risk scoring</h3>
+        <p class="muted">A calibrated 0–1 risk score per clause and per document, mapped to your playbook. Customize thresholds, override rules, and explain the score with a human-readable rationale your legal team can sign off on.</p>
+        <a href="./docs.html" class="learn-link">Learn more <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm"></a>
+      </article>
+
+      <article class="feature">
+        <span class="feature-icon neutral"><img src="./assets/icons/wand.svg" alt="" class="icon icon-lg"></span>
+        <h3>Redline suggestions</h3>
+        <p class="muted">Generate counterproposal language anchored to your fallback positions. Output as plain text, tracked-change DOCX, or a JSON diff your editor can render inline. Every suggestion cites the playbook rule it came from.</p>
+        <a href="./docs.html" class="learn-link">Learn more <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm"></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="stack stack-3">
+        <a href="./home.html" class="wordmark">
+          <span class="wordmark-mark">cw</span>
+          <span>Clausewise</span>
+        </a>
+        <p class="text-sm muted" style="max-width:280px;">Contract intelligence as an API. Built in San Francisco and Berlin for engineering teams shipping legal software.</p>
+        <span class="status-pill"><span class="badge-dot"></span> All systems operational</span>
+      </div>
+      <div class="footer-col">
+        <h5>Product</h5>
+        <ul>
+          <li><a href="#">Clause extraction</a></li>
+          <li><a href="#">Risk scoring</a></li>
+          <li><a href="#">Redline suggestions</a></li>
+          <li><a href="./pricing.html">Pricing</a></li>
+          <li><a href="#">Changelog</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Developers</h5>
+        <ul>
+          <li><a href="./docs.html">Documentation</a></li>
+          <li><a href="#">API reference</a></li>
+          <li><a href="./wizard.html">Quickstart</a></li>
+          <li><a href="#">SDKs &amp; libraries</a></li>
+          <li><a href="#">Status</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="./customers.html">Customers</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="#">Terms of service</a></li>
+          <li><a href="#">Privacy policy</a></li>
+          <li><a href="#">DPA</a></li>
+          <li><a href="#">Subprocessors</a></li>
+          <li><a href="#">Security</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Clausewise, Inc. Made with care in SF &amp; Berlin.</span>
+      <span class="row" style="gap:var(--space-3);">
+        <a href="#" class="muted">Twitter</a>
+        <a href="#" class="muted">GitHub</a>
+        <a href="#" class="muted">LinkedIn</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

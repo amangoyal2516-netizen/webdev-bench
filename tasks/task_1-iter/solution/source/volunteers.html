@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Volunteers · Lantern Impact</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container">
+    <div class="topbar-inner">
+      <div class="topbar-left">
+        <a href="./overview.html" class="brand">
+          <span class="brand-mark"><img src="./assets/icons/sparkles.svg" alt="" class="icon" width="18" height="18"></span>
+          Lantern Impact
+        </a>
+        <div class="workspace-switch">
+          <img src="./assets/icons/building-2.svg" alt="" width="14" height="14">
+          <span>Workspace: <strong>Riverbend Literacy Coalition</strong></span>
+          <img src="./assets/icons/chevron-down.svg" alt="" width="14" height="14">
+        </div>
+        <div class="fy-select">
+          <img src="./assets/icons/calendar.svg" alt="" width="14" height="14">
+          Fiscal Year 2024
+          <img src="./assets/icons/chevron-down.svg" alt="" width="14" height="14">
+        </div>
+      </div>
+      <div class="topbar-right">
+        <a href="./getting-started.html" class="btn btn-ghost btn-sm">
+          <img src="./assets/icons/compass.svg" alt="" width="14" height="14">
+          Getting started
+        </a>
+        <button class="icon-btn" aria-label="Help"><img src="./assets/icons/circle-question-mark.svg" alt="" width="16" height="16"></button>
+        <button class="icon-btn" aria-label="Notifications"><img src="./assets/icons/bell.svg" alt="" width="16" height="16"></button>
+        <div class="user-chip">
+          <img src="./assets/avatars/lorelei-seed-03.svg" alt="Maren Okafor">
+          <span>Maren O.</span>
+        </div>
+      </div>
+    </div>
+    <nav class="tabbar">
+      <div class="tabbar-inner">
+        <a href="./overview.html" class="tab"><img src="./assets/icons/layout-dashboard.svg" alt="" width="14" height="14">Overview</a>
+        <a href="./donations.html" class="tab"><img src="./assets/icons/hand-heart.svg" alt="" width="14" height="14">Donations</a>
+        <a href="./programs.html" class="tab"><img src="./assets/icons/leaf.svg" alt="" width="14" height="14">Programs</a>
+        <a href="./volunteers.html" class="tab active"><img src="./assets/icons/users.svg" alt="" width="14" height="14">Volunteers</a>
+        <a href="./grants.html" class="tab"><img src="./assets/icons/landmark.svg" alt="" width="14" height="14">Grants</a>
+        <a href="./getting-started.html" class="tab"><img src="./assets/icons/compass.svg" alt="" width="14" height="14">Getting started</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+  <div class="container">
+
+    <div class="page-head">
+      <div>
+        <h1>Volunteers</h1>
+        <p class="sub">The people powering the work — who's showing up, how their time is spent, and what's coming next on the schedule.</p>
+      </div>
+      <div class="row-wrap">
+        <button class="btn btn-secondary"><img src="./assets/icons/download.svg" alt="" width="14" height="14">Export roster</button>
+        <button class="btn btn-primary"><img src="./assets/icons/user-plus.svg" alt="" width="14" height="14">Add volunteer</button>
+      </div>
+    </div>
+
+    <section class="summary-band" style="margin-bottom:var(--space-5);">
+      <div class="sum-item">
+        <div class="l">Active volunteers</div>
+        <div class="v" style="margin-top:var(--space-2);">86</div>
+        <div class="h">People who logged at least one shift in the last 60 days. A good signal of who's actively engaged right now.</div>
+      </div>
+      <div class="sum-item">
+        <div class="l">Hours logged this month</div>
+        <div class="v" style="margin-top:var(--space-2);">412 <span class="text-sm muted" style="font-family:var(--font-sans);font-weight:600;">hrs</span></div>
+        <div class="h">Total volunteer hours recorded in March so far — about the equivalent of 2.5 full-time staff weeks of effort.</div>
+      </div>
+      <div class="sum-item">
+        <div class="l">Retention rate</div>
+        <div class="v" style="margin-top:var(--space-2);">78%</div>
+        <div class="h">Share of last quarter's volunteers who've come back at least once this quarter. Higher means people are sticking around.</div>
+      </div>
+    </section>
+
+    <section class="card" style="margin-bottom:var(--space-5);">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Hours heatmap — last three months</div>
+          <div class="card-sub">Each square is one day. Darker squares mean more volunteer hours were logged that day.</div>
+        </div>
+        <div class="callout" style="padding:var(--space-3) var(--space-4);max-width:300px;border-left-width:3px;">
+          <div class="callout-icon" style="width:32px;height:32px;border-radius:8px;">
+            <img src="./assets/icons/info.svg" alt="" width="16" height="16">
+          </div>
+          <div>
+            <div style="font-size:var(--text-xs);font-weight:700;color:var(--fg);text-transform:uppercase;letter-spacing:.06em;margin-bottom:2px;">Hover any day</div>
+            <div style="font-size:var(--text-xs);color:var(--fg-dim);line-height:1.4;">Tooltip shows the date, total hours, and number of volunteers who served that day.</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="overflow-x:auto;">
+        <div class="heatmap" style="min-width:560px;">
+          <div class="hm-label">Mon</div>
+          <div class="hm-cell"></div><div class="hm-cell l1"></div><div class="hm-cell l2"></div><div class="hm-cell l1"></div><div class="hm-cell l3"></div><div class="hm-cell l2"></div><div class="hm-cell l1"></div><div class="hm-cell l2"></div><div class="hm-cell l4"></div><div class="hm-cell l3"></div><div class="hm-cell l2"></div><div class="hm-cell l3"></div><div class="hm-cell l2"></div>
+          <div class="hm-label">Tue</div>
+          <div class="hm-cell l1"></div><div class="hm-cell l2"></div><div class="hm-cell l1"></div><div class="hm-cell l2"></div><div class="hm-cell l2"></div><div class="hm-cell l3"></div><div class="hm-cell l2"></div><div class="hm-cell l3"></div><div class="hm-cell l3"></div><div class="hm-cell l4"></div><div class="hm-cell l3"></div><div class="hm-cell l2"></div><div class="hm-cell l3"></div>
+          <div class="hm-label">Wed</div>
+          <div class="hm-cell l2"></div><div class="hm-cell l3"></div><div class="hm-cell l3"></div><div class="hm-cell l4"></div><div class="hm-cell l3"></div><div class="hm-cell l4"></div><div class="hm-cell l3"></div><div class="hm-cell l4"></div><div class="hm-cell l4"></div><div class="hm-cell l3"></div><div class="hm-cell l4"></div><div class="hm-cell l3"></div><div class="hm-cell l4"></div>
+          <div class="hm-label">Thu</div>
+          <div class="hm-cell l1"></div><div class="hm-cell l2"></div><div class="hm-cell l2"></div><div class="hm-cell l3"></div><div class="hm-cell l1"></div><div class="hm-cell l2"></div><div class="hm-cell l3"></div><div class="hm-cell l2"></div><div class="hm-cell l3"></div><div class="hm-cell l2"></div><div class="hm-cell l3"></div><div class="hm-cell l4"></div><div class="hm-cell l3"></div>
+          <div class="hm-label">Fri</div>
+          <div class="hm-cell"></div><div class="hm-cell l1"></div><div class="hm-cell l1"></div><div class="hm-cell l2"></div><div class="hm-cell l2"></div><div class="hm-cell l1"></div><div class="hm-cell l2"></div><div class="hm-cell l1"></div><div class="hm-cell l2"></div><div class="hm-cell l3"></div><div class="hm-cell l2"></div><div class="hm-cell l2"></div><div class="hm-cell l2"></div>
+          <div class="hm-label">Sat</div>
+          <div class="hm-cell l3"></div><div class="hm-cell l4"></div><div class="hm-cell l4"></div><div class="hm-cell l3"></div><div class="hm-cell l4"></div><div class="hm-cell l4"></div><div class="hm-cell l3"></div><div class="hm-cell l4"></div><div class="hm-cell l4"></div><div class="hm-cell l4"></div><div class="hm-cell l4"></div><div class="hm-cell l4"></div><div class="hm-cell l4"></div>
+          <div class="hm-label">Sun</div>
+          <div class="hm-cell l1"></div><div class="hm-cell"></div><div class="hm-cell l1"></div><div class="hm-cell l1"></div><div class="hm-cell"></div><div class="hm-cell l2"></div><div class="hm-cell l1"></div><div class="hm-cell l1"></div><div class="hm-cell l2"></div><div class="hm-cell l1"></div><div class="hm-cell l2"></div><div class="hm-cell l1"></div><div class="hm-cell l2"></div>
+        </div>
+      </div>
+
+      <div class="row-between" style="margin-top:var(--space-4);flex-wrap:wrap;gap:var(--space-3);">
+        <div class="row-wrap text-sm muted">
+          <span>Jan</span><span style="margin-left:var(--space-6);">Feb</span><span style="margin-left:var(--space-7);">Mar</span>
+        </div>
+        <div class="heatmap-legend">
+          <span>Fewer hours</span>
+          <span class="hm-cell"></span>
+          <span class="hm-cell l1"></span>
+          <span class="hm-cell l2"></span>
+          <span class="hm-cell l3"></span>
+          <span class="hm-cell l4"></span>
+          <span>More hours</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" style="margin-bottom:var(--space-5);">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Volunteer roster</div>
+          <div class="card-sub">Everyone currently on the team. Click a row to view their full history and contact details.</div>
+        </div>
+        <div class="inline-stats">
+          <div class="inline-stat"><div class="v">86</div><div class="l">Active</div></div>
+          <div class="inline-stat"><div class="v">14</div><div class="l">On pause</div></div>
+          <div class="inline-stat"><div class="v">9</div><div class="l">New this month</div></div>
+        </div>
+      </div>
+
+      <div class="filter-row" style="margin-bottom:var(--space-4);">
+        <div class="input-with-icon" style="flex:1;min-width:220px;">
+          <span class="ic"><img src="./assets/icons/search.svg" alt="" width="16" height="16"></span>
+          <input type="text" class="input" placeholder="Search by name or email…">
+        </div>
+        <div class="row-wrap">
+          <span class="chip active">All roles</span>
+          <span class="chip">Tutor</span>
+          <span class="chip">Event lead</span>
+          <span class="chip">Mentor</span>
+          <span class="chip">Office</span>
+          <span class="chip">Board</span>
+        </div>
+        <button class="btn btn-ghost btn-sm"><img src="./assets/icons/sliders-horizontal.svg" alt="" width="14" height="14">More filters</button>
+      </div>
+
+      <div class="table-wrap">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Volunteer</th>
+              <th>Role</th>
+              <th>Hours this month</th>
+              <th>Total hours</th>
+              <th>Last shift</th>
+              <th style="text-align:right;">Contact</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div class="row" style="gap:var(--space-3);">
+                  <img src="./assets/avatars/lorelei-seed-00.svg" alt="" class="avatar-sm">
+                  <div>
+                    <strong>Asha Pemberton</strong>
+                    <div class="text-xs muted">asha.p@riverbend.org</div>
+                  </div>
+                </div>
+              </td>
+              <td><span class="badge badge-accent">Tutor</span></td>
+              <td><strong>18.5</strong></td>
+              <td>284</td>
+              <td>Mar 14, 2024</td>
+              <td style="text-align:right;">
+                <button class="btn-icon" aria-label="Email"><img src="./assets/icons/mail.svg" alt="" width="14" height="14"></button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="row" style="gap:var(--space-3);">
+                  <img src="./assets/avatars/notionists-seed-01.svg" alt="" class="avatar-sm">
+                  <div>
+                    <strong>Devon Marsh</strong>
+                    <div class="text-xs muted">devon.marsh@gmail.com</div>
+                  </div>
+                </div>
+              </td>
+              <td><span class="badge badge-alt">Event lead</span></td>
+              <td><strong>12.0</strong></td>
+              <td>141</td>
+              <td>Mar 12, 2024</td>
+              <td style="text-align:right;">
+                <button class="btn-icon" aria-label="Email"><img src="./assets/icons/mail.svg" alt="" width="14" height="14"></button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="row" style="gap:var(--space-3);">
+                  <img src="./assets/avatars/lorelei-seed-02.svg" alt="" class="avatar-sm">
+                  <div>
+                    <strong>Priya Chandrasekar</strong>
+                    <div class="text-xs muted">priya.c@riverbend.org</div>
+                  </div>
+                </div>
+              </td>
+              <td><span class="badge badge-accent">Tutor</span></td>
+              <td><strong>22.5</strong></td>
+              <td>612</td>
+              <td>Mar 15, 2024</td>
+              <td style="text-align:right;">
+                <button class="btn-icon" aria-label="Email"><img src="./assets/icons/mail.svg" alt="" width="14" height="14"></button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="row" style="gap:var(--space-3);">
+                  <img src="./assets/avatars/notionists-seed-03.svg" alt="" class="avatar-sm">
+                  <div>
+                    <strong>Wendell Hayes</strong>
+                    <div class="text-xs muted">w.hayes@protonmail.com</div>
+                  </div>
+                </div>
+              </td>
+              <td><span class="badge">Mentor</span></td>
+              <td><strong>8.0</strong></td>
+              <td>96</td>
+              <td>Mar 09, 2024</td>
+              <td style="text-align:right;">
+                <button class="btn-icon" aria-label="Phone"><img src="./assets/icons/phone.svg" alt="" width="14" height="14"></button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="row" style="gap:var(--space-3);">
+                  <img src="./assets/avatars/lorelei-seed-04.svg" alt="" class="avatar-sm">
+                  <div>
+                    <strong>Soraya Bautista</strong>
+                    <div class="text-xs muted">soraya.b@riverbend.org</div>
+                  </div>
+                </div>
+              </td>
+              <td><span class="badge badge-info">Office</span></td>
+              <td><strong>16.0</strong></td>
+              <td>208</td>
+              <td>Mar 13, 2024</td>
+              <td style="text-align:right;">
+                <button class="btn-icon" aria-label="Email"><img src="./assets/icons/mail.svg" alt="" width="14" height="14"></button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="row" style="gap:var(--space-3);">
+                  <img src="./assets/avatars/notionists-seed-05.svg" alt="" class="avatar-sm">
+                  <div>
+                    <strong>Theo Lindqvist</strong>
+                    <div class="text-xs muted">theo.l@gmail.com</div>
+                  </div>
+                </div>
+              </td>
+              <td><span class="badge badge-accent">Tutor</span></td>
+              <td><strong>6.5</strong></td>
+              <td>74</td>
+              <td>Mar 07, 2024</td>
+              <td style="text-align:right;">
+                <button class="btn-icon" aria-label="Email"><img src="./assets/icons/mail.svg" alt="" width="14" height="14"></button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="row" style="gap:var(--space-3);">
+                  <img src="./assets/avatars/lorelei-seed-06.svg" alt="" class="avatar-sm">
+                  <div>
+                    <strong>Mireille N'Goran</strong>
+                    <div class="text-xs muted">mireille.n@riverbend.org</div>
+                  </div>
+                </div>
+              </td>
+              <td><span class="badge">Mentor</span></td>
+              <td><strong>14.0</strong></td>
+              <td>352</td>
+              <td>Mar 15, 2024</td>
+              <td style="text-align:right;">
+                <button class="btn-icon" aria-label="Email"><img src="./assets/icons/mail.svg" alt="" width="14" height="14"></button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="row" style="gap:var(--space-3);">
+                  <img src="./assets/avatars/notionists-seed-02.svg" alt="" class="avatar-sm">
+                  <div>
+                    <strong>Garrick Olusola</strong>
+                    <div class="text-xs muted">garrick@olusolafamily.net</div>
+                  </div>
+                </div>
+              </td>
+              <td><span class="badge badge-alt">Event lead</span></td>
+              <td><strong>4.0</strong></td>
+              <td>58</td>
+              <td>Mar 02, 2024</td>
+              <td style="text-align:right;">
+                <button class="btn-icon" aria-label="Phone"><img src="./assets/icons/phone.svg" alt="" width="14" height="14"></button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="row" style="gap:var(--space-3);">
+                  <img src="./assets/avatars/lorelei-seed-07.svg" alt="" class="avatar-sm">
+                  <div>
+                    <strong>Inez Cavanaugh</strong>
+                    <div class="text-xs muted">inez.cav@riverbend.org</div>
+                  </div>
+                </div>
+              </td>
+              <td><span class="badge badge-success">Board</span></td>
+              <td><strong>10.5</strong></td>
+              <td>189</td>
+              <td>Mar 11, 2024</td>
+              <td style="text-align:right;">
+                <button class="btn-icon" aria-label="Email"><img src="./assets/icons/mail.svg" alt="" width="14" height="14"></button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="pager">
+          <span>Showing 1–9 of 86 volunteers</span>
+          <div class="pager-pages">
+            <span class="pg active">1</span>
+            <span class="pg">2</span>
+            <span class="pg">3</span>
+            <span class="pg">…</span>
+            <span class="pg">10</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Upcoming shifts</div>
+          <div class="card-sub">Scheduled volunteer slots for the next two weeks. Send a friendly nudge if a shift is under-filled.</div>
+        </div>
+        <a href="#" class="btn btn-secondary btn-sm"><img src="./assets/icons/calendar-days.svg" alt="" width="14" height="14">View full calendar</a>
+      </div>
+
+      <div class="stack-sm">
+
+        <div class="shift-row">
+          <div class="shift-date">
+            <div class="d">18</div>
+            <div class="m">Mar</div>
+          </div>
+          <div>
+            <strong>After-school Reading Buddies</strong>
+            <div class="text-sm muted row-wrap" style="gap:var(--space-3);margin-top:2px;">
+              <span><img src="./assets/icons/clock.svg" alt="" width="12" height="12" style="display:inline-block;vertical-align:-2px;"> 3:30 – 5:30 PM</span>
+              <span><img src="./assets/icons/map-pin.svg" alt="" width="12" height="12" style="display:inline-block;vertical-align:-2px;"> Lincoln Elementary</span>
+            </div>
+          </div>
+          <div style="min-width:140px;">
+            <div class="text-xs muted" style="margin-bottom:4px;">Slots filled</div>
+            <div class="row" style="gap:var(--space-2);">
+              <div class="progress" style="flex:1;width:80px;"><span style="width:100%;"></span></div>
+              <span class="text-sm" style="font-weight:600;color:var(--fg);">6 / 6</span>
+            </div>
+          </div>
+          <a href="#" class="btn-link text-sm"><img src="./assets/icons/send.svg" alt="" width="12" height="12" style="display:inline-block;vertical-align:-2px;margin-right:4px;">Send reminder</a>
+        </div>
+
+        <div class="shift-row">
+          <div class="shift-date">
+            <div class="d">19</div>
+            <div class="m">Mar</div>
+          </div>
+          <div>
+            <strong>Adult ESL Conversation Circle</strong>
+            <div class="text-sm muted row-wrap" style="gap:var(--space-3);margin-top:2px;">
+              <span><img src="./assets/icons/clock.svg" alt="" width="12" height="12" style="display:inline-block;vertical-align:-2px;"> 6:00 – 7:30 PM</span>
+              <span><img src="./assets/icons/map-pin.svg" alt="" width="12" height="12" style="display:inline-block;vertical-align:-2px;"> Riverbend Community Hall</span>
+            </div>
+          </div>
+          <div style="min-width:140px;">
+            <div class="text-xs muted" style="margin-bottom:4px;">Slots filled</div>
+            <div class="row" style="gap:var(--space-2);">
+              <div class="progress progress-alt" style="flex:1;width:80px;"><span style="width:75%;"></span></div>
+              <span class="text-sm" style="font-weight:600;color:var(--fg);">3 / 4</span>
+            </div>
+          </div>
+          <a href="#" class="btn-link text-sm"><img src="./assets/icons/send.svg" alt="" width="12" height="12" style="display:inline-block;vertical-align:-2px;margin-right:4px;">Send reminder</a>
+        </div>
+
+        <div class="shift-row">
+          <div class="shift-date">
+            <div class="d">21</div>
+            <div class="m">Mar</div>
+          </div>
+          <div>
+            <strong>Saturday Family Story Hour</strong>
+            <div class="text-sm muted row-wrap" style="gap:var(--space-3);margin-top:2px;">
+              <span><img src="./assets/icons/clock.svg" alt="" width="12" height="12" style="display:inline-block;vertical-align:-2px;"> 10:00 AM – 12:00 PM</span>
+              <span><img src="./assets/icons/map-pin.svg" alt="" width="12" height="12" style="display:inline-block;vertical-align:-2px;"> Eastside Branch Library</span>
+            </div>
+          </div>
+          <div style="min-width:140px;">
+            <div class="text-xs muted" style="margin-bottom:4px;">Slots filled</div>
+            <div class="row" style="gap:var(--space-2);">
+              <div class="progress" style="flex:1;width:80px;"><span style="width:50%;"></span></div>
+              <span class="text-sm" style="font-weight:600;color:var(--fg);">2 / 4</span>
+            </div>
+          </div>
+          <a href="#" class="btn-link text-sm"><img src="./assets/icons/send.svg" alt="" width="12" height="12" style="display:inline-block;vertical-align:-2px;margin-right:4px;">Send reminder</a>
+        </div>
+
+        <div class="shift-row">
+          <div class="shift-date">
+            <div class="d">23</div>
+            <div class="m">Mar</div>
+          </div>
+          <div>
+            <strong>Workforce Readiness Mentoring</strong>
+            <div class="text-sm muted row-wrap" style="gap:var(--space-3);margin-top:2px;">
+              <span><img src="./assets/icons/clock.svg" alt="" width="12" height="12" style="display:inline-block;vertical-align:-2px;"> 1:00 – 3:00 PM</span>
+              <span><img src="./assets/icons/map-pin.svg" alt="" width="12" height="12" style="display:inline-block;vertical-align:-2px;"> Riverbend Main Office</span>
+            </div>
+          </div>
+          <div style="min-width:140px;">
+            <div class="text-xs muted" style="margin-bottom:4px;">Slots filled</div>
+            <div class="row" style="gap:var(--space-2);">
+              <div class="progress progress-alt" style="flex:1;width:80px;"><span style="width:80%;"></span></div>
+              <span class="text-sm" style="font-weight:600;color:var(--fg);">4 / 5</span>
+            </div>
+          </div>
+          <a href="#" class="btn-link text-sm"><img src="./assets/icons/send.svg" alt="" width="12" height="12" style="display:inline-block;vertical-align:-2px;margin-right:4px;">Send reminder</a>
+        </div>
+
+        <div class="shift-row">
+          <div class="shift-date">
+            <div class="d">26</div>
+            <div class="m">Mar</div>
+          </div>
+          <div>
+            <strong>After-school Reading Buddies</strong>
+            <div class="text-sm muted row-wrap" style="gap:var(--space-3);margin-top:2px;">
+              <span><img src="./assets/icons/clock.svg" alt="" width="12" height="12" style="display:inline-block;vertical-align:-2px;"> 3:30 – 5:30 PM</span>
+              <span><img src="./assets/icons/map-pin.svg" alt="" width="12" height="12" style="display:inline-block;vertical-align:-2px;"> Lincoln Elementary</span>
+            </div>
+          </div>
+          <div style="min-width:140px;">
+            <div class="text-xs muted" style="margin-bottom:4px;">Slots filled</div>
+            <div class="row" style="gap:var(--space-2);">
+              <div class="progress" style="flex:1;width:80px;"><span style="width:33%;"></span></div>
+              <span class="text-sm" style="font-weight:600;color:var(--danger);">2 / 6</span>
+            </div>
+          </div>
+          <a href="#" class="btn-link text-sm"><img src="./assets/icons/send.svg" alt="" width="12" height="12" style="display:inline-block;vertical-align:-2px;margin-right:4px;">Send reminder</a>
+        </div>
+
+        <div class="shift-row">
+          <div class="shift-date">
+            <div class="d">28</div>
+            <div class="m">Mar</div>
+          </div>
+          <div>
+            <strong>Spring Fundraiser Setup Crew</strong>
+            <div class="text-sm muted row-wrap" style="gap:var(--space-3);margin-top:2px;">
+              <span><img src="./assets/icons/clock.svg" alt="" width="12" height="12" style="display:inline-block;vertical-align:-2px;"> 4:00 – 8:00 PM</span>
+              <span><img src="./assets/icons/map-pin.svg" alt="" width="12" height="12" style="display:inline-block;vertical-align:-2px;"> Magnolia Gardens Pavilion</span>
+            </div>
+          </div>
+          <div style="min-width:140px;">
+            <div class="text-xs muted" style="margin-bottom:4px;">Slots filled</div>
+            <div class="row" style="gap:var(--space-2);">
+              <div class="progress progress-alt" style="flex:1;width:80px;"><span style="width:62%;"></span></div>
+              <span class="text-sm" style="font-weight:600;color:var(--fg);">8 / 13</span>
+            </div>
+          </div>
+          <a href="#" class="btn-link text-sm"><img src="./assets/icons/send.svg" alt="" width="12" height="12" style="display:inline-block;vertical-align:-2px;margin-right:4px;">Send reminder</a>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+  <footer class="footer">
+    <div class="container row-between" style="flex-wrap:wrap;gap:var(--space-3);">
+      <div>© 2024 Lantern Impact · Built for small nonprofits</div>
+      <div class="row-wrap">
+        <a href="./getting-started.html">Help center</a>
+        <a href="#">Privacy</a>
+        <a href="#">Contact support</a>
+      </div>
+    </div>
+  </footer>
+</main>
+
+</body>
+</html>

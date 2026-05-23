@@ -1,0 +1,81 @@
+{
+  "description": "Landing and onboarding site for a contract review API that lets developers integrate AI-powered legal clause analysis into their apps \u2014 marketing pages plus a multi-step integration wizard",
+  "allowed_frameworks": [
+    "html-css"
+  ],
+  "palette": {
+    "background": "#ffffff",
+    "surface": "#f4f6fa",
+    "text": "#0d1117",
+    "accent": "#0066ff",
+    "accent_alt": "#00b37a",
+    "muted": "#6b7280"
+  },
+  "pages": [
+    {
+      "name": "home",
+      "description": "Marketing landing page introducing the contract review API to engineering teams at law-adjacent companies",
+      "components": [
+        "Top navigation with wordmark, primary links (Product, Docs, Pricing, Customers, Changelog), a 'Sign in' text link, and a 'Get API key' primary button",
+        "Hero with eyebrow label, headline, supporting paragraph, two buttons ('Start integrating' primary, 'Read the docs' secondary), and a code-sample panel showing a POST /v1/contracts/review request with a language tab switcher and copy button",
+        "Logo strip labelled 'Trusted by legal and ops teams at' with six grayscale company marks",
+        "Three-column feature row \u2014 each column has an icon, feature name (Clause extraction, Risk scoring, Redline suggestions), one-paragraph description, and a 'Learn more' link",
+        "Footer with four link columns (Product, Developers, Company, Legal), a status indicator pill showing 'All systems operational', and a copyright line"
+      ]
+    },
+    {
+      "name": "wizard",
+      "description": "Five-step integration wizard that walks a developer from account creation to a first successful API call",
+      "components": [
+        "Wizard top bar with wordmark, a horizontal five-step indicator (Create workspace, Verify org, Choose plan, Generate keys, Make first call) with current step highlighted, and a 'Save & exit' link",
+        "Step content panel on the left half \u2014 for the active step shows step title, helper paragraph, and the relevant form (workspace name input, region dropdown, team-size radio group) with inline validation hints",
+        "Right-side context panel that updates per step \u2014 currently shows a 'What happens next' card listing three bullet points, a 'Need a paralegal review' callout linking to human-in-the-loop add-on, and a small FAQ accordion with three questions",
+        "Sticky footer action bar with a 'Back' secondary button on the left, a step counter ('Step 1 of 5') centered, and a 'Continue' primary button on the right"
+      ]
+    },
+    {
+      "name": "wizard-keys",
+      "description": "Penultimate wizard step where the developer generates API credentials and tests a sandbox call",
+      "components": [
+        "Same wizard top bar with step 4 of 5 active",
+        "Credentials panel showing two generated keys (Publishable key, Secret key) each in a monospaced read-only field with a reveal toggle, a copy button, and a 'Rotate' link, plus a warning callout that the secret key will only be shown once",
+        "Scope selector below the keys \u2014 a checklist of permission scopes (contracts:read, contracts:write, clauses:extract, redlines:suggest, webhooks:manage) each with a short description",
+        "Live sandbox tester panel \u2014 request builder with method locked to POST, endpoint field, JSON body editor pre-filled with a sample NDA payload, a 'Send test request' button, and a response viewer with status, latency, and JSON tree",
+        "Footer action bar with Back, step counter, and a 'Continue to first call' primary button that is disabled until a successful sandbox response is received"
+      ]
+    },
+    {
+      "name": "pricing",
+      "description": "Pricing page comparing self-serve plans and an enterprise tier with a usage estimator",
+      "components": [
+        "Top navigation (same as home)",
+        "Page heading 'Pricing built around contracts reviewed' with a billing-period toggle (Monthly / Annual) and a region selector",
+        "Three plan cards in a row \u2014 Developer, Team, Scale \u2014 each card lists price, included monthly contract count, a feature checklist, and a 'Choose plan' button; the Team card has a 'Most popular' ribbon",
+        "Usage estimator panel \u2014 a slider for monthly contracts reviewed, a slider for average pages per contract, a dropdown for jurisdictions covered, and an output area showing estimated monthly cost broken into base plus overage line items",
+        "Enterprise band at the bottom with headline, paragraph about SSO, audit logs, BAA and dedicated legal-ops support, a 'Talk to sales' button, and three logos of representative enterprise customers"
+      ]
+    },
+    {
+      "name": "docs",
+      "description": "Documentation reading view for a single API reference page",
+      "components": [
+        "Docs top bar with wordmark, a docs-scoped search input with keyboard shortcut hint, version selector dropdown (v1, v2 beta), and a 'Dashboard' link",
+        "Left sidebar with collapsible navigation tree grouped by section (Getting started, Authentication, Contracts, Clauses, Redlines, Webhooks, Errors) with the current page highlighted",
+        "Center reading column with breadcrumb, page title 'Review a contract', endpoint signature block (HTTP verb pill + path), parameters table (name, type, required, description), and a response schema table",
+        "Right-rail in-page table of contents listing the headings on the current page with the active section highlighted, plus a 'Was this page helpful?' thumbs up/down widget at the bottom",
+        "Sticky right-side code panel showing request and response examples in tabs (curl, Node, Python) with a 'Run in playground' link that opens the sandbox"
+      ]
+    },
+    {
+      "name": "customers",
+      "description": "Customer stories index page showcasing how legal-tech and ops teams use the API",
+      "components": [
+        "Top navigation (same as home)",
+        "Page header with title 'How teams ship contract workflows faster', a one-line summary, and a filter chip row (All, Legal tech, Fintech, Real estate, HR platforms)",
+        "Featured case study banner \u2014 large quote, attributed name and role, company logo, three KPI tiles (contracts processed monthly, review time reduction, error rate), and a 'Read the full story' link",
+        "Grid of customer story cards (three per row) \u2014 each card has company logo, industry tag, one-sentence outcome, and a 'Read story' link",
+        "Closing call-to-action band with headline 'Start reviewing contracts in an afternoon', a 'Get API key' primary button, and a 'Book a demo' secondary button"
+      ]
+    }
+  ]
+}

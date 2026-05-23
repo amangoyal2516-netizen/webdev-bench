@@ -1,0 +1,911 @@
+[
+  {
+    "tag": "span",
+    "font_family": "Fraunces, Georgia, serif",
+    "font_size_px": 22,
+    "font_weight": "700",
+    "line_height": "34.1px",
+    "area": 5420.90625,
+    "text_len": 16
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "700",
+    "line_height": "21.7px",
+    "area": 1995.556640625,
+    "text_len": 8
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "700",
+    "line_height": "21.7px",
+    "area": 1496.8994140625,
+    "text_len": 6
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "700",
+    "line_height": "21.7px",
+    "area": 2553.5888671875,
+    "text_len": 11
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "700",
+    "line_height": "21.7px",
+    "area": 2553.5888671875,
+    "text_len": 11
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "700",
+    "line_height": "21.7px",
+    "area": 3052.7099609375,
+    "text_len": 13
+  },
+  {
+    "tag": "button",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "700",
+    "line_height": "18.6px",
+    "area": 4277.86669921875,
+    "text_len": 16
+  },
+  {
+    "tag": "button",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "700",
+    "line_height": "18.6px",
+    "area": 4222.8935546875,
+    "text_len": 16
+  },
+  {
+    "tag": "button",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "700",
+    "line_height": "18.6px",
+    "area": 3121.04052734375,
+    "text_len": 11
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "700",
+    "line_height": "21.7px",
+    "area": 10403.5166015625,
+    "text_len": 28
+  },
+  {
+    "tag": "h1",
+    "font_family": "Fraunces, Georgia, serif",
+    "font_size_px": 72,
+    "font_weight": "700",
+    "line_height": "79.2px",
+    "area": 133035,
+    "text_len": 38
+  },
+  {
+    "tag": "p",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 18,
+    "font_weight": "400",
+    "line_height": "27.9px",
+    "area": 32130,
+    "text_len": 110
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "700",
+    "line_height": "21.7px",
+    "area": 1275.49609375,
+    "text_len": 7
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "700",
+    "line_height": "18.6px",
+    "area": 1203.5,
+    "text_len": 3
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "700",
+    "line_height": "21.7px",
+    "area": 911.2138671875,
+    "text_len": 5
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "700",
+    "line_height": "18.6px",
+    "area": 1024,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "700",
+    "line_height": "21.7px",
+    "area": 1457.806640625,
+    "text_len": 8
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "700",
+    "line_height": "18.6px",
+    "area": 1024,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "700",
+    "line_height": "21.7px",
+    "area": 1865.4638671875,
+    "text_len": 11
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "700",
+    "line_height": "18.6px",
+    "area": 1024,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "700",
+    "line_height": "21.7px",
+    "area": 1275.49609375,
+    "text_len": 7
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "700",
+    "line_height": "18.6px",
+    "area": 1024,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "700",
+    "line_height": "21.7px",
+    "area": 1310.3994140625,
+    "text_len": 7
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "700",
+    "line_height": "18.6px",
+    "area": 1024,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "700",
+    "line_height": "18.6px",
+    "area": 5515.4736328125,
+    "text_len": 18
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "700",
+    "line_height": "18.6px",
+    "area": 4498.9560546875,
+    "text_len": 16
+  },
+  {
+    "tag": "h2",
+    "font_family": "Fraunces, Georgia, serif",
+    "font_size_px": 36,
+    "font_weight": "700",
+    "line_height": "39.6px",
+    "area": 40385.625,
+    "text_len": 54
+  },
+  {
+    "tag": "p",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "400",
+    "line_height": "21.7px",
+    "area": 29495,
+    "text_len": 17
+  },
+  {
+    "tag": "strong",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "700",
+    "line_height": "21.7px",
+    "area": 2217.9375,
+    "text_len": 16
+  },
+  {
+    "tag": "strong",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "700",
+    "line_height": "21.7px",
+    "area": 2794.21875,
+    "text_len": 20
+  },
+  {
+    "tag": "strong",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "700",
+    "line_height": "21.7px",
+    "area": 1886.90625,
+    "text_len": 14
+  },
+  {
+    "tag": "em",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "400",
+    "line_height": "21.7px",
+    "area": 4353.1875,
+    "text_len": 31
+  },
+  {
+    "tag": "p",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 16,
+    "font_weight": "400",
+    "line_height": "24.8px",
+    "area": 50585.625,
+    "text_len": 220
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "700",
+    "line_height": "18.6px",
+    "area": 3637.76806640625,
+    "text_len": 10
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "700",
+    "line_height": "18.6px",
+    "area": 3631.65673828125,
+    "text_len": 9
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "700",
+    "line_height": "18.6px",
+    "area": 6284.99169921875,
+    "text_len": 22
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "700",
+    "line_height": "18.6px",
+    "area": 4276.9111328125,
+    "text_len": 12
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 18,
+    "font_weight": "700",
+    "line_height": "27.9px",
+    "area": 14095.869140625,
+    "text_len": 13
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 16,
+    "font_weight": "700",
+    "line_height": "24.8px",
+    "area": 10412.53369140625,
+    "text_len": 14
+  },
+  {
+    "tag": "h2",
+    "font_family": "Fraunces, Georgia, serif",
+    "font_size_px": 36,
+    "font_weight": "700",
+    "line_height": "39.6px",
+    "area": 8698.87060546875,
+    "text_len": 14
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "700",
+    "line_height": "18.6px",
+    "area": 4068.54931640625,
+    "text_len": 10
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "700",
+    "line_height": "18.6px",
+    "area": 1981.68701171875,
+    "text_len": 11
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "700",
+    "line_height": "18.6px",
+    "area": 2751.62548828125,
+    "text_len": 10
+  },
+  {
+    "tag": "h3",
+    "font_family": "Fraunces, Georgia, serif",
+    "font_size_px": 28,
+    "font_weight": "700",
+    "line_height": "30.8px",
+    "area": 6038.1123046875,
+    "text_len": 14
+  },
+  {
+    "tag": "p",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "400",
+    "line_height": "21.7px",
+    "area": 4252.10546875,
+    "text_len": 26
+  },
+  {
+    "tag": "p",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "700",
+    "line_height": "21.7px",
+    "area": 7315.8037109375,
+    "text_len": 21
+  },
+  {
+    "tag": "strong",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 16,
+    "font_weight": "700",
+    "line_height": "24.8px",
+    "area": 1666.81494140625,
+    "text_len": 7
+  },
+  {
+    "tag": "li",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 16,
+    "font_weight": "400",
+    "line_height": "24.8px",
+    "area": 19427.99169921875,
+    "text_len": 33
+  },
+  {
+    "tag": "strong",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 16,
+    "font_weight": "700",
+    "line_height": "24.8px",
+    "area": 952.35498046875,
+    "text_len": 4
+  },
+  {
+    "tag": "li",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 16,
+    "font_weight": "400",
+    "line_height": "24.8px",
+    "area": 19427.99169921875,
+    "text_len": 34
+  },
+  {
+    "tag": "strong",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 16,
+    "font_weight": "700",
+    "line_height": "24.8px",
+    "area": 1428.532470703125,
+    "text_len": 6
+  },
+  {
+    "tag": "li",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 16,
+    "font_weight": "400",
+    "line_height": "24.8px",
+    "area": 8364.683349609375,
+    "text_len": 29
+  },
+  {
+    "tag": "strong",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 16,
+    "font_weight": "700",
+    "line_height": "24.8px",
+    "area": 1190.637451171875,
+    "text_len": 5
+  },
+  {
+    "tag": "li",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 16,
+    "font_weight": "400",
+    "line_height": "24.8px",
+    "area": 19427.99169921875,
+    "text_len": 33
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 16,
+    "font_weight": "700",
+    "line_height": "24.8px",
+    "area": 17809.870849609375,
+    "text_len": 16
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "700",
+    "line_height": "18.6px",
+    "area": 2428.80859375,
+    "text_len": 15
+  },
+  {
+    "tag": "h3",
+    "font_family": "Fraunces, Georgia, serif",
+    "font_size_px": 36,
+    "font_weight": "700",
+    "line_height": "39.6px",
+    "area": 13356.08544921875,
+    "text_len": 6
+  },
+  {
+    "tag": "p",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "400",
+    "line_height": "21.7px",
+    "area": 7315.8037109375,
+    "text_len": 12
+  },
+  {
+    "tag": "strong",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "700",
+    "line_height": "21.7px",
+    "area": 1663.59375,
+    "text_len": 11
+  },
+  {
+    "tag": "p",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 16,
+    "font_weight": "400",
+    "line_height": "24.8px",
+    "area": 41823.416748046875,
+    "text_len": 173
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "700",
+    "line_height": "21.7px",
+    "area": 195.1875,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "700",
+    "line_height": "18.6px",
+    "area": 3776.18359375,
+    "text_len": 10
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "700",
+    "line_height": "21.7px",
+    "area": 195.1875,
+    "text_len": 2
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "700",
+    "line_height": "18.6px",
+    "area": 4682.869140625,
+    "text_len": 14
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "700",
+    "line_height": "18.6px",
+    "area": 2558.96484375,
+    "text_len": 15
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "700",
+    "line_height": "18.6px",
+    "area": 3325.07177734375,
+    "text_len": 11
+  },
+  {
+    "tag": "p",
+    "font_family": "Fraunces, Georgia, serif",
+    "font_size_px": 22,
+    "font_weight": "400",
+    "line_height": "28.6px",
+    "area": 16318.095703125,
+    "text_len": 49
+  },
+  {
+    "tag": "em",
+    "font_family": "Fraunces, Georgia, serif",
+    "font_size_px": 22,
+    "font_weight": "400",
+    "line_height": "28.6px",
+    "area": 660,
+    "text_len": 2
+  },
+  {
+    "tag": "p",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "400",
+    "line_height": "18.6px",
+    "area": 5305.6103515625,
+    "text_len": 27
+  },
+  {
+    "tag": "p",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 16,
+    "font_weight": "700",
+    "line_height": "24.8px",
+    "area": 5932.65234375,
+    "text_len": 14
+  },
+  {
+    "tag": "p",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "400",
+    "line_height": "18.6px",
+    "area": 4448.5546875,
+    "text_len": 36
+  },
+  {
+    "tag": "p",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "400",
+    "line_height": "21.7px",
+    "area": 43896.85546875,
+    "text_len": 237
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "700",
+    "line_height": "18.6px",
+    "area": 6379.84423828125,
+    "text_len": 20
+  },
+  {
+    "tag": "h4",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "700",
+    "line_height": "15.4px",
+    "area": 4401.71875,
+    "text_len": 5
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "400",
+    "line_height": "21.7px",
+    "area": 8490.625,
+    "text_len": 11
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "400",
+    "line_height": "21.7px",
+    "area": 8490.625,
+    "text_len": 16
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "400",
+    "line_height": "21.7px",
+    "area": 8490.625,
+    "text_len": 21
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "400",
+    "line_height": "21.7px",
+    "area": 8490.625,
+    "text_len": 13
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "400",
+    "line_height": "21.7px",
+    "area": 8490.625,
+    "text_len": 10
+  },
+  {
+    "tag": "h4",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "700",
+    "line_height": "15.4px",
+    "area": 4401.71875,
+    "text_len": 7
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "400",
+    "line_height": "21.7px",
+    "area": 8490.625,
+    "text_len": 15
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "400",
+    "line_height": "21.7px",
+    "area": 8490.625,
+    "text_len": 20
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "400",
+    "line_height": "21.7px",
+    "area": 8490.625,
+    "text_len": 19
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "400",
+    "line_height": "21.7px",
+    "area": 8490.625,
+    "text_len": 21
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "400",
+    "line_height": "21.7px",
+    "area": 8490.625,
+    "text_len": 24
+  },
+  {
+    "tag": "h4",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "700",
+    "line_height": "15.4px",
+    "area": 4401.71875,
+    "text_len": 18
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "400",
+    "line_height": "21.7px",
+    "area": 8490.625,
+    "text_len": 14
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "400",
+    "line_height": "21.7px",
+    "area": 8490.625,
+    "text_len": 23
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "400",
+    "line_height": "21.7px",
+    "area": 8490.625,
+    "text_len": 18
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "400",
+    "line_height": "21.7px",
+    "area": 8490.625,
+    "text_len": 20
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "400",
+    "line_height": "21.7px",
+    "area": 8490.625,
+    "text_len": 20
+  },
+  {
+    "tag": "h4",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "700",
+    "line_height": "15.4px",
+    "area": 4401.71875,
+    "text_len": 16
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "400",
+    "line_height": "21.7px",
+    "area": 8490.625,
+    "text_len": 16
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "400",
+    "line_height": "21.7px",
+    "area": 8490.625,
+    "text_len": 14
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "400",
+    "line_height": "21.7px",
+    "area": 8490.625,
+    "text_len": 17
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "400",
+    "line_height": "21.7px",
+    "area": 8490.625,
+    "text_len": 17
+  },
+  {
+    "tag": "a",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "400",
+    "line_height": "21.7px",
+    "area": 8490.625,
+    "text_len": 19
+  },
+  {
+    "tag": "h3",
+    "font_family": "Fraunces, Georgia, serif",
+    "font_size_px": 28,
+    "font_weight": "700",
+    "line_height": "30.8px",
+    "area": 18231.75,
+    "text_len": 35
+  },
+  {
+    "tag": "p",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 14,
+    "font_weight": "400",
+    "line_height": "21.7px",
+    "area": 25678,
+    "text_len": 84
+  },
+  {
+    "tag": "button",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 16,
+    "font_weight": "700",
+    "line_height": "24.8px",
+    "area": 10919.878662109375,
+    "text_len": 15
+  },
+  {
+    "tag": "p",
+    "font_family": "\"Plus Jakarta Sans\", system-ui, sans-serif",
+    "font_size_px": 12,
+    "font_weight": "400",
+    "line_height": "18.6px",
+    "area": 65892,
+    "text_len": 347
+  }
+]
