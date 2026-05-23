@@ -1,0 +1,6 @@
+[submodule "part2"]
+	path = part2
+	url = https://github.com/amangoyal2516-netizen/webdev-bench-part2.git
+[submodule "part3"]
+	path = part3
+	url = https://github.com/amangoyal2516-netizen/webdev-bench-part3.git

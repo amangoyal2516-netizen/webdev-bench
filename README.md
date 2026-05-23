@@ -12,6 +12,21 @@ A scalable Harbor recipe for generating RL environments that test coding agents 
 | `RESULTS.md` | Analysis of the latest canonical run — Track A vs B comparison, where agents excel / struggle, oneshot vs iter, concrete examples |
 | `CLAUDE.md` | Orientation for AI assistants (e.g. Claude Code) working in this repo |
 
+## Repo layout — submodules
+
+This repo ships two git submodules in separate GitHub repos (each with its own storage / LFS budget):
+
+- `part2/` → [webdev-bench-part2](https://github.com/amangoyal2516-netizen/webdev-bench-part2)
+- `part3/` → [webdev-bench-part3](https://github.com/amangoyal2516-netizen/webdev-bench-part3)
+
+Clone with `--recurse-submodules` to fetch their contents alongside the main repo:
+
+```bash
+git clone --recurse-submodules https://github.com/amangoyal2516-netizen/webdev-bench.git
+```
+
+If you already cloned without it, run `git submodule update --init --recursive` to populate them.
+
 ## Latest canonical eval report
 
 A fully-rendered HTML report for the most recent canonical run lives at:
