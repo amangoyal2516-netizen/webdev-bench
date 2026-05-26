@@ -1,0 +1,151 @@
+{
+  "fixture": "/home/aman/webdev-bench/recipe/runs/task_1",
+  "pages": [
+    "donations",
+    "getting-started",
+    "grants",
+    "overview",
+    "programs",
+    "volunteers"
+  ],
+  "rebaseline": true,
+  "track_b": true,
+  "judge_pages": [
+    "overview"
+  ],
+  "judge_model": "claude-opus-4-7",
+  "runs": {
+    "oracle": {
+      "track_a": {
+        "color_palette": 1.0,
+        "typography": 0.9998,
+        "image_content_fidelity": 1.0,
+        "visible_text_fidelity": 1.0,
+        "component_presence": 1.0,
+        "layout_structure": 1.0
+      },
+      "track_b": {
+        "layout_structure": 1.0,
+        "component_presence": 1.0,
+        "color_palette": 1.0,
+        "typography": 1.0,
+        "image_content_fidelity": 1.0,
+        "visible_text_fidelity": 0.8571
+      }
+    },
+    "palette_invert": {
+      "target": "color_palette",
+      "track_a": {
+        "color_palette": 0.3223,
+        "typography": 0.9998,
+        "image_content_fidelity": 0.5025,
+        "visible_text_fidelity": 1.0,
+        "component_presence": 1.0,
+        "layout_structure": 0.2147
+      },
+      "track_b": {
+        "layout_structure": 1.0,
+        "component_presence": 0.8571,
+        "color_palette": 0.213,
+        "typography": 1.0,
+        "image_content_fidelity": 1.0,
+        "visible_text_fidelity": 0.7143
+      }
+    },
+    "font_monospace": {
+      "target": "typography",
+      "track_a": {
+        "color_palette": 0.9899,
+        "typography": 0.5002,
+        "image_content_fidelity": 0.9523,
+        "visible_text_fidelity": 1.0,
+        "component_presence": 1.0,
+        "layout_structure": 0.7474
+      },
+      "track_b": {
+        "layout_structure": 0.9038,
+        "component_presence": 0.9786,
+        "color_palette": 1.0,
+        "typography": 0.6548,
+        "image_content_fidelity": 1.0,
+        "visible_text_fidelity": 0.7143
+      }
+    },
+    "image_swap": {
+      "target": "image_content_fidelity",
+      "track_a": {
+        "color_palette": 0.9993,
+        "typography": 0.9998,
+        "image_content_fidelity": 0.7847,
+        "visible_text_fidelity": 1.0,
+        "component_presence": 1.0,
+        "layout_structure": 0.9973
+      },
+      "track_b": {
+        "layout_structure": 1.0,
+        "component_presence": 0.95,
+        "color_palette": 1.0,
+        "typography": 1.0,
+        "image_content_fidelity": 1.0,
+        "visible_text_fidelity": 0.7143
+      }
+    },
+    "text_lipsum": {
+      "target": "visible_text_fidelity",
+      "track_a": {
+        "color_palette": 0.987,
+        "typography": 0.9998,
+        "image_content_fidelity": 0.9226,
+        "visible_text_fidelity": 0.0018,
+        "component_presence": 1.0,
+        "layout_structure": 0.7416
+      },
+      "track_b": {
+        "layout_structure": 0.9808,
+        "component_presence": 0.9643,
+        "color_palette": 1.0,
+        "typography": 0.9286,
+        "image_content_fidelity": 0.9375,
+        "visible_text_fidelity": 0.3214
+      }
+    },
+    "section_strip": {
+      "target": "component_presence",
+      "track_a": {
+        "color_palette": 0.9845,
+        "typography": 0.558,
+        "image_content_fidelity": 0.5576,
+        "visible_text_fidelity": 0.6466,
+        "component_presence": 0.8333,
+        "layout_structure": 0.7521
+      },
+      "track_b": {
+        "layout_structure": 0.4936,
+        "component_presence": 0.6,
+        "color_palette": 0.963,
+        "typography": 0.9762,
+        "image_content_fidelity": 0.3125,
+        "visible_text_fidelity": 0.4286
+      }
+    },
+    "layout_reverse": {
+      "target": "layout_structure",
+      "track_a": {
+        "color_palette": 0.9869,
+        "typography": 0.9997,
+        "image_content_fidelity": 0.6903,
+        "visible_text_fidelity": 1.0,
+        "component_presence": 1.0,
+        "layout_structure": 0.6626
+      },
+      "track_b": {
+        "layout_structure": 0.6987,
+        "component_presence": 0.8714,
+        "color_palette": 1.0,
+        "typography": 1.0,
+        "image_content_fidelity": 0.9375,
+        "visible_text_fidelity": 0.7143
+      }
+    }
+  }
+}
